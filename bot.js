@@ -13,6 +13,7 @@ client.on('message', message => {
   if (message.content.startsWith(prefix + "card")) {
     message.channel.send("Revolt Card Database, type ?Name of Card Here to get the stats of any card you want, e.g., ?bandit \n\nDatabase Is 100% Complete. All Creatures, Items, and Spells have been added! For random book help, type ?Book");
   }
+  //Neutral Creatures Go Here  
   if (message.content.startsWith(prefix + "Androgear")) {
     message.channel.send("Androgear <:craritye:364048663611310081> <:cneutral:364043997825597440> \nST:60 HP:60 MHP:60 G:250+ <:ccard:364048663426760705> \nSupport: <:cneutral:364043997825597440> / Attacks First / Transforms into Gearion if Beast Gear is used as support / Neutralizes: <:cscroll:364048663691001876> Attacks");
   }
@@ -428,6 +429,108 @@ client.on('message', message => {
          message.channel.send("Wonder Wall <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:0 HP:30 MHP:30 G:10+ <:ccard:364048663426760705> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> \nDefensive / Neutralizes: <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> <:cair:364048663518904327>");
     }
   //FIRE CREATURES GO HERE
+    if (message.content.startsWith(prefix + "Ammon")) {
+       message.channel.send("Ammon <:craritys:364048663351132162> <:cfire:364048663355588609> \nST:30 HP:30 MHP:30 G:70 \nSynergy: <:cearth:364048663582081034> (ST & HP+20). / Anti-Spell!");
+    }
+    if (message.content.startsWith(prefix + "ammon")) {
+         message.channel.send("Ammon <:craritys:364048663351132162> <:cfire:364048663355588609> \nST:30 HP:30 MHP:30 G:70 \nSynergy: <:cearth:364048663582081034> (ST & HP+20). / Anti-Spell!");
+    }
+    if (message.content.startsWith(prefix + "Angry Mob")) {
+         message.channel.send("Angry Mob <:crarityr:364045147085864960> <:cfire:364048663355588609> \nST:20 HP:30 MHP:30 G:50+ <:cfire:364048663355588609> \nIn Battle: Quickly tap the A Button to increase ST. If ST is raised above 100 in this way, it becomes 10.");
+    }
+    if (message.content.startsWith(prefix + "AngryMob")) {
+         message.channel.send("Angry Mob <:crarityr:364045147085864960> <:cfire:364048663355588609> \nST:20 HP:30 MHP:30 G:50+ <:cfire:364048663355588609> \nIn Battle: Quickly tap the A Button to increase ST. If ST is raised above 100 in this way, it becomes 10.");
+    }
+    if (message.content.startsWith(prefix + "angry mob")) {
+         message.channel.send("Angry Mob <:crarityr:364045147085864960> <:cfire:364048663355588609> \nST:20 HP:30 MHP:30 G:50+ <:cfire:364048663355588609> \nIn Battle: Quickly tap the A Button to increase ST. If ST is raised above 100 in this way, it becomes 10.");
+    }
+    if (message.content.startsWith(prefix + "angrymob")) {
+         message.channel.send("Angry Mob <:crarityr:364045147085864960> <:cfire:364048663355588609> \nST:20 HP:30 MHP:30 G:50+ <:cfire:364048663355588609> \nIn Battle: Quickly tap the A Button to increase ST. If ST is raised above 100 in this way, it becomes 10.");
+    }
+    if (message.content.startsWith(prefix + "Armed Paladin")) {
+         message.channel.send("Armed Paladin <:craritye:364048663611310081> <:cfire:364048663355588609> \nST:0 HP:50 MHP:50 G:200+ <:cfire:364048663355588609> <:cfire:364048663355588609> \nIn Battle: ST= (number of <:cfire:364048663355588609> & <:cearth:364048663582081034> creatures in play x10). / Neutralizes: <:cscroll:364048663691001876> Attacks");
+    }
+    if (message.content.startsWith(prefix + "ArmedPaladin")) {
+         message.channel.send("Armed Paladin <:craritye:364048663611310081> <:cfire:364048663355588609> \nST:0 HP:50 MHP:50 G:200+ <:cfire:364048663355588609> <:cfire:364048663355588609> \nIn Battle: ST= (number of <:cfire:364048663355588609> & <:cearth:364048663582081034> creatures in play x10). / Neutralizes: <:cscroll:364048663691001876> Attacks");
+    }
+    if (message.content.startsWith(prefix + "armed paladin")) {
+         message.channel.send("Armed Paladin <:craritye:364048663611310081> <:cfire:364048663355588609> \nST:0 HP:50 MHP:50 G:200+ <:cfire:364048663355588609> <:cfire:364048663355588609> \nIn Battle: ST= (number of <:cfire:364048663355588609> & <:cearth:364048663582081034> creatures in play x10). / Neutralizes: <:cscroll:364048663691001876> Attacks");
+    }
+    if (message.content.startsWith(prefix + "armedpaladin")) {
+         message.channel.send("Armed Paladin <:craritye:364048663611310081> <:cfire:364048663355588609> \nST:0 HP:50 MHP:50 G:200+ <:cfire:364048663355588609> <:cfire:364048663355588609> \nIn Battle: ST= (number of <:cfire:364048663355588609> & <:cearth:364048663582081034> creatures in play x10). / Neutralizes: <:cscroll:364048663691001876> Attacks");
+    }
+    if (message.content.startsWith(prefix + "Ba-al")) {
+         message.channel.send("Ba-al <:crarityn:364048663661772800> <:cfire:364048663355588609> \nST:50 HP:50 MHP:50 G:40+ <:cfire:364048663355588609> + <:ccard:364048663426760705> \nAttacks First / Battle End: Destroys a random card from user\'s hand.");
+    }
+    if (message.content.startsWith(prefix + "Ba-Al")) {
+         message.channel.send("Ba-al <:crarityn:364048663661772800> <:cfire:364048663355588609> \nST:50 HP:50 MHP:50 G:40+ <:cfire:364048663355588609> + <:ccard:364048663426760705> \nAttacks First / Battle End: Destroys a random card from user\'s hand.");
+    }
+    if (message.content.startsWith(prefix + "ba-al")) {
+         message.channel.send("Ba-al <:crarityn:364048663661772800> <:cfire:364048663355588609> \nST:50 HP:50 MHP:50 G:40+ <:cfire:364048663355588609> + <:ccard:364048663426760705> \nAttacks First / Battle End: Destroys a random card from user\'s hand.");
+    }
+    if (message.content.startsWith(prefix + "baal")) {
+         message.channel.send("Ba-al <:crarityn:364048663661772800> <:cfire:364048663355588609> \nST:50 HP:50 MHP:50 G:40+ <:cfire:364048663355588609> + <:ccard:364048663426760705> \nAttacks First / Battle End: Destroys a random card from user\'s hand.");
+    }
+    if (message.content.startsWith(prefix + "Birdmaiden")) {
+         message.channel.send("Birdmaiden <:crarityn:364048663661772800> <:cfire:364048663355588609> \nST:30 HP:30 MHP:30 G:65 \nItem Limit: <:cweapon:364048663527424002> \nVigorous / \nSecret Art (50G): Adds Distant Movement <:csenchant:364048663464378391> to user\'s target creature.");
+    }
+    if (message.content.startsWith(prefix + "birdmaiden")) {
+         message.channel.send("Birdmaiden <:crarityn:364048663661772800> <:cfire:364048663355588609> \nST:30 HP:30 MHP:30 G:65 \nItem Limit: <:cweapon:364048663527424002> \nVigorous / \nSecret Art (50G): Adds Distant Movement <:csenchant:364048663464378391> to user\'s target creature.");
+    }
+    if (message.content.startsWith(prefix + "Burnacle")) {
+         message.channel.send("Burnacle <:crarityn:364048663661772800> <:cfire:364048663355588609> \nST:30 HP:60 MHP:60 G:70 \nLand Limit: <:cnoair:364048663732944896> \nItem Limit: <:cnoscroll:364048663653122048> \nDefensive / \nSecret Art (50G): Adds Blind <:csenchant:364048663464378391> to target enemy creature. (Toll fees are halved.)");
+    }
+    if (message.content.startsWith(prefix + "burnacle")) {
+         message.channel.send("Burnacle <:crarityn:364048663661772800> <:cfire:364048663355588609> \nST:30 HP:60 MHP:60 G:70 \nLand Limit: <:cnoair:364048663732944896> \nItem Limit: <:cnoscroll:364048663653122048> \nDefensive / \nSecret Art (50G): Adds Blind <:csenchant:364048663464378391> to target enemy creature. (Toll fees are halved.)");
+    }
+    if (message.content.startsWith(prefix + "Burning Titan")) {
+         message.channel.send("Burning Titan <:craritys:364048663351132162> <:cfire:364048663355588609> \nST:60 HP:60 MHP:60 G:90 \nLand Limit: <:cnowater:364048663657447434> \nItem Limit: <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nIn Battle: ST & HP-30 if user possesses 5 or more territories.");
+    }
+    if (message.content.startsWith(prefix + "BurningTitan")) {
+         message.channel.send("Burning Titan <:craritys:364048663351132162> <:cfire:364048663355588609> \nST:60 HP:60 MHP:60 G:90 \nLand Limit: <:cnowater:364048663657447434> \nItem Limit: <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nIn Battle: ST & HP-30 if user possesses 5 or more territories.");
+    }
+    if (message.content.startsWith(prefix + "burning titan")) {
+         message.channel.send("Burning Titan <:craritys:364048663351132162> <:cfire:364048663355588609> \nST:60 HP:60 MHP:60 G:90 \nLand Limit: <:cnowater:364048663657447434> \nItem Limit: <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nIn Battle: ST & HP-30 if user possesses 5 or more territories.");
+    }
+    if (message.content.startsWith(prefix + "burningtitan")) {
+         message.channel.send("Burning Titan <:craritys:364048663351132162> <:cfire:364048663355588609> \nST:60 HP:60 MHP:60 G:90 \nLand Limit: <:cnowater:364048663657447434> \nItem Limit: <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nIn Battle: ST & HP-30 if user possesses 5 or more territories.");
+    }
+    if (message.content.startsWith(prefix + "Cait Sith")) {
+         message.channel.send("Cait Sith <:crarityn:364048663661772800> <:cfire:364048663355588609> \nST:20 HP:30 MHP:30 G:50 \nLand Limit: <:cnowater:364048663657447434> \nNeutralizes: Attacks from creatures with ST of 40 and up. / Anti-Spell");
+    }
+    if (message.content.startsWith(prefix + "CaitSith")) {
+         message.channel.send("Cait Sith <:crarityn:364048663661772800> <:cfire:364048663355588609> \nST:20 HP:30 MHP:30 G:50 \nLand Limit: <:cnowater:364048663657447434> \nNeutralizes: Attacks from creatures with ST of 40 and up. / Anti-Spell");
+    }
+    if (message.content.startsWith(prefix + "cait sith")) {
+         message.channel.send("Cait Sith <:crarityn:364048663661772800> <:cfire:364048663355588609> \nST:20 HP:30 MHP:30 G:50 \nLand Limit: <:cnowater:364048663657447434> \nNeutralizes: Attacks from creatures with ST of 40 and up. / Anti-Spell");
+    }
+    if (message.content.startsWith(prefix + "caitsith")) {
+         message.channel.send("Cait Sith <:crarityn:364048663661772800> <:cfire:364048663355588609> \nST:20 HP:30 MHP:30 G:50 \nLand Limit: <:cnowater:364048663657447434> \nNeutralizes: Attacks from creatures with ST of 40 and up. / Anti-Spell");
+    }
+    if (message.content.startsWith(prefix + "Chimera")) {
+         message.channel.send("Chimera <:crarityn:364048663661772800> <:cfire:364048663355588609> \nST:30 HP:50 MHP:50 G:80+ <:cfire:364048663355588609> \nItem Limit: <:cnoscroll:364048663653122048> \nAttacks First / ST+10 each time user receives a lap bonus (up to a max of 100).");
+    }
+    if (message.content.startsWith(prefix + "chimera")) {
+         message.channel.send("Chimera <:crarityn:364048663661772800> <:cfire:364048663355588609> \nST:30 HP:50 MHP:50 G:80+ <:cfire:364048663355588609> \nItem Limit: <:cnoscroll:364048663653122048> \nAttacks First / ST+10 each time user receives a lap bonus (up to a max of 100).");
+    }
+    if (message.content.startsWith(prefix + "Conjurer")) {
+         message.channel.send("Conjurer <:craritys:364048663351132162> <:cfire:364048663355588609> \nST:20 HP:30 MHP:30 G:45 \nItem Limit: <:cweapon:364048663527424002> \nScroll Critical Hit / \nSecret Art (80G): Summons Ba-al to vacant land of user\'s choice, then is destroyed.");
+    }
+    if (message.content.startsWith(prefix + "conjurer")) {
+         message.channel.send("Conjurer <:craritys:364048663351132162> <:cfire:364048663355588609> \nST:20 HP:30 MHP:30 G:45 \nItem Limit: <:cweapon:364048663527424002> \nScroll Critical Hit / \nSecret Art (80G): Summons Ba-al to vacant land of user\'s choice, then is destroyed.");
+    }
+    if (message.content.startsWith(prefix + "Creeping Flame")) {
+         message.channel.send("Creeping Flame <:crarityn:364048663661772800> <:cfire:364048663355588609> \nST:30 HP:50 MHP:50 G:55 \nItem Limit: <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nDefensive / \nSecret Art (30G): Moves to a neighboring land.");
+    }
+    if (message.content.startsWith(prefix + "CreepingFlame")) {
+         message.channel.send("Creeping Flame <:crarityn:364048663661772800> <:cfire:364048663355588609> \nST:30 HP:50 MHP:50 G:55 \nItem Limit: <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nDefensive / \nSecret Art (30G): Moves to a neighboring land.");
+    }
+    if (message.content.startsWith(prefix + "creeping flame")) {
+         message.channel.send("Creeping Flame <:crarityn:364048663661772800> <:cfire:364048663355588609> \nST:30 HP:50 MHP:50 G:55 \nItem Limit: <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nDefensive / \nSecret Art (30G): Moves to a neighboring land.");
+    }
+    if (message.content.startsWith(prefix + "creepingflame")) {
+         message.channel.send("Creeping Flame <:crarityn:364048663661772800> <:cfire:364048663355588609> \nST:30 HP:50 MHP:50 G:55 \nItem Limit: <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nDefensive / \nSecret Art (30G): Moves to a neighboring land.");
+    }
 });
 
 // THIS  MUST  BE  THIS  WAY
