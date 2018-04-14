@@ -531,6 +531,102 @@ client.on('message', message => {
     if (message.content.startsWith(prefix + "creepingflame")) {
          message.channel.send("Creeping Flame <:crarityn:364048663661772800> <:cfire:364048663355588609> \nST:30 HP:50 MHP:50 G:55 \nItem Limit: <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nDefensive / \nSecret Art (30G): Moves to a neighboring land.");
     }
+    if (message.content.startsWith(prefix + "Dead Warlord")) {
+         message.channel.send("Dead Warlord <:craritys:364048663351132162> <:cfire:364048663355588609> \nST:40 HP:40 MHP:40 G:60+ <:ccard:364048663426760705> \nSynthesis: <:cearth:364048663582081034> (ST & MHP+20). / Boost \nST: ST+10 to invading creatures.");
+    }
+    if (message.content.startsWith(prefix + "DeadWarlord")) {
+         message.channel.send("Dead Warlord <:craritys:364048663351132162> <:cfire:364048663355588609> \nST:40 HP:40 MHP:40 G:60+ <:ccard:364048663426760705> \nSynthesis: <:cearth:364048663582081034> (ST & MHP+20). / Boost \nST: ST+10 to invading creatures.");
+    }
+    if (message.content.startsWith(prefix + "dead warlord")) {
+         message.channel.send("Dead Warlord <:craritys:364048663351132162> <:cfire:364048663355588609> \nST:40 HP:40 MHP:40 G:60+ <:ccard:364048663426760705> \nSynthesis: <:cearth:364048663582081034> (ST & MHP+20). / Boost \nST: ST+10 to invading creatures.");
+    }
+    if (message.content.startsWith(prefix + "deadwarlord")) {
+         message.channel.send("Dead Warlord <:craritys:364048663351132162> <:cfire:364048663355588609> \nST:40 HP:40 MHP:40 G:60+ <:ccard:364048663426760705> \nSynthesis: <:cearth:364048663582081034> (ST & MHP+20). / Boost \nST: ST+10 to invading creatures.");
+    }
+    if (message.content.startsWith(prefix + "Death Leech")) {
+         message.channel.send("Death Leech <:crarityr:364045147085864960> <:cfire:364048663355588609> \nST:20 HP:20 MHP:20 G:20+ <:cfire:364048663355588609> \nLand Limit: <:cnoair:364048663732944896> \nItem Limit: <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nSecret Art (80G): Destroy target creature that is Fatigued and not at maximum HP and move to its territory.");
+    }
+    if (message.content.startsWith(prefix + "DeathLeech")) {
+         message.channel.send("Death Leech <:crarityr:364045147085864960> <:cfire:364048663355588609> \nST:20 HP:20 MHP:20 G:20+ <:cfire:364048663355588609> \nLand Limit: <:cnoair:364048663732944896> \nItem Limit: <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nSecret Art (80G): Destroy target creature that is Fatigued and not at maximum HP and move to its territory.");
+    }
+    if (message.content.startsWith(prefix + "death leech")) {
+         message.channel.send("Death Leech <:crarityr:364045147085864960> <:cfire:364048663355588609> \nST:20 HP:20 MHP:20 G:20+ <:cfire:364048663355588609> \nLand Limit: <:cnoair:364048663732944896> \nItem Limit: <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nSecret Art (80G): Destroy target creature that is Fatigued and not at maximum HP and move to its territory.");
+    }
+    if (message.content.startsWith(prefix + "deathleech")) {
+         message.channel.send("Death Leech <:crarityr:364045147085864960> <:cfire:364048663355588609> \nST:20 HP:20 MHP:20 G:20+ <:cfire:364048663355588609> \nLand Limit: <:cnoair:364048663732944896> \nItem Limit: <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nSecret Art (80G): Destroy target creature that is Fatigued and not at maximum HP and move to its territory.");
+    }
+    if (message.content.startsWith(prefix + "Death Scythe")) {
+         message.channel.send("Death Scythe <:craritys:364048663351132162> <:cfire:364048663355588609> \nST:70 HP:10 MHP:10 G:15+ <:ccard:364048663426760705> \nItem Limit: <:cweapon:364048663527424002> \nSecret Art (50G): Evolves into Mummy.");
+    }
+    if (message.content.startsWith(prefix + "DeathScythe")) {
+         message.channel.send("Death Scythe <:craritys:364048663351132162> <:cfire:364048663355588609> \nST:70 HP:10 MHP:10 G:15+ <:ccard:364048663426760705> \nItem Limit: <:cweapon:364048663527424002> \nSecret Art (50G): Evolves into Mummy.");
+    }
+    if (message.content.startsWith(prefix + "death scythe")) {
+         message.channel.send("Death Scythe <:craritys:364048663351132162> <:cfire:364048663355588609> \nST:70 HP:10 MHP:10 G:15+ <:ccard:364048663426760705> \nItem Limit: <:cweapon:364048663527424002> \nSecret Art (50G): Evolves into Mummy.");
+    }
+    if (message.content.startsWith(prefix + "deathscythe")) {
+         message.channel.send("Death Scythe <:craritys:364048663351132162> <:cfire:364048663355588609> \nST:70 HP:10 MHP:10 G:15+ <:ccard:364048663426760705> \nItem Limit: <:cweapon:364048663527424002> \nSecret Art (50G): Evolves into Mummy.");
+    }
+    if (message.content.startsWith(prefix + "Domovikha")) {
+         message.channel.send("Domovikha <:craritys:364048663351132162> <:cfire:364048663355588609> \nST:10 HP:20 MHP:20 G:20 \nSecret Art (80G): Adds Anti-Spell <:csenchant:364048663464378391> to user\'s target creature.");
+    }
+    if (message.content.startsWith(prefix + "domovikha")) {
+         message.channel.send("Domovikha <:craritys:364048663351132162> <:cfire:364048663355588609> \nST:10 HP:20 MHP:20 G:20 \nSecret Art (80G): Adds Anti-Spell <:csenchant:364048663464378391> to user\'s target creature.");
+    }
+    if (message.content.startsWith(prefix + "Doom Devourer")) {
+         message.channel.send("Doom Devourer <:craritys:364048663351132162> <:cfire:364048663355588609> \nST:30 HP:30 MHP:30 G:50 \nItem Limit: <:cnoscroll:364048663653122048> \nIf user\'s roll is 3 or less, ST & MHP+10 (max. 100) / \nSecret Art (0G): User gains (MHP x2) G then, ST & MHP-10.");
+    }
+    if (message.content.startsWith(prefix + "DoomDevourer")) {
+         message.channel.send("Doom Devourer <:craritys:364048663351132162> <:cfire:364048663355588609> \nST:30 HP:30 MHP:30 G:50 \nItem Limit: <:cnoscroll:364048663653122048> \nIf user\'s roll is 3 or less, ST & MHP+10 (max. 100) / \nSecret Art (0G): User gains (MHP x2) G then, ST & MHP-10.");
+    }
+    if (message.content.startsWith(prefix + "doom devourer")) {
+         message.channel.send("Doom Devourer <:craritys:364048663351132162> <:cfire:364048663355588609> \nST:30 HP:30 MHP:30 G:50 \nItem Limit: <:cnoscroll:364048663653122048> \nIf user\'s roll is 3 or less, ST & MHP+10 (max. 100) / \nSecret Art (0G): User gains (MHP x2) G then, ST & MHP-10.");
+    }
+    if (message.content.startsWith(prefix + "doomdevourer")) {
+         message.channel.send("Doom Devourer <:craritys:364048663351132162> <:cfire:364048663355588609> \nST:30 HP:30 MHP:30 G:50 \nItem Limit: <:cnoscroll:364048663653122048> \nIf user\'s roll is 3 or less, ST & MHP+10 (max. 100) / \nSecret Art (0G): User gains (MHP x2) G then, ST & MHP-10.");
+    }
+    if (message.content.startsWith(prefix + "Fay")) {
+         message.channel.send("Fay <:crarityn:364048663661772800> <:cfire:364048663355588609> \nST:20 HP:40 MHP:40 G:70 \nScroll Critical Hit / \nSecret Art (50G): ST+20 to target creature (up to a max of 100).");
+    }
+    if (message.content.startsWith(prefix + "fay")) {
+         message.channel.send("Fay <:crarityn:364048663661772800> <:cfire:364048663355588609> \nST:20 HP:40 MHP:40 G:70 \nScroll Critical Hit / \nSecret Art (50G): ST+20 to target creature (up to a max of 100).");
+    }
+    if (message.content.startsWith(prefix + "Fire Beak")) {
+         message.channel.send("Fire Beak <:crarityr:364045147085864960> <:cfire:364048663355588609> \nST:50 HP:40 MHP:40 G:95+ <:cfire:364048663355588609> \nItem Limit: <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nAttacks First / Critical Hit: <:cwater:364048663447601154> <:cair:364048663518904327> / Penetrates: <:cwater:364048663447601154> <:cair:364048663518904327>");
+    }
+    if (message.content.startsWith(prefix + "FireBeak")) {
+         message.channel.send("Fire Beak <:crarityr:364045147085864960> <:cfire:364048663355588609> \nST:50 HP:40 MHP:40 G:95+ <:cfire:364048663355588609> \nItem Limit: <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nAttacks First / Critical Hit: <:cwater:364048663447601154> <:cair:364048663518904327> / Penetrates: <:cwater:364048663447601154> <:cair:364048663518904327>");
+    }
+    if (message.content.startsWith(prefix + "fire beak")) {
+         message.channel.send("Fire Beak <:crarityr:364045147085864960> <:cfire:364048663355588609> \nST:50 HP:40 MHP:40 G:95+ <:cfire:364048663355588609> \nItem Limit: <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nAttacks First / Critical Hit: <:cwater:364048663447601154> <:cair:364048663518904327> / Penetrates: <:cwater:364048663447601154> <:cair:364048663518904327>");
+    }
+    if (message.content.startsWith(prefix + "firebeak")) {
+         message.channel.send("Fire Beak <:crarityr:364045147085864960> <:cfire:364048663355588609> \nST:50 HP:40 MHP:40 G:95+ <:cfire:364048663355588609> \nItem Limit: <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nAttacks First / Critical Hit: <:cwater:364048663447601154> <:cair:364048663518904327> / Penetrates: <:cwater:364048663447601154> <:cair:364048663518904327>");
+    }
+    if (message.content.startsWith(prefix + "Fire Drake")) {
+         message.channel.send("Fire Drake <:craritys:364048663351132162> <:cfire:364048663355588609> \nST:30 HP:40 MHP:40 G:80 \nIn Battle: ST+ (Number of <:cfire:364048663355588609> creatures in play x5).");
+    }
+    if (message.content.startsWith(prefix + "FireDrake")) {
+         message.channel.send("Fire Drake <:craritys:364048663351132162> <:cfire:364048663355588609> \nST:30 HP:40 MHP:40 G:80 \nIn Battle: ST+ (Number of <:cfire:364048663355588609> creatures in play x5).");
+    }
+    if (message.content.startsWith(prefix + "fire drake")) {
+         message.channel.send("Fire Drake <:craritys:364048663351132162> <:cfire:364048663355588609> \nST:30 HP:40 MHP:40 G:80 \nIn Battle: ST+ (Number of <:cfire:364048663355588609> creatures in play x5).");
+    }
+    if (message.content.startsWith(prefix + "firedrake")) {
+         message.channel.send("Fire Drake <:craritys:364048663351132162> <:cfire:364048663355588609> \nST:30 HP:40 MHP:40 G:80 \nIn Battle: ST+ (Number of <:cfire:364048663355588609> creatures in play x5).");
+    }
+    if (message.content.startsWith(prefix + "Flame Duke")) {
+         message.channel.send("Flame Duke <:crarityr:364045147085864960> <:cfire:364048663355588609> \nST:50 HP:50 MHP:50 G:60+ <:cfire:364048663355588609> <:cfire:364048663355588609> \nAttacks First / Critical Hit: When equipped with a weapon. / Battle End: Recycles equipped items to user\'s book.");
+    }
+    if (message.content.startsWith(prefix + "FlameDuke")) {
+         message.channel.send("Flame Duke <:crarityr:364045147085864960> <:cfire:364048663355588609> \nST:50 HP:50 MHP:50 G:60+ <:cfire:364048663355588609> <:cfire:364048663355588609> \nAttacks First / Critical Hit: When equipped with a weapon. / Battle End: Recycles equipped items to user\'s book.");
+    }
+    if (message.content.startsWith(prefix + "flame duke")) {
+         message.channel.send("Flame Duke <:crarityr:364045147085864960> <:cfire:364048663355588609> \nST:50 HP:50 MHP:50 G:60+ <:cfire:364048663355588609> <:cfire:364048663355588609> \nAttacks First / Critical Hit: When equipped with a weapon. / Battle End: Recycles equipped items to user\'s book.");
+    }
+    if (message.content.startsWith(prefix + "flameduke")) {
+         message.channel.send("Flame Duke <:crarityr:364045147085864960> <:cfire:364048663355588609> \nST:50 HP:50 MHP:50 G:60+ <:cfire:364048663355588609> <:cfire:364048663355588609> \nAttacks First / Critical Hit: When equipped with a weapon. / Battle End: Recycles equipped items to user\'s book.");
+    }    
 });
 
 // THIS  MUST  BE  THIS  WAY
