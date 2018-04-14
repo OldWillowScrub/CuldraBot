@@ -282,6 +282,114 @@ client.on('message', message => {
     }
     if (message.content.startsWith(prefix + "ninja")) {
          message.channel.send("Ninja <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:40 HP:40 MHP:40 G:70 \nAttacks First / Scroll Critical Hit");
+    } 
+    if (message.content.startsWith(prefix + "Ogre Lord")) {
+         message.channel.send("Ogre Lord <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:40 HP:50 MHP:50 G:70 \nScroll Critical Hit / In Battle: ST+20 if a <:cfire:364048663355588609> or <:cair:364048663518904327> Ogre are in play / In Battle: HP+20 if a <:cwater:364048663447601154> or <:cearth:364048663582081034> Ogre are in play.");
+    }
+    if (message.content.startsWith(prefix + "OgreLord")) {
+         message.channel.send("Ogre Lord <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:40 HP:50 MHP:50 G:70 \nScroll Critical Hit / In Battle: ST+20 if a <:cfire:364048663355588609> or <:cair:364048663518904327> Ogre are in play / In Battle: HP+20 if a <:cwater:364048663447601154> or <:cearth:364048663582081034> Ogre are in play.");
+    }
+    if (message.content.startsWith(prefix + "ogre lord")) {
+         message.channel.send("Ogre Lord <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:40 HP:50 MHP:50 G:70 \nScroll Critical Hit / In Battle: ST+20 if a <:cfire:364048663355588609> or <:cair:364048663518904327> Ogre are in play / In Battle: HP+20 if a <:cwater:364048663447601154> or <:cearth:364048663582081034> Ogre are in play.");
+    }
+    if (message.content.startsWith(prefix + "ogrelord")) {
+         message.channel.send("Ogre Lord <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:40 HP:50 MHP:50 G:70 \nScroll Critical Hit / In Battle: ST+20 if a <:cfire:364048663355588609> or <:cair:364048663518904327> Ogre are in play / In Battle: HP+20 if a <:cwater:364048663447601154> or <:cearth:364048663582081034> Ogre are in play.");
+    }
+    if (message.content.startsWith(prefix + "Red Cap")) {
+       message.channel.send("Red Cap <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:30 HP:30 MHP:30 G:30+ <:ccard:364048663426760705> \nIn Battle: ST & HP= (number of Goblins in play x20). Boost: ST+20 to all Goblins.");
+    }
+    if (message.content.startsWith(prefix + "RedCap")) {
+         message.channel.send("Red Cap <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:30 HP:30 MHP:30 G:30+ <:ccard:364048663426760705> \nIn Battle: ST & HP= (number of Goblins in play x20). Boost: ST+20 to all Goblins.");
+    }
+    if (message.content.startsWith(prefix + "red cap")) {
+         message.channel.send("Red Cap <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:30 HP:30 MHP:30 G:30+ <:ccard:364048663426760705> \nIn Battle: ST & HP= (number of Goblins in play x20). Boost: ST+20 to all Goblins.");
+    }
+    if (message.content.startsWith(prefix + "redcap")) {
+         message.channel.send("Red Cap <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:30 HP:30 MHP:30 G:30+ <:ccard:364048663426760705> \nIn Battle: ST & HP= (number of Goblins in play x20). Boost: ST+20 to all Goblins.");
+    }
+    if (message.content.startsWith(prefix + "Rock Titan")) {
+       message.channel.send("Rock Titan <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:70 HP:70 MHP:70 G:90 \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> <:cnotool:364048663624024076> <:cnoscroll:364048663653122048> \nBattle End: ST & MHP-10.");
+    }
+    if (message.content.startsWith(prefix + "RockTitan")) {
+         message.channel.send("Rock Titan <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:70 HP:70 MHP:70 G:90 \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> <:cnotool:364048663624024076> <:cnoscroll:364048663653122048> \nBattle End: ST & MHP-10.");
+    }
+    if (message.content.startsWith(prefix + "rock titan")) {
+         message.channel.send("Rock Titan <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:70 HP:70 MHP:70 G:90 \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> <:cnotool:364048663624024076> <:cnoscroll:364048663653122048> \nBattle End: ST & MHP-10.");
+    }
+    if (message.content.startsWith(prefix + "rocktitan")) {
+         message.channel.send("Rock Titan <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:70 HP:70 MHP:70 G:90 \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> <:cnotool:364048663624024076> <:cnoscroll:364048663653122048> \nBattle End: ST & MHP-10.");
+    }
+    if (message.content.startsWith(prefix + "Saint")) {
+         message.channel.send("Saint <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:30 HP:30 MHP:30 G:50 \nInstant Death: 100% against <:cneutral:364043997825597440> creatures. / Neutralizes: <:cneutral:364043997825597440>");
+    }
+    if (message.content.startsWith(prefix + "saint")) {
+         message.channel.send("Saint <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:30 HP:30 MHP:30 G:50 \nInstant Death: 100% against <:cneutral:364043997825597440> creatures. / Neutralizes: <:cneutral:364043997825597440>");
+    }
+    if (message.content.startsWith(prefix + "Samurai")) {
+         message.channel.send("Samurai <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:50 HP:30 MHP:30 G:50 \nInstant Death: 70% against creatures with ST of 40 or greater.");
+    }
+    if (message.content.startsWith(prefix + "samurai")) {
+         message.channel.send("Samurai <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:50 HP:30 MHP:30 G:50 \nInstant Death: 70% against creatures with ST of 40 or greater.");
+    }
+    if (message.content.startsWith(prefix + "Shadowgeist")) {
+         message.channel.send("Shadowgeist <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:40 HP:30 MHP:30 G:60 \nAttacks First / Vigorous / Attack Bonus: opponent\'s ST=0.");
+    }
+    if (message.content.startsWith(prefix + "shadowgeist")) {
+         message.channel.send("Shadowgeist <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:40 HP:30 MHP:30 G:60 \nAttacks First / Vigorous / Attack Bonus: opponent\'s ST=0.");
+    }
+    if (message.content.startsWith(prefix + "Shapeshifter")) {
+         message.channel.send("Shapeshifter <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:20 HP:20 MHP:20 G:30 \nSecret Art (70G): Transforms into same creature as target creature.");
+    }
+    if (message.content.startsWith(prefix + "shapeshifter")) {
+         message.channel.send("Shapeshifter <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:20 HP:20 MHP:20 G:30 \nSecret Art (70G): Transforms into same creature as target creature.");
+    }
+    if (message.content.startsWith(prefix + "Skeleton")) {
+       message.channel.send("Skeleton <:crarityn:364048663661772800> <:cneutral:364043997825597440> \nST:30 HP:40 MHP:40 G:30 \nRegenerates");
+    }
+    if (message.content.startsWith(prefix + "skeleton")) {
+         message.channel.send("Skeleton <:crarityn:364048663661772800> <:cneutral:364043997825597440> \nST:30 HP:40 MHP:40 G:30 \nRegenerates");
+    }
+    if (message.content.startsWith(prefix + "Sky Gear")) {
+         message.channel.send("Sky Gear <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:40 HP:20 MHP:20 G:40 \nItem Limit: <:cnoscroll:364048663653122048> \nAttacks First / Support: All / Transforms into Androgear if Ground Gear is used as Support.");
+    }
+    if (message.content.startsWith(prefix + "SkyGear")) {
+         message.channel.send("Sky Gear <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:40 HP:20 MHP:20 G:40 \nItem Limit: <:cnoscroll:364048663653122048> \nAttacks First / Support: All / Transforms into Androgear if Ground Gear is used as Support.");
+    }
+    if (message.content.startsWith(prefix + "sky gear")) {
+         message.channel.send("Sky Gear <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:40 HP:20 MHP:20 G:40 \nItem Limit: <:cnoscroll:364048663653122048> \nAttacks First / Support: All / Transforms into Androgear if Ground Gear is used as Support.");
+    }
+    if (message.content.startsWith(prefix + "skygear")) {
+         message.channel.send("Sky Gear <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:40 HP:20 MHP:20 G:40 \nItem Limit: <:cnoscroll:364048663653122048> \nAttacks First / Support: All / Transforms into Androgear if Ground Gear is used as Support.");
+    }
+    if (message.content.startsWith(prefix + "Statue")) {
+         message.channel.send("Statue <:crarityn:364048663661772800> <:cneutral:364043997825597440> \nST:0 HP:50 MHP:50 G:10 \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nDefensive / Does not receive lap recovery.");
+    }
+    if (message.content.startsWith(prefix + "statue")) {
+         message.channel.send("Statue <:crarityn:364048663661772800> <:cneutral:364043997825597440> \nST:0 HP:50 MHP:50 G:10 \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nDefensive / Does not receive lap recovery.");
+    }
+    if (message.content.startsWith(prefix + "Steam Gear")) {
+         message.channel.send("Steam Gear <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:50 HP:50 MHP:50 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nClaims 1/2 the standard toll value.");
+    }
+    if (message.content.startsWith(prefix + "SteamGear")) {
+         message.channel.send("Steam Gear <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:50 HP:50 MHP:50 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nClaims 1/2 the standard toll value.");
+    }
+    if (message.content.startsWith(prefix + "steam gear")) {
+         message.channel.send("Steam Gear <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:50 HP:50 MHP:50 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nClaims 1/2 the standard toll value.");
+    }
+    if (message.content.startsWith(prefix + "steamgear")) {
+         message.channel.send("Steam Gear <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:50 HP:50 MHP:50 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nClaims 1/2 the standard toll value.");
+    }
+    if (message.content.startsWith(prefix + "Stone Jizo")) {
+         message.channel.send("Stone Jizo <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:10 HP:30 MHP:30 G:50 \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> \nDefensive / Anti-Spell / \nSecret Art (100G): Transforms targeted territory into a <:cmulti:364048663393337345> land, then is destroyed.");
+    }
+    if (message.content.startsWith(prefix + "StoneJizo")) {
+         message.channel.send("Stone Jizo <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:10 HP:30 MHP:30 G:50 \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> \nDefensive / Anti-Spell / \nSecret Art (100G): Transforms targeted territory into a <:cmulti:364048663393337345> land, then is destroyed.");
+    }
+    if (message.content.startsWith(prefix + "stone jizo")) {
+         message.channel.send("Stone Jizo <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:10 HP:30 MHP:30 G:50 \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> \nDefensive / Anti-Spell / \nSecret Art (100G): Transforms targeted territory into a <:cmulti:364048663393337345> land, then is destroyed.");
+    }
+    if (message.content.startsWith(prefix + "stonejizo")) {
+         message.channel.send("Stone Jizo <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:10 HP:30 MHP:30 G:50 \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> \nDefensive / Anti-Spell / \nSecret Art (100G): Transforms targeted territory into a <:cmulti:364048663393337345> land, then is destroyed.");
     }    
 });
 
