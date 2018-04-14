@@ -174,6 +174,114 @@ client.on('message', message => {
     }
     if (message.content.startsWith(prefix + "ironmonger")) {
          message.channel.send("Ironmonger <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:20 HP:30 MHP:30 G:10 \nSecret Art (50G): User draws an Item Card.");
+    } 
+    if (message.content.startsWith(prefix + "Legendary Pharos")) {
+       message.channel.send("Legendary Pharos <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:40 HP:50 MHP:50 G:50+ <:ccard:364048663426760705> \nItem Limit: <:carmor:364048663556915200> \nDefensive / Does not receive lap recovery / \nSecret Art (80G): Summons Statue to all adjacent lands.");
+    }
+    if (message.content.startsWith(prefix + "LegendaryPharos")) {
+         message.channel.send("Legendary Pharos <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:40 HP:50 MHP:50 G:50+ <:ccard:364048663426760705> \nItem Limit: <:carmor:364048663556915200> \nDefensive / Does not receive lap recovery / \nSecret Art (80G): Summons Statue to all adjacent lands.");
+    }
+    if (message.content.startsWith(prefix + "legendary pharos")) {
+         message.channel.send("Legendary Pharos <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:40 HP:50 MHP:50 G:50+ <:ccard:364048663426760705> \nItem Limit: <:carmor:364048663556915200> \nDefensive / Does not receive lap recovery / \nSecret Art (80G): Summons Statue to all adjacent lands.");
+    }
+    if (message.content.startsWith(prefix + "legendarypharos")) {
+         message.channel.send("Legendary Pharos <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:40 HP:50 MHP:50 G:50+ <:ccard:364048663426760705> \nItem Limit: <:carmor:364048663556915200> \nDefensive / Does not receive lap recovery / \nSecret Art (80G): Summons Statue to all adjacent lands.");
+    }
+    if (message.content.startsWith(prefix + "Living Amulet")) {
+       message.channel.send("Living Amulet <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:20 HP:10 MHP:10 G:60 \nItem Creature / Upon Defeat: Revives as Living Amulet if opponent did not equip a weapon.");
+    }
+    if (message.content.startsWith(prefix + "LivingAmulet")) {
+         message.channel.send("Living Amulet <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:20 HP:10 MHP:10 G:60 \nItem Creature / Upon Defeat: Revives as Living Amulet if opponent did not equip a weapon.");
+    }
+    if (message.content.startsWith(prefix + "living amulet")) {
+         message.channel.send("Living Amulet <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:20 HP:10 MHP:10 G:60 \nItem Creature / Upon Defeat: Revives as Living Amulet if opponent did not equip a weapon.");
+    }
+    if (message.content.startsWith(prefix + "livingamulet")) {
+         message.channel.send("Living Amulet <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:20 HP:10 MHP:10 G:60 \nItem Creature / Upon Defeat: Revives as Living Amulet if opponent did not equip a weapon.");
+    }
+    if (message.content.startsWith(prefix + "Living Armor")) {
+         message.channel.send("Living Armor <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:0 HP:40 MHP:40 G:70 \nItem Creature / In Battle: ST+50 if used as a creature.");
+    }
+    if (message.content.startsWith(prefix + "LivingArmor")) {
+         message.channel.send("Living Armor <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:0 HP:40 MHP:40 G:70 \nItem Creature / In Battle: ST+50 if used as a creature.");
+    }
+    if (message.content.startsWith(prefix + "living armor")) {
+         message.channel.send("Living Armor <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:0 HP:40 MHP:40 G:70 \nItem Creature / In Battle: ST+50 if used as a creature.");
+    }
+    if (message.content.startsWith(prefix + "livingarmor")) {
+         message.channel.send("Living Armor <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:0 HP:40 MHP:40 G:70 \nItem Creature / In Battle: ST+50 if used as a creature.");
+    }
+    if (message.content.startsWith(prefix + "Living Bomb")) {
+         message.channel.send("Living Bomb <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:10 HP:30 MHP:30 G:60 \nItem Creature / Battle End: Destroys opponent and self if your creature has 20 or less HP left.");
+    }
+    if (message.content.startsWith(prefix + "LivingBomb")) {
+         message.channel.send("Living Bomb <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:10 HP:30 MHP:30 G:60 \nItem Creature / Battle End: Destroys opponent and self if your creature has 20 or less HP left.");
+    }
+    if (message.content.startsWith(prefix + "living bomb")) {
+         message.channel.send("Living Bomb <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:10 HP:30 MHP:30 G:60 \nItem Creature / Battle End: Destroys opponent and self if your creature has 20 or less HP left.");
+    }
+    if (message.content.startsWith(prefix + "livingbomb")) {
+         message.channel.send("Living Bomb <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:10 HP:30 MHP:30 G:60 \nItem Creature / Battle End: Destroys opponent and self if your creature has 20 or less HP left.");
+    }
+    if (message.content.startsWith(prefix + "Living Glove")) {
+         message.channel.send("Living Glove <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:0 HP:30 MHP:30 G:70 \nItem Creature / In Battle: ST&HP=(Number of creatures in play with a different element from this creature x5).");
+    }
+    if (message.content.startsWith(prefix + "LivingGlove")) {
+         message.channel.send("Living Glove <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:0 HP:30 MHP:30 G:70 \nItem Creature / In Battle: ST&HP=(Number of creatures in play with a different element from this creature x5).");
+    }
+    if (message.content.startsWith(prefix + "living glove")) {
+         message.channel.send("Living Glove <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:0 HP:30 MHP:30 G:70 \nItem Creature / In Battle: ST&HP=(Number of creatures in play with a different element from this creature x5).");
+    }
+    if (message.content.startsWith(prefix + "livingglove")) {
+         message.channel.send("Living Glove <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:0 HP:30 MHP:30 G:70 \nItem Creature / In Battle: ST&HP=(Number of creatures in play with a different element from this creature x5).");
+    }
+    if (message.content.startsWith(prefix + "Living Helmet")) {
+         message.channel.send("Living Helmet <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:20 HP:30 MHP:30 G:50 \nItem Creature");
+    }
+    if (message.content.startsWith(prefix + "LivingHelmet")) {
+         message.channel.send("Living Helmet <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:20 HP:30 MHP:30 G:50 \nItem Creature");
+    }
+    if (message.content.startsWith(prefix + "living helmet")) {
+         message.channel.send("Living Helmet <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:20 HP:30 MHP:30 G:50 \nItem Creature");
+    }
+    if (message.content.startsWith(prefix + "livinghelmet")) {
+         message.channel.send("Living Helmet <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:20 HP:30 MHP:30 G:50 \nItem Creature");
+    }
+    if (message.content.startsWith(prefix + "Lunatic Hare")) {
+       message.channel.send("Lunatic Hare <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:20 HP:30 MHP:30 G:30 \nBattle End: Swaps opponent\'s ST and HP values.");
+    }
+    if (message.content.startsWith(prefix + "LunaticHare")) {
+         message.channel.send("Lunatic Hare <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:20 HP:30 MHP:30 G:30 \nBattle End: Swaps opponent\'s ST and HP values.");
+    }
+    if (message.content.startsWith(prefix + "lunatic hare")) {
+         message.channel.send("Lunatic Hare <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:20 HP:30 MHP:30 G:30 \nBattle End: Swaps opponent\'s ST and HP values.");
+    }
+    if (message.content.startsWith(prefix + "lunatichare")) {
+         message.channel.send("Lunatic Hare <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:20 HP:30 MHP:30 G:30 \nBattle End: Swaps opponent\'s ST and HP values.");
+    }
+    if (message.content.startsWith(prefix + "Migoal")) {
+       message.channel.send("Migoal <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:40 HP:40 MHP:40 G:40+ <:ccard:364048663426760705> \nCritical Hit: <:cwater:364048663447601154> & <:cearth:364048663582081034> / Neutralizes: <:cfire:364048663355588609> <:cair:364048663518904327>");
+    }
+    if (message.content.startsWith(prefix + "migoal")) {
+         message.channel.send("Migoal <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:40 HP:40 MHP:40 G:40+ <:ccard:364048663426760705> \nCritical Hit: <:cwater:364048663447601154> & <:cearth:364048663582081034> / Neutralizes: <:cfire:364048663355588609> <:cair:364048663518904327>");
+    }
+    if (message.content.startsWith(prefix + "Nil-Vana")) {
+       message.channel.send("Nil-Vana <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:40 HP:40 MHP:40 G:70+ <:ccard:364048663426760705> \nSupport: <:cneutral:364043997825597440> / Attacks First / \nSecret Art (100G): HP-20 to all creatures with an <:csenchant:364048663464378391> on them.");
+    }
+    if (message.content.startsWith(prefix + "NilVana")) {
+         message.channel.send("Nil-Vana <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:40 HP:40 MHP:40 G:70+ <:ccard:364048663426760705> \nSupport: <:cneutral:364043997825597440> / Attacks First / \nSecret Art (100G): HP-20 to all creatures with an <:csenchant:364048663464378391> on them.");
+    }
+    if (message.content.startsWith(prefix + "nil-vana")) {
+         message.channel.send("Nil-Vana <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:40 HP:40 MHP:40 G:70+ <:ccard:364048663426760705> \nSupport: <:cneutral:364043997825597440> / Attacks First / \nSecret Art (100G): HP-20 to all creatures with an <:csenchant:364048663464378391> on them.");
+    }
+    if (message.content.startsWith(prefix + "nilvana")) {
+         message.channel.send("Nil-Vana <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:40 HP:40 MHP:40 G:70+ <:ccard:364048663426760705> \nSupport: <:cneutral:364043997825597440> / Attacks First / \nSecret Art (100G): HP-20 to all creatures with an <:csenchant:364048663464378391> on them.");
+    }
+    if (message.content.startsWith(prefix + "Ninja")) {
+         message.channel.send("Ninja <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:40 HP:40 MHP:40 G:70 \nAttacks First / Scroll Critical Hit");
+    }
+    if (message.content.startsWith(prefix + "ninja")) {
+         message.channel.send("Ninja <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:40 HP:40 MHP:40 G:70 \nAttacks First / Scroll Critical Hit");
     }    
 });
 
