@@ -21,7 +21,7 @@ client.on('message', message => {
     var args = msg.content.split(" ").slice(1);
 
     if (message.content.startsWith(prefix + "ping") {
-      message.channel.send("Pong')
+      message.channel.send("Pong")
     }
 
   //BOOK 20/10/20 ARRAYS
