@@ -6,8 +6,11 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-client.on('message', message => {
-    //BOOK HELP GUIDE
+client.on("message", (message) => {
+  // Exit and stop if it's not there
+  if (?message.content.startsWith(prefix)) return;
+    
+   //BOOK HELP GUIDE
       if (message.content.startsWith(prefix + "Book") {
          message.channel.send('To let the bot pick a random 20/10/20 Book for you, filled with 50 different cards, type ?RandomBook');
     }
