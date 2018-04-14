@@ -157,6 +157,24 @@ client.on('message', message => {
     if (message.content.startsWith(prefix + "groundgear")) {
          message.channel.send("Ground Gear <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:20 HP:40 MHP:40 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nSupport: All / Neutralizes: <:cscroll:364048663691001876> Attacks. / Transforms into Androgear if Sky Gear is used as Support.");
     }
+    if (message.content.startsWith(prefix + "Halfling")) {
+         message.channel.send("Halfling <:crarityn:364048663661772800> <:cneutral:364043997825597440> \nST:30 HP:30 MHP:30 G:50 \nAnti-Spell / Receives land effect from lands of any element.");
+    }
+    if (message.content.startsWith(prefix + "halfling")) {
+         message.channel.send("Halfling <:crarityn:364048663661772800> <:cneutral:364043997825597440> \nST:30 HP:30 MHP:30 G:50 \nAnti-Spell / Receives land effect from lands of any element.");
+    }
+    if (message.content.startsWith(prefix + "Hidebehind")) {
+       message.channel.send("Hidebehind <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:30 HP:40 MHP:40 G:40 \nSecret Art (40G): Adds Land Effect <:csenchant:364048663464378391> to user\'s target creature.");
+    }
+    if (message.content.startsWith(prefix + "hidebehind")) {
+         message.channel.send("Hidebehind <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:30 HP:40 MHP:40 G:40 \nSecret Art (40G): Adds Land Effect <:csenchant:364048663464378391> to user\'s target creature.");
+    }
+    if (message.content.startsWith(prefix + "Ironmonger")) {
+       message.channel.send("Ironmonger <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:20 HP:30 MHP:30 G:10 \nSecret Art (50G): User draws an Item Card.");
+    }
+    if (message.content.startsWith(prefix + "ironmonger")) {
+         message.channel.send("Ironmonger <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:20 HP:30 MHP:30 G:10 \nSecret Art (50G): User draws an Item Card.");
+    }    
 });
 
 // THIS  MUST  BE  THIS  WAY
