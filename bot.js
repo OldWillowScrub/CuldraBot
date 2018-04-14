@@ -2,12 +2,6 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const prefix = "?";
 
-client.on('ready', () => {
-    console.log('I am ready!');
-});
-
-bot.user.setGame(' Type ?Card for help')
-
 client.on('message', message => {
   //BOOK HELP GUIDE
     if (message.content.startsWith(prefix + "Book") {
@@ -651,10 +645,10 @@ client.on('message', message => {
          message.channel.send("Halfling <:crarityn:364048663661772800> <:cneutral:364043997825597440> \nST:30 HP:30 MHP:30 G:50 \nAnti-Spell / Receives land effect from lands of any element.");
     }
     if (message.content.startsWith(prefix + "Hidebehind") {
-       message.channel.send("Hidebehind <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:30 HP:40 MHP:40 G:40 \nSecret Art (40G): Adds "Land Effect" <:csenchant:364048663464378391> to user\'s target creature.");
+       message.channel.send("Hidebehind <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:30 HP:40 MHP:40 G:40 \nSecret Art (40G): Adds Land Effect <:csenchant:364048663464378391> to user\'s target creature.");
     }
     if (message.content.startsWith(prefix + "hidebehind") {
-         message.channel.send("Hidebehind <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:30 HP:40 MHP:40 G:40 \nSecret Art (40G): Adds "Land Effect" <:csenchant:364048663464378391> to user\'s target creature.");
+         message.channel.send("Hidebehind <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:30 HP:40 MHP:40 G:40 \nSecret Art (40G): Adds Land Effect <:csenchant:364048663464378391> to user\'s target creature.");
     }
     if (message.content.startsWith(prefix + "Ironmonger") {
        message.channel.send("Ironmonger <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:20 HP:30 MHP:30 G:10 \nSecret Art (50G): User draws an Item Card.");
@@ -958,16 +952,16 @@ client.on('message', message => {
          message.channel.send("Ba-al <:crarityn:364048663661772800> <:cfire:364048663355588609> \nST:50 HP:50 MHP:50 G:40+ <:cfire:364048663355588609> + <:ccard:364048663426760705> \nAttacks First / Battle End: Destroys a random card from user\'s hand.");
     }
     if (message.content.startsWith(prefix + "Birdmaiden") {
-         message.channel.send("Birdmaiden <:crarityn:364048663661772800> <:cfire:364048663355588609> \nST:30 HP:30 MHP:30 G:65 \nItem Limit: <:cweapon:364048663527424002> \nVigorous / \nSecret Art (50G): Adds "Distant Movement" <:csenchant:364048663464378391> to user\'s target creature.");
+         message.channel.send("Birdmaiden <:crarityn:364048663661772800> <:cfire:364048663355588609> \nST:30 HP:30 MHP:30 G:65 \nItem Limit: <:cweapon:364048663527424002> \nVigorous / \nSecret Art (50G): Adds Distant Movement <:csenchant:364048663464378391> to user\'s target creature.");
     }
     if (message.content.startsWith(prefix + "birdmaiden") {
-         message.channel.send("Birdmaiden <:crarityn:364048663661772800> <:cfire:364048663355588609> \nST:30 HP:30 MHP:30 G:65 \nItem Limit: <:cweapon:364048663527424002> \nVigorous / \nSecret Art (50G): Adds "Distant Movement" <:csenchant:364048663464378391> to user\'s target creature.");
+         message.channel.send("Birdmaiden <:crarityn:364048663661772800> <:cfire:364048663355588609> \nST:30 HP:30 MHP:30 G:65 \nItem Limit: <:cweapon:364048663527424002> \nVigorous / \nSecret Art (50G): Adds Distant Movement <:csenchant:364048663464378391> to user\'s target creature.");
     }
     if (message.content.startsWith(prefix + "Burnacle") {
-         message.channel.send("Burnacle <:crarityn:364048663661772800> <:cfire:364048663355588609> \nST:30 HP:60 MHP:60 G:70 \nLand Limit: <:cnoair:364048663732944896> \nItem Limit: <:cnoscroll:364048663653122048> \nDefensive / \nSecret Art (50G): Adds "Blind" <:csenchant:364048663464378391> to target enemy creature. (Toll fees are halved.)");
+         message.channel.send("Burnacle <:crarityn:364048663661772800> <:cfire:364048663355588609> \nST:30 HP:60 MHP:60 G:70 \nLand Limit: <:cnoair:364048663732944896> \nItem Limit: <:cnoscroll:364048663653122048> \nDefensive / \nSecret Art (50G): Adds Blind <:csenchant:364048663464378391> to target enemy creature. (Toll fees are halved.)");
     }
     if (message.content.startsWith(prefix + "burnacle") {
-         message.channel.send("Burnacle <:crarityn:364048663661772800> <:cfire:364048663355588609> \nST:30 HP:60 MHP:60 G:70 \nLand Limit: <:cnoair:364048663732944896> \nItem Limit: <:cnoscroll:364048663653122048> \nDefensive / \nSecret Art (50G): Adds "Blind" <:csenchant:364048663464378391> to target enemy creature. (Toll fees are halved.)");
+         message.channel.send("Burnacle <:crarityn:364048663661772800> <:cfire:364048663355588609> \nST:30 HP:60 MHP:60 G:70 \nLand Limit: <:cnoair:364048663732944896> \nItem Limit: <:cnoscroll:364048663653122048> \nDefensive / \nSecret Art (50G): Adds Blind <:csenchant:364048663464378391> to target enemy creature. (Toll fees are halved.)");
     }
     if (message.content.startsWith(prefix + "Burning Titan") {
          message.channel.send("Burning Titan <:craritys:364048663351132162> <:cfire:364048663355588609> \nST:60 HP:60 MHP:60 G:90 \nLand Limit: <:cnowater:364048663657447434> \nItem Limit: <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nIn Battle: ST & HP-30 if user possesses 5 or more territories.");
@@ -1054,10 +1048,10 @@ client.on('message', message => {
          message.channel.send("Death Scythe <:craritys:364048663351132162> <:cfire:364048663355588609> \nST:70 HP:10 MHP:10 G:15+ <:ccard:364048663426760705> \nItem Limit: <:cweapon:364048663527424002> \nSecret Art (50G): Evolves into Mummy.");
     }
     if (message.content.startsWith(prefix + "Domovikha") {
-         message.channel.send("Domovikha <:craritys:364048663351132162> <:cfire:364048663355588609> \nST:10 HP:20 MHP:20 G:20 \nSecret Art (80G): Adds "Anti-Spell" <:csenchant:364048663464378391> to user\'s target creature.");
+         message.channel.send("Domovikha <:craritys:364048663351132162> <:cfire:364048663355588609> \nST:10 HP:20 MHP:20 G:20 \nSecret Art (80G): Adds Anti-Spell <:csenchant:364048663464378391> to user\'s target creature.");
     }
     if (message.content.startsWith(prefix + "domovikha") {
-         message.channel.send("Domovikha <:craritys:364048663351132162> <:cfire:364048663355588609> \nST:10 HP:20 MHP:20 G:20 \nSecret Art (80G): Adds "Anti-Spell" <:csenchant:364048663464378391> to user\'s target creature.");
+         message.channel.send("Domovikha <:craritys:364048663351132162> <:cfire:364048663355588609> \nST:10 HP:20 MHP:20 G:20 \nSecret Art (80G): Adds Anti-Spell <:csenchant:364048663464378391> to user\'s target creature.");
     }
     if (message.content.startsWith(prefix + "Doom Devourer") {
          message.channel.send("Doom Devourer <:craritys:364048663351132162> <:cfire:364048663355588609> \nST:30 HP:30 MHP:30 G:50 \nItem Limit: <:cnoscroll:364048663653122048> \nIf user\'s roll is 3 or less, ST & MHP+10 (max. 100) / \nSecret Art (0G): User gains (MHP x2)G then, ST & MHP-10.");
@@ -1565,10 +1559,10 @@ client.on('message', message => {
          message.channel.send("Hippocampus <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:20 HP:30 MHP:30 G:40+ <:cwater:364048663447601154> \nLand Limit: <:cnoearth:364048663602790439> \nItem Limit: <:cnoscroll:364048663653122048> \nNeutralizes: <:cneutral:364043997825597440> \n/ Secret Art (60G): Evolves into Kelpie.");
     }
     if (message.content.startsWith(prefix + "Hyde") {
-         message.channel.send("Hyde <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:30 HP:30 MHP:30 G:20+ <:cwater:364048663447601154> \nLand Limit: <:cnofire:364048663732813845> \nSecret Art (50G): Adds "Paralysis" <:csenchant:364048663464378391> to target creature.");
+         message.channel.send("Hyde <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:30 HP:30 MHP:30 G:20+ <:cwater:364048663447601154> \nLand Limit: <:cnofire:364048663732813845> \nSecret Art (50G): Adds Paralysis <:csenchant:364048663464378391> to target creature.");
     }
     if (message.content.startsWith(prefix + "hyde") {
-         message.channel.send("Hyde <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:30 HP:30 MHP:30 G:20+ <:cwater:364048663447601154> \nLand Limit: <:cnofire:364048663732813845> \nSecret Art (50G): Adds "Paralysis" <:csenchant:364048663464378391> to target creature.");
+         message.channel.send("Hyde <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:30 HP:30 MHP:30 G:20+ <:cwater:364048663447601154> \nLand Limit: <:cnofire:364048663732813845> \nSecret Art (50G): Adds Paralysis <:csenchant:364048663464378391> to target creature.");
     }
     if (message.content.startsWith(prefix + "Id") {
          message.channel.send("Id <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:40 HP:30 MHP:30 G:50+ <:cwater:364048663447601154> + <:ccard:364048663426760705> \nSynthesis: Creatures (Transforms into discarded creature). / Neutralizes: <:cscroll:364048663691001876> Attacks.");
@@ -1661,10 +1655,10 @@ client.on('message', message => {
          message.channel.send("Odontotyrannus <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:50 HP:50 MHP:50 G:70+ <:cwater:364048663447601154> \nItem Limit: <:cnoscroll:364048663653122048> \nSynergy: <:cair:364048663518904327> (ST+20, HP+10)");
     }
     if (message.content.startsWith(prefix + "Otohime") {
-         message.channel.send("Otohime <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:40 HP:40 MHP:40 G:70+ <:cwater:364048663447601154> \nBoost: HP+10 to defending creatures. / Battle End: Adds "Last Breath" <:csenchant:364048663464378391> to enemy creature.");
+         message.channel.send("Otohime <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:40 HP:40 MHP:40 G:70+ <:cwater:364048663447601154> \nBoost: HP+10 to defending creatures. / Battle End: Adds Last Breath <:csenchant:364048663464378391> to enemy creature.");
     }
     if (message.content.startsWith(prefix + "otohime") {
-         message.channel.send("Otohime <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:40 HP:40 MHP:40 G:70+ <:cwater:364048663447601154> \nBoost: HP+10 to defending creatures. / Battle End: Adds "Last Breath" <:csenchant:364048663464378391> to enemy creature.");
+         message.channel.send("Otohime <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:40 HP:40 MHP:40 G:70+ <:cwater:364048663447601154> \nBoost: HP+10 to defending creatures. / Battle End: Adds Last Breath <:csenchant:364048663464378391> to enemy creature.");
     }
     if (message.content.startsWith(prefix + "Rahab") {
          message.channel.send("Rahab <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:60 HP:60 MHP:60 G:80+ <:cwater:364048663447601154> <:cwater:364048663447601154> + <:ccard:364048663426760705> \nLand Limit: <:cnoearth:364048663602790439> \nItem Limit: <:cnotool:364048663624024076>  \nNeutralizes: Creatures with ST of 50 and up. / Boost: HP+10 to <:cwater:364048663447601154> & <:cair:364048663518904327> creatures.");
@@ -1685,10 +1679,10 @@ client.on('message', message => {
          message.channel.send("Rune Adept <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:20 HP:20 MHP:20 G:50+ <:cwater:364048663447601154> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> \nScroll Critical Hit / Anti-Spell / \nSecret Art (100G): Uses the effect of a <:csinstant:364048663447863298> card in user\'s hand.");
     }
     if (message.content.startsWith(prefix + "Scylla") {
-         message.channel.send("Scylla <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:30 HP:40 MHP:40 G:60+ <:cwater:364048663447601154> \nIn Battle: Disables opponent\'s Attack Bonus. / Battle End: Adds "Sleep" <:csenchant:364048663464378391> to enemy creature.");
+         message.channel.send("Scylla <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:30 HP:40 MHP:40 G:60+ <:cwater:364048663447601154> \nIn Battle: Disables opponent\'s Attack Bonus. / Battle End: Adds Sleep <:csenchant:364048663464378391> to enemy creature.");
     }
     if (message.content.startsWith(prefix + "scylla") {
-         message.channel.send("Scylla <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:30 HP:40 MHP:40 G:60+ <:cwater:364048663447601154> \nIn Battle: Disables opponent\'s Attack Bonus. / Battle End: Adds "Sleep" <:csenchant:364048663464378391> to enemy creature.");
+         message.channel.send("Scylla <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:30 HP:40 MHP:40 G:60+ <:cwater:364048663447601154> \nIn Battle: Disables opponent\'s Attack Bonus. / Battle End: Adds Sleep <:csenchant:364048663464378391> to enemy creature.");
     }
     if (message.content.startsWith(prefix + "Sea Bonze") {
          message.channel.send("Sea Bonze <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:10 HP:40 MHP:40 G:40 \nLand Limit: <:cnofire:364048663732813845> <:cnoearth:364048663602790439> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> <:cnotool:364048663624024076> <:cnoscroll:364048663653122048> \nDefensive / In Battle: Disables all effects and abilities. (Activates first.)");
@@ -1715,16 +1709,16 @@ client.on('message', message => {
          message.channel.send("Sludge Titan <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:50 HP:60 MHP:60 G:90 \nItem Limit: <:cnoarmor:364048663598858240> <:cnotool:364048663624024076> \nBattle Start: If HP is not at maximum, this creature is destroyed. / Regenerates");
     }
     if (message.content.startsWith(prefix + "Swamp Spawn") {
-         message.channel.send("Swamp Spawn <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:20 HP:40 MHP:40 G:20 \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoscroll:364048663653122048> \nDefensive / \nSecret Art (50G): Adds "Dice 1-3" <:csenchant:364048663464378391> to target Cepter. (Makes the next dice roll 1 to 3.)");
+         message.channel.send("Swamp Spawn <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:20 HP:40 MHP:40 G:20 \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoscroll:364048663653122048> \nDefensive / \nSecret Art (50G): Adds Dice 1-3 <:csenchant:364048663464378391> to target Cepter. (Makes the next dice roll 1 to 3.)");
     }
     if (message.content.startsWith(prefix + "SwampSpawn") {
-         message.channel.send("Swamp Spawn <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:20 HP:40 MHP:40 G:20 \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoscroll:364048663653122048> \nDefensive / \nSecret Art (50G): Adds "Dice 1-3" <:csenchant:364048663464378391> to target Cepter. (Makes the next dice roll 1 to 3.)");
+         message.channel.send("Swamp Spawn <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:20 HP:40 MHP:40 G:20 \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoscroll:364048663653122048> \nDefensive / \nSecret Art (50G): Adds Dice 1-3 <:csenchant:364048663464378391> to target Cepter. (Makes the next dice roll 1 to 3.)");
     }
     if (message.content.startsWith(prefix + "swamp spawn") {
-         message.channel.send("Swamp Spawn <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:20 HP:40 MHP:40 G:20 \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoscroll:364048663653122048> \nDefensive / \nSecret Art (50G): Adds "Dice 1-3" <:csenchant:364048663464378391> to target Cepter. (Makes the next dice roll 1 to 3.)");
+         message.channel.send("Swamp Spawn <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:20 HP:40 MHP:40 G:20 \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoscroll:364048663653122048> \nDefensive / \nSecret Art (50G): Adds Dice 1-3 <:csenchant:364048663464378391> to target Cepter. (Makes the next dice roll 1 to 3.)");
     }
     if (message.content.startsWith(prefix + "swampspawn") {
-         message.channel.send("Swamp Spawn <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:20 HP:40 MHP:40 G:20 \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoscroll:364048663653122048> \nDefensive / \nSecret Art (50G): Adds "Dice 1-3" <:csenchant:364048663464378391> to target Cepter. (Makes the next dice roll 1 to 3.)");
+         message.channel.send("Swamp Spawn <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:20 HP:40 MHP:40 G:20 \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoscroll:364048663653122048> \nDefensive / \nSecret Art (50G): Adds Dice 1-3 <:csenchant:364048663464378391> to target Cepter. (Makes the next dice roll 1 to 3.)");
     }
     if (message.content.startsWith(prefix + "Tentacles") {
          message.channel.send("Tentacles <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:40 HP:50 MHP:50 G:70+ <:cwater:364048663447601154> \nItem Limit: <:cnoscroll:364048663653122048> \nRegenerates / Battle End: User draws cards until their hand contains 5 cards.");
@@ -2058,16 +2052,16 @@ client.on('message', message => {
          message.channel.send("Pixie <:craritys:364048663351132162> <:cearth:364048663582081034> \nST:20 HP:30 MHP:30 G:60 \nSupport: <:cfire:364048663355588609> <:cearth:364048663582081034> / Vigorous");
     }
     if (message.content.startsWith(prefix + "Rock Shell") {
-         message.channel.send("Rock Shell <:crarityr:364045147085864960> <:cearth:364048663582081034> \nST:40 HP:30 MHP:30 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (50G): Adds "Peace" <:csenchant:364048663464378391> to itself.");
+         message.channel.send("Rock Shell <:crarityr:364045147085864960> <:cearth:364048663582081034> \nST:40 HP:30 MHP:30 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (50G): Adds Peace <:csenchant:364048663464378391> to itself.");
     }
     if (message.content.startsWith(prefix + "RockShell") {
-         message.channel.send("Rock Shell <:crarityr:364045147085864960> <:cearth:364048663582081034> \nST:40 HP:30 MHP:30 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (50G): Adds "Peace" <:csenchant:364048663464378391> to itself.");
+         message.channel.send("Rock Shell <:crarityr:364045147085864960> <:cearth:364048663582081034> \nST:40 HP:30 MHP:30 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (50G): Adds Peace <:csenchant:364048663464378391> to itself.");
     }
     if (message.content.startsWith(prefix + "rock shell") {
-         message.channel.send("Rock Shell <:crarityr:364045147085864960> <:cearth:364048663582081034> \nST:40 HP:30 MHP:30 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (50G): Adds "Peace" <:csenchant:364048663464378391> to itself.");
+         message.channel.send("Rock Shell <:crarityr:364045147085864960> <:cearth:364048663582081034> \nST:40 HP:30 MHP:30 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (50G): Adds Peace <:csenchant:364048663464378391> to itself.");
     }
     if (message.content.startsWith(prefix + "rockshell") {
-         message.channel.send("Rock Shell <:crarityr:364045147085864960> <:cearth:364048663582081034> \nST:40 HP:30 MHP:30 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (50G): Adds "Peace" <:csenchant:364048663464378391> to itself.");
+         message.channel.send("Rock Shell <:crarityr:364045147085864960> <:cearth:364048663582081034> \nST:40 HP:30 MHP:30 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (50G): Adds Peace <:csenchant:364048663464378391> to itself.");
     }
     if (message.content.startsWith(prefix + "Rock Troll") {
          message.channel.send("Rock Troll <:crarityn:364048663661772800> <:cearth:364048663582081034> \nST:50 HP:50 MHP:50 G:90 \nLand Limit: <:cnoair:364048663732944896> \nRegenerates");
@@ -2094,28 +2088,28 @@ client.on('message', message => {
          message.channel.send("Sakuya <:crarityr:364045147085864960> <:cearth:364048663582081034> \nST:20 HP:30 MHP:30 G:30+ <:cearth:364048663582081034> \nLand Limit: <:cnoair:364048663732944896> \nSecret Art (120G): Transforms target territory in user\'s possession to a <:cearth:364048663582081034> land.");
     }
     if (message.content.startsWith(prefix + "Screamer") {
-         message.channel.send("Screamer <:craritys:364048663351132162> <:cearth:364048663582081034> \nST:20 HP:40 MHP:40 G:30 \nLand Limit: <:cnoair:364048663732944896> \nItem Limit: <:cnoscroll:364048663653122048> \nDefensive / \nSecret Art (40G): Adds "Nullified Land Effect" <:csenchant:364048663464378391> to target creature.");
+         message.channel.send("Screamer <:craritys:364048663351132162> <:cearth:364048663582081034> \nST:20 HP:40 MHP:40 G:30 \nLand Limit: <:cnoair:364048663732944896> \nItem Limit: <:cnoscroll:364048663653122048> \nDefensive / \nSecret Art (40G): Adds Nullified Land Effect <:csenchant:364048663464378391> to target creature.");
     }
     if (message.content.startsWith(prefix + "screamer") {
-         message.channel.send("Screamer <:craritys:364048663351132162> <:cearth:364048663582081034> \nST:20 HP:40 MHP:40 G:30 \nLand Limit: <:cnoair:364048663732944896> \nItem Limit: <:cnoscroll:364048663653122048> \nDefensive / \nSecret Art (40G): Adds "Nullified Land Effect" <:csenchant:364048663464378391> to target creature.");
+         message.channel.send("Screamer <:craritys:364048663351132162> <:cearth:364048663582081034> \nST:20 HP:40 MHP:40 G:30 \nLand Limit: <:cnoair:364048663732944896> \nItem Limit: <:cnoscroll:364048663653122048> \nDefensive / \nSecret Art (40G): Adds Nullified Land Effect <:csenchant:364048663464378391> to target creature.");
     }
     if (message.content.startsWith(prefix + "Shankrubber") {
-         message.channel.send("Shankrubber <:craritys:364048663351132162> <:cearth:364048663582081034> \nST:20 HP:20 MHP:20 G:40 \nItem Limit: <:cnoscroll:364048663653122048> \nAnti-Spell / \nSecret Art (30G): Adds "Immobilize" <:csenchant:364048663464378391> to target creature.");
+         message.channel.send("Shankrubber <:craritys:364048663351132162> <:cearth:364048663582081034> \nST:20 HP:20 MHP:20 G:40 \nItem Limit: <:cnoscroll:364048663653122048> \nAnti-Spell / \nSecret Art (30G): Adds Immobilize <:csenchant:364048663464378391> to target creature.");
     }
     if (message.content.startsWith(prefix + "shankrubber") {
-         message.channel.send("Shankrubber <:craritys:364048663351132162> <:cearth:364048663582081034> \nST:20 HP:20 MHP:20 G:40 \nItem Limit: <:cnoscroll:364048663653122048> \nAnti-Spell / \nSecret Art (30G): Adds "Immobilize" <:csenchant:364048663464378391> to target creature.");
+         message.channel.send("Shankrubber <:craritys:364048663351132162> <:cearth:364048663582081034> \nST:20 HP:20 MHP:20 G:40 \nItem Limit: <:cnoscroll:364048663653122048> \nAnti-Spell / \nSecret Art (30G): Adds Immobilize <:csenchant:364048663464378391> to target creature.");
     }
     if (message.content.startsWith(prefix + "Spitting Cobra") {
-         message.channel.send("Spitting Cobra <:crarityn:364048663661772800> <:cearth:364048663582081034> \nST:40 HP:40 MHP:40 G:80 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (30G): Adds "Poison" <:csenchant:364048663464378391> to target creature.");
+         message.channel.send("Spitting Cobra <:crarityn:364048663661772800> <:cearth:364048663582081034> \nST:40 HP:40 MHP:40 G:80 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (30G): Adds Poison <:csenchant:364048663464378391> to target creature.");
     }
     if (message.content.startsWith(prefix + "SpittingCobra") {
-         message.channel.send("Spitting Cobra <:crarityn:364048663661772800> <:cearth:364048663582081034> \nST:40 HP:40 MHP:40 G:80 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (30G): Adds "Poison" <:csenchant:364048663464378391> to target creature.");
+         message.channel.send("Spitting Cobra <:crarityn:364048663661772800> <:cearth:364048663582081034> \nST:40 HP:40 MHP:40 G:80 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (30G): Adds Poison <:csenchant:364048663464378391> to target creature.");
     }
     if (message.content.startsWith(prefix + "spitting cobra") {
-         message.channel.send("Spitting Cobra <:crarityn:364048663661772800> <:cearth:364048663582081034> \nST:40 HP:40 MHP:40 G:80 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (30G): Adds "Poison" <:csenchant:364048663464378391> to target creature.");
+         message.channel.send("Spitting Cobra <:crarityn:364048663661772800> <:cearth:364048663582081034> \nST:40 HP:40 MHP:40 G:80 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (30G): Adds Poison <:csenchant:364048663464378391> to target creature.");
     }
     if (message.content.startsWith(prefix + "spittingcobra") {
-         message.channel.send("Spitting Cobra <:crarityn:364048663661772800> <:cearth:364048663582081034> \nST:40 HP:40 MHP:40 G:80 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (30G): Adds "Poison" <:csenchant:364048663464378391> to target creature.");
+         message.channel.send("Spitting Cobra <:crarityn:364048663661772800> <:cearth:364048663582081034> \nST:40 HP:40 MHP:40 G:80 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (30G): Adds Poison <:csenchant:364048663464378391> to target creature.");
     }
     if (message.content.startsWith(prefix + "Sproutling") {
          message.channel.send("Sproutling <:crarityr:364045147085864960> <:cearth:364048663582081034> \nST:20 HP:30 MHP:30 G:60 \nReceives land effect from <:cfire:364048663355588609> lands. / \nSecret Art (50G): Evolves into Old Willow.");
@@ -2233,10 +2227,10 @@ client.on('message', message => {
          message.channel.send("Breeze Spirit <:craritys:364048663351132162> <:cair:364048663518904327> \nST:20 HP:30 MHP:30 G:50 \nLand Limit: <:cnofire:364048663732813845> \nCan move to any vacant <:cwater:364048663447601154> or <:cair:364048663518904327> land.");
     }
     if (message.content.startsWith(prefix + "Caladrius") {
-         message.channel.send("Caladrius <:crarityn:364048663661772800> <:cair:364048663518904327> \nST:30 HP:30 MHP:30 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nAttacks First / \nSecret Art (40G): Adds "Ability +20" <:csenchant:364048663464378391> to target creature.");
+         message.channel.send("Caladrius <:crarityn:364048663661772800> <:cair:364048663518904327> \nST:30 HP:30 MHP:30 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nAttacks First / \nSecret Art (40G): Adds Ability +20 <:csenchant:364048663464378391> to target creature.");
     }
     if (message.content.startsWith(prefix + "caladrius") {
-         message.channel.send("Caladrius <:crarityn:364048663661772800> <:cair:364048663518904327> \nST:30 HP:30 MHP:30 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nAttacks First / \nSecret Art (40G): Adds "Ability +20" <:csenchant:364048663464378391> to target creature.");
+         message.channel.send("Caladrius <:crarityn:364048663661772800> <:cair:364048663518904327> \nST:30 HP:30 MHP:30 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nAttacks First / \nSecret Art (40G): Adds Ability +20 <:csenchant:364048663464378391> to target creature.");
     }
     if (message.content.startsWith(prefix + "Centaur") {
          message.channel.send("Centaur <:crarityn:364048663661772800> <:cair:364048663518904327> \nST:30 HP:40 MHP:40 G:80 \nAttacks First / Battle End: Recycles equipped items to user\'s book.");
@@ -2347,16 +2341,16 @@ client.on('message', message => {
          message.channel.send("Griffon <:crarityn:364048663661772800> <:cair:364048663518904327> \nST:50 HP:50 MHP:50 G:80 \nLand Limit: <:cnoearth:364048663602790439> \nItem Limit: <:cnoscroll:364048663653122048>");
     }
     if (message.content.startsWith(prefix + "Holy Llama") {
-         message.channel.send("Holy Llama <:craritys:364048663351132162> <:cair:364048663518904327> \nST:20 HP:40 MHP:40 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (50G): Adds "Dice 6" <:csenchant:364048663464378391> to user.");
+         message.channel.send("Holy Llama <:craritys:364048663351132162> <:cair:364048663518904327> \nST:20 HP:40 MHP:40 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (50G): Adds Dice 6 <:csenchant:364048663464378391> to user.");
     }
     if (message.content.startsWith(prefix + "HolyLlama") {
-         message.channel.send("Holy Llama <:craritys:364048663351132162> <:cair:364048663518904327> \nST:20 HP:40 MHP:40 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (50G): Adds "Dice 6" <:csenchant:364048663464378391> to user.");
+         message.channel.send("Holy Llama <:craritys:364048663351132162> <:cair:364048663518904327> \nST:20 HP:40 MHP:40 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (50G): Adds Dice 6 <:csenchant:364048663464378391> to user.");
     }
     if (message.content.startsWith(prefix + "holy llama") {
-         message.channel.send("Holy Llama <:craritys:364048663351132162> <:cair:364048663518904327> \nST:20 HP:40 MHP:40 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (50G): Adds "Dice 6" <:csenchant:364048663464378391> to user.");
+         message.channel.send("Holy Llama <:craritys:364048663351132162> <:cair:364048663518904327> \nST:20 HP:40 MHP:40 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (50G): Adds Dice 6 <:csenchant:364048663464378391> to user.");
     }
     if (message.content.startsWith(prefix + "holyllama") {
-         message.channel.send("Holy Llama <:craritys:364048663351132162> <:cair:364048663518904327> \nST:20 HP:40 MHP:40 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (50G): Adds "Dice 6" <:csenchant:364048663464378391> to user.");
+         message.channel.send("Holy Llama <:craritys:364048663351132162> <:cair:364048663518904327> \nST:20 HP:40 MHP:40 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (50G): Adds Dice 6 <:csenchant:364048663464378391> to user.");
     }
     if (message.content.startsWith(prefix + "Kirin") {
          message.channel.send("Kirin <:crarityr:364045147085864960> <:cair:364048663518904327> \nST:20 HP:40 MHP:40 G:80 \nAttacks First / Synergy: <:cwater:364048663447601154> (ST & HP+20)");
@@ -2437,10 +2431,10 @@ client.on('message', message => {
          message.channel.send("Nike <:craritys:364048663351132162> <:cair:364048663518904327> \nST:30 HP:30 MHP:30 G:40+ <:cair:364048663518904327> \nItem Limit: <:carmor:364048663556915200> \nAttacks First / Attack Bonus: "Paralysis" Enchant.");
     }
     if (message.content.startsWith(prefix + "Patronus") {
-         message.channel.send("Patronus <:crarityr:364045147085864960> <:cair:364048663518904327> \nST:30 HP:20 MHP:20 G:30+ <:cair:364048663518904327> \nAnti-Spell / \nSecret Art (50G): Adds "Anti-Spell" <:csenchant:364048663464378391> to target Cepter.");
+         message.channel.send("Patronus <:crarityr:364045147085864960> <:cair:364048663518904327> \nST:30 HP:20 MHP:20 G:30+ <:cair:364048663518904327> \nAnti-Spell / \nSecret Art (50G): Adds Anti-Spell <:csenchant:364048663464378391> to target Cepter.");
     }
     if (message.content.startsWith(prefix + "patronus") {
-         message.channel.send("Patronus <:crarityr:364045147085864960> <:cair:364048663518904327> \nST:30 HP:20 MHP:20 G:30+ <:cair:364048663518904327> \nAnti-Spell / \nSecret Art (50G): Adds "Anti-Spell" <:csenchant:364048663464378391> to target Cepter.");
+         message.channel.send("Patronus <:crarityr:364045147085864960> <:cair:364048663518904327> \nST:30 HP:20 MHP:20 G:30+ <:cair:364048663518904327> \nAnti-Spell / \nSecret Art (50G): Adds Anti-Spell <:csenchant:364048663464378391> to target Cepter.");
     }
     if (message.content.startsWith(prefix + "Powder Eater") {
          message.channel.send("Powder Eater <:craritys:364048663351132162> <:cair:364048663518904327> \nST:1 HP:1 MHP:1 G:10 \nItem Limit: <:cnoscroll:364048663653122048> \nMultiplies when moving, leaving copies in both former and new locations.");
@@ -2473,10 +2467,10 @@ client.on('message', message => {
          message.channel.send("Samhain <:crarityn:364048663661772800> <:cair:364048663518904327> \nST:20 HP:40 MHP:40 G:50+ <:ccard:364048663426760705> \nSynthesis: <:csenchant:364048663464378391> Spells (ST+20). / Battle End: opponent\'s MHP- (this creature\'s Base ST).");
     }
     if (message.content.startsWith(prefix + "Scolopendra") {
-         message.channel.send("Scolopendra <:crarityr:364045147085864960> <:cair:364048663518904327> \nST:30 HP:40 MHP:40 G:50+ <:ccard:364048663426760705> \nItem Limit: <:cnoscroll:364048663653122048> \nSynthesis: <:cwater:364048663447601154> (Evolves into Deep-Sea Dragon). / Attack Bonus: Adds "Poison" Enchant.");
+         message.channel.send("Scolopendra <:crarityr:364045147085864960> <:cair:364048663518904327> \nST:30 HP:40 MHP:40 G:50+ <:ccard:364048663426760705> \nItem Limit: <:cnoscroll:364048663653122048> \nSynthesis: <:cwater:364048663447601154> (Evolves into Deep-Sea Dragon). / Attack Bonus: Adds Poison Enchant.");
     }
     if (message.content.startsWith(prefix + "scolopendra") {
-         message.channel.send("Scolopendra <:crarityr:364045147085864960> <:cair:364048663518904327> \nST:30 HP:40 MHP:40 G:50+ <:ccard:364048663426760705> \nItem Limit: <:cnoscroll:364048663653122048> \nSynthesis: <:cwater:364048663447601154> (Evolves into Deep-Sea Dragon). / Attack Bonus: Adds "Poison" Enchant.");
+         message.channel.send("Scolopendra <:crarityr:364045147085864960> <:cair:364048663518904327> \nST:30 HP:40 MHP:40 G:50+ <:ccard:364048663426760705> \nItem Limit: <:cnoscroll:364048663653122048> \nSynthesis: <:cwater:364048663447601154> (Evolves into Deep-Sea Dragon). / Attack Bonus: Adds Poison Enchant.");
     }
     if (message.content.startsWith(prefix + "Serpent Fly") {
          message.channel.send("Serpent Fly <:crarityn:364048663661772800> <:cair:364048663518904327> \nST:40 HP:30 MHP:30 G:70 \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:cnoscroll:364048663653122048> \nAttacks First / Receives land effect from <:cwater:364048663447601154> territories.");
@@ -3589,7 +3583,7 @@ client.on('message', message => {
     }
     if (message.content.startsWith(prefix + "wonder charm") {
          message.channel.send("Wonder Charm  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:70  \nNeutralizes: 80% of damage received from Normal Attacks.");
-    }
+    } 
     if (message.content.startsWith(prefix + "wondercharm") {
          message.channel.send("Wonder Charm  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:70  \nNeutralizes: 80% of damage received from Normal Attacks.");
     }
@@ -3625,46 +3619,46 @@ client.on('message', message => {
          message.channel.send("Assemble Cards <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:70 \nHidden / User gains 500G if their hand contains at least one creature of each element. ( <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> <:cair:364048663518904327> ) / If not, user draws 2 cards.");
     }
     if (message.content.startsWith(prefix + "Asteroid") {
-         message.channel.send("Asteroid <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100+ <:ccard:364048663426760705> \nLowers target territory\'s level by 1. / Synthesis: Asteroid (Changes effect to "Target territory\s" level becomes 1.");
+         message.channel.send("Asteroid <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100+ <:ccard:364048663426760705> \nLowers target territory\'s level by 1. / Synthesis: Asteroid (Changes effect to Target territory\s level becomes 1.");
     }
     if (message.content.startsWith(prefix + "asteroid") {
-         message.channel.send("Asteroid <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100+ <:ccard:364048663426760705> \nLowers target territory\'s level by 1. / Synthesis: Asteroid (Changes effect to "Target territory\s" level becomes 1.");
+         message.channel.send("Asteroid <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100+ <:ccard:364048663426760705> \nLowers target territory\'s level by 1. / Synthesis: Asteroid (Changes effect to Target territory\s level becomes 1.");
     }
     if (message.content.startsWith(prefix + "Barrier") {
-         message.channel.send("Barrier <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds "Anti-Spell" <:csenchant:364048663464378391> to target Cepter. (For 5 rounds, target Cepter cannot be chosen as the target of a spell.)");
+         message.channel.send("Barrier <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds Anti-Spell <:csenchant:364048663464378391> to target Cepter. (For 5 rounds, target Cepter cannot be chosen as the target of a spell.)");
     }
     if (message.content.startsWith(prefix + "barrier") {
-         message.channel.send("Barrier <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds "Anti-Spell" <:csenchant:364048663464378391> to target Cepter. (For 5 rounds, target Cepter cannot be chosen as the target of a spell.)");
+         message.channel.send("Barrier <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds Anti-Spell <:csenchant:364048663464378391> to target Cepter. (For 5 rounds, target Cepter cannot be chosen as the target of a spell.)");
     }
     if (message.content.startsWith(prefix + "Binding Mist") {
-         message.channel.send("Binding Mist <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds "Paralysis" <:csenchant:364048663464378391> to target creature. (Creatures cannot attack or use items and their abilities do not activate.)");
+         message.channel.send("Binding Mist <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds Paralysis <:csenchant:364048663464378391> to target creature. (Creatures cannot attack or use items and their abilities do not activate.)");
     }
     if (message.content.startsWith(prefix + "BindingMist") {
-         message.channel.send("Binding Mist <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds "Paralysis" <:csenchant:364048663464378391> to target creature. (Creatures cannot attack or use items and their abilities do not activate.)");
+         message.channel.send("Binding Mist <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds Paralysis <:csenchant:364048663464378391> to target creature. (Creatures cannot attack or use items and their abilities do not activate.)");
     }
     if (message.content.startsWith(prefix + "binding mist") {
-         message.channel.send("Binding Mist <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds "Paralysis" <:csenchant:364048663464378391> to target creature. (Creatures cannot attack or use items and their abilities do not activate.)");
+         message.channel.send("Binding Mist <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds Paralysis <:csenchant:364048663464378391> to target creature. (Creatures cannot attack or use items and their abilities do not activate.)");
     }
     if (message.content.startsWith(prefix + "bindingmist") {
-         message.channel.send("Binding Mist <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds "Paralysis" <:csenchant:364048663464378391> to target creature. (Creatures cannot attack or use items and their abilities do not activate.)");
+         message.channel.send("Binding Mist <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds Paralysis <:csenchant:364048663464378391> to target creature. (Creatures cannot attack or use items and their abilities do not activate.)");
     }
     if (message.content.startsWith(prefix + "Blackout") {
-         message.channel.send("Blackout <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:40 \nAdds "Sleep" <:csenchant:364048663464378391> to target enemy Cepter. (For 2 rounds, target enemy Cepter cannot claim tolls.)");
+         message.channel.send("Blackout <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:40 \nAdds Sleep <:csenchant:364048663464378391> to target enemy Cepter. (For 2 rounds, target enemy Cepter cannot claim tolls.)");
     }
     if (message.content.startsWith(prefix + "blackout") {
-         message.channel.send("Blackout <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:40 \nAdds "Sleep" <:csenchant:364048663464378391> to target enemy Cepter. (For 2 rounds, target enemy Cepter cannot claim tolls.)");
+         message.channel.send("Blackout <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:40 \nAdds Sleep <:csenchant:364048663464378391> to target enemy Cepter. (For 2 rounds, target enemy Cepter cannot claim tolls.)");
     }
     if (message.content.startsWith(prefix + "Blast Trap") {
-         message.channel.send("Blast Trap <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:30 \nAdds "Explosion Trap" <:csenchant:364048663464378391> to target creature. (Next time a Cepter stops here, they lose 40% of their Current Magic, and HP-20 to the creature on this territory.)");
+         message.channel.send("Blast Trap <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:30 \nAdds Explosion Trap <:csenchant:364048663464378391> to target creature. (Next time a Cepter stops here, they lose 40% of their Current Magic, and HP-20 to the creature on this territory.)");
     }
     if (message.content.startsWith(prefix + "BlastTrap") {
-         message.channel.send("Blast Trap <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:30 \nAdds "Explosion Trap" <:csenchant:364048663464378391> to target creature. (Next time a Cepter stops here, they lose 40% of their Current Magic, and HP-20 to the creature on this territory.)");
+         message.channel.send("Blast Trap <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:30 \nAdds Explosion Trap <:csenchant:364048663464378391> to target creature. (Next time a Cepter stops here, they lose 40% of their Current Magic, and HP-20 to the creature on this territory.)");
     }
     if (message.content.startsWith(prefix + "blast trap") {
-         message.channel.send("Blast Trap <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:30 \nAdds "Explosion Trap" <:csenchant:364048663464378391> to target creature. (Next time a Cepter stops here, they lose 40% of their Current Magic, and HP-20 to the creature on this territory.)");
+         message.channel.send("Blast Trap <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:30 \nAdds Explosion Trap <:csenchant:364048663464378391> to target creature. (Next time a Cepter stops here, they lose 40% of their Current Magic, and HP-20 to the creature on this territory.)");
     }
     if (message.content.startsWith(prefix + "blasttrap") {
-         message.channel.send("Blast Trap <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:30 \nAdds "Explosion Trap" <:csenchant:364048663464378391> to target creature. (Next time a Cepter stops here, they lose 40% of their Current Magic, and HP-20 to the creature on this territory.)");
+         message.channel.send("Blast Trap <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:30 \nAdds Explosion Trap <:csenchant:364048663464378391> to target creature. (Next time a Cepter stops here, they lose 40% of their Current Magic, and HP-20 to the creature on this territory.)");
     }
     if (message.content.startsWith(prefix + "Blaze Splash") {
          message.channel.send("Blaze Splash <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:80 \nHP-30 to target <:cfire:364048663355588609> or <:cwater:364048663447601154> Creature.");
@@ -3679,28 +3673,28 @@ client.on('message', message => {
          message.channel.send("Blaze Splash <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:80 \nHP-30 to target <:cfire:364048663355588609> or <:cwater:364048663447601154> Creature.");
     }
     if (message.content.startsWith(prefix + "Bounty Hunt") {
-         message.channel.send("Bounty Hunt <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:50 \nAdds "Bounty" <:csenchant:364048663464378391> to target creature. (Can\'t be moved or exchanged by Territory Command. If killed with a weapon, the Cepter that killed it gets 300G.)");
+         message.channel.send("Bounty Hunt <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:50 \nAdds Bounty <:csenchant:364048663464378391> to target creature. (Can\'t be moved or exchanged by Territory Command. If killed with a weapon, the Cepter that killed it gets 300G.)");
     }
     if (message.content.startsWith(prefix + "BountyHunt") {
-         message.channel.send("Bounty Hunt <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:50 \nAdds "Bounty" <:csenchant:364048663464378391> to target creature. (Can\'t be moved or exchanged by Territory Command. If killed with a weapon, the Cepter that killed it gets 300G.)");
+         message.channel.send("Bounty Hunt <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:50 \nAdds Bounty <:csenchant:364048663464378391> to target creature. (Can\'t be moved or exchanged by Territory Command. If killed with a weapon, the Cepter that killed it gets 300G.)");
     }
     if (message.content.startsWith(prefix + "bounty hunt") {
-         message.channel.send("Bounty Hunt <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:50 \nAdds "Bounty" <:csenchant:364048663464378391> to target creature. (Can\'t be moved or exchanged by Territory Command. If killed with a weapon, the Cepter that killed it gets 300G.)");
+         message.channel.send("Bounty Hunt <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:50 \nAdds Bounty <:csenchant:364048663464378391> to target creature. (Can\'t be moved or exchanged by Territory Command. If killed with a weapon, the Cepter that killed it gets 300G.)");
     }
     if (message.content.startsWith(prefix + "bountyhunt") {
-         message.channel.send("Bounty Hunt <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:50 \nAdds "Bounty" <:csenchant:364048663464378391> to target creature. (Can\'t be moved or exchanged by Territory Command. If killed with a weapon, the Cepter that killed it gets 300G.)");
+         message.channel.send("Bounty Hunt <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:50 \nAdds Bounty <:csenchant:364048663464378391> to target creature. (Can\'t be moved or exchanged by Territory Command. If killed with a weapon, the Cepter that killed it gets 300G.)");
     }
     if (message.content.startsWith(prefix + "Bright World") {
-         message.channel.send("Bright World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds "No Conditions" <:csenchant:364048663464378391> to the world. (For 6 rounds, all conditions and all costs besides magic are ignored when placing a creature.)");
+         message.channel.send("Bright World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds No Conditions <:csenchant:364048663464378391> to the world. (For 6 rounds, all conditions and all costs besides magic are ignored when placing a creature.)");
     }
     if (message.content.startsWith(prefix + "BrightWorld") {
-         message.channel.send("Bright World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds "No Conditions" <:csenchant:364048663464378391> to the world. (For 6 rounds, all conditions and all costs besides magic are ignored when placing a creature.)");
+         message.channel.send("Bright World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds No Conditions <:csenchant:364048663464378391> to the world. (For 6 rounds, all conditions and all costs besides magic are ignored when placing a creature.)");
     }
     if (message.content.startsWith(prefix + "bright world") {
-         message.channel.send("Bright World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds "No Conditions" <:csenchant:364048663464378391> to the world. (For 6 rounds, all conditions and all costs besides magic are ignored when placing a creature.)");
+         message.channel.send("Bright World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds No Conditions <:csenchant:364048663464378391> to the world. (For 6 rounds, all conditions and all costs besides magic are ignored when placing a creature.)");
     }
     if (message.content.startsWith(prefix + "brightworld") {
-         message.channel.send("Bright World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds "No Conditions" <:csenchant:364048663464378391> to the world. (For 6 rounds, all conditions and all costs besides magic are ignored when placing a creature.)");
+         message.channel.send("Bright World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds No Conditions <:csenchant:364048663464378391> to the world. (For 6 rounds, all conditions and all costs besides magic are ignored when placing a creature.)");
     }
     if (message.content.startsWith(prefix + "Burning Hail") {
          message.channel.send("Burning Hail <:crarityr:364045147085864960> <:cminstant:364048663498063874> - G:100 \nHP-20 to all <:cwater:364048663447601154> and <:cair:364048663518904327> creatures.");
@@ -3715,28 +3709,28 @@ client.on('message', message => {
          message.channel.send("Burning Hail <:crarityr:364045147085864960> <:cminstant:364048663498063874> - G:100 \nHP-20 to all <:cwater:364048663447601154> and <:cair:364048663518904327> creatures.");
     }
     if (message.content.startsWith(prefix + "Chaos Panic") {
-         message.channel.send("Chaos Panic <:craritys:364048663351132162> <:cmenchant:364048663447601153> - G:60 \nAdds "Reverse Movement" <:csenchant:364048663464378391> to all Cepters. (On the next turn, all Cepters will move backwards.)");
+         message.channel.send("Chaos Panic <:craritys:364048663351132162> <:cmenchant:364048663447601153> - G:60 \nAdds Reverse Movement <:csenchant:364048663464378391> to all Cepters. (On the next turn, all Cepters will move backwards.)");
     }
     if (message.content.startsWith(prefix + "ChaosPanic") {
-         message.channel.send("Chaos Panic <:craritys:364048663351132162> <:cmenchant:364048663447601153> - G:60 \nAdds "Reverse Movement" <:csenchant:364048663464378391> to all Cepters. (On the next turn, all Cepters will move backwards.)");
+         message.channel.send("Chaos Panic <:craritys:364048663351132162> <:cmenchant:364048663447601153> - G:60 \nAdds Reverse Movement <:csenchant:364048663464378391> to all Cepters. (On the next turn, all Cepters will move backwards.)");
     }
     if (message.content.startsWith(prefix + "chaos panic") {
-         message.channel.send("Chaos Panic <:craritys:364048663351132162> <:cmenchant:364048663447601153> - G:60 \nAdds "Reverse Movement" <:csenchant:364048663464378391> to all Cepters. (On the next turn, all Cepters will move backwards.)");
+         message.channel.send("Chaos Panic <:craritys:364048663351132162> <:cmenchant:364048663447601153> - G:60 \nAdds Reverse Movement <:csenchant:364048663464378391> to all Cepters. (On the next turn, all Cepters will move backwards.)");
     }
     if (message.content.startsWith(prefix + "chaospanic") {
-         message.channel.send("Chaos Panic <:craritys:364048663351132162> <:cmenchant:364048663447601153> - G:60 \nAdds "Reverse Movement" <:csenchant:364048663464378391> to all Cepters. (On the next turn, all Cepters will move backwards.)");
+         message.channel.send("Chaos Panic <:craritys:364048663351132162> <:cmenchant:364048663447601153> - G:60 \nAdds Reverse Movement <:csenchant:364048663464378391> to all Cepters. (On the next turn, all Cepters will move backwards.)");
     }
     if (message.content.startsWith(prefix + "Charging Step") {
-         message.channel.send("Charging Step <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:20 \nAdds "Magic Steps" <:csenchant:364048663464378391> to target Cepter. (Makes dice roll 2-4 for two rounds and user gains 50G every time they roll the dice.)");
+         message.channel.send("Charging Step <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:20 \nAdds Magic Steps <:csenchant:364048663464378391> to target Cepter. (Makes dice roll 2-4 for two rounds and user gains 50G every time they roll the dice.)");
     }
     if (message.content.startsWith(prefix + "ChargingStep") {
-         message.channel.send("Charging Step <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:20 \nAdds "Magic Steps" <:csenchant:364048663464378391> to target Cepter. (Makes dice roll 2-4 for two rounds and user gains 50G every time they roll the dice.)");
+         message.channel.send("Charging Step <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:20 \nAdds Magic Steps <:csenchant:364048663464378391> to target Cepter. (Makes dice roll 2-4 for two rounds and user gains 50G every time they roll the dice.)");
     }
     if (message.content.startsWith(prefix + "charging step") {
-         message.channel.send("Charging Step <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:20 \nAdds "Magic Steps" <:csenchant:364048663464378391> to target Cepter. (Makes dice roll 2-4 for two rounds and user gains 50G every time they roll the dice.)");
+         message.channel.send("Charging Step <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:20 \nAdds Magic Steps <:csenchant:364048663464378391> to target Cepter. (Makes dice roll 2-4 for two rounds and user gains 50G every time they roll the dice.)");
     }
     if (message.content.startsWith(prefix + "chargingstep") {
-         message.channel.send("Charging Step <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:20 \nAdds "Magic Steps" <:csenchant:364048663464378391> to target Cepter. (Makes dice roll 2-4 for two rounds and user gains 50G every time they roll the dice.)");
+         message.channel.send("Charging Step <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:20 \nAdds Magic Steps <:csenchant:364048663464378391> to target Cepter. (Makes dice roll 2-4 for two rounds and user gains 50G every time they roll the dice.)");
     }
     if (message.content.startsWith(prefix + "Chariot") {
          message.channel.send("Chariot <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:50 \nMoves user\'s target creature 2 spaces. / Recycles to Book.");
@@ -3763,16 +3757,16 @@ client.on('message', message => {
          message.channel.send("Cluster Burst <:craritys:364048663351132162> <:cminstant:364048663498063874> - G:90 \nHP-20 to all creatures of the most numerous element in play. (Including <:cneutral:364043997825597440>.)");
     }
     if (message.content.startsWith(prefix + "Dark World") {
-         message.channel.send("Dark World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds "Anti-Spell" <:csenchant:364048663464378391> to the world. (For 6 rounds, all creatures with an <:csenchant:364048663464378391> cannot be targeted by spells.)");
+         message.channel.send("Dark World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds Anti-Spell <:csenchant:364048663464378391> to the world. (For 6 rounds, all creatures with an <:csenchant:364048663464378391> cannot be targeted by spells.)");
     }
     if (message.content.startsWith(prefix + "DarkWorld") {
-         message.channel.send("Dark World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds "Anti-Spell" <:csenchant:364048663464378391> to the world. (For 6 rounds, all creatures with an <:csenchant:364048663464378391> cannot be targeted by spells.)");
+         message.channel.send("Dark World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds Anti-Spell <:csenchant:364048663464378391> to the world. (For 6 rounds, all creatures with an <:csenchant:364048663464378391> cannot be targeted by spells.)");
     }
     if (message.content.startsWith(prefix + "dark world") {
-         message.channel.send("Dark World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds "Anti-Spell" <:csenchant:364048663464378391> to the world. (For 6 rounds, all creatures with an <:csenchant:364048663464378391> cannot be targeted by spells.)");
+         message.channel.send("Dark World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds Anti-Spell <:csenchant:364048663464378391> to the world. (For 6 rounds, all creatures with an <:csenchant:364048663464378391> cannot be targeted by spells.)");
     }
     if (message.content.startsWith(prefix + "darkworld") {
-         message.channel.send("Dark World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds "Anti-Spell" <:csenchant:364048663464378391> to the world. (For 6 rounds, all creatures with an <:csenchant:364048663464378391> cannot be targeted by spells.)");
+         message.channel.send("Dark World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds Anti-Spell <:csenchant:364048663464378391> to the world. (For 6 rounds, all creatures with an <:csenchant:364048663464378391> cannot be targeted by spells.)");
     }
     if (message.content.startsWith(prefix + "Debility") {
          message.channel.send("Debility <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:40+ <:ccard:364048663426760705> \nST=0 to target creature. / Synthesis: Spells (MHP-20 to target creature.) / User draws a card.");
@@ -3793,28 +3787,28 @@ client.on('message', message => {
          message.channel.send("Discord <:craritys:364048663351132162> <:cminstant:364048663498063874> - G:80+ <:ccard:364048663426760705> \nTransforms all of the most numerous kind of creature on the map into Goblins.");
     }
     if (message.content.startsWith(prefix + "Disease") {
-         message.channel.send("Disease <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds "Ability -20" <:csenchant:364048663464378391> to target creature. (In battle, this creature is inflicted with ST & HP-20.) / User draws a card.");
+         message.channel.send("Disease <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds Ability -20 <:csenchant:364048663464378391> to target creature. (In battle, this creature is inflicted with ST & HP-20.) / User draws a card.");
     }
     if (message.content.startsWith(prefix + "disease") {
-         message.channel.send("Disease <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds "Ability -20" <:csenchant:364048663464378391> to target creature. (In battle, this creature is inflicted with ST & HP-20.) / User draws a card.");
+         message.channel.send("Disease <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds Ability -20 <:csenchant:364048663464378391> to target creature. (In battle, this creature is inflicted with ST & HP-20.) / User draws a card.");
     }
     if (message.content.startsWith(prefix + "Diselement") {
-         message.channel.send("Diselement <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:20+ <:ccard:364048663426760705> \nAdds "Nullify Land Effect" <:csenchant:364048663464378391> to target creature (No land effect). / Synthesis: Creatures (Changes target to "all Fatigued creatures.") / User draws a card.");
+         message.channel.send("Diselement <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:20+ <:ccard:364048663426760705> \nAdds Nullify Land Effect <:csenchant:364048663464378391> to target creature (No land effect). / Synthesis: Creatures (Changes target to "all Fatigued creatures.") / User draws a card.");
     }
     if (message.content.startsWith(prefix + "diselement") {
-         message.channel.send("Diselement <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:20+ <:ccard:364048663426760705> \nAdds "Nullify Land Effect" <:csenchant:364048663464378391> to target creature (No land effect). / Synthesis: Creatures (Changes target to "all Fatigued creatures.") / User draws a card.");
+         message.channel.send("Diselement <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:20+ <:ccard:364048663426760705> \nAdds Nullify Land Effect <:csenchant:364048663464378391> to target creature (No land effect). / Synthesis: Creatures (Changes target to "all Fatigued creatures.") / User draws a card.");
     }
     if (message.content.startsWith(prefix + "Dominant Growth") {
-         message.channel.send("Dominant Growth <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:50 \nAdds "Growth Command" <:csenchant:364048663464378391> to target creature. (MHP+20 when Terrain Change or Land Level Up are used on this creature\'s territory (max. 100).)");
+         message.channel.send("Dominant Growth <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:50 \nAdds Growth Command <:csenchant:364048663464378391> to target creature. (MHP+20 when Terrain Change or Land Level Up are used on this creature\'s territory (max. 100).)");
     }
     if (message.content.startsWith(prefix + "DominantGrowth") {
-         message.channel.send("Dominant Growth <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:50 \nAdds "Growth Command" <:csenchant:364048663464378391> to target creature. (MHP+20 when Terrain Change or Land Level Up are used on this creature\'s territory (max. 100).)");
+         message.channel.send("Dominant Growth <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:50 \nAdds Growth Command <:csenchant:364048663464378391> to target creature. (MHP+20 when Terrain Change or Land Level Up are used on this creature\'s territory (max. 100).)");
     }
     if (message.content.startsWith(prefix + "dominant growth") {
-         message.channel.send("Dominant Growth <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:50 \nAdds "Growth Command" <:csenchant:364048663464378391> to target creature. (MHP+20 when Terrain Change or Land Level Up are used on this creature\'s territory (max. 100).)");
+         message.channel.send("Dominant Growth <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:50 \nAdds Growth Command <:csenchant:364048663464378391> to target creature. (MHP+20 when Terrain Change or Land Level Up are used on this creature\'s territory (max. 100).)");
     }
     if (message.content.startsWith(prefix + "dominantgrowth") {
-         message.channel.send("Dominant Growth <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:50 \nAdds "Growth Command" <:csenchant:364048663464378391> to target creature. (MHP+20 when Terrain Change or Land Level Up are used on this creature\'s territory (max. 100).)");
+         message.channel.send("Dominant Growth <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:50 \nAdds Growth Command <:csenchant:364048663464378391> to target creature. (MHP+20 when Terrain Change or Land Level Up are used on this creature\'s territory (max. 100).)");
     }
     if (message.content.startsWith(prefix + "Drain Magic") {
          message.channel.send("Drain Magic <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:80 \nUser steals 30% of target enemy Cepter\'s Current Magic.");
@@ -3829,16 +3823,16 @@ client.on('message', message => {
          message.channel.send("Drain Magic <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:80 \nUser steals 30% of target enemy Cepter\'s Current Magic.");
     }
     if (message.content.startsWith(prefix + "Dream Terrain") {
-         message.channel.send("Dream Terrain <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds "Shared Toll Fees" <:csenchant:364048663464378391> to user. (For 5 rounds, user gains 50% of tolls collected by other Cepters.)");
+         message.channel.send("Dream Terrain <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds Shared Toll Fees <:csenchant:364048663464378391> to user. (For 5 rounds, user gains 50% of tolls collected by other Cepters.)");
     }
     if (message.content.startsWith(prefix + "DreamTerrain") {
-         message.channel.send("Dream Terrain <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds "Shared Toll Fees" <:csenchant:364048663464378391> to user. (For 5 rounds, user gains 50% of tolls collected by other Cepters.)");
+         message.channel.send("Dream Terrain <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds Shared Toll Fees <:csenchant:364048663464378391> to user. (For 5 rounds, user gains 50% of tolls collected by other Cepters.)");
     }
     if (message.content.startsWith(prefix + "dream terrain") {
-         message.channel.send("Dream Terrain <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds "Shared Toll Fees" <:csenchant:364048663464378391> to user. (For 5 rounds, user gains 50% of tolls collected by other Cepters.)");
+         message.channel.send("Dream Terrain <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds Shared Toll Fees <:csenchant:364048663464378391> to user. (For 5 rounds, user gains 50% of tolls collected by other Cepters.)");
     }
     if (message.content.startsWith(prefix + "dreamterrain") {
-         message.channel.send("Dream Terrain <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds "Shared Toll Fees" <:csenchant:364048663464378391> to user. (For 5 rounds, user gains 50% of tolls collected by other Cepters.)");
+         message.channel.send("Dream Terrain <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds Shared Toll Fees <:csenchant:364048663464378391> to user. (For 5 rounds, user gains 50% of tolls collected by other Cepters.)");
     }
     if (message.content.startsWith(prefix + "Earth Shift") {
          message.channel.send("Earth Shift <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:100 \nChanges target territory belonging to user into a <:cearth:364048663582081034> land.");
@@ -3865,22 +3859,22 @@ client.on('message', message => {
          message.channel.send("Elemental Wrath <:crarityn:364048663661772800> <:cminstant:364048663498063874> - G:70 \nHP-20 to all creatures whose element doesn\'t match the land they\'re on.");
     }
     if (message.content.startsWith(prefix + "Energy Field") {
-         message.channel.send("Energy Field <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:60 \nAdds "Magic Barrier" <:csenchant:364048663464378391> to target creature. (Gain the following abilities: "Neutralizes: Normal Attacks" and "Battle End: Opponent steals 100G.")");
+         message.channel.send("Energy Field <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:60 \nAdds Magic Barrier <:csenchant:364048663464378391> to target creature. (Gain the following abilities: Neutralizes: Normal Attacks and Battle End: Opponent steals 100G.");
     }
     if (message.content.startsWith(prefix + "EnergyField") {
-         message.channel.send("Energy Field <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:60 \nAdds "Magic Barrier" <:csenchant:364048663464378391> to target creature. (Gain the following abilities: "Neutralizes: Normal Attacks" and "Battle End: Opponent steals 100G.")");
+         message.channel.send("Energy Field <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:60 \nAdds Magic Barrier <:csenchant:364048663464378391> to target creature. (Gain the following abilities: Neutralizes: Normal Attacks and Battle End: Opponent steals 100G.");
     }
     if (message.content.startsWith(prefix + "energy field") {
-         message.channel.send("Energy Field <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:60 \nAdds "Magic Barrier" <:csenchant:364048663464378391> to target creature. (Gain the following abilities: "Neutralizes: Normal Attacks" and "Battle End: Opponent steals 100G.")");
+         message.channel.send("Energy Field <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:60 \nAdds Magic Barrier <:csenchant:364048663464378391> to target creature. (Gain the following abilities: Neutralizes: Normal Attacks and Battle End: Opponent steals 100G.");
     }
     if (message.content.startsWith(prefix + "energyfield") {
-         message.channel.send("Energy Field <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:60 \nAdds "Magic Barrier" <:csenchant:364048663464378391> to target creature. (Gain the following abilities: "Neutralizes: Normal Attacks" and "Battle End: Opponent steals 100G.")");
+         message.channel.send("Energy Field <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:60 \nAdds Magic Barrier <:csenchant:364048663464378391> to target creature. (Gain the following abilities: Neutralizes: Normal Attacks and Battle End: Opponent steals 100G.");
     }
     if (message.content.startsWith(prefix + "Erosion") {
-         message.channel.send("Erosion <:crarityr:364045147085864960> <:cminstant:364048663498063874> - G:40+ <:ccard:364048663426760705> \nIf target Cepter has 2 or more of the same card in their hand, those cards are destroyed. / Synthesis: Spells (Changes target to "all Cepters.")");
+         message.channel.send("Erosion <:crarityr:364045147085864960> <:cminstant:364048663498063874> - G:40+ <:ccard:364048663426760705> \nIf target Cepter has 2 or more of the same card in their hand, those cards are destroyed. / Synthesis: Spells (Changes target to all Cepters.");
     }
     if (message.content.startsWith(prefix + "erosion") {
-         message.channel.send("Erosion <:crarityr:364045147085864960> <:cminstant:364048663498063874> - G:40+ <:ccard:364048663426760705> \nIf target Cepter has 2 or more of the same card in their hand, those cards are destroyed. / Synthesis: Spells (Changes target to "all Cepters.")");
+         message.channel.send("Erosion <:crarityr:364045147085864960> <:cminstant:364048663498063874> - G:40+ <:ccard:364048663426760705> \nIf target Cepter has 2 or more of the same card in their hand, those cards are destroyed. / Synthesis: Spells (Changes target to all Cepters.");
     }
     if (message.content.startsWith(prefix + "Escape") {
          message.channel.send("Escape <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:20 \nTransports user to the nearest vacant land. (User cannot roll the dice this turn.)");
@@ -4003,10 +3997,10 @@ client.on('message', message => {
          message.channel.send("Goblin\'s Lair <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:10+ <:ccard:364048663426760705> \nPlaces Goblin on land occupied by user if it is currently vacant. / Recycles to Hand.");
     }
     if (message.content.startsWith(prefix + "Greed") {
-         message.channel.send("Greed <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds "1.5x Toll" <:csenchant:364048663464378391> to target creature. (This creature\'s toll fees are multiplied by 1.5.) / User draws a card.");
+         message.channel.send("Greed <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds 1.5x Toll <:csenchant:364048663464378391> to target creature. (This creature\'s toll fees are multiplied by 1.5.) / User draws a card.");
     }
     if (message.content.startsWith(prefix + "greed") {
-         message.channel.send("Greed <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds "1.5x Toll" <:csenchant:364048663464378391> to target creature. (This creature\'s toll fees are multiplied by 1.5.) / User draws a card.");
+         message.channel.send("Greed <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds 1.5x Toll <:csenchant:364048663464378391> to target creature. (This creature\'s toll fees are multiplied by 1.5.) / User draws a card.");
     }
     if (message.content.startsWith(prefix + "Growth Body") {
          message.channel.send("Growth Body <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:20 \nMHP+10 to target creature (up to a max of 100).");
@@ -4021,964 +4015,11 @@ client.on('message', message => {
          message.channel.send("Growth Body <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:20 \nMHP+10 to target creature (up to a max of 100).");
     }
     if (message.content.startsWith(prefix + "Haste") {
-         message.channel.send("Haste <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:70 \nAdds "Dice 6-8" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next two dice rolls yield from 6 to 8.)");
+         message.channel.send("Haste <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:70 \nAdds Dice 6-8 <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next two dice rolls yield from 6 to 8.)");
     }
     if (message.content.startsWith(prefix + "haste") {
-         message.channel.send("Haste <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:70 \nAdds "Dice 6-8" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next two dice rolls yield from 6 to 8.)");
+         message.channel.send("Haste <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:70 \nAdds Dice 6-8 <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next two dice rolls yield from 6 to 8.)");
     }
-    if (message.content.startsWith(prefix + "Holy Banishment") {
-         message.channel.send("Holy Banishment <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:90 \nReturns target creature to its Cepter\'s hand if the creature\'s element differs from the territory it inhabits.)");
-    }
-    if (message.content.startsWith(prefix + "HolyBanishment") {
-         message.channel.send("Holy Banishment <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:90 \nReturns target creature to its Cepter\'s hand if the creature\'s element differs from the territory it inhabits.)");
-    }
-    if (message.content.startsWith(prefix + "holy banishment") {
-         message.channel.send("Holy Banishment <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:90 \nReturns target creature to its Cepter\'s hand if the creature\'s element differs from the territory it inhabits.)");
-    }
-    if (message.content.startsWith(prefix + "holybanishment") {
-         message.channel.send("Holy Banishment <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:90 \nReturns target creature to its Cepter\'s hand if the creature\'s element differs from the territory it inhabits.)");
-    }
-    if (message.content.startsWith(prefix + "Holy Word 1") {
-         message.channel.send("Holy Word 1 <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds "Dice 1" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 1.)");
-    }
-    if (message.content.startsWith(prefix + "HolyWord 1") {
-         message.channel.send("Holy Word 1 <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds "Dice 1" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 1.)");
-    }
-    if (message.content.startsWith(prefix + "HolyWord1") {
-         message.channel.send("Holy Word 1 <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds "Dice 1" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 1.)");
-    }
-    if (message.content.startsWith(prefix + "HW 1") {
-         message.channel.send("Holy Word 1 <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds "Dice 1" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 1.)");
-    }
-    if (message.content.startsWith(prefix + "HW1") {
-         message.channel.send("Holy Word 1 <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds "Dice 1" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 1.)");
-    }
-    if (message.content.startsWith(prefix + "holy word 1") {
-         message.channel.send("Holy Word 1 <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds "Dice 1" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 1.)");
-    }
-    if (message.content.startsWith(prefix + "holyWord 1") {
-         message.channel.send("Holy Word 1 <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds "Dice 1" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 1.)");
-    }
-    if (message.content.startsWith(prefix + "holyWord1") {
-         message.channel.send("Holy Word 1 <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds "Dice 1" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 1.)");
-    }
-    if (message.content.startsWith(prefix + "hw 1") {
-         message.channel.send("Holy Word 1 <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds "Dice 1" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 1.)");
-    }
-    if (message.content.startsWith(prefix + "hw1") {
-         message.channel.send("Holy Word 1 <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds "Dice 1" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 1.)");
-    }
-    if (message.content.startsWith(prefix + "Holy Word 3") {
-         message.channel.send("Holy Word 3 <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds "Dice 3" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 3.)");
-    }
-    if (message.content.startsWith(prefix + "HolyWord 3") {
-         message.channel.send("Holy Word 3 <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds "Dice 3" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 3.)");
-    }
-    if (message.content.startsWith(prefix + "HolyWord3") {
-         message.channel.send("Holy Word 3 <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds "Dice 3" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 3.)");
-    }
-    if (message.content.startsWith(prefix + "HW 3") {
-         message.channel.send("Holy Word 3 <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds "Dice 3" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 3.)");
-    }
-    if (message.content.startsWith(prefix + "HW3") {
-         message.channel.send("Holy Word 3 <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds "Dice 3" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 3.)");
-    }
-    if (message.content.startsWith(prefix + "holy word 3") {
-         message.channel.send("Holy Word 3 <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds "Dice 3" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 3.)");
-    }
-    if (message.content.startsWith(prefix + "holyword 3") {
-         message.channel.send("Holy Word 3 <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds "Dice 3" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 3.)");
-    }
-    if (message.content.startsWith(prefix + "holyword3") {
-         message.channel.send("Holy Word 3 <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds "Dice 3" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 3.)");
-    }
-    if (message.content.startsWith(prefix + "hw 3") {
-         message.channel.send("Holy Word 3 <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds "Dice 3" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 3.)");
-    }
-    if (message.content.startsWith(prefix + "hw3") {
-         message.channel.send("Holy Word 3 <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds "Dice 3" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 3.)");
-    }
-    if (message.content.startsWith(prefix + "Holy Word 6") {
-         message.channel.send("Holy Word 6 <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:50 \nAdds "Dice 6" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 6.)");
-    }
-    if (message.content.startsWith(prefix + "HolyWord 6") {
-         message.channel.send("Holy Word 6 <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:50 \nAdds "Dice 6" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 6.)");
-    }
-    if (message.content.startsWith(prefix + "HolyWord6") {
-         message.channel.send("Holy Word 6 <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:50 \nAdds "Dice 6" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 6.)");
-    }
-    if (message.content.startsWith(prefix + "HW 6") {
-         message.channel.send("Holy Word 6 <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:50 \nAdds "Dice 6" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 6.)");
-    }
-    if (message.content.startsWith(prefix + "HW6") {
-         message.channel.send("Holy Word 6 <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:50 \nAdds "Dice 6" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 6.)");
-    }
-    if (message.content.startsWith(prefix + "holy word 6") {
-         message.channel.send("Holy Word 6 <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:50 \nAdds "Dice 6" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 6.)");
-    }
-    if (message.content.startsWith(prefix + "holyword 6") {
-         message.channel.send("Holy Word 6 <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:50 \nAdds "Dice 6" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 6.)");
-    }
-    if (message.content.startsWith(prefix + "holyword6") {
-         message.channel.send("Holy Word 6 <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:50 \nAdds "Dice 6" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 6.)");
-    }
-    if (message.content.startsWith(prefix + "hw 6") {
-         message.channel.send("Holy Word 6 <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:50 \nAdds "Dice 6" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 6.)");
-    }
-    if (message.content.startsWith(prefix + "hw6") {
-         message.channel.send("Holy Word 6 <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:50 \nAdds "Dice 6" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 6.)");
-    }
-    if (message.content.startsWith(prefix + "Holy Word 8") {
-         message.channel.send("Holy Word 8 <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:80 \nAdds "Dice 8" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 8.)");
-    }
-    if (message.content.startsWith(prefix + "HolyWord 8") {
-         message.channel.send("Holy Word 8 <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:80 \nAdds "Dice 8" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 8.)");
-    }
-    if (message.content.startsWith(prefix + "HolyWord8") {
-         message.channel.send("Holy Word 8 <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:80 \nAdds "Dice 8" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 8.)");
-    }
-    if (message.content.startsWith(prefix + "HW 8") {
-         message.channel.send("Holy Word 8 <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:80 \nAdds "Dice 8" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 8.)");
-    }
-    if (message.content.startsWith(prefix + "HW8") {
-         message.channel.send("Holy Word 8 <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:80 \nAdds "Dice 8" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 8.)");
-    }
-    if (message.content.startsWith(prefix + "holy word 8") {
-         message.channel.send("Holy Word 8 <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:80 \nAdds "Dice 8" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 8.)");
-    }
-    if (message.content.startsWith(prefix + "holyword 8") {
-         message.channel.send("Holy Word 8 <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:80 \nAdds "Dice 8" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 8.)");
-    }
-    if (message.content.startsWith(prefix + "holyword8") {
-         message.channel.send("Holy Word 8 <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:80 \nAdds "Dice 8" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 8.)");
-    }
-    if (message.content.startsWith(prefix + "hw 8") {
-         message.channel.send("Holy Word 8 <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:80 \nAdds "Dice 8" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 8.)");
-    }
-    if (message.content.startsWith(prefix + "hw8") {
-         message.channel.send("Holy Word 8 <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:80 \nAdds "Dice 8" <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 8.)");
-    }
-    if (message.content.startsWith(prefix + "Home Ground") {
-         message.channel.send("Home Ground <:crarityr:364045147085864960> <:cminstant:364048663498063874> - G:100 \nHidden / If user has 4 or more placed creatures whose element doesn\'t match the land they\'re on, the lands will change to match the creatures. / If not, Recycles to book.");
-    }
-    if (message.content.startsWith(prefix + "HomeGround") {
-         message.channel.send("Home Ground <:crarityr:364045147085864960> <:cminstant:364048663498063874> - G:100 \nHidden / If user has 4 or more placed creatures whose element doesn\'t match the land they\'re on, the lands will change to match the creatures. / If not, Recycles to book.");
-    }
-    if (message.content.startsWith(prefix + "home ground") {
-         message.channel.send("Home Ground <:crarityr:364045147085864960> <:cminstant:364048663498063874> - G:100 \nHidden / If user has 4 or more placed creatures whose element doesn\'t match the land they\'re on, the lands will change to match the creatures. / If not, Recycles to book.");
-    }
-    if (message.content.startsWith(prefix + "homeground") {
-         message.channel.send("Home Ground <:crarityr:364045147085864960> <:cminstant:364048663498063874> - G:100 \nHidden / If user has 4 or more placed creatures whose element doesn\'t match the land they\'re on, the lands will change to match the creatures. / If not, Recycles to book.");
-    }
-    if (message.content.startsWith(prefix + "Hyperactive") {
-         message.channel.send("Hyperactive <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds "Vigorous" <:csenchant:364048663464378391> to target creature. (For 5 rounds, target creature gains the Vigorous ability.)");
-    }
-    if (message.content.startsWith(prefix + "hyperactive") {
-         message.channel.send("Hyperactive <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds "Vigorous" <:csenchant:364048663464378391> to target creature. (For 5 rounds, target creature gains the Vigorous ability.)");
-    }
-    if (message.content.startsWith(prefix + "Immobilize") {
-         message.channel.send("Immobilize <:crarityr:364045147085864960> <:cmenchant:364048663447601153> - G:80 \nAdds "Immobilize" <:csenchant:364048663464378391> to all creatures. (Cannot be moved by Territory Commands.)");
-    }
-    if (message.content.startsWith(prefix + "immobilize") {
-         message.channel.send("Immobilize <:crarityr:364045147085864960> <:cmenchant:364048663447601153> - G:80 \nAdds "Immobilize" <:csenchant:364048663464378391> to all creatures. (Cannot be moved by Territory Commands.)");
-    }
-    if (message.content.startsWith(prefix + "Incineration") {
-         message.channel.send("Incineration \n Strange <:csinstant:364048663447863298> - G:10 \nUser gains (number of creatures destroyed thus far x20)G, then the number is reset.");
-    }
-    if (message.content.startsWith(prefix + "incineration") {
-         message.channel.send("Incineration \n Strange <:csinstant:364048663447863298> - G:10 \nUser gains (number of creatures destroyed thus far x20)G, then the number is reset.");
-    }
-    if (message.content.startsWith(prefix + "Influence") {
-         message.channel.send("Influence <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:80 \nChanges target territory into its owner\'s most numerous land element.");
-    }
-    if (message.content.startsWith(prefix + "influence") {
-         message.channel.send("Influence <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:80 \nChanges target territory into its owner\'s most numerous land element.");
-    }
-    if (message.content.startsWith(prefix + "Insect Swarm") {
-         message.channel.send("Insect Swarm <:crarityr:364045147085864960> <:cminstant:364048663498063874> - G:120 \nHP-20 to all creatures that are not at maximum HP.");
-    }
-    if (message.content.startsWith(prefix + "InsectSwarm") {
-         message.channel.send("Insect Swarm <:crarityr:364045147085864960> <:cminstant:364048663498063874> - G:120 \nHP-20 to all creatures that are not at maximum HP.");
-    }
-    if (message.content.startsWith(prefix + "insect swarm") {
-         message.channel.send("Insect Swarm <:crarityr:364045147085864960> <:cminstant:364048663498063874> - G:120 \nHP-20 to all creatures that are not at maximum HP.");
-    }
-    if (message.content.startsWith(prefix + "insectswarm") {
-         message.channel.send("Insect Swarm <:crarityr:364045147085864960> <:cminstant:364048663498063874> - G:120 \nHP-20 to all creatures that are not at maximum HP.");
-    }
-    if (message.content.startsWith(prefix + "Joint World") {
-         message.channel.send("Joint World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:50 \nAdds "Cross-Element Chains" <:csenchant:364048663464378391> to world. (For 6 rounds, <:cfire:364048663355588609> and <:cearth:364048663582081034> territories chain together and <:cwater:364048663447601154> and <:cair:364048663518904327> territories chain together.)");
-    }
-    if (message.content.startsWith(prefix + "JointWorld") {
-         message.channel.send("Joint World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:50 \nAdds "Cross-Element Chains" <:csenchant:364048663464378391> to world. (For 6 rounds, <:cfire:364048663355588609> and <:cearth:364048663582081034> territories chain together and <:cwater:364048663447601154> and <:cair:364048663518904327> territories chain together.)");
-    }
-    if (message.content.startsWith(prefix + "joint world") {
-         message.channel.send("Joint World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:50 \nAdds "Cross-Element Chains" <:csenchant:364048663464378391> to world. (For 6 rounds, <:cfire:364048663355588609> and <:cearth:364048663582081034> territories chain together and <:cwater:364048663447601154> and <:cair:364048663518904327> territories chain together.)");
-    }
-    if (message.content.startsWith(prefix + "jointworld") {
-         message.channel.send("Joint World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:50 \nAdds "Cross-Element Chains" <:csenchant:364048663464378391> to world. (For 6 rounds, <:cfire:364048663355588609> and <:cearth:364048663582081034> territories chain together and <:cwater:364048663447601154> and <:cair:364048663518904327> territories chain together.)");
-    }
-    if (message.content.startsWith(prefix + "Land Drain") {
-         message.channel.send("Land Drain <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:50 \nUser steals (number of target\'s possessed territories x30)G from target enemy Cepter.");
-    }
-    if (message.content.startsWith(prefix + "LandDrain") {
-         message.channel.send("Land Drain <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:50 \nUser steals (number of target\'s possessed territories x30)G from target enemy Cepter.");
-    }
-    if (message.content.startsWith(prefix + "land drain") {
-         message.channel.send("Land Drain <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:50 \nUser steals (number of target\'s possessed territories x30)G from target enemy Cepter.");
-    }
-    if (message.content.startsWith(prefix + "landdrain") {
-         message.channel.send("Land Drain <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:50 \nUser steals (number of target\'s possessed territories x30)G from target enemy Cepter.");
-    }
-    if (message.content.startsWith(prefix + "Land Transfer") {
-         message.channel.send("Land Transfer <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:100 \nReleases target territory from user\'s control and reverts it to magic at 70% of its value.");
-    }
-    if (message.content.startsWith(prefix + "LandTransfer") {
-         message.channel.send("Land Transfer <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:100 \nReleases target territory from user\'s control and reverts it to magic at 70% of its value.");
-    }
-    if (message.content.startsWith(prefix + "land transfer") {
-         message.channel.send("Land Transfer <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:100 \nReleases target territory from user\'s control and reverts it to magic at 70% of its value.");
-    }
-    if (message.content.startsWith(prefix + "landtransfer") {
-         message.channel.send("Land Transfer <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:100 \nReleases target territory from user\'s control and reverts it to magic at 70% of its value.");
-    }
-    if (message.content.startsWith(prefix + "Life Force") {
-         message.channel.send("Life Force <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:50 \nAdds "Life Force" <:csenchant:364048663464378391> to target Cepter. (Creature and Item Card\'s cost becomes 0G. When this Cepter uses a spell, that spell is neutralized and this <:csenchant:364048663464378391> vanishes.)");
-    }
-    if (message.content.startsWith(prefix + "LifeForce") {
-         message.channel.send("Life Force <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:50 \nAdds "Life Force" <:csenchant:364048663464378391> to target Cepter. (Creature and Item Card\'s cost becomes 0G. When this Cepter uses a spell, that spell is neutralized and this <:csenchant:364048663464378391> vanishes.)");
-    }
-    if (message.content.startsWith(prefix + "life force") {
-         message.channel.send("Life Force <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:50 \nAdds "Life Force" <:csenchant:364048663464378391> to target Cepter. (Creature and Item Card\'s cost becomes 0G. When this Cepter uses a spell, that spell is neutralized and this <:csenchant:364048663464378391> vanishes.)");
-    }
-    if (message.content.startsWith(prefix + "lifeforce") {
-         message.channel.send("Life Force <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:50 \nAdds "Life Force" <:csenchant:364048663464378391> to target Cepter. (Creature and Item Card\'s cost becomes 0G. When this Cepter uses a spell, that spell is neutralized and this <:csenchant:364048663464378391> vanishes.)");
-    }
-    if (message.content.startsWith(prefix + "Life Stream") {
-         message.channel.send("Life Stream <:crarityn:364048663661772800> <:cminstant:364048663498063874> - G:50 \nFully recovers the HP of all creatures owned by the user.");
-    }
-    if (message.content.startsWith(prefix + "LifeStream") {
-         message.channel.send("Life Stream <:crarityn:364048663661772800> <:cminstant:364048663498063874> - G:50 \nFully recovers the HP of all creatures owned by the user.");
-    }
-    if (message.content.startsWith(prefix + "life stream") {
-         message.channel.send("Life Stream <:crarityn:364048663661772800> <:cminstant:364048663498063874> - G:50 \nFully recovers the HP of all creatures owned by the user.");
-    }
-    if (message.content.startsWith(prefix + "lifestream") {
-         message.channel.send("Life Stream <:crarityn:364048663661772800> <:cminstant:364048663498063874> - G:50 \nFully recovers the HP of all creatures owned by the user.");
-    }
-    if (message.content.startsWith(prefix + "Liquid Form") {
-         message.channel.send("Liquid Form <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds "Random Ability Value" <:csenchant:364048663464378391> to target creature. (In battle, target creature\'s ST & HP= Random value between 10-70.) / User draws a card.");
-    }
-    if (message.content.startsWith(prefix + "LiquidForm") {
-         message.channel.send("Liquid Form <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds "Random Ability Value" <:csenchant:364048663464378391> to target creature. (In battle, target creature\'s ST & HP= Random value between 10-70.) / User draws a card.");
-    }
-    if (message.content.startsWith(prefix + "liquid form") {
-         message.channel.send("Liquid Form <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds "Random Ability Value" <:csenchant:364048663464378391> to target creature. (In battle, target creature\'s ST & HP= Random value between 10-70.) / User draws a card.");
-    }
-    if (message.content.startsWith(prefix + "liquidform") {
-         message.channel.send("Liquid Form <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds "Random Ability Value" <:csenchant:364048663464378391> to target creature. (In battle, target creature\'s ST & HP= Random value between 10-70.) / User draws a card.");
-    }
-    if (message.content.startsWith(prefix + "Long Line") {
-         message.channel.send("Long Line <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:70 \nHidden / If user owns 4 or more territories in a row, user gains 500G. / If not, user draws 2 cards.");
-    }
-    if (message.content.startsWith(prefix + "LongLine") {
-         message.channel.send("Long Line <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:70 \nHidden / If user owns 4 or more territories in a row, user gains 500G. / If not, user draws 2 cards.");
-    }
-    if (message.content.startsWith(prefix + "long line") {
-         message.channel.send("Long Line <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:70 \nHidden / If user owns 4 or more territories in a row, user gains 500G. / If not, user draws 2 cards.");
-    }
-    if (message.content.startsWith(prefix + "longline") {
-         message.channel.send("Long Line <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:70 \nHidden / If user owns 4 or more territories in a row, user gains 500G. / If not, user draws 2 cards.");
-    }
-    if (message.content.startsWith(prefix + "Magic Bolt") {
-         message.channel.send("Magic Bolt <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:50 \nHP-20 to target enemy creature.");
-    }
-    if (message.content.startsWith(prefix + "MagicBolt") {
-         message.channel.send("Magic Bolt <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:50 \nHP-20 to target enemy creature.");
-    }
-    if (message.content.startsWith(prefix + "magic bolt") {
-         message.channel.send("Magic Bolt <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:50 \nHP-20 to target enemy creature.");
-    }
-    if (message.content.startsWith(prefix + "magicbolt") {
-         message.channel.send("Magic Bolt <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:50 \nHP-20 to target enemy creature.");
-    }
-    if (message.content.startsWith(prefix + "Magic Shelter") {
-         message.channel.send("Magic Shelter <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:70 \nAdds "Anti-Spell Wall" <:csenchant:364048663464378391> to target creature. (Target creature cannot be targeted by spells and will be treated as if it has the Defensive ability.)");
-    }
-    if (message.content.startsWith(prefix + "MagicShelter") {
-         message.channel.send("Magic Shelter <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:70 \nAdds "Anti-Spell Wall" <:csenchant:364048663464378391> to target creature. (Target creature cannot be targeted by spells and will be treated as if it has the Defensive ability.)");
-    }
-    if (message.content.startsWith(prefix + "magic shelter") {
-         message.channel.send("Magic Shelter <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:70 \nAdds "Anti-Spell Wall" <:csenchant:364048663464378391> to target creature. (Target creature cannot be targeted by spells and will be treated as if it has the Defensive ability.)");
-    }
-    if (message.content.startsWith(prefix + "magicshelter") {
-         message.channel.send("Magic Shelter <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:70 \nAdds "Anti-Spell Wall" <:csenchant:364048663464378391> to target creature. (Target creature cannot be targeted by spells and will be treated as if it has the Defensive ability.)");
-    }
-    if (message.content.startsWith(prefix + "Magical Leap") {
-         message.channel.send("Magical Leap <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:70 \nTransports user to any nearby territory of user\'s choice within 1 to 4 spaces. User cannot roll the dice this turn.");
-    }
-    if (message.content.startsWith(prefix + "MagicalLeap") {
-         message.channel.send("Magical Leap <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:70 \nTransports user to any nearby territory of user\'s choice within 1 to 4 spaces. User cannot roll the dice this turn.");
-    }
-    if (message.content.startsWith(prefix + "magical leap") {
-         message.channel.send("Magical Leap <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:70 \nTransports user to any nearby territory of user\'s choice within 1 to 4 spaces. User cannot roll the dice this turn.");
-    }
-    if (message.content.startsWith(prefix + "magicalleap") {
-         message.channel.send("Magical Leap <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:70 \nTransports user to any nearby territory of user\'s choice within 1 to 4 spaces. User cannot roll the dice this turn.");
-    }
-    if (message.content.startsWith(prefix + "Magma Shift") {
-         message.channel.send("Magma Shift <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:120 \nChanges target level 3 or lower <:cfire:364048663355588609> territory into a <:cearth:364048663582081034> land, or changes target level 3 or lower <:cearth:364048663582081034> territory into a <:cfire:364048663355588609> land.");
-    }
-    if (message.content.startsWith(prefix + "MagmaShift") {
-         message.channel.send("Magma Shift <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:120 \nChanges target level 3 or lower <:cfire:364048663355588609> territory into a <:cearth:364048663582081034> land, or changes target level 3 or lower <:cearth:364048663582081034> territory into a <:cfire:364048663355588609> land.");
-    }
-    if (message.content.startsWith(prefix + "magma shift") {
-         message.channel.send("Magma Shift <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:120 \nChanges target level 3 or lower <:cfire:364048663355588609> territory into a <:cearth:364048663582081034> land, or changes target level 3 or lower <:cearth:364048663582081034> territory into a <:cfire:364048663355588609> land.");
-    }
-    if (message.content.startsWith(prefix + "magmashift") {
-         message.channel.send("Magma Shift <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:120 \nChanges target level 3 or lower <:cfire:364048663355588609> territory into a <:cearth:364048663582081034> land, or changes target level 3 or lower <:cearth:364048663582081034> territory into a <:cfire:364048663355588609> land.");
-    }
-    if (message.content.startsWith(prefix + "Manna") {
-         message.channel.send("Manna <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:0 \nUser gains (lap number x50)G.");
-    }
-    if (message.content.startsWith(prefix + "manna") {
-         message.channel.send("Manna <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:0 \nUser gains (lap number x50)G.");
-    }
-    if (message.content.startsWith(prefix + "Mass Growth") {
-         message.channel.send("Mass Growth <:craritys:364048663351132162> <:cminstant:364048663498063874> - G:30+ <:ccard:364048663426760705> \nMHP+5 to all creatures (up to a max of 100). / Synthesis: Items (Changes target to "all creatures owned by the user.")");
-    }
-    if (message.content.startsWith(prefix + "MassGrowth") {
-         message.channel.send("Mass Growth <:craritys:364048663351132162> <:cminstant:364048663498063874> - G:30+ <:ccard:364048663426760705> \nMHP+5 to all creatures (up to a max of 100). / Synthesis: Items (Changes target to "all creatures owned by the user.")");
-    }
-    if (message.content.startsWith(prefix + "mass growth") {
-         message.channel.send("Mass Growth <:craritys:364048663351132162> <:cminstant:364048663498063874> - G:30+ <:ccard:364048663426760705> \nMHP+5 to all creatures (up to a max of 100). / Synthesis: Items (Changes target to "all creatures owned by the user.")");
-    }
-    if (message.content.startsWith(prefix + "massgrowth") {
-         message.channel.send("Mass Growth <:craritys:364048663351132162> <:cminstant:364048663498063874> - G:30+ <:ccard:364048663426760705> \nMHP+5 to all creatures (up to a max of 100). / Synthesis: Items (Changes target to "all creatures owned by the user.")");
-    }
-    if (message.content.startsWith(prefix + "Mass Phantasm") {
-         message.channel.send("Mass Phantasm <:crarityn:364048663661772800> <:cmenchant:364048663447601153> - G:70 \nAdds "Nullified HP Effects" <:csenchant:364048663464378391> to all creatures. (HP and MHP cannot be altered by spells.)");
-    }
-    if (message.content.startsWith(prefix + "MassPhantasm") {
-         message.channel.send("Mass Phantasm <:crarityn:364048663661772800> <:cmenchant:364048663447601153> - G:70 \nAdds "Nullified HP Effects" <:csenchant:364048663464378391> to all creatures. (HP and MHP cannot be altered by spells.)");
-    }
-    if (message.content.startsWith(prefix + "mass phantasm") {
-         message.channel.send("Mass Phantasm <:crarityn:364048663661772800> <:cmenchant:364048663447601153> - G:70 \nAdds "Nullified HP Effects" <:csenchant:364048663464378391> to all creatures. (HP and MHP cannot be altered by spells.)");
-    }
-    if (message.content.startsWith(prefix + "massphantasm") {
-         message.channel.send("Mass Phantasm <:crarityn:364048663661772800> <:cmenchant:364048663447601153> - G:70 \nAdds "Nullified HP Effects" <:csenchant:364048663464378391> to all creatures. (HP and MHP cannot be altered by spells.)");
-    }
-    if (message.content.startsWith(prefix + "Merciful World") {
-         message.channel.send("Merciful World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:50 \nAdds "Mercy" <:csenchant:364048663464378391> to world. (For 6 rounds, all Cepters cannot invade territories of Cepters ranked below them.)");
-    }
-    if (message.content.startsWith(prefix + "MercifulWorld") {
-         message.channel.send("Merciful World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:50 \nAdds "Mercy" <:csenchant:364048663464378391> to world. (For 6 rounds, all Cepters cannot invade territories of Cepters ranked below them.)");
-    }
-    if (message.content.startsWith(prefix + "merciful world") {
-         message.channel.send("Merciful World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:50 \nAdds "Mercy" <:csenchant:364048663464378391> to world. (For 6 rounds, all Cepters cannot invade territories of Cepters ranked below them.)");
-    }
-    if (message.content.startsWith(prefix + "mercifulworld") {
-         message.channel.send("Merciful World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:50 \nAdds "Mercy" <:csenchant:364048663464378391> to world. (For 6 rounds, all Cepters cannot invade territories of Cepters ranked below them.)");
-    }
-    if (message.content.startsWith(prefix + "Metal Form") {
-         message.channel.send("Metal Form <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:70 \nAdds "Metallization" <:csenchant:364048663464378391> to target creature. (Has "Neutralizes: Normal Attacks", but cannot use armor.)");
-    }
-    if (message.content.startsWith(prefix + "MetalForm") {
-         message.channel.send("Metal Form <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:70 \nAdds "Metallization" <:csenchant:364048663464378391> to target creature. (Has "Neutralizes: Normal Attacks", but cannot use armor.)");
-    }
-    if (message.content.startsWith(prefix + "metal form") {
-         message.channel.send("Metal Form <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:70 \nAdds "Metallization" <:csenchant:364048663464378391> to target creature. (Has "Neutralizes: Normal Attacks", but cannot use armor.)");
-    }
-    if (message.content.startsWith(prefix + "metalform") {
-         message.channel.send("Metal Form <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:70 \nAdds "Metallization" <:csenchant:364048663464378391> to target creature. (Has "Neutralizes: Normal Attacks", but cannot use armor.)");
-    }
-    if (message.content.startsWith(prefix + "Metamorphosis") {
-         message.channel.send("Metamorphosis <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:80+ <:ccard:364048663426760705> \nUser selects an item or Spell Card from target enemy Cepter\'s hand and changes all copies of the selected card in all Cepters\' hands and books to Holy Word 6.");
-    }
-    if (message.content.startsWith(prefix + "metamorphosis") {
-         message.channel.send("Metamorphosis <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:80+ <:ccard:364048663426760705> \nUser selects an item or Spell Card from target enemy Cepter\'s hand and changes all copies of the selected card in all Cepters\' hands and books to Holy Word 6.");
-    }
-    if (message.content.startsWith(prefix + "Miracle Call") {
-         message.channel.send("Miracle Call <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:70 \nUser draws 1 Evo Card from their book. / If an Evo Card can\'t be drawn, user draws 2 cards instead.");
-    }
-    if (message.content.startsWith(prefix + "MiracleCall") {
-         message.channel.send("Miracle Call <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:70 \nUser draws 1 Evo Card from their book. / If an Evo Card can\'t be drawn, user draws 2 cards instead.");
-    }
-    if (message.content.startsWith(prefix + "miracle call") {
-         message.channel.send("Miracle Call <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:70 \nUser draws 1 Evo Card from their book. / If an Evo Card can\'t be drawn, user draws 2 cards instead.");
-    }
-    if (message.content.startsWith(prefix + "miraclecall") {
-         message.channel.send("Miracle Call <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:70 \nUser draws 1 Evo Card from their book. / If an Evo Card can\'t be drawn, user draws 2 cards instead.");
-    }
-    if (message.content.startsWith(prefix + "Mirror World") {
-         message.channel.send("Mirror World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds "Extinction" <:csenchant:364048663464378391> to world. (For 6 rounds, at Battle Start, if either creature has multiple copies in play, that creature is destroyed.)");
-    }
-    if (message.content.startsWith(prefix + "MirrorWorld") {
-         message.channel.send("Mirror World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds "Extinction" <:csenchant:364048663464378391> to world. (For 6 rounds, at Battle Start, if either creature has multiple copies in play, that creature is destroyed.)");
-    }
-    if (message.content.startsWith(prefix + "mirror world") {
-         message.channel.send("Mirror World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds "Extinction" <:csenchant:364048663464378391> to world. (For 6 rounds, at Battle Start, if either creature has multiple copies in play, that creature is destroyed.)");
-    }
-    if (message.content.startsWith(prefix + "mirrorworld") {
-         message.channel.send("Mirror World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds "Extinction" <:csenchant:364048663464378391> to world. (For 6 rounds, at Battle Start, if either creature has multiple copies in play, that creature is destroyed.)");
-    }
-    if (message.content.startsWith(prefix + "Misty World") {
-         message.channel.send("Misty World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:50 \nAdds "Anti-Spell" <:csenchant:364048663464378391> to the world. (For 6 rounds, all Cepters cannot be targeted by spells.)");
-    }
-    if (message.content.startsWith(prefix + "MistyWorld") {
-         message.channel.send("Misty World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:50 \nAdds "Anti-Spell" <:csenchant:364048663464378391> to the world. (For 6 rounds, all Cepters cannot be targeted by spells.)");
-    }
-    if (message.content.startsWith(prefix + "misty world") {
-         message.channel.send("Misty World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:50 \nAdds "Anti-Spell" <:csenchant:364048663464378391> to the world. (For 6 rounds, all Cepters cannot be targeted by spells.)");
-    }
-    if (message.content.startsWith(prefix + "mistyworld") {
-         message.channel.send("Misty World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:50 \nAdds "Anti-Spell" <:csenchant:364048663464378391> to the world. (For 6 rounds, all Cepters cannot be targeted by spells.)");
-    }
-    if (message.content.startsWith(prefix + "Natural World") {
-         message.channel.send("Natural World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds "Abilities Disabled" <:csenchant:364048663464378391> to the world. (For 6 rounds, Secret Art, Upon Defeat, and Battle End abilities do not activate.)");
-    }
-    if (message.content.startsWith(prefix + "NaturalWorld") {
-         message.channel.send("Natural World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds "Abilities Disabled" <:csenchant:364048663464378391> to the world. (For 6 rounds, Secret Art, Upon Defeat, and Battle End abilities do not activate.)");
-    }
-    if (message.content.startsWith(prefix + "natural world") {
-         message.channel.send("Natural World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds "Abilities Disabled" <:csenchant:364048663464378391> to the world. (For 6 rounds, Secret Art, Upon Defeat, and Battle End abilities do not activate.)");
-    }
-    if (message.content.startsWith(prefix + "naturalworld") {
-         message.channel.send("Natural World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds "Abilities Disabled" <:csenchant:364048663464378391> to the world. (For 6 rounds, Secret Art, Upon Defeat, and Battle End abilities do not activate.)");
-    }
-    if (message.content.startsWith(prefix + "Obliteration") {
-         message.channel.send("Obliteration <:crarityr:364045147085864960> <:cminstant:364048663498063874> - G:80 \nAll Cepters lose (number of Element Gems owned x70)G. / If there is no Gem Store, all Cepters lose 10% of their current magic.");
-    }
-    if (message.content.startsWith(prefix + "obliteration") {
-         message.channel.send("Obliteration <:crarityr:364045147085864960> <:cminstant:364048663498063874> - G:80 \nAll Cepters lose (number of Element Gems owned x70)G. / If there is no Gem Store, all Cepters lose 10% of their current magic.");
-    }
-    if (message.content.startsWith(prefix + "Outrage") {
-         message.channel.send("Outrage <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:100 \nMoves target creature to adjacent enemy territory.");
-    }
-    if (message.content.startsWith(prefix + "outrage") {
-         message.channel.send("Outrage <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:100 \nMoves target creature to adjacent enemy territory.");
-    }
-    if (message.content.startsWith(prefix + "Pacifism") {
-         message.channel.send("Pacifism <:crarityn:364048663661772800> <:cmenchant:364048663447601153> - G:70 \nAdds "No Invasions" <:csenchant:364048663464378391> to all Cepters. (For 2 rounds, you cannot invade.)");
-    }
-    if (message.content.startsWith(prefix + "pacifism") {
-         message.channel.send("Pacifism <:crarityn:364048663661772800> <:cmenchant:364048663447601153> - G:70 \nAdds "No Invasions" <:csenchant:364048663464378391> to all Cepters. (For 2 rounds, you cannot invade.)");
-    }
-    if (message.content.startsWith(prefix + "Peace") {
-         message.channel.send("Peace <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:70 \nAdds "Peace" <:csenchant:364048663464378391> to target creature. (Cannot be invaded, and toll becomes 0G.)");
-    }
-    if (message.content.startsWith(prefix + "peace") {
-         message.channel.send("Peace <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:70 \nAdds "Peace" <:csenchant:364048663464378391> to target creature. (Cannot be invaded, and toll becomes 0G.)");
-    }
-    if (message.content.startsWith(prefix + "Penalize") {
-         message.channel.send("Penalize <:crarityr:364045147085864960> <:cmenchant:364048663447601153> - G:80 \nAdds "Paralysis" <:csenchant:364048663464378391> to all Evo Cards. (Can\'t attack or use items, and abilities do not activate.)");
-    }
-    if (message.content.startsWith(prefix + "penalize") {
-         message.channel.send("Penalize <:crarityr:364045147085864960> <:cmenchant:364048663447601153> - G:80 \nAdds "Paralysis" <:csenchant:364048663464378391> to all Evo Cards. (Can\'t attack or use items, and abilities do not activate.)");
-    }
-    if (message.content.startsWith(prefix + "Philosophy") {
-         message.channel.send("Philosophy <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:50 \nIf user has a card with the Synthesis ability in hand, draw 3 cards / If not, user draws 2 cards.");
-    }
-    if (message.content.startsWith(prefix + "philosophy") {
-         message.channel.send("Philosophy <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:50 \nIf user has a card with the Synthesis ability in hand, draw 3 cards / If not, user draws 2 cards.");
-    }
-    if (message.content.startsWith(prefix + "Plague") {
-         message.channel.send("Plague <:craritys:364048663351132162> <:cmenchant:364048663447601153> - G:100 \nAdds "Poison" <:csenchant:364048663464378391> to all creatures. (At the end of a battle, the creature\'s base HP is reduced by half of its MHP.)");
-    }
-    if (message.content.startsWith(prefix + "plague") {
-         message.channel.send("Plague <:craritys:364048663351132162> <:cmenchant:364048663447601153> - G:100 \nAdds "Poison" <:csenchant:364048663464378391> to all creatures. (At the end of a battle, the creature\'s base HP is reduced by half of its MHP.)");
-    }
-    if (message.content.startsWith(prefix + "Poison Mind") {
-         message.channel.send("Poison Mind <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:20 \nUser views the top 6 cards in target enemy Cepter\'s book, then selects 1 to destroy. / User draws a card.");
-    }
-    if (message.content.startsWith(prefix + "PoisonMind") {
-         message.channel.send("Poison Mind <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:20 \nUser views the top 6 cards in target enemy Cepter\'s book, then selects 1 to destroy. / User draws a card.");
-    }
-    if (message.content.startsWith(prefix + "poison mind") {
-         message.channel.send("Poison Mind <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:20 \nUser views the top 6 cards in target enemy Cepter\'s book, then selects 1 to destroy. / User draws a card.");
-    }
-    if (message.content.startsWith(prefix + "poisonmind") {
-         message.channel.send("Poison Mind <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:20 \nUser views the top 6 cards in target enemy Cepter\'s book, then selects 1 to destroy. / User draws a card.");
-    }
-    if (message.content.startsWith(prefix + "Prophecy") {
-         message.channel.send("Prophecy <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:40 \nUser draws 1 card of a specified type from their book.");
-    }
-    if (message.content.startsWith(prefix + "prophecy") {
-         message.channel.send("Prophecy <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:40 \nUser draws 1 card of a specified type from their book.");
-    }
-    if (message.content.startsWith(prefix + "Purify") {
-         message.channel.send("Purify <:crarityn:364048663661772800> <:cminstant:364048663498063874> - G:20 \nRemoves all <:csenchant:364048663464378391> effects from the map. User then gains (number of different <:csenchant:364048663464378391> removed x50)G.");
-    }
-    if (message.content.startsWith(prefix + "purify") {
-         message.channel.send("Purify <:crarityn:364048663661772800> <:cminstant:364048663498063874> - G:20 \nRemoves all <:csenchant:364048663464378391> effects from the map. User then gains (number of different <:csenchant:364048663464378391> removed x50)G.");
-    }
-    if (message.content.startsWith(prefix + "Quicksand") {
-         message.channel.send("Quicksand <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:100 \nAdds "Force Stop" <:csenchant:364048663464378391> to target creature. (The next Cepter who tries to pass this creature within 2 rounds must stop here.)");
-    }
-    if (message.content.startsWith(prefix + "quicksand") {
-         message.channel.send("Quicksand <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:100 \nAdds "Force Stop" <:csenchant:364048663464378391> to target creature. (The next Cepter who tries to pass this creature within 2 rounds must stop here.)");
-    }
-    if (message.content.startsWith(prefix + "Quietude") {
-         message.channel.send("Quietude <:craritys:364048663351132162> <:cmenchant:364048663447601153> - G:70 \nAdds "Mute" <:csenchant:364048663464378391> to all Cepters (Spells cannot be used for one round.)");
-    }
-    if (message.content.startsWith(prefix + "quietude") {
-         message.channel.send("Quietude <:craritys:364048663351132162> <:cmenchant:364048663447601153> - G:70 \nAdds "Mute" <:csenchant:364048663464378391> to all Cepters (Spells cannot be used for one round.)");
-    }
-    if (message.content.startsWith(prefix + "Quintessence") {
-         message.channel.send("Quintessence <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:80 \nChanges a target territory with a level lower than 4 to <:cmulti:364048663393337345>.");
-    }
-    if (message.content.startsWith(prefix + "quintessence") {
-         message.channel.send("Quintessence <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:80 \nChanges a target territory with a level lower than 4 to <:cmulti:364048663393337345>.");
-    }
-    if (message.content.startsWith(prefix + "Ray of Law") {
-         message.channel.send("Ray of Law <:craritys:364048663351132162> <:cminstant:364048663498063874> - G:60 \nDestroys all cards with a value of 100G and up in all Cepters\' hands.");
-    }
-    if (message.content.startsWith(prefix + "RayofLaw") {
-         message.channel.send("Ray of Law <:craritys:364048663351132162> <:cminstant:364048663498063874> - G:60 \nDestroys all cards with a value of 100G and up in all Cepters\' hands.");
-    }
-    if (message.content.startsWith(prefix + "ray of law") {
-         message.channel.send("Ray of Law <:craritys:364048663351132162> <:cminstant:364048663498063874> - G:60 \nDestroys all cards with a value of 100G and up in all Cepters\' hands.");
-    }
-    if (message.content.startsWith(prefix + "rayoflaw") {
-         message.channel.send("Ray of Law <:craritys:364048663351132162> <:cminstant:364048663498063874> - G:60 \nDestroys all cards with a value of 100G and up in all Cepters\' hands.");
-    }
-    if (message.content.startsWith(prefix + "Ray of Purge") {
-         message.channel.send("Ray of Purge <:crarityr:364045147085864960> <:cminstant:364048663498063874> - G:50 \nDestroys all <:csenchant:364048663464378391> spell cards in all Cepters\' hands.");
-    }
-    if (message.content.startsWith(prefix + "RayofPurge") {
-         message.channel.send("Ray of Purge <:crarityr:364045147085864960> <:cminstant:364048663498063874> - G:50 \nDestroys all <:csenchant:364048663464378391> spell cards in all Cepters\' hands.");
-    }
-    if (message.content.startsWith(prefix + "ray of purge") {
-         message.channel.send("Ray of Purge <:crarityr:364045147085864960> <:cminstant:364048663498063874> - G:50 \nDestroys all <:csenchant:364048663464378391> spell cards in all Cepters\' hands.");
-    }
-    if (message.content.startsWith(prefix + "rayofpurge") {
-         message.channel.send("Ray of Purge <:crarityr:364045147085864960> <:cminstant:364048663498063874> - G:50 \nDestroys all <:csenchant:364048663464378391> spell cards in all Cepters\' hands.");
-    }
-    if (message.content.startsWith(prefix + "Redivision") {
-         message.channel.send("Redivision <:craritys:364048663351132162> <:cminstant:364048663498063874> - G:100 \nRedistributes all Cepters\' magic so that it is spread equally among them.");
-    }
-    if (message.content.startsWith(prefix + "redivision") {
-         message.channel.send("Redivision <:craritys:364048663351132162> <:cminstant:364048663498063874> - G:100 \nRedistributes all Cepters\' magic so that it is spread equally among them.");
-    }
-    if (message.content.startsWith(prefix + "Reincarnation") {
-         message.channel.send("Reincarnation <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:70 \nUser discards all cards from current hand and draws a number of cards equal to the number they discarded +1.");
-    }
-    if (message.content.startsWith(prefix + "reincarnation") {
-         message.channel.send("Reincarnation <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:70 \nUser discards all cards from current hand and draws a number of cards equal to the number they discarded +1.");
-    }
-    if (message.content.startsWith(prefix + "Release") {
-         message.channel.send("Release <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:50 \nAdds "Unlock Limits" <:csenchant:364048663464378391> to user. (For 4 rounds, ignore item restrictions and land restrictions.)");
-    }
-    if (message.content.startsWith(prefix + "release") {
-         message.channel.send("Release <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:50 \nAdds "Unlock Limits" <:csenchant:364048663464378391> to user. (For 4 rounds, ignore item restrictions and land restrictions.)");
-    }
-    if (message.content.startsWith(prefix + "Relief") {
-         message.channel.send("Relief <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:30 \nExchanges creatures in 2 of user\'s territories. / Recycles to Book");
-    }
-    if (message.content.startsWith(prefix + "relief") {
-         message.channel.send("Relief <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:30 \nExchanges creatures in 2 of user\'s territories. / Recycles to Book");
-    }
-    if (message.content.startsWith(prefix + "Remission") {
-         message.channel.send("Remission <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:100 \nTarget gate will be marked as passed. (Cannot be used on the final gate needed to complete a lap.)");
-    }
-    if (message.content.startsWith(prefix + "remission") {
-         message.channel.send("Remission <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:100 \nTarget gate will be marked as passed. (Cannot be used on the final gate needed to complete a lap.)");
-    }
-    if (message.content.startsWith(prefix + "Remote Switch") {
-         message.channel.send("Remote Switch <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:30 \nChanges the direction of all Path Switches. / Recycles to Book. / If no Path Switch is present, user draws a card.");
-    }
-    if (message.content.startsWith(prefix + "RemoteSwitch") {
-         message.channel.send("Remote Switch <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:30 \nChanges the direction of all Path Switches. / Recycles to Book. / If no Path Switch is present, user draws a card.");
-    }
-    if (message.content.startsWith(prefix + "remote switch") {
-         message.channel.send("Remote Switch <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:30 \nChanges the direction of all Path Switches. / Recycles to Book. / If no Path Switch is present, user draws a card.");
-    }
-    if (message.content.startsWith(prefix + "remoteswitch") {
-         message.channel.send("Remote Switch <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:30 \nChanges the direction of all Path Switches. / Recycles to Book. / If no Path Switch is present, user draws a card.");
-    }
-    if (message.content.startsWith(prefix + "Restore") {
-         message.channel.send("Restore <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:40 \nRemoves Fatigued from target creature. / Fully recovers target creature\'s HP.");
-    }
-    if (message.content.startsWith(prefix + "restore") {
-         message.channel.send("Restore <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:40 \nRemoves Fatigued from target creature. / Fully recovers target creature\'s HP.");
-    }
-    if (message.content.startsWith(prefix + "Revival") {
-         message.channel.send("Revival <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:80 \nTarget Cepter\'s book is reverted to the state it was in when the game began.");
-    }
-    if (message.content.startsWith(prefix + "revival") {
-         message.channel.send("Revival <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:80 \nTarget Cepter\'s book is reverted to the state it was in when the game began.");
-    }
-    if (message.content.startsWith(prefix + "Senility") {
-         message.channel.send("Senility <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:100 \nAdds "Last Breath" <:csenchant:364048663464378391> to target creature. (This creature is destroyed at the end of battle.)");
-    }
-    if (message.content.startsWith(prefix + "senility") {
-         message.channel.send("Senility <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:100 \nAdds "Last Breath" <:csenchant:364048663464378391> to target creature. (This creature is destroyed at the end of battle.)");
-    }
-    if (message.content.startsWith(prefix + "Sense of Wild") {
-         message.channel.send("Sense of Wild <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:80 \nUser draws a card. If the drawn card is a creature, it is summoned to a random vacant land.");
-    }
-    if (message.content.startsWith(prefix + "SenseofWild") {
-         message.channel.send("Sense of Wild <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:80 \nUser draws a card. If the drawn card is a creature, it is summoned to a random vacant land.");
-    }
-    if (message.content.startsWith(prefix + "sense of wild") {
-         message.channel.send("Sense of Wild <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:80 \nUser draws a card. If the drawn card is a creature, it is summoned to a random vacant land.");
-    }
-    if (message.content.startsWith(prefix + "senseofwild") {
-         message.channel.send("Sense of Wild <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:80 \nUser draws a card. If the drawn card is a creature, it is summoned to a random vacant land.");
-    }
-    if (message.content.startsWith(prefix + "Shatter") {
-         message.channel.send("Shatter <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:30 \nUser selects an Item or Spell Card from target enemy Cepter\'s hand and destroys it.");
-    }
-    if (message.content.startsWith(prefix + "shatter") {
-         message.channel.send("Shatter <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:30 \nUser selects an Item or Spell Card from target enemy Cepter\'s hand and destroys it.");
-    }
-    if (message.content.startsWith(prefix + "Shining Geyser") {
-         message.channel.send("Shining Geyser <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100+ <:ccard:364048663426760705> \nHP-30 to target enemy creature. / Synthesis: <:csinstant:364048663447863298> Spells (Changes effect to "HP-40.")");
-    }
-    if (message.content.startsWith(prefix + "ShiningGeyser") {
-         message.channel.send("Shining Geyser <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100+ <:ccard:364048663426760705> \nHP-30 to target enemy creature. / Synthesis: <:csinstant:364048663447863298> Spells (Changes effect to "HP-40.")");
-    }
-    if (message.content.startsWith(prefix + "shining geyser") {
-         message.channel.send("Shining Geyser <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100+ <:ccard:364048663426760705> \nHP-30 to target enemy creature. / Synthesis: <:csinstant:364048663447863298> Spells (Changes effect to "HP-40.")");
-    }
-    if (message.content.startsWith(prefix + "shininggeyser") {
-         message.channel.send("Shining Geyser <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100+ <:ccard:364048663426760705> \nHP-30 to target enemy creature. / Synthesis: <:csinstant:364048663447863298> Spells (Changes effect to "HP-40.")");
-    }
-    if (message.content.startsWith(prefix + "Sigil of Drain") {
-         message.channel.send("Sigil of Drain <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:20 \nAdds "Drain Spell" <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants "Secret Art (20G): User steals 10% of target enemy Cepter\'s Current Magic.")");
-    }
-    if (message.content.startsWith(prefix + "SigilofDrain") {
-         message.channel.send("Sigil of Drain <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:20 \nAdds "Drain Spell" <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants "Secret Art (20G): User steals 10% of target enemy Cepter\'s Current Magic.")");
-    }
-    if (message.content.startsWith(prefix + "sigil of drain") {
-         message.channel.send("Sigil of Drain <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:20 \nAdds "Drain Spell" <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants "Secret Art (20G): User steals 10% of target enemy Cepter\'s Current Magic.")");
-    }
-    if (message.content.startsWith(prefix + "sigilofdrain") {
-         message.channel.send("Sigil of Drain <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:20 \nAdds "Drain Spell" <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants "Secret Art (20G): User steals 10% of target enemy Cepter\'s Current Magic.")");
-    }
-    if (message.content.startsWith(prefix + "Sigil of Float") {
-         message.channel.send("Sigil of Float <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:40 \nAdds "Move Spell" <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants "Secret Art (50G): Adds "Dice 5" <:csenchant:364048663464378391> to target Cepter.")");
-    }
-    if (message.content.startsWith(prefix + "SigilofFloat") {
-         message.channel.send("Sigil of Float <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:40 \nAdds "Move Spell" <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants "Secret Art (50G): Adds "Dice 5" <:csenchant:364048663464378391> to target Cepter.")");
-    }
-    if (message.content.startsWith(prefix + "sigil of float") {
-         message.channel.send("Sigil of Float <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:40 \nAdds "Move Spell" <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants "Secret Art (50G): Adds "Dice 5" <:csenchant:364048663464378391> to target Cepter.")");
-    }
-    if (message.content.startsWith(prefix + "sigiloffloat") {
-         message.channel.send("Sigil of Float <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:40 \nAdds "Move Spell" <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants "Secret Art (50G): Adds "Dice 5" <:csenchant:364048663464378391> to target Cepter.")");
-    }
-    if (message.content.startsWith(prefix + "Sigil of Shrink") {
-         message.channel.send("Sigil of Shrink <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds "Shrink Spell" <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants "Secret Art (50G): MHP-10 to target creature.")");
-    }
-    if (message.content.startsWith(prefix + "SigilofShrink") {
-         message.channel.send("Sigil of Shrink <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds "Shrink Spell" <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants "Secret Art (50G): MHP-10 to target creature.")");
-    }
-    if (message.content.startsWith(prefix + "sigil of shrink") {
-         message.channel.send("Sigil of Shrink <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds "Shrink Spell" <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants "Secret Art (50G): MHP-10 to target creature.")");
-    }
-    if (message.content.startsWith(prefix + "sigilofshrink") {
-         message.channel.send("Sigil of Shrink <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds "Shrink Spell" <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants "Secret Art (50G): MHP-10 to target creature.")");
-    }
-    if (message.content.startsWith(prefix + "Sneak Hand") {
-         message.channel.send("Sneak Hand <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100 \nHidden / User steals an Item Card from the hand of a target enemy Cepter with two or more Item Cards.");
-    }
-    if (message.content.startsWith(prefix + "SneakHand") {
-         message.channel.send("Sneak Hand <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100 \nHidden / User steals an Item Card from the hand of a target enemy Cepter with two or more Item Cards.");
-    }
-    if (message.content.startsWith(prefix + "sneak hand") {
-         message.channel.send("Sneak Hand <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100 \nHidden / User steals an Item Card from the hand of a target enemy Cepter with two or more Item Cards.");
-    }
-    if (message.content.startsWith(prefix + "sneakhand") {
-         message.channel.send("Sneak Hand <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100 \nHidden / User steals an Item Card from the hand of a target enemy Cepter with two or more Item Cards.");
-    }
-    if (message.content.startsWith(prefix + "Solid World") {
-         message.channel.send("Solid World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds "Land Protection" <:csenchant:364048663464378391> to the world. (For 6 rounds, lands cannot have their level lowered and their element cannot be changed by spells.)");
-    }
-    if (message.content.startsWith(prefix + "SolidWorld") {
-         message.channel.send("Solid World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds "Land Protection" <:csenchant:364048663464378391> to the world. (For 6 rounds, lands cannot have their level lowered and their element cannot be changed by spells.)");
-    }
-    if (message.content.startsWith(prefix + "solid world") {
-         message.channel.send("Solid World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds "Land Protection" <:csenchant:364048663464378391> to the world. (For 6 rounds, lands cannot have their level lowered and their element cannot be changed by spells.)");
-    }
-    if (message.content.startsWith(prefix + "solidworld") {
-         message.channel.send("Solid World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds "Land Protection" <:csenchant:364048663464378391> to the world. (For 6 rounds, lands cannot have their level lowered and their element cannot be changed by spells.)");
-    }
-    if (message.content.startsWith(prefix + "Spartoi") {
-         message.channel.send("Spartoi <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:30+ <:ccard:364048663426760705> \nPlaces a Skeleton on a random vacant land.");
-    }
-    if (message.content.startsWith(prefix + "spartoi") {
-         message.channel.send("Spartoi <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:30+ <:ccard:364048663426760705> \nPlaces a Skeleton on a random vacant land.");
-    }
-    if (message.content.startsWith(prefix + "Speed Penalty") {
-         message.channel.send("Speed Penalty <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:70 \nUser steals (target\'s lap # - user\'s lap # x100)G from the enemy with the highest lap number. (If user has highest lap number, no G will be taken.)");
-    }
-    if (message.content.startsWith(prefix + "SpeedPenalty") {
-         message.channel.send("Speed Penalty <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:70 \nUser steals (target\'s lap # - user\'s lap # x100)G from the enemy with the highest lap number. (If user has highest lap number, no G will be taken.)");
-    }
-    if (message.content.startsWith(prefix + "speed penalty") {
-         message.channel.send("Speed Penalty <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:70 \nUser steals (target\'s lap # - user\'s lap # x100)G from the enemy with the highest lap number. (If user has highest lap number, no G will be taken.)");
-    }
-    if (message.content.startsWith(prefix + "speedpenalty") {
-         message.channel.send("Speed Penalty <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:70 \nUser steals (target\'s lap # - user\'s lap # x100)G from the enemy with the highest lap number. (If user has highest lap number, no G will be taken.)");
-    }
-    if (message.content.startsWith(prefix + "Spirit Walk") {
-         message.channel.send("Spirit Walk <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:20 \nAdds "Distant Movement" <:csenchant:364048663464378391> to target creature. (Creature can move to any vacant land.)");
-    }
-    if (message.content.startsWith(prefix + "SpiritWalk") {
-         message.channel.send("Spirit Walk <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:20 \nAdds "Distant Movement" <:csenchant:364048663464378391> to target creature. (Creature can move to any vacant land.)");
-    }
-    if (message.content.startsWith(prefix + "spirit walk") {
-         message.channel.send("Spirit Walk <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:20 \nAdds "Distant Movement" <:csenchant:364048663464378391> to target creature. (Creature can move to any vacant land.)");
-    }
-    if (message.content.startsWith(prefix + "spiritwalk") {
-         message.channel.send("Spirit Walk <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:20 \nAdds "Distant Movement" <:csenchant:364048663464378391> to target creature. (Creature can move to any vacant land.)");
-    }
-    if (message.content.startsWith(prefix + "Squeeze") {
-         message.channel.send("Squeeze <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:50 \nUser chooses a card from target Cepter\'s hand and destroys it. / Target Cepter gains 150G.");
-    }
-    if (message.content.startsWith(prefix + "squeeze") {
-         message.channel.send("Squeeze <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:50 \nUser chooses a card from target Cepter\'s hand and destroys it. / Target Cepter gains 150G.");
-    }
-    if (message.content.startsWith(prefix + "Steal Gem") {
-         message.channel.send("Steal Gem <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:40 \nUser steals one random element gem from target enemy Cepter. / If there is no Gem Store, user will steal 80G from target enemy Cepter.");
-    }
-    if (message.content.startsWith(prefix + "StealGem") {
-         message.channel.send("Steal Gem <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:40 \nUser steals one random element gem from target enemy Cepter. / If there is no Gem Store, user will steal 80G from target enemy Cepter.");
-    }
-    if (message.content.startsWith(prefix + "steal gem") {
-         message.channel.send("Steal Gem <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:40 \nUser steals one random element gem from target enemy Cepter. / If there is no Gem Store, user will steal 80G from target enemy Cepter.");
-    }
-    if (message.content.startsWith(prefix + "stealgem") {
-         message.channel.send("Steal Gem <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:40 \nUser steals one random element gem from target enemy Cepter. / If there is no Gem Store, user will steal 80G from target enemy Cepter.");
-    }
-    if (message.content.startsWith(prefix + "Stone Blast") {
-         message.channel.send("Stone Blast <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:80 \nHP-30 to target <:cearth:364048663582081034> or <:cair:364048663518904327> creature.");
-    }
-    if (message.content.startsWith(prefix + "StoneBlast") {
-         message.channel.send("Stone Blast <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:80 \nHP-30 to target <:cearth:364048663582081034> or <:cair:364048663518904327> creature.");
-    }
-    if (message.content.startsWith(prefix + "stone blast") {
-         message.channel.send("Stone Blast <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:80 \nHP-30 to target <:cearth:364048663582081034> or <:cair:364048663518904327> creature.");
-    }
-    if (message.content.startsWith(prefix + "stoneblast") {
-         message.channel.send("Stone Blast <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:80 \nHP-30 to target <:cearth:364048663582081034> or <:cair:364048663518904327> creature.");
-    }
-    if (message.content.startsWith(prefix + "Storm Shift") {
-         message.channel.send("Storm Shift <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:120 \nChanges target level 3 or lower <:cwater:364048663447601154> territory into a <:cair:364048663518904327> land, or changes target level 3 or lower <:cair:364048663518904327> territory into a <:cwater:364048663447601154> land.");
-    }
-    if (message.content.startsWith(prefix + "StormShift") {
-         message.channel.send("Storm Shift <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:120 \nChanges target level 3 or lower <:cwater:364048663447601154> territory into a <:cair:364048663518904327> land, or changes target level 3 or lower <:cair:364048663518904327> territory into a <:cwater:364048663447601154> land.");
-    }
-    if (message.content.startsWith(prefix + "storm shift") {
-         message.channel.send("Storm Shift <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:120 \nChanges target level 3 or lower <:cwater:364048663447601154> territory into a <:cair:364048663518904327> land, or changes target level 3 or lower <:cair:364048663518904327> territory into a <:cwater:364048663447601154> land.");
-    }
-    if (message.content.startsWith(prefix + "stormshift") {
-         message.channel.send("Storm Shift <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:120 \nChanges target level 3 or lower <:cwater:364048663447601154> territory into a <:cair:364048663518904327> land, or changes target level 3 or lower <:cair:364048663518904327> territory into a <:cwater:364048663447601154> land.");
-    }
-    if (message.content.startsWith(prefix + "Subsidence") {
-         message.channel.send("Subsidence <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100+ <:ccard:364048663426760705> \nLowers level of target enemy Cepter\'s highest level territory by 1. / Synthesis: Subsidence (Changes target to "all Cepters.").");
-    }
-    if (message.content.startsWith(prefix + "subsidence") {
-         message.channel.send("Subsidence <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100+ <:ccard:364048663426760705> \nLowers level of target enemy Cepter\'s highest level territory by 1. / Synthesis: Subsidence (Changes target to "all Cepters.").");
-    }
-    if (message.content.startsWith(prefix + "Sudden Impact") {
-         message.channel.send("Sudden Impact <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:100 \nHidden / Lowers level of target level 4 territory by 1.");
-    }
-    if (message.content.startsWith(prefix + "SuddenImpact") {
-         message.channel.send("Sudden Impact <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:100 \nHidden / Lowers level of target level 4 territory by 1.");
-    }
-    if (message.content.startsWith(prefix + "sudden impact") {
-         message.channel.send("Sudden Impact <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:100 \nHidden / Lowers level of target level 4 territory by 1.");
-    }
-    if (message.content.startsWith(prefix + "suddenimpact") {
-         message.channel.send("Sudden Impact <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:100 \nHidden / Lowers level of target level 4 territory by 1.");
-    }
-    if (message.content.startsWith(prefix + "Temptation") {
-         message.channel.send("Temptation <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:70+ <:ccard:364048663426760705> \nUse target creature\'s Secret Art.");
-    }
-    if (message.content.startsWith(prefix + "temptation") {
-         message.channel.send("Temptation <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:70+ <:ccard:364048663426760705> \nUse target creature\'s Secret Art.");
-    }
-    if (message.content.startsWith(prefix + "Theft") {
-         message.channel.send("Theft <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100 \nUser chooses a spell card from target enemy Cepter\'s hand and steals it.");
-    }
-    if (message.content.startsWith(prefix + "theft") {
-         message.channel.send("Theft <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100 \nUser chooses a spell card from target enemy Cepter\'s hand and steals it.");
-    }
-    if (message.content.startsWith(prefix + "Thrust Blow") {
-         message.channel.send("Thrust Blow <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:70 \nMoves target creature to adjacent vacant territory.");
-    }
-    if (message.content.startsWith(prefix + "ThrustBlow") {
-         message.channel.send("Thrust Blow <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:70 \nMoves target creature to adjacent vacant territory.");
-    }
-    if (message.content.startsWith(prefix + "thrust blow") {
-         message.channel.send("Thrust Blow <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:70 \nMoves target creature to adjacent vacant territory.");
-    }
-    if (message.content.startsWith(prefix + "thrustblow") {
-         message.channel.send("Thrust Blow <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:70 \nMoves target creature to adjacent vacant territory.");
-    }
-    if (message.content.startsWith(prefix + "Thunderclap") {
-         message.channel.send("Thunderclap <:craritys:364048663351132162> <:csinstant:364048663447863298>- G:100 \nHidden / HP-30 to target creature with summon conditions.");
-    }
-    if (message.content.startsWith(prefix + "thunderclap") {
-         message.channel.send("Thunderclap <:craritys:364048663351132162> <:csinstant:364048663447863298>- G:100 \nHidden / HP-30 to target creature with summon conditions.");
-    }
-    if (message.content.startsWith(prefix + "Tiny Army") {
-         message.channel.send("Tiny Army <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100 \nHidden / If user has 5 or more creatures with MHP of 30 or under, those creatures receive MHP +10 and user gains 500G. / If not, Recycles to Book.");
-    }
-    if (message.content.startsWith(prefix + "TinyArmy") {
-         message.channel.send("Tiny Army <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100 \nHidden / If user has 5 or more creatures with MHP of 30 or under, those creatures receive MHP +10 and user gains 500G. / If not, Recycles to Book.");
-    }
-    if (message.content.startsWith(prefix + "tiny army") {
-         message.channel.send("Tiny Army <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100 \nHidden / If user has 5 or more creatures with MHP of 30 or under, those creatures receive MHP +10 and user gains 500G. / If not, Recycles to Book.");
-    }
-    if (message.content.startsWith(prefix + "tinyarmy") {
-         message.channel.send("Tiny Army <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100 \nHidden / If user has 5 or more creatures with MHP of 30 or under, those creatures receive MHP +10 and user gains 500G. / If not, Recycles to Book.");
-    }
-    if (message.content.startsWith(prefix + "Turn to the Wall") {
-         message.channel.send("Turn to the Wall <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:80 \nTransforms target creature into a specific Defensive creature of the same element.");
-    }
-    if (message.content.startsWith(prefix + "TurntotheWall") {
-         message.channel.send("Turn to the Wall <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:80 \nTransforms target creature into a specific Defensive creature of the same element.");
-    }
-    if (message.content.startsWith(prefix + "Turn to Wall") {
-         message.channel.send("Turn to the Wall <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:80 \nTransforms target creature into a specific Defensive creature of the same element.");
-    }
-    if (message.content.startsWith(prefix + "TurntoWall") {
-         message.channel.send("Turn to the Wall <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:80 \nTransforms target creature into a specific Defensive creature of the same element.");
-    }
-    if (message.content.startsWith(prefix + "turn to the wall") {
-         message.channel.send("Turn to the Wall <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:80 \nTransforms target creature into a specific Defensive creature of the same element.");
-    }
-    if (message.content.startsWith(prefix + "turntothewall") {
-         message.channel.send("Turn to the Wall <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:80 \nTransforms target creature into a specific Defensive creature of the same element.");
-    }
-    if (message.content.startsWith(prefix + "turn to wall") {
-         message.channel.send("Turn to the Wall <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:80 \nTransforms target creature into a specific Defensive creature of the same element.");
-    }
-    if (message.content.startsWith(prefix + "turntowall") {
-         message.channel.send("Turn to the Wall <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:80 \nTransforms target creature into a specific Defensive creature of the same element.");
-    }
-    if (message.content.startsWith(prefix + "Tyranny") {
-         message.channel.send("Tyranny <:crarityr:364045147085864960> <:cmenchant:364048663447601153> - G:100+ <:ccard:364048663426760705> \nAdds "Paralysis" <:csenchant:364048663464378391> to all creatures with MHP of 30 and under. (Creatures cannot attack or use items and their abilities do not activate.)");
-    }
-    if (message.content.startsWith(prefix + "tyranny") {
-         message.channel.send("Tyranny <:crarityr:364045147085864960> <:cmenchant:364048663447601153> - G:100+ <:ccard:364048663426760705> \nAdds "Paralysis" <:csenchant:364048663464378391> to all creatures with MHP of 30 and under. (Creatures cannot attack or use items and their abilities do not activate.)");
-    }
-    if (message.content.startsWith(prefix + "Uniformity") {
-         message.channel.send("Uniformity <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:60 \nGives "200 Toll" <:csenchant:364048663464378391> to target Cepter. (For 3 rounds, the toll fee for all of a Cepter\'s territories become 200G.)");
-    }
-    if (message.content.startsWith(prefix + "uniformity") {
-         message.channel.send("Uniformity <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:60 \nGives "200 Toll" <:csenchant:364048663464378391> to target Cepter. (For 3 rounds, the toll fee for all of a Cepter\'s territories become 200G.)");
-    }
-    if (message.content.startsWith(prefix + "Vitality") {
-         message.channel.send("Vitality <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds "Ability +20" <:csenchant:364048663464378391> to target creature. (In battle, this creature is granted ST & HP+20.) / User draws a card.");
-    }
-    if (message.content.startsWith(prefix + "vitality") {
-         message.channel.send("Vitality <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds "Ability +20" <:csenchant:364048663464378391> to target creature. (In battle, this creature is granted ST & HP+20.) / User draws a card.");
-    }
-    if (message.content.startsWith(prefix + "Vortex") {
-         message.channel.send("Vortex <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds "No Battle Abilities" <:csenchant:364048663464378391> to target creature. (In battle, effects and abilities besides this one do not activate.) / User draws a card.");
-    }
-    if (message.content.startsWith(prefix + "vortex") {
-         message.channel.send("Vortex <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds "No Battle Abilities" <:csenchant:364048663464378391> to target creature. (In battle, effects and abilities besides this one do not activate.) / User draws a card.");
-    }
-    if (message.content.startsWith(prefix + "Waste World") {
-         message.channel.send("Waste World <:craritys:364048663351132162> <:cglobal:364049704293629954> - G:70 \nAdds "Raise Cost" <:csenchant:364048663464378391> to the world. (For 6 rounds, cards of rarity Strange require 1.5xG to use, cards of rarity Rare and Extra require 2x G to use.)");
-    }
-    if (message.content.startsWith(prefix + "WasteWorld") {
-         message.channel.send("Waste World <:craritys:364048663351132162> <:cglobal:364049704293629954> - G:70 \nAdds "Raise Cost" <:csenchant:364048663464378391> to the world. (For 6 rounds, cards of rarity Strange require 1.5xG to use, cards of rarity Rare and Extra require 2x G to use.)");
-    }
-    if (message.content.startsWith(prefix + "waste world") {
-         message.channel.send("Waste World <:craritys:364048663351132162> <:cglobal:364049704293629954> - G:70 \nAdds "Raise Cost" <:csenchant:364048663464378391> to the world. (For 6 rounds, cards of rarity Strange require 1.5xG to use, cards of rarity Rare and Extra require 2x G to use.)");
-    }
-    if (message.content.startsWith(prefix + "wasteworld") {
-         message.channel.send("Waste World <:craritys:364048663351132162> <:cglobal:364049704293629954> - G:70 \nAdds "Raise Cost" <:csenchant:364048663464378391> to the world. (For 6 rounds, cards of rarity Strange require 1.5xG to use, cards of rarity Rare and Extra require 2x G to use.)");
-    }
-    if (message.content.startsWith(prefix + "Water Shift") {
-         message.channel.send("Water Shift <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:100 \nChanges target territory belonging to user into a <:cwater:364048663447601154> land.");
-    }
-    if (message.content.startsWith(prefix + "WaterShift") {
-         message.channel.send("Water Shift <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:100 \nChanges target territory belonging to user into a <:cwater:364048663447601154> land.");
-    }
-    if (message.content.startsWith(prefix + "water shift") {
-         message.channel.send("Water Shift <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:100 \nChanges target territory belonging to user into a <:cwater:364048663447601154> land.");
-    }
-    if (message.content.startsWith(prefix + "watershift") {
-         message.channel.send("Water Shift <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:100 \nChanges target territory belonging to user into a <:cwater:364048663447601154> land.");
-    }
-    if (message.content.startsWith(prefix + "Wind of Hope") {
-         message.channel.send("Wind of Hope <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:40 \nUser draws 2 cards from their book.");
-    }
-    if (message.content.startsWith(prefix + "WindofHope") {
-         message.channel.send("Wind of Hope <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:40 \nUser draws 2 cards from their book.");
-    }
-    if (message.content.startsWith(prefix + "wind of hope") {
-         message.channel.send("Wind of Hope <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:40 \nUser draws 2 cards from their book.");
-    }
-    if (message.content.startsWith(prefix + "windofhope") {
-         message.channel.send("Wind of Hope <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:40 \nUser draws 2 cards from their book.");
-    }
-  //END OF CARD DATABASE LIST
-
-  //REVOLT GUIDE COMMAND LINKS
-    if (message.content.startsWith(prefix + "Revolt Guides") {
-         message.channel.send("Culdcept Revolt Guides: http://www.culdceptcentral.com/culdcept-revolt/culdcept-revolt-guides");
-    }
-    if (message.content.startsWith(prefix + "RevoltGuides") {
-         message.channel.send("Culdcept Revolt Guides: http://www.culdceptcentral.com/culdcept-revolt/culdcept-revolt-guides");
-    }
-    if (message.content.startsWith(prefix + "revolt guides") {
-         message.channel.send("Culdcept Revolt Guides: http://www.culdceptcentral.com/culdcept-revolt/culdcept-revolt-guides");
-    }
-    if (message.content.startsWith(prefix + "revoltguides") {
-         message.channel.send("Culdcept Revolt Guides: http://www.culdceptcentral.com/culdcept-revolt/culdcept-revolt-guides");
-    }
-    if (message.content.startsWith(prefix + "Revolt Combos") {
-         message.channel.send("Culdcept Revolt Combos: http://www.culdceptcentral.com/culdcept-revolt/culdcept-revolt-combos");
-    }
-    if (message.content.startsWith(prefix + "RevoltCombos") {
-         message.channel.send("Culdcept Revolt Combos: http://www.culdceptcentral.com/culdcept-revolt/culdcept-revolt-combos");
-    }
-    if (message.content.startsWith(prefix + "revolt combos") {
-         message.channel.send("Culdcept Revolt Combos: http://www.culdceptcentral.com/culdcept-revolt/culdcept-revolt-combos");
-    }
-    if (message.content.startsWith(prefix + "revoltcombos") {
-         message.channel.send("Culdcept Revolt Combos: http://www.culdceptcentral.com/culdcept-revolt/culdcept-revolt-combos");
-    }
-    if (message.content.startsWith(prefix + "Revolt List") {
-         message.channel.send("Culdcept Revolt Card List: http://www.culdceptcentral.com/culdcept-revolt/culdcept-revolt-card-lists");
-    }
-    if (message.content.startsWith(prefix + "RevoltList") {
-         message.channel.send("Culdcept Revolt Card List: http://www.culdceptcentral.com/culdcept-revolt/culdcept-revolt-card-lists");
-    }
-    if (message.content.startsWith(prefix + "revolt list") {
-         message.channel.send("Culdcept Revolt Card List: http://www.culdceptcentral.com/culdcept-revolt/culdcept-revolt-card-lists");
-    }
-    if (message.content.startsWith(prefix + "revoltlist") {
-         message.channel.send("Culdcept Revolt Card List: http://www.culdceptcentral.com/culdcept-revolt/culdcept-revolt-card-lists");
-    }
-    if (message.content.startsWith(prefix + "Revolt Builder") {
-         message.channel.send("Culdcept Revolt Book Builder: http://www.culdceptcentral.com/culdcept-revolt/culdcept-revolt-deck-builder");
-    }
-    if (message.content.startsWith(prefix + "RevoltBuilder") {
-         message.channel.send("Culdcept Revolt Book Builder: http://www.culdceptcentral.com/culdcept-revolt/culdcept-revolt-deck-builder");
-    }
-    if (message.content.startsWith(prefix + "revolt builder") {
-         message.channel.send("Culdcept Revolt Book Builder: http://www.culdceptcentral.com/culdcept-revolt/culdcept-revolt-deck-builder");
-    }
-    if (message.content.startsWith(prefix + "revoltbuilder") {
-         message.channel.send("Culdcept Revolt Book Builder: http://www.culdceptcentral.com/culdcept-revolt/culdcept-revolt-deck-builder");
-    }
-    if (message.content.startsWith(prefix + "IVIad IVIaxx") {
-         message.channel.send("IVIad IVIaxx: He was just goofing around");
-    }
-    if (message.content.startsWith(prefix + "IVIadIVIaxx") {
-         message.channel.send("IVIad IVIaxx: He was just goofing around");
-    }
-})
-
 });
 
 // THIS  MUST  BE  THIS  WAY
