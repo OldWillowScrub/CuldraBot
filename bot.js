@@ -4485,8 +4485,6 @@ client.on('message', message => {
     if (message.content.startsWith(prefix + "IVIadIVIaxx")) {
          message.channel.send("IVIad IVIaxx: He was just goofing around");
     }
-})
-
 });
 
 // THIS  MUST  BE  THIS  WAY
