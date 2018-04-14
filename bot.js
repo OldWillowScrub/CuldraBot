@@ -380,17 +380,54 @@ client.on('message', message => {
          message.channel.send("Steam Gear <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:50 HP:50 MHP:50 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nClaims 1/2 the standard toll value.");
     }
     if (message.content.startsWith(prefix + "Stone Jizo")) {
-         message.channel.send("Stone Jizo <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:10 HP:30 MHP:30 G:50 \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> \nDefensive / Anti-Spell / \nSecret Art (100G): Transforms targeted territory into a <:cmulti:364048663393337345> land, then is destroyed.");
+         message.channel.send("Stone Jizo <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:10 HP:30 MHP:30 G:50 \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> \nDefensive Anti-Spell \nSecret Art (100G): Transforms targeted territory into a <:cmulti:364048663393337345> land, then is destroyed.");
     }
     if (message.content.startsWith(prefix + "StoneJizo")) {
-         message.channel.send("Stone Jizo <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:10 HP:30 MHP:30 G:50 \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> \nDefensive / Anti-Spell / \nSecret Art (100G): Transforms targeted territory into a <:cmulti:364048663393337345> land, then is destroyed.");
+         message.channel.send("Stone Jizo <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:10 HP:30 MHP:30 G:50 \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> \nDefensive Anti-Spell \nSecret Art (100G): Transforms targeted territory into a <:cmulti:364048663393337345> land, then is destroyed.");
     }
     if (message.content.startsWith(prefix + "stone jizo")) {
-         message.channel.send("Stone Jizo <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:10 HP:30 MHP:30 G:50 \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> \nDefensive / Anti-Spell / \nSecret Art (100G): Transforms targeted territory into a <:cmulti:364048663393337345> land, then is destroyed.");
+         message.channel.send("Stone Jizo <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:10 HP:30 MHP:30 G:50 \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> \nDefensive Anti-Spell \nSecret Art (100G): Transforms targeted territory into a <:cmulti:364048663393337345> land, then is destroyed.");
     }
     if (message.content.startsWith(prefix + "stonejizo")) {
-         message.channel.send("Stone Jizo <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:10 HP:30 MHP:30 G:50 \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> \nDefensive / Anti-Spell / \nSecret Art (100G): Transforms targeted territory into a <:cmulti:364048663393337345> land, then is destroyed.");
+         message.channel.send("Stone Jizo <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:10 HP:30 MHP:30 G:50 \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> \nDefensive Anti-Spell \nSecret Art (100G): Transforms targeted territory into a <:cmulti:364048663393337345> land, then is destroyed.");
     }    
+    if (message.content.startsWith(prefix + "Thief")) {
+       message.channel.send("Thief <:crarityn:364048663661772800> <:cneutral:364043997825597440> \nST:20 HP:40 MHP:40 G:30 \nBattle Start: Steals opponent\'s item if using no items of your own.");
+    }
+    if (message.content.startsWith(prefix + "thief")) {
+         message.channel.send("Thief <:crarityn:364048663661772800> <:cneutral:364043997825597440> \nST:20 HP:40 MHP:40 G:30 \nBattle Start: Steals opponent\'s item if using no items of your own.");
+    }
+    if (message.content.startsWith(prefix + "Trojan Horse")) {
+         message.channel.send("Trojan Horse <:crarityn:364048663661772800> <:cneutral:364043997825597440> \nST:0 HP:30 MHP:30 G:30 \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nSupport: All / Penetrates: All");
+    }
+    if (message.content.startsWith(prefix + "TrojanHorse")) {
+       message.channel.send("Trojan Horse <:crarityn:364048663661772800> <:cneutral:364043997825597440> \nST:0 HP:30 MHP:30 G:30 \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nSupport: All / Penetrates: All");
+    }
+    if (message.content.startsWith(prefix + "trojan horse")) {
+         message.channel.send("Trojan Horse <:crarityn:364048663661772800> <:cneutral:364043997825597440> \nST:0 HP:30 MHP:30 G:30 \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nSupport: All / Penetrates: All");
+    }
+    if (message.content.startsWith(prefix + "trojanhorse")) {
+         message.channel.send("Trojan Horse <:crarityn:364048663661772800> <:cneutral:364043997825597440> \nST:0 HP:30 MHP:30 G:30 \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nSupport: All / Penetrates: All");
+    }
+    if (message.content.startsWith(prefix + "Tyrannosaurus")) {
+         message.channel.send("Tyrannosaurus <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:50 HP:60 MHP:60 G:75 \nItem Limit: <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048>");
+    }
+    if (message.content.startsWith(prefix + "tyrannosaurus")) {
+         message.channel.send("Tyrannosaurus <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:50 HP:60 MHP:60 G:75 \nItem Limit: <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048>");
+    }
+    if (message.content.startsWith(prefix + "Wonder Wall")) {
+       message.channel.send("Wonder Wall <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:0 HP:30 MHP:30 G:10+ <:ccard:364048663426760705> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> \nDefensive / Neutralizes: <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> <:cair:364048663518904327>");
+    }
+    if (message.content.startsWith(prefix + "WonderWall")) {
+         message.channel.send("Wonder Wall <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:0 HP:30 MHP:30 G:10+ <:ccard:364048663426760705> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> \nDefensive / Neutralizes: <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> <:cair:364048663518904327>");
+    }
+    if (message.content.startsWith(prefix + "wonder wall")) {
+         message.channel.send("Wonder Wall <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:0 HP:30 MHP:30 G:10+ <:ccard:364048663426760705> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> \nDefensive / Neutralizes: <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> <:cair:364048663518904327>");
+    }
+    if (message.content.startsWith(prefix + "wonderwall")) {
+         message.channel.send("Wonder Wall <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:0 HP:30 MHP:30 G:10+ <:ccard:364048663426760705> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> \nDefensive / Neutralizes: <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> <:cair:364048663518904327>");
+    }
+  //FIRE CREATURES GO HERE
 });
 
 // THIS  MUST  BE  THIS  WAY
