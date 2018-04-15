@@ -380,16 +380,16 @@ client.on('message', message => {
     if (message.content.startsWith(prefix + "steamgear")) {
          message.channel.send("Steam Gear <:craritys:364048663351132162> <:cneutral:364043997825597440> \nST:50 HP:50 MHP:50 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nClaims 1/2 the standard toll value.");
     }
-    if (message.content.startsWith(prefix + "Stone Jizo")) {
+    if (message.content === prefix + "Stone Jizo") {
          message.channel.send("Stone Jizo <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:10 HP:30 MHP:30 G:50 \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> \nDefensive Anti-Spell \nSecret Art (100G): Transforms targeted territory into a <:cmulti:364048663393337345> land, then is destroyed.");
     }
-    if (message.content.startsWith(prefix + "StoneJizo")) {
+    if (message.content === prefix + "StoneJizo") {
          message.channel.send("Stone Jizo <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:10 HP:30 MHP:30 G:50 \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> \nDefensive Anti-Spell \nSecret Art (100G): Transforms targeted territory into a <:cmulti:364048663393337345> land, then is destroyed.");
     }
-    if (message.content.startsWith(prefix + "stone jizo")) {
+    if (message.content === prefix + "stone jizo") {
          message.channel.send("Stone Jizo <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:10 HP:30 MHP:30 G:50 \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> \nDefensive Anti-Spell \nSecret Art (100G): Transforms targeted territory into a <:cmulti:364048663393337345> land, then is destroyed.");
     }
-    if (message.content.startsWith(prefix + "stonejizo")) {
+    if (message.content === prefix + "stonejizo") {
          message.channel.send("Stone Jizo <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:10 HP:30 MHP:30 G:50 \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> \nDefensive Anti-Spell \nSecret Art (100G): Transforms targeted territory into a <:cmulti:364048663393337345> land, then is destroyed.");
     }    
     if (message.content.startsWith(prefix + "Thief")) {
@@ -2576,52 +2576,52 @@ client.on('message', message => {
     if (message.content === prefix + "magicshield") {
          message.channel.send("Magic Shield  <:crarityn:364048663661772800> <:carmor:364048663556915200> - G:20 \nHP+30 / Neutralizes: <:cscroll:364048663691001876> Attacks");
     }
-    if (message.content.startsWith(prefix + "Magma Armor")) {
+    if (message.content === prefix + "Magma Armor") {
          message.channel.send("Magma Armor <:crarityr:364045147085864960> <:carmor:364048663556915200> - G:70 \nHP+ (Number of user\'s <:cfire:364048663355588609> and <:cearth:364048663582081034> territories x20).");
     }
-    if (message.content.startsWith(prefix + "MagmaArmor")) {
+    if (message.content === prefix + "MagmaArmor") {
          message.channel.send("Magma Armor <:crarityr:364045147085864960> <:carmor:364048663556915200> - G:70 \nHP+ (Number of user\'s <:cfire:364048663355588609> and <:cearth:364048663582081034> territories x20).");
     }
-    if (message.content.startsWith(prefix + "magma armor")) {
+    if (message.content === prefix + "magma armor") {
          message.channel.send("Magma Armor <:crarityr:364045147085864960> <:carmor:364048663556915200> - G:70 \nHP+ (Number of user\'s <:cfire:364048663355588609> and <:cearth:364048663582081034> territories x20).");
     }
-    if (message.content.startsWith(prefix + "magmaarmor")) {
+    if (message.content === prefix + "magmaarmor") {
          message.channel.send("Magma Armor <:crarityr:364045147085864960> <:carmor:364048663556915200> - G:70 \nHP+ (Number of user\'s <:cfire:364048663355588609> and <:cearth:364048663582081034> territories x20).");
     }
-    if (message.content.startsWith(prefix + "Magma Flail")) {
+    if (message.content === prefix + "Magma Flail") {
          message.channel.send("Magma Flail <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:70 \nST+ (number of <:cfire:364048663355588609> & <:cearth:364048663582081034> creatures in play x5). / Critical Hit: <:cair:364048663518904327> and <:cwater:364048663447601154>");
     }
-    if (message.content.startsWith(prefix + "MagmaFlail")) {
+    if (message.content === prefix + "MagmaFlail") {
          message.channel.send("Magma Flail <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:70 \nST+ (number of <:cfire:364048663355588609> & <:cearth:364048663582081034> creatures in play x5). / Critical Hit: <:cair:364048663518904327> and <:cwater:364048663447601154>");
     }
-    if (message.content.startsWith(prefix + "magma flail")) {
+    if (message.content === prefix + "magma flail") {
          message.channel.send("Magma Flail <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:70 \nST+ (number of <:cfire:364048663355588609> & <:cearth:364048663582081034> creatures in play x5). / Critical Hit: <:cair:364048663518904327> and <:cwater:364048663447601154>");
     }
-    if (message.content.startsWith(prefix + "magmaflail")) {
+    if (message.content === prefix + "magmaflail") {
          message.channel.send("Magma Flail <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:70 \nST+ (number of <:cfire:364048663355588609> & <:cearth:364048663582081034> creatures in play x5). / Critical Hit: <:cair:364048663518904327> and <:cwater:364048663447601154>");
     }
-    if (message.content.startsWith(prefix + "Magma Hammer")) {
+    if (message.content === prefix + "Magma Hammer") {
          message.channel.send("Magma Hammer <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:20 \nST+20 / Critical Hit: When equipped creature is <:cfire:364048663355588609> or <:cearth:364048663582081034>.");
     }
-    if (message.content.startsWith(prefix + "MagmaHammer")) {
+    if (message.content === prefix + "MagmaHammer") {
          message.channel.send("Magma Hammer <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:20 \nST+20 / Critical Hit: When equipped creature is <:cfire:364048663355588609> or <:cearth:364048663582081034>.");
     }
-    if (message.content.startsWith(prefix + "magma hammer")) {
+    if (message.content === prefix + "magma hammer") {
          message.channel.send("Magma Hammer <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:20 \nST+20 / Critical Hit: When equipped creature is <:cfire:364048663355588609> or <:cearth:364048663582081034>.");
     }
-    if (message.content.startsWith(prefix + "magmahammer")) {
+    if (message.content === prefix + "magmahammer") {
          message.channel.send("Magma Hammer <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:20 \nST+20 / Critical Hit: When equipped creature is <:cfire:364048663355588609> or <:cearth:364048663582081034>.");
     }
-    if (message.content.startsWith(prefix + "Magma Shield")) {
+    if (message.content === prefix + "Magma Shield") {
          message.channel.send("Magma Shield <:craritys:364048663351132162> <:carmor:364048663556915200> - G:70 \nNeutralizes: Normal Attacks when equipped creature is <:cfire:364048663355588609> or <:cearth:364048663582081034>.");
     }
-    if (message.content.startsWith(prefix + "MagmaShield")) {
+    if (message.content === prefix + "MagmaShield") {
          message.channel.send("Magma Shield <:craritys:364048663351132162> <:carmor:364048663556915200> - G:70 \nNeutralizes: Normal Attacks when equipped creature is <:cfire:364048663355588609> or <:cearth:364048663582081034>.");
     }
-    if (message.content.startsWith(prefix + "magma shield")) {
+    if (message.content === prefix + "magma shield") {
          message.channel.send("Magma Shield <:craritys:364048663351132162> <:carmor:364048663556915200> - G:70 \nNeutralizes: Normal Attacks when equipped creature is <:cfire:364048663355588609> or <:cearth:364048663582081034>.");
     }
-    if (message.content.startsWith(prefix + "magmashield")) {
+    if (message.content === prefix + "magmashield") {
          message.channel.send("Magma Shield <:craritys:364048663351132162> <:carmor:364048663556915200> - G:70 \nNeutralizes: Normal Attacks when equipped creature is <:cfire:364048663355588609> or <:cearth:364048663582081034>.");
     }
     if (message.content.startsWith(prefix + "Magus's Mirror")) {
@@ -2933,58 +2933,58 @@ client.on('message', message => {
     if (message.content.startsWith(prefix + "squidmantle")) {
          message.channel.send("Squid Mantle  <:crarityr:364045147085864960> <:carmor:364048663556915200> - G:50  \nHP+40 / In Battle: Disables opponent\'s Attack Bonus.");
     }
-    if (message.content.startsWith(prefix + "Storm Armor")) {
+    if (message.content === prefix + "Storm Armor") {
          message.channel.send("Storm Armor  <:crarityr:364045147085864960> <:carmor:364048663556915200> - G:70  \nHP+ (Number of user\'s <:cair:364048663518904327> and <:cwater:364048663447601154> territories x20).");
     }
-    if (message.content.startsWith(prefix + "StormArmor")) {
+    if (message.content === prefix + "StormArmor") {
          message.channel.send("Storm Armor  <:crarityr:364045147085864960> <:carmor:364048663556915200> - G:70  \nHP+ (Number of user\'s <:cair:364048663518904327> and <:cwater:364048663447601154> territories x20).");
     }
-    if (message.content.startsWith(prefix + "storm armor")) {
+    if (message.content === prefix + "storm armor") {
          message.channel.send("Storm Armor  <:crarityr:364045147085864960> <:carmor:364048663556915200> - G:70  \nHP+ (Number of user\'s <:cair:364048663518904327> and <:cwater:364048663447601154> territories x20).");
     }
-    if (message.content.startsWith(prefix + "stormarmor")) {
+    if (message.content === prefix + "stormarmor") {
          message.channel.send("Storm Armor  <:crarityr:364045147085864960> <:carmor:364048663556915200> - G:70  \nHP+ (Number of user\'s <:cair:364048663518904327> and <:cwater:364048663447601154> territories x20).");
     }
-    if (message.content.startsWith(prefix + "Storm Halberd")) {
+    if (message.content === prefix + "Storm Halberd") {
          message.channel.send("Storm Halberd  <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:70  \nST+ (number of <:cwater:364048663447601154> & <:cair:364048663518904327> creatures in play x5). / Critical Hit: <:cfire:364048663355588609> and <:cearth:364048663582081034>");
     }
-    if (message.content.startsWith(prefix + "StormHalberd")) {
+    if (message.content === prefix + "StormHalberd") {
          message.channel.send("Storm Halberd  <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:70  \nST+ (number of <:cwater:364048663447601154> & <:cair:364048663518904327> creatures in play x5). / Critical Hit: <:cfire:364048663355588609> and <:cearth:364048663582081034>");
     }
-    if (message.content.startsWith(prefix + "storm halberd")) {
+    if (message.content === prefix + "storm halberd") {
          message.channel.send("Storm Halberd  <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:70  \nST+ (number of <:cwater:364048663447601154> & <:cair:364048663518904327> creatures in play x5). / Critical Hit: <:cfire:364048663355588609> and <:cearth:364048663582081034>");
     }
-    if (message.content.startsWith(prefix + "stormhalberd")) {
+    if (message.content === prefix + "stormhalberd") {
          message.channel.send("Storm Halberd  <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:70  \nST+ (number of <:cwater:364048663447601154> & <:cair:364048663518904327> creatures in play x5). / Critical Hit: <:cfire:364048663355588609> and <:cearth:364048663582081034>");
     }
-    if (message.content.startsWith(prefix + "Storm Shield")) {
+    if (message.content === prefix + "Storm Shield") {
          message.channel.send("Storm Shield  <:craritys:364048663351132162> <:carmor:364048663556915200> - G:70  \nNeutralizes: Normal Attacks when equipped creature is <:cwater:364048663447601154> or <:cair:364048663518904327>.");
     }
-    if (message.content.startsWith(prefix + "StormShield")) {
+    if (message.content === prefix + "StormShield") {
          message.channel.send("Storm Shield  <:craritys:364048663351132162> <:carmor:364048663556915200> - G:70  \nNeutralizes: Normal Attacks when equipped creature is <:cwater:364048663447601154> or <:cair:364048663518904327>.");
     }
-    if (message.content.startsWith(prefix + "storm shield")) {
+    if (message.content === prefix + "storm shield") {
          message.channel.send("Storm Shield  <:craritys:364048663351132162> <:carmor:364048663556915200> - G:70  \nNeutralizes: Normal Attacks when equipped creature is <:cwater:364048663447601154> or <:cair:364048663518904327>.");
     }
-    if (message.content.startsWith(prefix + "stormshield")) {
+    if (message.content === prefix + "stormshield") {
          message.channel.send("Storm Shield  <:craritys:364048663351132162> <:carmor:364048663556915200> - G:70  \nNeutralizes: Normal Attacks when equipped creature is <:cwater:364048663447601154> or <:cair:364048663518904327>.");
     }
-    if (message.content.startsWith(prefix + "Storm Spear")) {
+    if (message.content === prefix + "Storm Spear") {
          message.channel.send("Storm Spear  <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:20  \nST+20 / Critical Hit: When equipped creature is <:cwater:364048663447601154> or <:cair:364048663518904327>.");
     }
-    if (message.content.startsWith(prefix + "StormSpear")) {
+    if (message.content === prefix + "StormSpear") {
          message.channel.send("Storm Spear  <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:20  \nST+20 / Critical Hit: When equipped creature is <:cwater:364048663447601154> or <:cair:364048663518904327>.");
     }
-    if (message.content.startsWith(prefix + "storm spear")) {
+    if (message.content === prefix + "storm spear") {
          message.channel.send("Storm Spear  <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:20  \nST+20 / Critical Hit: When equipped creature is <:cwater:364048663447601154> or <:cair:364048663518904327>.");
     }
-    if (message.content.startsWith(prefix + "stormspear")) {
+    if (message.content === prefix + "stormspear") {
          message.channel.send("Storm Spear  <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:20  \nST+20 / Critical Hit: When equipped creature is <:cwater:364048663447601154> or <:cair:364048663518904327>.");
     }
-    if (message.content.startsWith(prefix + "Stormcauser")) {
+    if (message.content === prefix + "Stormcauser") {
          message.channel.send("Stormcauser  <:crarityr:364045147085864960> <:cweapon:364048663527424002> - G:55  \nST+60 / HP-30");
     }
-    if (message.content.startsWith(prefix + "stormcauser")) {
+    if (message.content === prefix + "stormcauser") {
          message.channel.send("Stormcauser  <:crarityr:364045147085864960> <:cweapon:364048663527424002> - G:55  \nST+60 / HP-30");
     }
     if (message.content.startsWith(prefix + "Sword of Pluck")) {
@@ -3840,16 +3840,16 @@ client.on('message', message => {
     if (message.content.startsWith(prefix + "magicalleap")) {
          message.channel.send("Magical Leap <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:70 \nTransports user to any nearby territory of user\'s choice within 1 to 4 spaces. User cannot roll the dice this turn.");
     }
-    if (message.content.startsWith(prefix + "Magma Shift")) {
+    if (message.content === prefix + "Magma Shift") {
          message.channel.send("Magma Shift <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:120 \nChanges target level 3 or lower <:cfire:364048663355588609> territory into a <:cearth:364048663582081034> land, or changes target level 3 or lower <:cearth:364048663582081034> territory into a <:cfire:364048663355588609> land.");
     }
-    if (message.content.startsWith(prefix + "MagmaShift")) {
+    if (message.content === prefix + "MagmaShift") {
          message.channel.send("Magma Shift <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:120 \nChanges target level 3 or lower <:cfire:364048663355588609> territory into a <:cearth:364048663582081034> land, or changes target level 3 or lower <:cearth:364048663582081034> territory into a <:cfire:364048663355588609> land.");
     }
-    if (message.content.startsWith(prefix + "magma shift")) {
+    if (message.content === prefix + "magma shift") {
          message.channel.send("Magma Shift <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:120 \nChanges target level 3 or lower <:cfire:364048663355588609> territory into a <:cearth:364048663582081034> land, or changes target level 3 or lower <:cearth:364048663582081034> territory into a <:cfire:364048663355588609> land.");
     }
-    if (message.content.startsWith(prefix + "magmashift")) {
+    if (message.content === prefix + "magmashift") {
          message.channel.send("Magma Shift <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:120 \nChanges target level 3 or lower <:cfire:364048663355588609> territory into a <:cearth:364048663582081034> land, or changes target level 3 or lower <:cearth:364048663582081034> territory into a <:cfire:364048663355588609> land.");
     }
     if (message.content.startsWith(prefix + "Manna")) {
@@ -3948,6 +3948,180 @@ client.on('message', message => {
     if (message.content.startsWith(prefix + "mistyworld")) {
          message.channel.send("Misty World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:50 \nAdds Anti-Spell <:csenchant:364048663464378391> to the world. (For 6 rounds, all Cepters cannot be targeted by spells.)");
     }
+    if (message.content.startsWith(prefix + "Natural World")) {
+         message.channel.send("Natural World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds Abilities Disabled <:csenchant:364048663464378391> to the world. (For 6 rounds, Secret Art, Upon Defeat, and Battle End abilities do not activate.)");
+    }
+    if (message.content.startsWith(prefix + "NaturalWorld")) {
+         message.channel.send("Natural World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds Abilities Disabled <:csenchant:364048663464378391> to the world. (For 6 rounds, Secret Art, Upon Defeat, and Battle End abilities do not activate.)");
+    }
+    if (message.content.startsWith(prefix + "natural world")) {
+         message.channel.send("Natural World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds Abilities Disabled <:csenchant:364048663464378391> to the world. (For 6 rounds, Secret Art, Upon Defeat, and Battle End abilities do not activate.)");
+    }
+    if (message.content.startsWith(prefix + "naturalworld")) {
+         message.channel.send("Natural World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds Abilities Disabled <:csenchant:364048663464378391> to the world. (For 6 rounds, Secret Art, Upon Defeat, and Battle End abilities do not activate.)");
+    }
+    if (message.content.startsWith(prefix + "Obliteration")) {
+         message.channel.send("Obliteration <:crarityr:364045147085864960> <:cminstant:364048663498063874> - G:80 \nAll Cepters lose (number of Element Gems owned x70)G. / If there is no Gem Store, all Cepters lose 10% of their current magic.");
+    }
+    if (message.content.startsWith(prefix + "obliteration")) {
+         message.channel.send("Obliteration <:crarityr:364045147085864960> <:cminstant:364048663498063874> - G:80 \nAll Cepters lose (number of Element Gems owned x70)G. / If there is no Gem Store, all Cepters lose 10% of their current magic.");
+    }
+    if (message.content.startsWith(prefix + "Outrage")) {
+         message.channel.send("Outrage <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:100 \nMoves target creature to adjacent enemy territory.");
+    }
+    if (message.content.startsWith(prefix + "outrage")) {
+         message.channel.send("Outrage <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:100 \nMoves target creature to adjacent enemy territory.");
+    }
+    if (message.content.startsWith(prefix + "Pacifism")) {
+         message.channel.send("Pacifism <:crarityn:364048663661772800> <:cmenchant:364048663447601153> - G:70 \nAdds No Invasions <:csenchant:364048663464378391> to all Cepters. (For 2 rounds, you cannot invade.)");
+    }
+    if (message.content.startsWith(prefix + "pacifism")) {
+         message.channel.send("Pacifism <:crarityn:364048663661772800> <:cmenchant:364048663447601153> - G:70 \nAdds No Invasions <:csenchant:364048663464378391> to all Cepters. (For 2 rounds, you cannot invade.)");
+    }
+    if (message.content.startsWith(prefix + "Peace")) {
+         message.channel.send("Peace <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:70 \nAdds Peace <:csenchant:364048663464378391> to target creature. (Cannot be invaded, and toll becomes 0G.)");
+    }
+    if (message.content.startsWith(prefix + "peace")) {
+         message.channel.send("Peace <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:70 \nAdds Peace <:csenchant:364048663464378391> to target creature. (Cannot be invaded, and toll becomes 0G.)");
+    }
+    if (message.content.startsWith(prefix + "Penalize")) {
+         message.channel.send("Penalize <:crarityr:364045147085864960> <:cmenchant:364048663447601153> - G:80 \nAdds Paralysis <:csenchant:364048663464378391> to all Evo Cards. (Can\'t attack or use items, and abilities do not activate.)");
+    }
+    if (message.content.startsWith(prefix + "penalize")) {
+         message.channel.send("Penalize <:crarityr:364045147085864960> <:cmenchant:364048663447601153> - G:80 \nAdds Paralysis <:csenchant:364048663464378391> to all Evo Cards. (Can\'t attack or use items, and abilities do not activate.)");
+    }
+    if (message.content.startsWith(prefix + "Philosophy")) {
+         message.channel.send("Philosophy <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:50 \nIf user has a card with the Synthesis ability in hand, draw 3 cards / If not, user draws 2 cards.");
+    }
+    if (message.content.startsWith(prefix + "philosophy")) {
+         message.channel.send("Philosophy <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:50 \nIf user has a card with the Synthesis ability in hand, draw 3 cards / If not, user draws 2 cards.");
+    }
+    if (message.content.startsWith(prefix + "Plague")) {
+         message.channel.send("Plague <:craritys:364048663351132162> <:cmenchant:364048663447601153> - G:100 \nAdds Poison <:csenchant:364048663464378391> to all creatures. (At the end of a battle, the creature\'s base HP is reduced by half of its MHP.)");
+    }
+    if (message.content.startsWith(prefix + "plague")) {
+         message.channel.send("Plague <:craritys:364048663351132162> <:cmenchant:364048663447601153> - G:100 \nAdds Poison <:csenchant:364048663464378391> to all creatures. (At the end of a battle, the creature\'s base HP is reduced by half of its MHP.)");
+    }
+    if (message.content.startsWith(prefix + "Poison Mind")) {
+         message.channel.send("Poison Mind <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:20 \nUser views the top 6 cards in target enemy Cepter\'s book, then selects 1 to destroy. / User draws a card.");
+    }
+    if (message.content.startsWith(prefix + "PoisonMind")) {
+         message.channel.send("Poison Mind <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:20 \nUser views the top 6 cards in target enemy Cepter\'s book, then selects 1 to destroy. / User draws a card.");
+    }
+    if (message.content.startsWith(prefix + "poison mind")) {
+         message.channel.send("Poison Mind <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:20 \nUser views the top 6 cards in target enemy Cepter\'s book, then selects 1 to destroy. / User draws a card.");
+    }
+    if (message.content.startsWith(prefix + "poisonmind")) {
+         message.channel.send("Poison Mind <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:20 \nUser views the top 6 cards in target enemy Cepter\'s book, then selects 1 to destroy. / User draws a card.");
+    }
+    if (message.content.startsWith(prefix + "Prophecy")) {
+         message.channel.send("Prophecy <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:40 \nUser draws 1 card of a specified type from their book.");
+    }
+    if (message.content.startsWith(prefix + "prophecy")) {
+         message.channel.send("Prophecy <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:40 \nUser draws 1 card of a specified type from their book.");
+    }
+    if (message.content.startsWith(prefix + "Purify")) {
+         message.channel.send("Purify <:crarityn:364048663661772800> <:cminstant:364048663498063874> - G:20 \nRemoves all <:csenchant:364048663464378391> effects from the map. User then gains (number of different <:csenchant:364048663464378391> removed x50)G.");
+    }
+    if (message.content.startsWith(prefix + "purify")) {
+         message.channel.send("Purify <:crarityn:364048663661772800> <:cminstant:364048663498063874> - G:20 \nRemoves all <:csenchant:364048663464378391> effects from the map. User then gains (number of different <:csenchant:364048663464378391> removed x50)G.");
+    }
+    if (message.content.startsWith(prefix + "Quicksand")) {
+         message.channel.send("Quicksand <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:100 \nAdds Force Stop <:csenchant:364048663464378391> to target creature. (The next Cepter who tries to pass this creature within 2 rounds must stop here.)");
+    }
+    if (message.content.startsWith(prefix + "quicksand")) {
+         message.channel.send("Quicksand <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:100 \nAdds Force Stop <:csenchant:364048663464378391> to target creature. (The next Cepter who tries to pass this creature within 2 rounds must stop here.)");
+    }
+    if (message.content.startsWith(prefix + "Quietude")) {
+         message.channel.send("Quietude <:craritys:364048663351132162> <:cmenchant:364048663447601153> - G:70 \nAdds Mute <:csenchant:364048663464378391> to all Cepters (Spells cannot be used for one round.)");
+    }
+    if (message.content.startsWith(prefix + "quietude")) {
+         message.channel.send("Quietude <:craritys:364048663351132162> <:cmenchant:364048663447601153> - G:70 \nAdds Mute <:csenchant:364048663464378391> to all Cepters (Spells cannot be used for one round.)");
+    }
+    if (message.content.startsWith(prefix + "Quintessence")) {
+         message.channel.send("Quintessence <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:80 \nChanges a target territory with a level lower than 4 to <:cmulti:364048663393337345>.");
+    }
+    if (message.content.startsWith(prefix + "quintessence")) {
+         message.channel.send("Quintessence <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:80 \nChanges a target territory with a level lower than 4 to <:cmulti:364048663393337345>.");
+    }
+    if (message.content === prefix + "Ray of Law") {
+         message.channel.send("Ray of Law <:craritys:364048663351132162> <:cminstant:364048663498063874> - G:60 \nDestroys all cards with a value of 100G and up in all Cepters\' hands.");
+    }
+    if (message.content === prefix + "RayofLaw") {
+         message.channel.send("Ray of Law <:craritys:364048663351132162> <:cminstant:364048663498063874> - G:60 \nDestroys all cards with a value of 100G and up in all Cepters\' hands.");
+    }
+    if (message.content === prefix + "ray of law") {
+         message.channel.send("Ray of Law <:craritys:364048663351132162> <:cminstant:364048663498063874> - G:60 \nDestroys all cards with a value of 100G and up in all Cepters\' hands.");
+    }
+    if (message.content === prefix + "rayoflaw") {
+         message.channel.send("Ray of Law <:craritys:364048663351132162> <:cminstant:364048663498063874> - G:60 \nDestroys all cards with a value of 100G and up in all Cepters\' hands.");
+    }
+    if (message.content === prefix + "Ray of Purge") {
+         message.channel.send("Ray of Purge <:crarityr:364045147085864960> <:cminstant:364048663498063874> - G:50 \nDestroys all <:csenchant:364048663464378391> spell cards in all Cepters\' hands.");
+    }
+    if (message.content === prefix + "RayofPurge") {
+         message.channel.send("Ray of Purge <:crarityr:364045147085864960> <:cminstant:364048663498063874> - G:50 \nDestroys all <:csenchant:364048663464378391> spell cards in all Cepters\' hands.");
+    }
+    if (message.content === prefix + "ray of purge") {
+         message.channel.send("Ray of Purge <:crarityr:364045147085864960> <:cminstant:364048663498063874> - G:50 \nDestroys all <:csenchant:364048663464378391> spell cards in all Cepters\' hands.");
+    }
+    if (message.content === prefix + "rayofpurge") {
+         message.channel.send("Ray of Purge <:crarityr:364045147085864960> <:cminstant:364048663498063874> - G:50 \nDestroys all <:csenchant:364048663464378391> spell cards in all Cepters\' hands.");
+    }
+    if (message.content.startsWith(prefix + "Redivision")) {
+         message.channel.send("Redivision <:craritys:364048663351132162> <:cminstant:364048663498063874> - G:100 \nRedistributes all Cepters\' magic so that it is spread equally among them.");
+    }
+    if (message.content.startsWith(prefix + "redivision")) {
+         message.channel.send("Redivision <:craritys:364048663351132162> <:cminstant:364048663498063874> - G:100 \nRedistributes all Cepters\' magic so that it is spread equally among them.");
+    }
+    if (message.content.startsWith(prefix + "Reincarnation")) {
+         message.channel.send("Reincarnation <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:70 \nUser discards all cards from current hand and draws a number of cards equal to the number they discarded +1.");
+    }
+    if (message.content.startsWith(prefix + "reincarnation")) {
+         message.channel.send("Reincarnation <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:70 \nUser discards all cards from current hand and draws a number of cards equal to the number they discarded +1.");
+    }
+    if (message.content.startsWith(prefix + "Release")) {
+         message.channel.send("Release <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:50 \nAdds Unlock Limits <:csenchant:364048663464378391> to user. (For 4 rounds, ignore item restrictions and land restrictions.)");
+    }
+    if (message.content.startsWith(prefix + "release")) {
+         message.channel.send("Release <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:50 \nAdds Unlock Limits <:csenchant:364048663464378391> to user. (For 4 rounds, ignore item restrictions and land restrictions.)");
+    }
+    if (message.content.startsWith(prefix + "Relief")) {
+         message.channel.send("Relief <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:30 \nExchanges creatures in 2 of user\'s territories. / Recycles to Book");
+    }
+    if (message.content.startsWith(prefix + "relief")) {
+         message.channel.send("Relief <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:30 \nExchanges creatures in 2 of user\'s territories. / Recycles to Book");
+    }
+    if (message.content.startsWith(prefix + "Remission")) {
+         message.channel.send("Remission <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:100 \nTarget gate will be marked as passed. (Cannot be used on the final gate needed to complete a lap.)");
+    }
+    if (message.content.startsWith(prefix + "remission")) {
+         message.channel.send("Remission <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:100 \nTarget gate will be marked as passed. (Cannot be used on the final gate needed to complete a lap.)");
+    }
+    if (message.content.startsWith(prefix + "Remote Switch")) {
+         message.channel.send("Remote Switch <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:30 \nChanges the direction of all Path Switches. / Recycles to Book. / If no Path Switch is present, user draws a card.");
+    }
+    if (message.content.startsWith(prefix + "RemoteSwitch")) {
+         message.channel.send("Remote Switch <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:30 \nChanges the direction of all Path Switches. / Recycles to Book. / If no Path Switch is present, user draws a card.");
+    }
+    if (message.content.startsWith(prefix + "remote switch")) {
+         message.channel.send("Remote Switch <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:30 \nChanges the direction of all Path Switches. / Recycles to Book. / If no Path Switch is present, user draws a card.");
+    }
+    if (message.content.startsWith(prefix + "remoteswitch")) {
+         message.channel.send("Remote Switch <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:30 \nChanges the direction of all Path Switches. / Recycles to Book. / If no Path Switch is present, user draws a card.");
+    }
+    if (message.content.startsWith(prefix + "Restore")) {
+         message.channel.send("Restore <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:40 \nRemoves Fatigued from target creature. / Fully recovers target creature\'s HP.");
+    }
+    if (message.content.startsWith(prefix + "restore")) {
+         message.channel.send("Restore <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:40 \nRemoves Fatigued from target creature. / Fully recovers target creature\'s HP.");
+    }
+    if (message.content.startsWith(prefix + "Revival")) {
+         message.channel.send("Revival <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:80 \nTarget Cepter\'s book is reverted to the state it was in when the game began.");
+    }
+    if (message.content.startsWith(prefix + "revival")) {
+         message.channel.send("Revival <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:80 \nTarget Cepter\'s book is reverted to the state it was in when the game began.");
+    }    
 });
 
 // THIS  MUST  BE  THIS  WAY
