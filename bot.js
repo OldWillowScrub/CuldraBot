@@ -3289,10 +3289,10 @@ client.on('message', message => {
          message.channel.send("Dark World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds Anti-Spell <:csenchant:364048663464378391> to the world. (For 6 rounds, all creatures with an <:csenchant:364048663464378391> cannot be targeted by spells.)");
     }
     if (message.content.startsWith(prefix + "Debility")) {
-         message.channel.send("Debility <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:40+ <:ccard:364048663426760705> \nST=0 to target creature. / Synthesis: Spells (MHP-20 to target creature.) / User draws a card.");
+         message.channel.send("Debility <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:40+ <:ccard:364048663426760705> \nST=0 to target creature. / Synthesis: Spells (MHP-20 to target creature.) User draws a card.");
     }
     if (message.content.startsWith(prefix + "debility")) {
-         message.channel.send("Debility <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:40+ <:ccard:364048663426760705> \nST=0 to target creature. / Synthesis: Spells (MHP-20 to target creature.) / User draws a card.");
+         message.channel.send("Debility <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:40+ <:ccard:364048663426760705> \nST=0 to target creature. / Synthesis: Spells (MHP-20 to target creature.) User draws a card.");
     }
     if (message.content.startsWith(prefix + "Disaster")) {
          message.channel.send("Disaster <:crarityr:364045147085864960> <:cminstant:364048663498063874> - G:120+ <:ccard:364048663426760705> \nHP-30 to all Fatigued creatures with MHP of 50 or more.");
@@ -3305,55 +3305,7 @@ client.on('message', message => {
     }
     if (message.content.startsWith(prefix + "discord")) {
          message.channel.send("Discord <:craritys:364048663351132162> <:cminstant:364048663498063874> - G:80+ <:ccard:364048663426760705> \nTransforms all of the most numerous kind of creature on the map into Goblins.");
-    }
-    if (message.content.startsWith(prefix + "Disease")) {
-         message.channel.send("Disease <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds Ability -20 <:csenchant:364048663464378391> to target creature. (In battle, this creature is inflicted with ST & HP-20.) / User draws a card.");
-    }
-    if (message.content.startsWith(prefix + "disease")) {
-         message.channel.send("Disease <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds Ability -20 <:csenchant:364048663464378391> to target creature. (In battle, this creature is inflicted with ST & HP-20.) / User draws a card.");
-    }
-    if (message.content.startsWith(prefix + "Diselement")) {
-         message.channel.send("Diselement <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:20+ <:ccard:364048663426760705> \nAdds Nullify Land Effect <:csenchant:364048663464378391> to target creature (No land effect). / Synthesis: Creatures (Changes target to all Fatigued creatures.)) / User draws a card.");
-    }
-    if (message.content.startsWith(prefix + "diselement")) {
-         message.channel.send("Diselement <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:20+ <:ccard:364048663426760705> \nAdds Nullify Land Effect <:csenchant:364048663464378391> to target creature (No land effect). / Synthesis: Creatures (Changes target to all Fatigued creatures.)) / User draws a card.");
-    }
-    if (message.content.startsWith(prefix + "Dominant Growth")) {
-         message.channel.send("Dominant Growth <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:50 \nAdds Growth Command <:csenchant:364048663464378391> to target creature. (MHP+20 when Terrain Change or Land Level Up are used on this creature\'s territory (max. 100).)");
-    }
-    if (message.content.startsWith(prefix + "DominantGrowth")) {
-         message.channel.send("Dominant Growth <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:50 \nAdds Growth Command <:csenchant:364048663464378391> to target creature. (MHP+20 when Terrain Change or Land Level Up are used on this creature\'s territory (max. 100).)");
-    }
-    if (message.content.startsWith(prefix + "dominant growth")) {
-         message.channel.send("Dominant Growth <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:50 \nAdds Growth Command <:csenchant:364048663464378391> to target creature. (MHP+20 when Terrain Change or Land Level Up are used on this creature\'s territory (max. 100).)");
-    }
-    if (message.content.startsWith(prefix + "dominantgrowth")) {
-         message.channel.send("Dominant Growth <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:50 \nAdds Growth Command <:csenchant:364048663464378391> to target creature. (MHP+20 when Terrain Change or Land Level Up are used on this creature\'s territory (max. 100).)");
-    }
-    if (message.content.startsWith(prefix + "Drain Magic")) {
-         message.channel.send("Drain Magic <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:80 \nUser steals 30% of target enemy Cepter\'s Current Magic.");
-    }
-    if (message.content.startsWith(prefix + "DrainMagic")) {
-         message.channel.send("Drain Magic <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:80 \nUser steals 30% of target enemy Cepter\'s Current Magic.");
-    }
-    if (message.content.startsWith(prefix + "drain magic")) {
-         message.channel.send("Drain Magic <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:80 \nUser steals 30% of target enemy Cepter\'s Current Magic.");
-    }
-    if (message.content.startsWith(prefix + "drainmagic")) {
-         message.channel.send("Drain Magic <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:80 \nUser steals 30% of target enemy Cepter\'s Current Magic.");
-    }
-    if (message.content.startsWith(prefix + "Dream Terrain")) {
-         message.channel.send("Dream Terrain <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds Shared Toll Fees <:csenchant:364048663464378391> to user. (For 5 rounds, user gains 50% of tolls collected by other Cepters.)");
-    }
-    if (message.content.startsWith(prefix + "DreamTerrain")) {
-         message.channel.send("Dream Terrain <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds Shared Toll Fees <:csenchant:364048663464378391> to user. (For 5 rounds, user gains 50% of tolls collected by other Cepters.)");
-    }
-    if (message.content.startsWith(prefix + "dream terrain")) {
-         message.channel.send("Dream Terrain <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds Shared Toll Fees <:csenchant:364048663464378391> to user. (For 5 rounds, user gains 50% of tolls collected by other Cepters.)");
-    }
-    if (message.content.startsWith(prefix + "dreamterrain")) {
-         message.channel.send("Dream Terrain <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds Shared Toll Fees <:csenchant:364048663464378391> to user. (For 5 rounds, user gains 50% of tolls collected by other Cepters.)");
-    }
+    }    
 });
 
 // THIS  MUST  BE  THIS  WAY
