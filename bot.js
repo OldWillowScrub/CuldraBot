@@ -3354,66 +3354,6 @@ client.on('message', message => {
     if (message.content.startsWith(prefix + "dreamterrain")) {
          message.channel.send("Dream Terrain <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds Shared Toll Fees <:csenchant:364048663464378391> to user. (For 5 rounds, user gains 50% of tolls collected by other Cepters.)");
     }
-    if (message.content.startsWith(prefix + "Earth Shift")) {
-         message.channel.send("Earth Shift <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:100 \nChanges target territory belonging to user into a <:cearth:364048663582081034> land.");
-    }
-    if (message.content.startsWith(prefix + "EarthShift")) {
-         message.channel.send("Earth Shift <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:100 \nChanges target territory belonging to user into a <:cearth:364048663582081034> land.");
-    }
-    if (message.content.startsWith(prefix + "earth shift")) {
-         message.channel.send("Earth Shift <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:100 \nChanges target territory belonging to user into a <:cearth:364048663582081034> land.");
-    }
-    if (message.content.startsWith(prefix + "earthshift")) {
-         message.channel.send("Earth Shift <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:100 \nChanges target territory belonging to user into a <:cearth:364048663582081034> land.");
-    }
-    if (message.content.startsWith(prefix + "Elemental Wrath")) {
-         message.channel.send("Elemental Wrath <:crarityn:364048663661772800> <:cminstant:364048663498063874> - G:70 \nHP-20 to all creatures whose element doesn\'t match the land they\'re on.");
-    }
-    if (message.content.startsWith(prefix + "ElementalWrath")) {
-         message.channel.send("Elemental Wrath <:crarityn:364048663661772800> <:cminstant:364048663498063874> - G:70 \nHP-20 to all creatures whose element doesn\'t match the land they\'re on.");
-    }
-    if (message.content.startsWith(prefix + "elemental wrath")) {
-         message.channel.send("Elemental Wrath <:crarityn:364048663661772800> <:cminstant:364048663498063874> - G:70 \nHP-20 to all creatures whose element doesn\'t match the land they\'re on.");
-    }
-    if (message.content.startsWith(prefix + "elementalwrath")) {
-         message.channel.send("Elemental Wrath <:crarityn:364048663661772800> <:cminstant:364048663498063874> - G:70 \nHP-20 to all creatures whose element doesn\'t match the land they\'re on.");
-    }
-    if (message.content.startsWith(prefix + "Energy Field")) {
-         message.channel.send("Energy Field <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:60 \nAdds Magic Barrier <:csenchant:364048663464378391> to target creature. (Gain the following abilities: Neutralizes: Normal Attacks and Battle End: Opponent steals 100G.)");
-    }
-    if (message.content.startsWith(prefix + "EnergyField")) {
-         message.channel.send("Energy Field <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:60 \nAdds Magic Barrier <:csenchant:364048663464378391> to target creature. (Gain the following abilities: Neutralizes: Normal Attacks and Battle End: Opponent steals 100G.)");
-    }
-    if (message.content.startsWith(prefix + "energy field")) {
-         message.channel.send("Energy Field <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:60 \nAdds Magic Barrier <:csenchant:364048663464378391> to target creature. (Gain the following abilities: Neutralizes: Normal Attacks and Battle End: Opponent steals 100G.)");
-    }
-    if (message.content.startsWith(prefix + "energyfield")) {
-         message.channel.send("Energy Field <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:60 \nAdds Magic Barrier <:csenchant:364048663464378391> to target creature. (Gain the following abilities: Neutralizes: Normal Attacks and Battle End: Opponent steals 100G.)");
-    }
-    if (message.content.startsWith(prefix + "Erosion")) {
-         message.channel.send("Erosion <:crarityr:364045147085864960> <:cminstant:364048663498063874> - G:40+ <:ccard:364048663426760705> \nIf target Cepter has 2 or more of the same card in their hand, those cards are destroyed. / Synthesis: Spells (Changes target to all Cepters.)");
-    }
-    if (message.content.startsWith(prefix + "erosion")) {
-         message.channel.send("Erosion <:crarityr:364045147085864960> <:cminstant:364048663498063874> - G:40+ <:ccard:364048663426760705> \nIf target Cepter has 2 or more of the same card in their hand, those cards are destroyed. / Synthesis: Spells (Changes target to all Cepters.)");
-    }
-    if (message.content.startsWith(prefix + "Escape")) {
-         message.channel.send("Escape <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:20 \nTransports user to the nearest vacant land. (User cannot roll the dice this turn.)");
-    }
-    if (message.content.startsWith(prefix + "escape")) {
-         message.channel.send("Escape <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:20 \nTransports user to the nearest vacant land. (User cannot roll the dice this turn.)");
-    }
-    if (message.content.startsWith(prefix + "Exchange")) {
-         message.channel.send("Exchange \n Strange <:csinstant:364048663447863298> - G:60 \nExchanges target creature with another creature from its owner\'s hand.");
-    }
-    if (message.content.startsWith(prefix + "exchange")) {
-         message.channel.send("Exchange \n Strange <:csinstant:364048663447863298> - G:60 \nExchanges target creature with another creature from its owner\'s hand.");
-    }
-    if (message.content.startsWith(prefix + "Exile")) {
-         message.channel.send("Exile <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:100 \nReturns 1 creature with <:csenchant:364048663464378391> and no summoning conditions to its owner\'s hand.");
-    }
-    if (message.content.startsWith(prefix + "exile")) {
-         message.channel.send("Exile <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:100 \nReturns 1 creature with <:csenchant:364048663464378391> and no summoning conditions to its owner\'s hand.");
-    }    
 });
 
 // THIS  MUST  BE  THIS  WAY
