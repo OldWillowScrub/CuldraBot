@@ -2117,6 +2117,103 @@ client.on('message', message => {
     }
     if (message.content.startsWith(prefix + "yowie")) {
          message.channel.send("Yowie <:crarityn:364048663661772800> <:cair:364048663518904327> \nST:40 HP:40 MHP:40 G:70 \nCritical Hit: <:cneutral:364043997825597440> / Toll value for occupied territory randomly changes by 1/2 to 2.5x.");
+    }
+  //EVO DRAGONS GO HERE
+  if (message.content.startsWith(prefix + "Assault Dragon Super")) {
+     message.channel.send("Assault Dragon Super <:craritye:364048663611310081> ( <:cneutral:364043997825597440> <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> or <:cair:364048663518904327> ) \nST:70-80 HP:30-55 110<=ST+HP<=135 G:(varies) \n(abilities vary)");
+    }
+    if (message.content.startsWith(prefix + "AssaultDragonSuper")) {
+         message.channel.send("Assault Dragon Super <:craritye:364048663611310081> ( <:cneutral:364043997825597440> <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> or <:cair:364048663518904327> ) \nST:70-80 HP:30-55 110<=ST+HP<=135 G:(varies) \n(abilities vary)");
+    }
+    if (message.content.startsWith(prefix + "assault dragon super")) {
+         message.channel.send("Assault Dragon Super <:craritye:364048663611310081> ( <:cneutral:364043997825597440> <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> or <:cair:364048663518904327> ) \nST:70-80 HP:30-55 110<=ST+HP<=135 G:(varies) \n(abilities vary)");
+    }
+    if (message.content.startsWith(prefix + "assaultdragonsuper")) {
+         message.channel.send("Assault Dragon Super <:craritye:364048663611310081> ( <:cneutral:364043997825597440> <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> or <:cair:364048663518904327> ) \nST:70-80 HP:30-55 110<=ST+HP<=135 G:(varies) \n(abilities vary)");
+    }
+    if (message.content.startsWith(prefix + "Assault Dragon")) {
+         message.channel.send("Assault Dragon <:craritye:364048663611310081> ( <:cneutral:364043997825597440> <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> or <:cair:364048663518904327> ) \nST:60-80 HP:5-35 70<=ST+HP<=110 G:(varies) \n(abilities vary)");
+    }
+    if (message.content.startsWith(prefix + "AssaultDragon")) {
+         message.channel.send("Assault Dragon <:craritye:364048663611310081> ( <:cneutral:364043997825597440> <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> or <:cair:364048663518904327> ) \nST:60-80 HP:5-35 70<=ST+HP<=110 G:(varies) \n(abilities vary)");
+    }
+    if (message.content.startsWith(prefix + "assault dragon")) {
+         message.channel.send("Assault Dragon <:craritye:364048663611310081> ( <:cneutral:364043997825597440> <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> or <:cair:364048663518904327> ) \nST:60-80 HP:5-35 70<=ST+HP<=110 G:(varies) \n(abilities vary)");
+    }
+    if (message.content.startsWith(prefix + "assaultdragon")) {
+         message.channel.send("Assault Dragon <:craritye:364048663611310081> ( <:cneutral:364043997825597440> <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> or <:cair:364048663518904327> ) \nST:60-80 HP:5-35 70<=ST+HP<=110 G:(varies) \n(abilities vary)");
+    }
+    if (message.content.startsWith(prefix + "Great Dragon Super")) {
+         message.channel.send("Great Dragon Super <:craritye:364048663611310081> ( <:cneutral:364043997825597440> <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> or <:cair:364048663518904327> ) \nST:60-80 HP:60-80 140<=ST+HP G:(varies) \n(abilities vary)");
+    }
+    if (message.content.startsWith(prefix + "GreatDragonSuper")) {
+         message.channel.send("Great Dragon Super <:craritye:364048663611310081> ( <:cneutral:364043997825597440> <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> or <:cair:364048663518904327> ) \nST:60-80 HP:60-80 140<=ST+HP G:(varies) \n(abilities vary)");
+    }
+    if (message.content.startsWith(prefix + "great dragon super")) {
+         message.channel.send("Great Dragon Super <:craritye:364048663611310081> ( <:cneutral:364043997825597440> <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> or <:cair:364048663518904327> ) \nST:60-80 HP:60-80 140<=ST+HP G:(varies) \n(abilities vary)");
+    }
+    if (message.content.startsWith(prefix + "greatdragonsuper")) {
+         message.channel.send("Great Dragon Super <:craritye:364048663611310081> ( <:cneutral:364043997825597440> <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> or <:cair:364048663518904327> ) \nST:60-80 HP:60-80 140<=ST+HP G:(varies) \n(abilities vary)");
+    }
+    if (message.content.startsWith(prefix + "Great Dragon")) {
+         message.channel.send("Great Dragon <:craritye:364048663611310081> ( <:cneutral:364043997825597440> <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> or <:cair:364048663518904327> ) \nST:40-75 HP:40-75 100<=ST+HP<=140 G:(varies) \n(abilities vary)");
+    }
+    if (message.content.startsWith(prefix + "GreatDragon")) {
+         message.channel.send("Great Dragon <:craritye:364048663611310081> ( <:cneutral:364043997825597440> <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> or <:cair:364048663518904327> ) \nST:40-75 HP:40-75 100<=ST+HP<=140 G:(varies) \n(abilities vary)");
+    }
+    if (message.content.startsWith(prefix + "great dragon")) {
+         message.channel.send("Great Dragon <:craritye:364048663611310081> ( <:cneutral:364043997825597440> <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> or <:cair:364048663518904327> ) \nST:40-75 HP:40-75 100<=ST+HP<=140 G:(varies) \n(abilities vary)");
+    }
+    if (message.content.startsWith(prefix + "greatdragon")) {
+         message.channel.send("Great Dragon <:craritye:364048663611310081> ( <:cneutral:364043997825597440> <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> or <:cair:364048663518904327> ) \nST:40-75 HP:40-75 100<=ST+HP<=140 G:(varies) \n(abilities vary)");
+    }
+    if (message.content.startsWith(prefix + "Massive Dragon Super")) {
+         message.channel.send("Massive Dragon Super <:craritye:364048663611310081> ( <:cneutral:364043997825597440> <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> or <:cair:364048663518904327> ) \nST:30-55 HP:70-80 110<=ST+HP<=135 G:(varies) \n(abilities vary).");
+    }
+    if (message.content.startsWith(prefix + "MassiveDragonSuper")) {
+         message.channel.send("Massive Dragon Super <:craritye:364048663611310081> ( <:cneutral:364043997825597440> <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> or <:cair:364048663518904327> ) \nST:30-55 HP:70-80 110<=ST+HP<=135 G:(varies) \n(abilities vary).");
+    }
+    if (message.content.startsWith(prefix + "massive dragon super")) {
+         message.channel.send("Massive Dragon Super <:craritye:364048663611310081> ( <:cneutral:364043997825597440> <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> or <:cair:364048663518904327> ) \nST:30-55 HP:70-80 110<=ST+HP<=135 G:(varies) \n(abilities vary).");
+    }
+    if (message.content.startsWith(prefix + "massivedragonsuper")) {
+         message.channel.send("Massive Dragon Super <:craritye:364048663611310081> ( <:cneutral:364043997825597440> <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> or <:cair:364048663518904327> ) \nST:30-55 HP:70-80 110<=ST+HP<=135 G:(varies) \n(abilities vary).");
+    }
+    if (message.content.startsWith(prefix + "Massive Dragon")) {
+         message.channel.send("Massive Dragon <:craritye:364048663611310081> ( <:cneutral:364043997825597440> <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> or <:cair:364048663518904327> ) \nST:0-35 HP:60-80 70<=ST+HP<=90 G:(varies) \n(abilities vary)");
+    }
+    if (message.content.startsWith(prefix + "MassiveDragon")) {
+         message.channel.send("Massive Dragon <:craritye:364048663611310081> ( <:cneutral:364043997825597440> <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> or <:cair:364048663518904327> ) \nST:0-35 HP:60-80 70<=ST+HP<=90 G:(varies) \n(abilities vary)");
+    }
+    if (message.content.startsWith(prefix + "massive dragon")) {
+         message.channel.send("Massive Dragon <:craritye:364048663611310081> ( <:cneutral:364043997825597440> <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> or <:cair:364048663518904327> ) \nST:0-35 HP:60-80 70<=ST+HP<=90 G:(varies) \n(abilities vary)");
+    }
+    if (message.content.startsWith(prefix + "massivedragon")) {
+         message.channel.send("Massive Dragon <:craritye:364048663611310081> ( <:cneutral:364043997825597440> <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> or <:cair:364048663518904327> ) \nST:0-35 HP:60-80 70<=ST+HP<=90 G:(varies) \n(abilities vary)");
+    }
+    if (message.content.startsWith(prefix + "Puppy Dragon")) {
+         message.channel.send("Puppy Dragon <:craritye:364048663611310081> ( <:cneutral:364043997825597440> <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> or <:cair:364048663518904327> ) \nST:0-55 HP:5-45 ST+HP<=60 G:(varies) \n(abilities vary)");
+    }
+    if (message.content.startsWith(prefix + "PuppyDragon")) {
+         message.channel.send("Puppy Dragon <:craritye:364048663611310081> ( <:cneutral:364043997825597440> <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> or <:cair:364048663518904327> ) \nST:0-55 HP:5-45 ST+HP<=60 G:(varies) \n(abilities vary)");
+    }
+    if (message.content.startsWith(prefix + "puppy dragon")) {
+         message.channel.send("Puppy Dragon <:craritye:364048663611310081> ( <:cneutral:364043997825597440> <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> or <:cair:364048663518904327> ) \nST:0-55 HP:5-45 ST+HP<=60 G:(varies) \n(abilities vary)");
+    }
+    if (message.content.startsWith(prefix + "puppdragon")) {
+         message.channel.send("Puppy Dragon <:craritye:364048663611310081> ( <:cneutral:364043997825597440> <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> or <:cair:364048663518904327> ) \nST:0-55 HP:5-45 ST+HP<=60 G:(varies) \n(abilities vary)");
+    }
+    if (message.content.startsWith(prefix + "Young Dragon")) {
+         message.channel.send("Young Dragon <:craritye:364048663611310081> ( <:cneutral:364043997825597440> <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> or <:cair:364048663518904327> ) \nST:0-65 HP:5-65 50<=ST+HP<=100 G:(varies) \n(abilities vary)");
+    }
+    if (message.content.startsWith(prefix + "YoungDragon")) {
+         message.channel.send("Young Dragon <:craritye:364048663611310081> ( <:cneutral:364043997825597440> <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> or <:cair:364048663518904327> ) \nST:0-65 HP:5-65 50<=ST+HP<=100 G:(varies) \n(abilities vary)");
+    }
+    if (message.content.startsWith(prefix + "young dragon")) {
+         message.channel.send("Young Dragon <:craritye:364048663611310081> ( <:cneutral:364043997825597440> <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> or <:cair:364048663518904327> ) \nST:0-65 HP:5-65 50<=ST+HP<=100 G:(varies) \n(abilities vary)");
+    }
+    if (message.content.startsWith(prefix + "youngdragon")) {
+         message.channel.send("Young Dragon <:craritye:364048663611310081> ( <:cneutral:364043997825597440> <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> or <:cair:364048663518904327> ) \nST:0-65 HP:5-65 50<=ST+HP<=100 G:(varies) \n(abilities vary)");
     }    
 });
 
