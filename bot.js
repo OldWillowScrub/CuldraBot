@@ -3639,7 +3639,7 @@ client.on('message', message => {
     if (message.content === prefix + "hw 6") {
          message.channel.send("Holy Word 6 <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:50 \nAdds Dice 6 <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 6.)");
     }
-    if (message.content === prefix + (prefix + "hw6") {
+    if (message.content === prefix + "hw6") {
          message.channel.send("Holy Word 6 <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:50 \nAdds Dice 6 <:csenchant:364048663464378391> to target Cepter. (Target Cepter\'s next dice roll yields a 6.)");
     }
     if (message.content === prefix + "Holy Word 8") {
