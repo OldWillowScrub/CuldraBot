@@ -4291,10 +4291,10 @@ client.on('message', message => {
          message.channel.send("Storm Shift <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:120 \nChanges target level 3 or lower <:cwater:364048663447601154> territory into a <:cair:364048663518904327> land, or changes target level 3 or lower <:cair:364048663518904327> territory into a <:cwater:364048663447601154> land.");
     }
     if (message.content.startsWith(prefix + "Subsidence")) {
-         message.channel.send("Subsidence <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100+ <:ccard:364048663426760705> \nLowers level of target enemy Cepter\'s highest level territory by 1. / Synthesis: Subsidence (Changes target to "all Cepters.").");
+         message.channel.send("Subsidence <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100+ <:ccard:364048663426760705> \nLowers level of target enemy Cepter\'s highest level territory by 1. / Synthesis: Subsidence (Changes target to all Cepters.).");
     }
     if (message.content.startsWith(prefix + "subsidence")) {
-         message.channel.send("Subsidence <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100+ <:ccard:364048663426760705> \nLowers level of target enemy Cepter\'s highest level territory by 1. / Synthesis: Subsidence (Changes target to "all Cepters.").");
+         message.channel.send("Subsidence <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100+ <:ccard:364048663426760705> \nLowers level of target enemy Cepter\'s highest level territory by 1. / Synthesis: Subsidence (Changes target to all Cepters.).");
     }
     if (message.content.startsWith(prefix + "Sudden Impact")) {
          message.channel.send("Sudden Impact <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:100 \nHidden / Lowers level of target level 4 territory by 1.");
