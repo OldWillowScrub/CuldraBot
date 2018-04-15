@@ -3276,36 +3276,6 @@ client.on('message', message => {
     if (message.content.startsWith(prefix + "clusterburst")) {
          message.channel.send("Cluster Burst <:craritys:364048663351132162> <:cminstant:364048663498063874> - G:90 \nHP-20 to all creatures of the most numerous element in play. (Including <:cneutral:364043997825597440>.)");
     }
-    if (message.content.startsWith(prefix + "Dark World")) {
-         message.channel.send("Dark World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds Anti-Spell <:csenchant:364048663464378391> to the world. (For 6 rounds, all creatures with an <:csenchant:364048663464378391> cannot be targeted by spells.)");
-    }
-    if (message.content.startsWith(prefix + "DarkWorld")) {
-         message.channel.send("Dark World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds Anti-Spell <:csenchant:364048663464378391> to the world. (For 6 rounds, all creatures with an <:csenchant:364048663464378391> cannot be targeted by spells.)");
-    }
-    if (message.content.startsWith(prefix + "dark world")) {
-         message.channel.send("Dark World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds Anti-Spell <:csenchant:364048663464378391> to the world. (For 6 rounds, all creatures with an <:csenchant:364048663464378391> cannot be targeted by spells.)");
-    }
-    if (message.content.startsWith(prefix + "darkworld")) {
-         message.channel.send("Dark World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:70 \nAdds Anti-Spell <:csenchant:364048663464378391> to the world. (For 6 rounds, all creatures with an <:csenchant:364048663464378391> cannot be targeted by spells.)");
-    }
-    if (message.content.startsWith(prefix + "Debility")) {
-         message.channel.send("Debility <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:40+ <:ccard:364048663426760705> \nST=0 to target creature. / Synthesis: Spells (MHP-20 to target creature.) User draws a card.");
-    }
-    if (message.content.startsWith(prefix + "debility")) {
-         message.channel.send("Debility <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:40+ <:ccard:364048663426760705> \nST=0 to target creature. / Synthesis: Spells (MHP-20 to target creature.) User draws a card.");
-    }
-    if (message.content.startsWith(prefix + "Disaster")) {
-         message.channel.send("Disaster <:crarityr:364045147085864960> <:cminstant:364048663498063874> - G:120+ <:ccard:364048663426760705> \nHP-30 to all Fatigued creatures with MHP of 50 or more.");
-    }
-    if (message.content.startsWith(prefix + "disaster")) {
-         message.channel.send("Disaster <:crarityr:364045147085864960> <:cminstant:364048663498063874> - G:120+ <:ccard:364048663426760705> \nHP-30 to all Fatigued creatures with MHP of 50 or more.");
-    }
-    if (message.content.startsWith(prefix + "Discord")) {
-         message.channel.send("Discord <:craritys:364048663351132162> <:cminstant:364048663498063874> - G:80+ <:ccard:364048663426760705> \nTransforms all of the most numerous kind of creature on the map into Goblins.");
-    }
-    if (message.content.startsWith(prefix + "discord")) {
-         message.channel.send("Discord <:craritys:364048663351132162> <:cminstant:364048663498063874> - G:80+ <:ccard:364048663426760705> \nTransforms all of the most numerous kind of creature on the map into Goblins.");
-    }    
 });
 
 // THIS  MUST  BE  THIS  WAY
