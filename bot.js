@@ -878,7 +878,308 @@ client.on('message', message => {
     }
     if (message.content.startsWith(prefix + "volcanicdragon")) {
          message.channel.send("Volcanic Dragon <:crarityr:364045147085864960> <:cfire:364048663355588609> \nST:50 HP:50 MHP:50 G:80+ <:cfire:364048663355588609> <:cfire:364048663355588609> \nLand Limit: <:cnowater:364048663657447434> \nItem Limit: <:carmor:364048663556915200> \nAttacks First / In Battle: Performs a Scroll Attack of its base ST value if not equipped with an item.");
-    }    
+    } 
+  //WATER CREATURES GO HERE
+  if (message.content.startsWith(prefix + "Alp")) {
+       message.channel.send("Alp <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:20 HP:20 MHP:20 G:40 \nLand Limit: <:cnofire:364048663732813845> \nSecret Art (50G): Make target enemy creature Fatigued.");
+    }
+    if (message.content.startsWith(prefix + "alp")) {
+         message.channel.send("Alp <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:20 HP:20 MHP:20 G:40 \nLand Limit: <:cnofire:364048663732813845> \nSecret Art (50G): Make target enemy creature Fatigued.");
+    }
+    if (message.content.startsWith(prefix + "Amazon")) {
+         message.channel.send("Amazon <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:40 HP:40 MHP:40 G:70 \nAttack Bonus: Steals (user\'s lap number x30)G from enemy Cepter if this creature is not equipped with an item.");
+    }
+    if (message.content.startsWith(prefix + "amazon")) {
+         message.channel.send("Amazon <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:40 HP:40 MHP:40 G:70 \nAttack Bonus: Steals (user\'s lap number x30)G from enemy Cepter if this creature is not equipped with an item.");
+    }
+    if (message.content.startsWith(prefix + "Amphibian Warrior")) {
+         message.channel.send("Amphibian Warrior <:craritys:364048663351132162> \nST:40 HP:30 MHP:30 G:60 \nIn Battle: ST+20 if battle territory is <:cwater:364048663447601154> or <:cair:364048663518904327> / HP and MHP cannot be altered by spells.");
+    }
+    if (message.content.startsWith(prefix + "AmphibianWarrior")) {
+         message.channel.send("Amphibian Warrior <:craritys:364048663351132162> \nST:40 HP:30 MHP:30 G:60 \nIn Battle: ST+20 if battle territory is <:cwater:364048663447601154> or <:cair:364048663518904327> / HP and MHP cannot be altered by spells.");
+    }
+    if (message.content.startsWith(prefix + "amphibian warrior")) {
+         message.channel.send("Amphibian Warrior <:craritys:364048663351132162> \nST:40 HP:30 MHP:30 G:60 \nIn Battle: ST+20 if battle territory is <:cwater:364048663447601154> or <:cair:364048663518904327> / HP and MHP cannot be altered by spells.");
+    }
+    if (message.content.startsWith(prefix + "amphibianwarrior")) {
+         message.channel.send("Amphibian Warrior <:craritys:364048663351132162> \nST:40 HP:30 MHP:30 G:60 \nIn Battle: ST+20 if battle territory is <:cwater:364048663447601154> or <:cair:364048663518904327> / HP and MHP cannot be altered by spells.");
+    }
+    if (message.content.startsWith(prefix + "Apsaras")) {
+         message.channel.send("Apsaras <:craritys:364048663351132162> \nST:20 HP:40 MHP:40 G:40+ <:cwater:364048663447601154> \nItem Limit: <:cnoweapon:364048663309189152> <:cnotool:364048663624024076> \nNeutralizes: Normal Attacks when occupied territory is level 3 or higher.");
+    }
+    if (message.content.startsWith(prefix + "apsaras")) {
+         message.channel.send("Apsaras <:craritys:364048663351132162> \nST:20 HP:40 MHP:40 G:40+ <:cwater:364048663447601154> \nItem Limit: <:cnoweapon:364048663309189152> <:cnotool:364048663624024076> \nNeutralizes: Normal Attacks when occupied territory is level 3 or higher.");
+    }
+    if (message.content.startsWith(prefix + "Aqua Duke")) {
+         message.channel.send("Aqua Duke <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:50 HP:50 MHP:50 G:60+ <:cwater:364048663447601154> <:cwater:364048663447601154> \nNeutralizes: Normal Attacks when equipped with armor. / Support: <:cwater:364048663447601154> / HP and MHP cannot be altered by spells.");
+    }
+    if (message.content.startsWith(prefix + "AquaDuke")) {
+         message.channel.send("Aqua Duke <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:50 HP:50 MHP:50 G:60+ <:cwater:364048663447601154> <:cwater:364048663447601154> \nNeutralizes: Normal Attacks when equipped with armor. / Support: <:cwater:364048663447601154> / HP and MHP cannot be altered by spells.");
+    }
+    if (message.content.startsWith(prefix + "aqua duke")) {
+         message.channel.send("Aqua Duke <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:50 HP:50 MHP:50 G:60+ <:cwater:364048663447601154> <:cwater:364048663447601154> \nNeutralizes: Normal Attacks when equipped with armor. / Support: <:cwater:364048663447601154> / HP and MHP cannot be altered by spells.");
+    }
+    if (message.content.startsWith(prefix + "aquaduke")) {
+         message.channel.send("Aqua Duke <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:50 HP:50 MHP:50 G:60+ <:cwater:364048663447601154> <:cwater:364048663447601154> \nNeutralizes: Normal Attacks when equipped with armor. / Support: <:cwater:364048663447601154> / HP and MHP cannot be altered by spells.");
+    }
+    if (message.content.startsWith(prefix + "Aquahorn")) {
+         message.channel.send("Aquahorn <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:50 HP:30 MHP:30 G:70 \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:cnoscroll:364048663653122048> \nNeutralizes: <:cwater:364048663447601154> <:cearth:364048663582081034> \n/ Secret Art (30G): Transforms into Mistwing.");
+    }
+    if (message.content.startsWith(prefix + "aquahorn")) {
+         message.channel.send("Aquahorn <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:50 HP:30 MHP:30 G:70 \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:cnoscroll:364048663653122048> \nNeutralizes: <:cwater:364048663447601154> <:cearth:364048663582081034> \n/ Secret Art (30G): Transforms into Mistwing.");
+    }
+    if (message.content.startsWith(prefix + "Aqualing")) {
+         message.channel.send("Aqualing <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:20 HP:30 MHP:30 G:40 \nNeutralizes: Creatures with MHP of 30 and under.");
+    }
+    if (message.content.startsWith(prefix + "aqualing")) {
+         message.channel.send("Aqualing <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:20 HP:30 MHP:30 G:40 \nNeutralizes: Creatures with MHP of 30 and under.");
+    }
+    if (message.content.startsWith(prefix + "Bahamut")) {
+         message.channel.send("Bahamut <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:60 HP:60 MHP:60 G:110+ <:cwater:364048663447601154> <:cwater:364048663447601154> \nAttacks First / Upon Victory: Changes battle territory to a <:cwater:364048663447601154> land. / Regenerates");
+    }
+    if (message.content.startsWith(prefix + "bahamut")) {
+         message.channel.send("Bahamut <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:60 HP:60 MHP:60 G:110+ <:cwater:364048663447601154> <:cwater:364048663447601154> \nAttacks First / Upon Victory: Changes battle territory to a <:cwater:364048663447601154> land. / Regenerates");
+    }
+    if (message.content.startsWith(prefix + "Bloody Pudding")) {
+         message.channel.send("Bloody Pudding <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:20 HP:20 MHP:20 G:50 \nItem Limit: <:cnoscroll:364048663653122048> \nSupport: <:cwater:364048663447601154> <:cearth:364048663582081034> <:cair:364048663518904327> / Battle Start: MHP+ (supporting creature\'s MHP) (Max. 100).");
+    }
+    if (message.content.startsWith(prefix + "BloodyPudding")) {
+         message.channel.send("Bloody Pudding <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:20 HP:20 MHP:20 G:50 \nItem Limit: <:cnoscroll:364048663653122048> \nSupport: <:cwater:364048663447601154> <:cearth:364048663582081034> <:cair:364048663518904327> / Battle Start: MHP+ (supporting creature\'s MHP) (Max. 100).");
+    }
+    if (message.content.startsWith(prefix + "bloody pudding")) {
+         message.channel.send("Bloody Pudding <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:20 HP:20 MHP:20 G:50 \nItem Limit: <:cnoscroll:364048663653122048> \nSupport: <:cwater:364048663447601154> <:cearth:364048663582081034> <:cair:364048663518904327> / Battle Start: MHP+ (supporting creature\'s MHP) (Max. 100).");
+    }
+    if (message.content.startsWith(prefix + "bloodypudding")) {
+         message.channel.send("Bloody Pudding <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:20 HP:20 MHP:20 G:50 \nItem Limit: <:cnoscroll:364048663653122048> \nSupport: <:cwater:364048663447601154> <:cearth:364048663582081034> <:cair:364048663518904327> / Battle Start: MHP+ (supporting creature\'s MHP) (Max. 100).");
+    }
+    if (message.content.startsWith(prefix + "Blue Ogre")) {
+         message.channel.send("Blue Ogre <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:40 HP:50 MHP:50 G:80");
+    }
+    if (message.content.startsWith(prefix + "BlueOgre")) {
+         message.channel.send("Blue Ogre <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:40 HP:50 MHP:50 G:80");
+    }
+    if (message.content.startsWith(prefix + "blue ogre")) {
+         message.channel.send("Blue Ogre <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:40 HP:50 MHP:50 G:80");
+    }
+    if (message.content.startsWith(prefix + "blueogre")) {
+         message.channel.send("Blue Ogre <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:40 HP:50 MHP:50 G:80");
+    }
+    if (message.content.startsWith(prefix + "Chironex")) {
+         message.channel.send("Chironex <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:30 HP:50 MHP:50 G:50 \nItem Limit: <:cnoscroll:364048663653122048> \nInstant Death: 80% chance when defending. / Upon Defeat: User loses 100G.");
+    }
+    if (message.content.startsWith(prefix + "chironex")) {
+         message.channel.send("Chironex <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:30 HP:50 MHP:50 G:50 \nItem Limit: <:cnoscroll:364048663653122048> \nInstant Death: 80% chance when defending. / Upon Defeat: User loses 100G.");
+    }
+    if (message.content.startsWith(prefix + "Deep-Sea Dragon")) {
+         message.channel.send("Deep-Sea Dragon <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:50 HP:50 MHP:50 G:80+ <:cwater:364048663447601154> <:cwater:364048663447601154> \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:carmor:364048663556915200> \nAttacks First / In Battle: Performs a Scroll Attack of its base ST value if not equipped with an item.");
+    }
+    if (message.content.startsWith(prefix + "Deep-SeaDragon")) {
+         message.channel.send("Deep-Sea Dragon <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:50 HP:50 MHP:50 G:80+ <:cwater:364048663447601154> <:cwater:364048663447601154> \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:carmor:364048663556915200> \nAttacks First / In Battle: Performs a Scroll Attack of its base ST value if not equipped with an item.");
+    }
+    if (message.content.startsWith(prefix + "DeepSea Dragon")) {
+         message.channel.send("Deep-Sea Dragon <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:50 HP:50 MHP:50 G:80+ <:cwater:364048663447601154> <:cwater:364048663447601154> \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:carmor:364048663556915200> \nAttacks First / In Battle: Performs a Scroll Attack of its base ST value if not equipped with an item.");
+    }
+    if (message.content.startsWith(prefix + "DeepSeaDragon")) {
+         message.channel.send("Deep-Sea Dragon <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:50 HP:50 MHP:50 G:80+ <:cwater:364048663447601154> <:cwater:364048663447601154> \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:carmor:364048663556915200> \nAttacks First / In Battle: Performs a Scroll Attack of its base ST value if not equipped with an item.");
+    }
+    if (message.content.startsWith(prefix + "deep-sea dragon")) {
+         message.channel.send("Deep-Sea Dragon <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:50 HP:50 MHP:50 G:80+ <:cwater:364048663447601154> <:cwater:364048663447601154> \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:carmor:364048663556915200> \nAttacks First / In Battle: Performs a Scroll Attack of its base ST value if not equipped with an item.");
+    }
+    if (message.content.startsWith(prefix + "deep-seadragon")) {
+         message.channel.send("Deep-Sea Dragon <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:50 HP:50 MHP:50 G:80+ <:cwater:364048663447601154> <:cwater:364048663447601154> \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:carmor:364048663556915200> \nAttacks First / In Battle: Performs a Scroll Attack of its base ST value if not equipped with an item.");
+    }
+    if (message.content.startsWith(prefix + "deepsea dragon")) {
+         message.channel.send("Deep-Sea Dragon <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:50 HP:50 MHP:50 G:80+ <:cwater:364048663447601154> <:cwater:364048663447601154> \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:carmor:364048663556915200> \nAttacks First / In Battle: Performs a Scroll Attack of its base ST value if not equipped with an item.");
+    }
+    if (message.content.startsWith(prefix + "deepseadragon")) {
+         message.channel.send("Deep-Sea Dragon <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:50 HP:50 MHP:50 G:80+ <:cwater:364048663447601154> <:cwater:364048663447601154> \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:carmor:364048663556915200> \nAttacks First / In Battle: Performs a Scroll Attack of its base ST value if not equipped with an item.");
+    }
+    if (message.content.startsWith(prefix + "Echinoderm")) {
+         message.channel.send("Echinoderm <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:20 HP:40 MHP:40 G:70 \nItem Limit: <:cnoscroll:364048663653122048> \nRegenerates / Vigorous");
+    }
+    if (message.content.startsWith(prefix + "echinoderm")) {
+         message.channel.send("Echinoderm <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:20 HP:40 MHP:40 G:70 \nItem Limit: <:cnoscroll:364048663653122048> \nRegenerates / Vigorous");
+    }
+    if (message.content.startsWith(prefix + "Fate")) {
+         message.channel.send("Fate <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:10 HP:40 MHP:40 G:60 \nUpon Defeat: User draws a card. / \nSecret Art (40G): User draws a card.");
+    }
+    if (message.content.startsWith(prefix + "fate")) {
+         message.channel.send("Fate <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:10 HP:40 MHP:40 G:60 \nUpon Defeat: User draws a card. / \nSecret Art (40G): User draws a card.");
+    }
+    if (message.content.startsWith(prefix + "Gelatinous Wall")) {
+         message.channel.send("Gelatinous Wall <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:10 HP:50 MHP:50 G:30 \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoscroll:364048663653122048> \nDefensive / Battle End: User gains (damage received from Normal Attacks x5)G.");
+    }
+    if (message.content.startsWith(prefix + "GelatinousWall")) {
+         message.channel.send("Gelatinous Wall <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:10 HP:50 MHP:50 G:30 \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoscroll:364048663653122048> \nDefensive / Battle End: User gains (damage received from Normal Attacks x5)G.");
+    }
+    if (message.content.startsWith(prefix + "gelatinous wall")) {
+         message.channel.send("Gelatinous Wall <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:10 HP:50 MHP:50 G:30 \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoscroll:364048663653122048> \nDefensive / Battle End: User gains (damage received from Normal Attacks x5)G.");
+    }
+    if (message.content.startsWith(prefix + "gelatinouswall")) {
+         message.channel.send("Gelatinous Wall <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:10 HP:50 MHP:50 G:30 \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoscroll:364048663653122048> \nDefensive / Battle End: User gains (damage received from Normal Attacks x5)G.");
+    }
+    if (message.content.startsWith(prefix + "Ghost Ship")) {
+         message.channel.send("Ghost Ship <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:40 HP:30 MHP:30 G:75 \nItem Limit: <:carmor:364048663556915200> \nSynergy: <:cair:364048663518904327> (HP+30). / Neutralizes: Creatures with ST of 40 and under.");
+    }
+    if (message.content.startsWith(prefix + "GhostShip")) {
+         message.channel.send("Ghost Ship <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:40 HP:30 MHP:30 G:75 \nItem Limit: <:carmor:364048663556915200> \nSynergy: <:cair:364048663518904327> (HP+30). / Neutralizes: Creatures with ST of 40 and under.");
+    }
+    if (message.content.startsWith(prefix + "ghost ship")) {
+         message.channel.send("Ghost Ship <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:40 HP:30 MHP:30 G:75 \nItem Limit: <:carmor:364048663556915200> \nSynergy: <:cair:364048663518904327> (HP+30). / Neutralizes: Creatures with ST of 40 and under.");
+    }
+    if (message.content.startsWith(prefix + "ghostship")) {
+         message.channel.send("Ghost Ship <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:40 HP:30 MHP:30 G:75 \nItem Limit: <:carmor:364048663556915200> \nSynergy: <:cair:364048663518904327> (HP+30). / Neutralizes: Creatures with ST of 40 and under.");
+    }
+    if (message.content.startsWith(prefix + "Giant Eel")) {
+         message.channel.send("Giant Eel <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:30 HP:50 MHP:50 G:60+ <:cwater:364048663447601154> \nItem Limit: <:cnoscroll:364048663653122048> \nNeutralizes: <:cearth:364048663582081034> <:cair:364048663518904327>");
+    }
+    if (message.content.startsWith(prefix + "GiantEel")) {
+         message.channel.send("Giant Eel <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:30 HP:50 MHP:50 G:60+ <:cwater:364048663447601154> \nItem Limit: <:cnoscroll:364048663653122048> \nNeutralizes: <:cearth:364048663582081034> <:cair:364048663518904327>");
+    }
+    if (message.content.startsWith(prefix + "giant eel")) {
+         message.channel.send("Giant Eel <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:30 HP:50 MHP:50 G:60+ <:cwater:364048663447601154> \nItem Limit: <:cnoscroll:364048663653122048> \nNeutralizes: <:cearth:364048663582081034> <:cair:364048663518904327>");
+    }
+    if (message.content.startsWith(prefix + "gianteel")) {
+         message.channel.send("Giant Eel <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:30 HP:50 MHP:50 G:60+ <:cwater:364048663447601154> \nItem Limit: <:cnoscroll:364048663653122048> \nNeutralizes: <:cearth:364048663582081034> <:cair:364048663518904327>");
+    }
+    if (message.content.startsWith(prefix + "Giant Nautilus")) {
+         message.channel.send("Giant Nautilus <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:10 HP:70 MHP:70 G:80 \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoscroll:364048663653122048>");
+    }
+    if (message.content.startsWith(prefix + "GiantNautilus")) {
+         message.channel.send("Giant Nautilus <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:10 HP:70 MHP:70 G:80 \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoscroll:364048663653122048>");
+    }
+    if (message.content.startsWith(prefix + "giant nautilus")) {
+         message.channel.send("Giant Nautilus <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:10 HP:70 MHP:70 G:80 \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoscroll:364048663653122048>");
+    }
+    if (message.content.startsWith(prefix + "giantnautilus")) {
+         message.channel.send("Giant Nautilus <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:10 HP:70 MHP:70 G:80 \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoscroll:364048663653122048>");
+    }
+    if (message.content.startsWith(prefix + "Gluey Slug")) {
+         message.channel.send("Gluey Slug <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:30 HP:40 MHP:40 G:60 \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:cnoscroll:364048663653122048> \nCannot be invaded by Move Creature.");
+    }
+    if (message.content.startsWith(prefix + "GlueySlug")) {
+         message.channel.send("Gluey Slug <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:30 HP:40 MHP:40 G:60 \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:cnoscroll:364048663653122048> \nCannot be invaded by Move Creature.");
+    }
+    if (message.content.startsWith(prefix + "gluey slug")) {
+         message.channel.send("Gluey Slug <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:30 HP:40 MHP:40 G:60 \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:cnoscroll:364048663653122048> \nCannot be invaded by Move Creature.");
+    }
+    if (message.content.startsWith(prefix + "glueyslug")) {
+         message.channel.send("Gluey Slug <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:30 HP:40 MHP:40 G:60 \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:cnoscroll:364048663653122048> \nCannot be invaded by Move Creature.");
+    }
+    if (message.content.startsWith(prefix + "Hellgrammite")) {
+         message.channel.send("Hellgrammite <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:30 HP:30 MHP:30 G:60+ <:cwater:364048663447601154> \nItem Limit: <:cnoscroll:364048663653122048> \nUpon Defeat: Evolves into Serpent Fly.");
+    }
+    if (message.content.startsWith(prefix + "hellgrammite")) {
+         message.channel.send("Hellgrammite <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:30 HP:30 MHP:30 G:60+ <:cwater:364048663447601154> \nItem Limit: <:cnoscroll:364048663653122048> \nUpon Defeat: Evolves into Serpent Fly.");
+    }
+    if (message.content.startsWith(prefix + "Hippocampus")) {
+         message.channel.send("Hippocampus <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:20 HP:30 MHP:30 G:40+ <:cwater:364048663447601154> \nLand Limit: <:cnoearth:364048663602790439> \nItem Limit: <:cnoscroll:364048663653122048> \nNeutralizes: <:cneutral:364043997825597440> \n/ Secret Art (60G): Evolves into Kelpie.");
+    }
+    if (message.content.startsWith(prefix + "hippocampus")) {
+         message.channel.send("Hippocampus <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:20 HP:30 MHP:30 G:40+ <:cwater:364048663447601154> \nLand Limit: <:cnoearth:364048663602790439> \nItem Limit: <:cnoscroll:364048663653122048> \nNeutralizes: <:cneutral:364043997825597440> \n/ Secret Art (60G): Evolves into Kelpie.");
+    }
+    if (message.content.startsWith(prefix + "Hyde")) {
+         message.channel.send("Hyde <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:30 HP:30 MHP:30 G:20+ <:cwater:364048663447601154> \nLand Limit: <:cnofire:364048663732813845> \nSecret Art (50G): Adds Paralysis <:csenchant:364048663464378391> to target creature.");
+    }
+    if (message.content.startsWith(prefix + "hyde")) {
+         message.channel.send("Hyde <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:30 HP:30 MHP:30 G:20+ <:cwater:364048663447601154> \nLand Limit: <:cnofire:364048663732813845> \nSecret Art (50G): Adds Paralysis <:csenchant:364048663464378391> to target creature.");
+    }
+    if (message.content.startsWith(prefix + "Id")) {
+         message.channel.send("Id <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:40 HP:30 MHP:30 G:50+ <:cwater:364048663447601154> + <:ccard:364048663426760705> \nSynthesis: Creatures (Transforms into discarded creature). / Neutralizes: <:cscroll:364048663691001876> Attacks.");
+    }
+    if (message.content.startsWith(prefix + "id")) {
+         message.channel.send("Id <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:40 HP:30 MHP:30 G:50+ <:cwater:364048663447601154> + <:ccard:364048663426760705> \nSynthesis: Creatures (Transforms into discarded creature). / Neutralizes: <:cscroll:364048663691001876> Attacks.");
+    }
+    if (message.content.startsWith(prefix + "Kaiser Penguin")) {
+         message.channel.send("Kaiser Penguin <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:30 HP:50 MHP:50 G:90 \nItem Limit: <:cnoscroll:364048663653122048> \nBattle Start: Destroys opponent\'s tool, scroll, or supporting creature.");
+    }
+    if (message.content.startsWith(prefix + "KaiserPenguin")) {
+         message.channel.send("Kaiser Penguin <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:30 HP:50 MHP:50 G:90 \nItem Limit: <:cnoscroll:364048663653122048> \nBattle Start: Destroys opponent\'s tool, scroll, or supporting creature.");
+    }
+    if (message.content.startsWith(prefix + "kaiser penguin")) {
+         message.channel.send("Kaiser Penguin <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:30 HP:50 MHP:50 G:90 \nItem Limit: <:cnoscroll:364048663653122048> \nBattle Start: Destroys opponent\'s tool, scroll, or supporting creature.");
+    }
+    if (message.content.startsWith(prefix + "kaiserpenguin")) {
+         message.channel.send("Kaiser Penguin <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:30 HP:50 MHP:50 G:90 \nItem Limit: <:cnoscroll:364048663653122048> \nBattle Start: Destroys opponent\'s tool, scroll, or supporting creature.");
+    }
+    if (message.content.startsWith(prefix + "Kawahime")) {
+         message.channel.send("Kawahime <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:30 HP:40 MHP:40 G:70 \nLand Limit: <:cnofire:364048663732813845> \nVigorous / \nSecret Art (30G): ST-10 to target creature.");
+    }
+    if (message.content.startsWith(prefix + "kawahime")) {
+         message.channel.send("Kawahime <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:30 HP:40 MHP:40 G:70 \nLand Limit: <:cnofire:364048663732813845> \nVigorous / \nSecret Art (30G): ST-10 to target creature.");
+    }
+    if (message.content.startsWith(prefix + "Kelpie")) {
+         message.channel.send("Kelpie <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:30 HP:30 MHP:30 G:80+ <:cwater:364048663447601154> \nItem Limit: <:cnotool:364048663624024076> <:cnoscroll:364048663653122048> \nStops all passing cepter\'s other than user when placed on a <:cwater:364048663447601154> land.");
+    }
+    if (message.content.startsWith(prefix + "kelpie")) {
+         message.channel.send("Kelpie <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:30 HP:30 MHP:30 G:80+ <:cwater:364048663447601154> \nItem Limit: <:cnotool:364048663624024076> <:cnoscroll:364048663653122048> \nStops all passing cepter\'s other than user when placed on a <:cwater:364048663447601154> land.");
+    }
+    if (message.content.startsWith(prefix + "King Tortoise")) {
+         message.channel.send("King Tortoise <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:50 HP:60 MHP:60 G:100 \nItem Limit: <:cnoscroll:364048663653122048> \nAttacks Last");
+    }
+    if (message.content.startsWith(prefix + "KingTortoise")) {
+         message.channel.send("King Tortoise <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:50 HP:60 MHP:60 G:100 \nItem Limit: <:cnoscroll:364048663653122048> \nAttacks Last");
+    }
+    if (message.content.startsWith(prefix + "king tortoise")) {
+         message.channel.send("King Tortoise <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:50 HP:60 MHP:60 G:100 \nItem Limit: <:cnoscroll:364048663653122048> \nAttacks Last");
+    }
+    if (message.content.startsWith(prefix + "kingtortoise")) {
+         message.channel.send("King Tortoise <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:50 HP:60 MHP:60 G:100 \nItem Limit: <:cnoscroll:364048663653122048> \nAttacks Last");
+    }
+    if (message.content.startsWith(prefix + "Lilith")) {
+         message.channel.send("Lilith <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:0 HP:30 MHP:30 G:60 \nAttacks First / In Battle: ST= (number of cards in user\'s hand x10).");
+    }
+    if (message.content.startsWith(prefix + "lilith")) {
+         message.channel.send("Lilith <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:0 HP:30 MHP:30 G:60 \nAttacks First / In Battle: ST= (number of cards in user\'s hand x10).");
+    }
+    if (message.content.startsWith(prefix + "Lizardman")) {
+         message.channel.send("Lizardman <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:30 HP:40 MHP:40 G:70 \nAttacks First");
+    }
+    if (message.content.startsWith(prefix + "lizardman")) {
+         message.channel.send("Lizardman <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:30 HP:40 MHP:40 G:70 \nAttacks First");
+    }
+    if (message.content.startsWith(prefix + "Makara")) {
+         message.channel.send("Makara <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:30 HP:40 MHP:40 G:65 \nItem Limit: <:cnoweapon:364048663309189152> <:cnoscroll:364048663653122048> \nDefensive / Vigorous / \nSecret Art (100G): Transforms occupied territory to a <:cwater:364048663447601154> land.");
+    }
+    if (message.content.startsWith(prefix + "makara")) {
+         message.channel.send("Makara <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:30 HP:40 MHP:40 G:65 \nItem Limit: <:cnoweapon:364048663309189152> <:cnoscroll:364048663653122048> \nDefensive / Vigorous / \nSecret Art (100G): Transforms occupied territory to a <:cwater:364048663447601154> land.");
+    }
+    if (message.content.startsWith(prefix + "Megalodon")) {
+         message.channel.send("Megalodon <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:50 HP:50 MHP:50 G:40 \nLand Limit: <:cnofire:364048663732813845> <:cnoearth:364048663602790439> <:cnoair:364048663732944896> \nItem Limit: <:cnoscroll:364048663653122048>");
+    }
+    if (message.content.startsWith(prefix + "megalodon")) {
+         message.channel.send("Megalodon <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:50 HP:50 MHP:50 G:40 \nLand Limit: <:cnofire:364048663732813845> <:cnoearth:364048663602790439> <:cnoair:364048663732944896> \nItem Limit: <:cnoscroll:364048663653122048>");
+    }
+    if (message.content.startsWith(prefix + "Mistwing")) {
+         message.channel.send("Mistwing <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:30 HP:40 MHP:40 G:70 \nLand Limit: <:cnoearth:364048663602790439> \nItem Limit: <:cnoscroll:364048663653122048> \nNeutralizes: <:cfire:364048663355588609> <:cair:364048663518904327> \nSecret Art (30G): Transforms into Aquahorn.");
+    }
+    if (message.content.startsWith(prefix + "mistwing")) {
+         message.channel.send("Mistwing <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:30 HP:40 MHP:40 G:70 \nLand Limit: <:cnoearth:364048663602790439> \nItem Limit: <:cnoscroll:364048663653122048> \nNeutralizes: <:cfire:364048663355588609> <:cair:364048663518904327> \nSecret Art (30G): Transforms into Aquahorn.");
+    }
+    if (message.content.startsWith(prefix + "Mycoron")) {
+         message.channel.send("Mycoron <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:10 HP:30 MHP:30 G:35 \nItem Limit: <:cnoweapon:364048663309189152> <:cnoscroll:364048663653122048> \nRegenerates / Battle End: If the enemy landed an attack, places a Mycoron on a random vacant land.");
+    }
+    if (message.content.startsWith(prefix + "mycoron")) {
+         message.channel.send("Mycoron <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:10 HP:30 MHP:30 G:35 \nItem Limit: <:cnoweapon:364048663309189152> <:cnoscroll:364048663653122048> \nRegenerates / Battle End: If the enemy landed an attack, places a Mycoron on a random vacant land.");
+    }
+    if (message.content.startsWith(prefix + "Nessie")) {
+         message.channel.send("Nessie <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:20 HP:40 MHP:40 G:45+ <:cwater:364048663447601154> \nItem Limit: <:carmor:364048663556915200> \nIn Battle: HP+ (level of battle territory x10) if battle territory is <:cwater:364048663447601154>");
+    }
+    if (message.content.startsWith(prefix + "nessie")) {
+         message.channel.send("Nessie <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:20 HP:40 MHP:40 G:45+ <:cwater:364048663447601154> \nItem Limit: <:carmor:364048663556915200> \nIn Battle: HP+ (level of battle territory x10) if battle territory is <:cwater:364048663447601154>");
+    }
+    if (message.content.startsWith(prefix + "Odontotyrannus")) {
+         message.channel.send("Odontotyrannus <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:50 HP:50 MHP:50 G:70+ <:cwater:364048663447601154> \nItem Limit: <:cnoscroll:364048663653122048> \nSynergy: <:cair:364048663518904327> (ST+20, HP+10)");
+    }
+    if (message.content.startsWith(prefix + "odontotyrannus")) {
+         message.channel.send("Odontotyrannus <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:50 HP:50 MHP:50 G:70+ <:cwater:364048663447601154> \nItem Limit: <:cnoscroll:364048663653122048> \nSynergy: <:cair:364048663518904327> (ST+20, HP+10)");
+    }
+    if (message.content.startsWith(prefix + "Otohime")) {
+         message.channel.send("Otohime <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:40 HP:40 MHP:40 G:70+ <:cwater:364048663447601154> \nBoost: HP+10 to defending creatures. / Battle End: Adds Last Breath <:csenchant:364048663464378391> to enemy creature.");
+    }
+    if (message.content.startsWith(prefix + "otohime")) {
+         message.channel.send("Otohime <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:40 HP:40 MHP:40 G:70+ <:cwater:364048663447601154> \nBoost: HP+10 to defending creatures. / Battle End: Adds Last Breath <:csenchant:364048663464378391> to enemy creature.");
+    }  
 });
 
 // THIS  MUST  BE  THIS  WAY
