@@ -2988,17 +2988,125 @@ client.on('message', message => {
          message.channel.send("Stormcauser  <:crarityr:364045147085864960> <:cweapon:364048663527424002> - G:55  \nST+60 / HP-30");
     }
     if (message.content.startsWith(prefix + "Sword of Pluck")) {
-         message.channel.send("Sword of Pluck  <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:40  \nST+40 / Critical Hit: When equipped creature has a Rarity of Normal.");
+         message.channel.send("Sword of Pluck  <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:40  \nST+40 / Critical Hit: When equipped creature has a Rarity of <:crarityn:364048663661772800>.");
     }
     if (message.content.startsWith(prefix + "SwordofPluck")) {
-         message.channel.send("Sword of Pluck  <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:40  \nST+40 / Critical Hit: When equipped creature has a Rarity of Normal.");
+         message.channel.send("Sword of Pluck  <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:40  \nST+40 / Critical Hit: When equipped creature has a Rarity of <:crarityn:364048663661772800>.");
     }
     if (message.content.startsWith(prefix + "sword of pluck")) {
-         message.channel.send("Sword of Pluck  <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:40  \nST+40 / Critical Hit: When equipped creature has a Rarity of Normal.");
+         message.channel.send("Sword of Pluck  <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:40  \nST+40 / Critical Hit: When equipped creature has a Rarity of <:crarityn:364048663661772800>.");
     }
     if (message.content.startsWith(prefix + "swordofpluck")) {
-         message.channel.send("Sword of Pluck  <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:40  \nST+40 / Critical Hit: When equipped creature has a Rarity of Normal.");
-    }    
+         message.channel.send("Sword of Pluck  <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:40  \nST+40 / Critical Hit: When equipped creature has a Rarity of <:crarityn:364048663661772800>.");
+    }
+    if (message.content.startsWith(prefix + "Tearing Halo")) {
+         message.channel.send("Tearing Halo  <:craritys:364048663351132162> <:cscroll:364048663691001876> - G:60  \nScroll Attack: ST=30 / Scroll Critical Hit: Unless equipped creature is <:cneutral:364043997825597440> / Immune to Destroy Item and Steal Item effects.");
+    }
+    if (message.content.startsWith(prefix + "TearingHalo")) {
+         message.channel.send("Tearing Halo  <:craritys:364048663351132162> <:cscroll:364048663691001876> - G:60  \nScroll Attack: ST=30 / Scroll Critical Hit: Unless equipped creature is <:cneutral:364043997825597440> / Immune to Destroy Item and Steal Item effects.");
+    }
+    if (message.content.startsWith(prefix + "tearing halo")) {
+         message.channel.send("Tearing Halo  <:craritys:364048663351132162> <:cscroll:364048663691001876> - G:60  \nScroll Attack: ST=30 / Scroll Critical Hit: Unless equipped creature is <:cneutral:364043997825597440> / Immune to Destroy Item and Steal Item effects.");
+    }
+    if (message.content.startsWith(prefix + "tearinghalo")) {
+         message.channel.send("Tearing Halo  <:craritys:364048663351132162> <:cscroll:364048663691001876> - G:60  \nScroll Attack: ST=30 / Scroll Critical Hit: Unless equipped creature is <:cneutral:364043997825597440> / Immune to Destroy Item and Steal Item effects.");
+    }
+    if (message.content.startsWith(prefix + "Tombstone")) {
+         message.channel.send("Tombstone  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:0  \nImmune to Destroy Item and Steal Item effects. / Upon Defeat: User draws cards until their hand contains 6 cards.");
+    }
+    if (message.content.startsWith(prefix + "tombstone")) {
+         message.channel.send("Tombstone  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:0  \nImmune to Destroy Item and Steal Item effects. / Upon Defeat: User draws cards until their hand contains 6 cards.");
+    }
+    if (message.content.startsWith(prefix + "Tonfa")) {
+         message.channel.send("Tonfa  <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:30  \nAttacks Twice.");
+    }
+    if (message.content.startsWith(prefix + "tonfa")) {
+         message.channel.send("Tonfa  <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:30  \nAttacks Twice.");
+    }
+    if (message.content.startsWith(prefix + "Topaz Amulet")) {
+         message.channel.send("Topaz Amulet  <:crarityr:364045147085864960> <:ctool:364048663762173953> - G:50  \nInstant Death: 60% against <:cfire:364048663355588609> and <:cair:364048663518904327> creatures. / Neutralizes: <:cfire:364048663355588609> <:cair:364048663518904327>");
+    }
+    if (message.content.startsWith(prefix + "TopazAmulet")) {
+         message.channel.send("Topaz Amulet  <:crarityr:364045147085864960> <:ctool:364048663762173953> - G:50  \nInstant Death: 60% against <:cfire:364048663355588609> and <:cair:364048663518904327> creatures. / Neutralizes: <:cfire:364048663355588609> <:cair:364048663518904327>");
+    }
+    if (message.content.startsWith(prefix + "topaz amulet")) {
+         message.channel.send("Topaz Amulet  <:crarityr:364045147085864960> <:ctool:364048663762173953> - G:50  \nInstant Death: 60% against <:cfire:364048663355588609> and <:cair:364048663518904327> creatures. / Neutralizes: <:cfire:364048663355588609> <:cair:364048663518904327>");
+    }
+    if (message.content.startsWith(prefix + "topazamulet")) {
+         message.channel.send("Topaz Amulet  <:crarityr:364045147085864960> <:ctool:364048663762173953> - G:50  \nInstant Death: 60% against <:cfire:364048663355588609> and <:cair:364048663518904327> creatures. / Neutralizes: <:cfire:364048663355588609> <:cair:364048663518904327>");
+    }
+    if (message.content.startsWith(prefix + "Trident")) {
+         message.channel.send("Trident  <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:50  \nST+40 / HP+20");
+    }
+    if (message.content.startsWith(prefix + "trident")) {
+         message.channel.send("Trident  <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:50  \nST+40 / HP+20");
+    }
+    if (message.content.startsWith(prefix + "Turquoise Amulet")) {
+         message.channel.send("Turquoise Amulet  <:crarityr:364045147085864960> <:ctool:364048663762173953> - G:50  \nInstant Death: 60% against <:cwater:364048663447601154> and <:cearth:364048663582081034> creatures. / Neutralizes: <:cwater:364048663447601154> <:cearth:364048663582081034>");
+    }
+    if (message.content.startsWith(prefix + "TurquoiseAmulet")) {
+         message.channel.send("Turquoise Amulet  <:crarityr:364045147085864960> <:ctool:364048663762173953> - G:50  \nInstant Death: 60% against <:cwater:364048663447601154> and <:cearth:364048663582081034> creatures. / Neutralizes: <:cwater:364048663447601154> <:cearth:364048663582081034>");
+    }
+    if (message.content.startsWith(prefix + "turquoise amulet")) {
+         message.channel.send("Turquoise Amulet  <:crarityr:364045147085864960> <:ctool:364048663762173953> - G:50  \nInstant Death: 60% against <:cwater:364048663447601154> and <:cearth:364048663582081034> creatures. / Neutralizes: <:cwater:364048663447601154> <:cearth:364048663582081034>");
+    }
+    if (message.content.startsWith(prefix + "turquoiseamulet")) {
+         message.channel.send("Turquoise Amulet  <:crarityr:364045147085864960> <:ctool:364048663762173953> - G:50  \nInstant Death: 60% against <:cwater:364048663447601154> and <:cearth:364048663582081034> creatures. / Neutralizes: <:cwater:364048663447601154> <:cearth:364048663582081034>");
+    }
+    if (message.content.startsWith(prefix + "Twin Spike")) {
+         message.channel.send("Twin Spike  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:30  \nST+20 / Attack Bonus: Transforms opponent into same creature as equipped creature.");
+    }
+    if (message.content.startsWith(prefix + "TwinSpike")) {
+         message.channel.send("Twin Spike  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:30  \nST+20 / Attack Bonus: Transforms opponent into same creature as equipped creature.");
+    }
+    if (message.content.startsWith(prefix + "twin spike")) {
+         message.channel.send("Twin Spike  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:30  \nST+20 / Attack Bonus: Transforms opponent into same creature as equipped creature.");
+    }
+    if (message.content.startsWith(prefix + "twinspike")) {
+         message.channel.send("Twin Spike  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:30  \nST+20 / Attack Bonus: Transforms opponent into same creature as equipped creature.");
+    }
+    if (message.content.startsWith(prefix + "Vorpal Sword")) {
+         message.channel.send("Vorpal Sword  <:crarityr:364045147085864960> <:cweapon:364048663527424002> - G:60  \nST+30 / Critical Hit: Creatures with MHP of 40 and up.");
+    }
+    if (message.content.startsWith(prefix + "VorpalSword")) {
+         message.channel.send("Vorpal Sword  <:crarityr:364045147085864960> <:cweapon:364048663527424002> - G:60  \nST+30 / Critical Hit: Creatures with MHP of 40 and up.");
+    }
+    if (message.content.startsWith(prefix + "vorpal sword")) {
+         message.channel.send("Vorpal Sword  <:crarityr:364045147085864960> <:cweapon:364048663527424002> - G:60  \nST+30 / Critical Hit: Creatures with MHP of 40 and up.");
+    }
+    if (message.content.startsWith(prefix + "vorpalsword")) {
+         message.channel.send("Vorpal Sword  <:crarityr:364045147085864960> <:cweapon:364048663527424002> - G:60  \nST+30 / Critical Hit: Creatures with MHP of 40 and up.");
+    }
+    if (message.content.startsWith(prefix + "Warlock's Disk")) {
+         message.channel.send("Warlock\'s Disk  <:crarityr:364045147085864960> <:ctool:364048663762173953> - G:110  \nIn Battle: Disables all effects and abilities. (Activates first.)");
+    }
+    if (message.content.startsWith(prefix + "Warlock'sDisk")) {
+         message.channel.send("Warlock\'s Disk  <:crarityr:364045147085864960> <:ctool:364048663762173953> - G:110  \nIn Battle: Disables all effects and abilities. (Activates first.)");
+    }
+    if (message.content.startsWith(prefix + "WarlocksDisk")) {
+         message.channel.send("Warlock\'s Disk  <:crarityr:364045147085864960> <:ctool:364048663762173953> - G:110  \nIn Battle: Disables all effects and abilities. (Activates first.)");
+    }
+    if (message.content.startsWith(prefix + "warlock's disk")) {
+         message.channel.send("Warlock\'s Disk  <:crarityr:364045147085864960> <:ctool:364048663762173953> - G:110  \nIn Battle: Disables all effects and abilities. (Activates first.)");
+    }
+    if (message.content.startsWith(prefix + "warlock'sdisk")) {
+         message.channel.send("Warlock\'s Disk  <:crarityr:364045147085864960> <:ctool:364048663762173953> - G:110  \nIn Battle: Disables all effects and abilities. (Activates first.)");
+    }
+    if (message.content.startsWith(prefix + "warlocksdisk")) {
+         message.channel.send("Warlock\'s Disk  <:crarityr:364045147085864960> <:ctool:364048663762173953> - G:110  \nIn Battle: Disables all effects and abilities. (Activates first.)");
+    }
+    if (message.content.startsWith(prefix + "Wonder Charm")) {
+         message.channel.send("Wonder Charm  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:70  \nNeutralizes: 80% of damage received from Normal Attacks.");
+    }
+    if (message.content.startsWith(prefix + "WonderCharm")) {
+         message.channel.send("Wonder Charm  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:70  \nNeutralizes: 80% of damage received from Normal Attacks.");
+    }
+    if (message.content.startsWith(prefix + "wonder charm")) {
+         message.channel.send("Wonder Charm  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:70  \nNeutralizes: 80% of damage received from Normal Attacks.");
+    }
+    if (message.content.startsWith(prefix + "wondercharm")) {
+         message.channel.send("Wonder Charm  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:70  \nNeutralizes: 80% of damage received from Normal Attacks.");
+    }
 });
 
 // THIS  MUST  BE  THIS  WAY
