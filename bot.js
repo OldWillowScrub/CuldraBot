@@ -2501,7 +2501,7 @@ client.on('message', message => {
     if (message.content === prefix + "Golden Goose") {
          message.channel.send("Golden Goose  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:0 \nUpon Defeat: User gains (equipped creature\'s MHP x7)G.");
     }
-    if (message.content === prefix + "GoldenGoose)) {
+    if (message.content === prefix + "GoldenGoose") {
          message.channel.send("Golden Goose  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:0 \nUpon Defeat: User gains (equipped creature\'s MHP x7)G.");
     }
     if (message.content === prefix + "golden goose") {
