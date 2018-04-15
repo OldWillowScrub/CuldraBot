@@ -2545,6 +2545,459 @@ client.on('message', message => {
     }
     if (message.content.startsWith(prefix + "gremlinseye")) {
          message.channel.send("Gremlin\'s Eye <:crarityr:364045147085864960> <:ctool:364048663762173953> - G:80 \nBattle Start: Destroys the opponent\'s item unless its Rarity is Normal.");
+    }
+    if (message.content.startsWith(prefix + "Long Sword")) {
+         message.channel.send("Long Sword <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:10 \nST+30");
+    }
+    if (message.content.startsWith(prefix + "LongSword")) {
+         message.channel.send("Long Sword <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:10 \nST+30");
+    }
+    if (message.content.startsWith(prefix + "long sword")) {
+         message.channel.send("Long Sword <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:10 \nST+30");
+    }
+    if (message.content.startsWith(prefix + "longsword")) {
+         message.channel.send("Long Sword <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:10 \nST+30");
+    }
+    if (message.content.startsWith(prefix + "Mace")) {
+         message.channel.send("Mace <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:0 \nST+20");
+    }
+    if (message.content.startsWith(prefix + "mace")) {
+         message.channel.send("Mace <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:0 \nST+20");
+    }
+    if (message.content.startsWith(prefix + "Magic Shield")) {
+         message.channel.send("Magic Shield  <:crarityn:364048663661772800> <:carmor:364048663556915200> - G:20 \nHP+30 / Neutralizes: <:cscroll:364048663691001876> Attacks");
+    }
+    if (message.content.startsWith(prefix + "MagicShield")) {
+         message.channel.send("Magic Shield  <:crarityn:364048663661772800> <:carmor:364048663556915200> - G:20 \nHP+30 / Neutralizes: <:cscroll:364048663691001876> Attacks");
+    }
+    if (message.content.startsWith(prefix + "magic shield")) {
+         message.channel.send("Magic Shield  <:crarityn:364048663661772800> <:carmor:364048663556915200> - G:20 \nHP+30 / Neutralizes: <:cscroll:364048663691001876> Attacks");
+    }
+    if (message.content.startsWith(prefix + "magicshield")) {
+         message.channel.send("Magic Shield  <:crarityn:364048663661772800> <:carmor:364048663556915200> - G:20 \nHP+30 / Neutralizes: <:cscroll:364048663691001876> Attacks");
+    }
+    if (message.content.startsWith(prefix + "Magma Armor")) {
+         message.channel.send("Magma Armor <:crarityr:364045147085864960> <:carmor:364048663556915200> - G:70 \nHP+ (Number of user\'s <:cfire:364048663355588609> and <:cearth:364048663582081034> territories x20).");
+    }
+    if (message.content.startsWith(prefix + "MagmaArmor")) {
+         message.channel.send("Magma Armor <:crarityr:364045147085864960> <:carmor:364048663556915200> - G:70 \nHP+ (Number of user\'s <:cfire:364048663355588609> and <:cearth:364048663582081034> territories x20).");
+    }
+    if (message.content.startsWith(prefix + "magma armor")) {
+         message.channel.send("Magma Armor <:crarityr:364045147085864960> <:carmor:364048663556915200> - G:70 \nHP+ (Number of user\'s <:cfire:364048663355588609> and <:cearth:364048663582081034> territories x20).");
+    }
+    if (message.content.startsWith(prefix + "magmaarmor")) {
+         message.channel.send("Magma Armor <:crarityr:364045147085864960> <:carmor:364048663556915200> - G:70 \nHP+ (Number of user\'s <:cfire:364048663355588609> and <:cearth:364048663582081034> territories x20).");
+    }
+    if (message.content.startsWith(prefix + "Magma Flail")) {
+         message.channel.send("Magma Flail <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:70 \nST+ (number of <:cfire:364048663355588609> & <:cearth:364048663582081034> creatures in play x5). / Critical Hit: <:cair:364048663518904327> and <:cwater:364048663447601154>");
+    }
+    if (message.content.startsWith(prefix + "MagmaFlail")) {
+         message.channel.send("Magma Flail <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:70 \nST+ (number of <:cfire:364048663355588609> & <:cearth:364048663582081034> creatures in play x5). / Critical Hit: <:cair:364048663518904327> and <:cwater:364048663447601154>");
+    }
+    if (message.content.startsWith(prefix + "magma flail")) {
+         message.channel.send("Magma Flail <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:70 \nST+ (number of <:cfire:364048663355588609> & <:cearth:364048663582081034> creatures in play x5). / Critical Hit: <:cair:364048663518904327> and <:cwater:364048663447601154>");
+    }
+    if (message.content.startsWith(prefix + "magmaflail")) {
+         message.channel.send("Magma Flail <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:70 \nST+ (number of <:cfire:364048663355588609> & <:cearth:364048663582081034> creatures in play x5). / Critical Hit: <:cair:364048663518904327> and <:cwater:364048663447601154>");
+    }
+    if (message.content.startsWith(prefix + "Magma Hammer")) {
+         message.channel.send("Magma Hammer <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:20 \nST+20 / Critical Hit: When equipped creature is <:cfire:364048663355588609> or <:cearth:364048663582081034>.");
+    }
+    if (message.content.startsWith(prefix + "MagmaHammer")) {
+         message.channel.send("Magma Hammer <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:20 \nST+20 / Critical Hit: When equipped creature is <:cfire:364048663355588609> or <:cearth:364048663582081034>.");
+    }
+    if (message.content.startsWith(prefix + "magma hammer")) {
+         message.channel.send("Magma Hammer <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:20 \nST+20 / Critical Hit: When equipped creature is <:cfire:364048663355588609> or <:cearth:364048663582081034>.");
+    }
+    if (message.content.startsWith(prefix + "magmahammer")) {
+         message.channel.send("Magma Hammer <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:20 \nST+20 / Critical Hit: When equipped creature is <:cfire:364048663355588609> or <:cearth:364048663582081034>.");
+    }
+    if (message.content.startsWith(prefix + "Magma Shield")) {
+         message.channel.send("Magma Shield <:craritys:364048663351132162> <:carmor:364048663556915200> - G:70 \nNeutralizes: Normal Attacks when equipped creature is <:cfire:364048663355588609> or <:cearth:364048663582081034>.");
+    }
+    if (message.content.startsWith(prefix + "MagmaShield")) {
+         message.channel.send("Magma Shield <:craritys:364048663351132162> <:carmor:364048663556915200> - G:70 \nNeutralizes: Normal Attacks when equipped creature is <:cfire:364048663355588609> or <:cearth:364048663582081034>.");
+    }
+    if (message.content.startsWith(prefix + "magma shield")) {
+         message.channel.send("Magma Shield <:craritys:364048663351132162> <:carmor:364048663556915200> - G:70 \nNeutralizes: Normal Attacks when equipped creature is <:cfire:364048663355588609> or <:cearth:364048663582081034>.");
+    }
+    if (message.content.startsWith(prefix + "magmashield")) {
+         message.channel.send("Magma Shield <:craritys:364048663351132162> <:carmor:364048663556915200> - G:70 \nNeutralizes: Normal Attacks when equipped creature is <:cfire:364048663355588609> or <:cearth:364048663582081034>.");
+    }
+    if (message.content.startsWith(prefix + "Magus's Mirror")) {
+         message.channel.send("Magus\'s Mirror <:craritys:364048663351132162> <:ctool:364048663762173953> - G:30 \nHP+20 / Reflects: Scroll Attacks.");
+    }
+    if (message.content.startsWith(prefix + "Magus'sMirror")) {
+         message.channel.send("Magus\'s Mirror <:craritys:364048663351132162> <:ctool:364048663762173953> - G:30 \nHP+20 / Reflects: Scroll Attacks.");
+    }
+    if (message.content.startsWith(prefix + "Maguss Mirror")) {
+         message.channel.send("Magus\'s Mirror <:craritys:364048663351132162> <:ctool:364048663762173953> - G:30 \nHP+20 / Reflects: Scroll Attacks.");
+    }
+    if (message.content.startsWith(prefix + "MagussMirror")) {
+         message.channel.send("Magus\'s Mirror <:craritys:364048663351132162> <:ctool:364048663762173953> - G:30 \nHP+20 / Reflects: Scroll Attacks.");
+    }
+    if (message.content.startsWith(prefix + "magus's mirror")) {
+         message.channel.send("Magus\'s Mirror <:craritys:364048663351132162> <:ctool:364048663762173953> - G:30 \nHP+20 / Reflects: Scroll Attacks.");
+    }
+    if (message.content.startsWith(prefix + "magus'smirror")) {
+         message.channel.send("Magus\'s Mirror <:craritys:364048663351132162> <:ctool:364048663762173953> - G:30 \nHP+20 / Reflects: Scroll Attacks.");
+    }
+    if (message.content.startsWith(prefix + "magussmirror")) {
+         message.channel.send("Magus\'s Mirror <:craritys:364048663351132162> <:ctool:364048663762173953> - G:30 \nHP+20 / Reflects: Scroll Attacks.");
+    }
+    if (message.content.startsWith(prefix + "Mirror Hoplon")) {
+         message.channel.send("Mirror Hoplon <:craritys:364048663351132162> <:carmor:364048663556915200> - G:50 \nReflects: All if opponent did not equip an item.");
+    }
+    if (message.content.startsWith(prefix + "MirrorHoplon")) {
+         message.channel.send("Mirror Hoplon <:craritys:364048663351132162> <:carmor:364048663556915200> - G:50 \nReflects: All if opponent did not equip an item.");
+    }
+    if (message.content.startsWith(prefix + "mirror hoplon")) {
+         message.channel.send("Mirror Hoplon <:craritys:364048663351132162> <:carmor:364048663556915200> - G:50 \nReflects: All if opponent did not equip an item.");
+    }
+    if (message.content.startsWith(prefix + "mirrorhoplon")) {
+         message.channel.send("Mirror Hoplon <:craritys:364048663351132162> <:carmor:364048663556915200> - G:50 \nReflects: All if opponent did not equip an item.");
+    }
+    if (message.content.startsWith(prefix + "Moon Scimitar")) {
+         message.channel.send("Moon Scimitar <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:30 \nST+30 / Attack Bonus: Sleep <:cmenchant:364048663447601153>.");
+    }
+    if (message.content.startsWith(prefix + "MoonScimitar")) {
+         message.channel.send("Moon Scimitar <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:30 \nST+30 / Attack Bonus: Sleep <:cmenchant:364048663447601153>.");
+    }
+    if (message.content.startsWith(prefix + "moon scimitar")) {
+         message.channel.send("Moon Scimitar <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:30 \nST+30 / Attack Bonus: Sleep <:cmenchant:364048663447601153>.");
+    }
+    if (message.content.startsWith(prefix + "moonscimitar")) {
+         message.channel.send("Moon Scimitar <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:30 \nST+30 / Attack Bonus: Sleep <:cmenchant:364048663447601153>.");
+    }
+    if (message.content.startsWith(prefix + "Murasame")) {
+         message.channel.send("Murasame  <:crarityr:364045147085864960> <:cweapon:364048663527424002> - G:80  \nST+20 / Disables opponent\'s Neutralizes and Reflects abilities.");
+    }
+    if (message.content.startsWith(prefix + "murasame")) {
+         message.channel.send("Murasame  <:crarityr:364045147085864960> <:cweapon:364048663527424002> - G:80  \nST+20 / Disables opponent\'s Neutralizes and Reflects abilities.");
+    }
+    if (message.content.startsWith(prefix + "Napalm Arrow")) {
+         message.channel.send("Napalm Arrow  <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:50  \nST+30 / HP+20 / MHP-40 to opponent if no damage was dealt to opponent during battle.");
+    }
+    if (message.content.startsWith(prefix + "NapalmArrow")) {
+         message.channel.send("Napalm Arrow  <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:50  \nST+30 / HP+20 / MHP-40 to opponent if no damage was dealt to opponent during battle.");
+    }
+    if (message.content.startsWith(prefix + "napalm arrow")) {
+         message.channel.send("Napalm Arrow  <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:50  \nST+30 / HP+20 / MHP-40 to opponent if no damage was dealt to opponent during battle.");
+    }
+    if (message.content.startsWith(prefix + "napalmarrow")) {
+         message.channel.send("Napalm Arrow  <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:50  \nST+30 / HP+20 / MHP-40 to opponent if no damage was dealt to opponent during battle.");
+    }
+    if (message.content.startsWith(prefix + "Necro Plasma")) {
+         message.channel.send("Necro Plasma  <:craritys:364048663351132162> <:cscroll:364048663691001876> - G:70  \nScroll Attack: ST=50 / In Battle: Transforms into Skeleton.");
+    }
+    if (message.content.startsWith(prefix + "NecroPlasma")) {
+         message.channel.send("Necro Plasma  <:craritys:364048663351132162> <:cscroll:364048663691001876> - G:70  \nScroll Attack: ST=50 / In Battle: Transforms into Skeleton.");
+    }
+    if (message.content.startsWith(prefix + "necro plasma")) {
+         message.channel.send("Necro Plasma  <:craritys:364048663351132162> <:cscroll:364048663691001876> - G:70  \nScroll Attack: ST=50 / In Battle: Transforms into Skeleton.");
+    }
+    if (message.content.startsWith(prefix + "necroplasma")) {
+         message.channel.send("Necro Plasma  <:craritys:364048663351132162> <:cscroll:364048663691001876> - G:70  \nScroll Attack: ST=50 / In Battle: Transforms into Skeleton.");
+    }
+    if (message.content.startsWith(prefix + "Necro Scarab")) {
+         message.channel.send("Necro Scarab  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:60  \nUpon Defeat: Transforms equipped creature into Skeleton.");
+    }
+    if (message.content.startsWith(prefix + "NecroScarab")) {
+         message.channel.send("Necro Scarab  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:60  \nUpon Defeat: Transforms equipped creature into Skeleton.");
+    }
+    if (message.content.startsWith(prefix + "necro scarab")) {
+         message.channel.send("Necro Scarab  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:60  \nUpon Defeat: Transforms equipped creature into Skeleton.");
+    }
+    if (message.content.startsWith(prefix + "necroscarab")) {
+         message.channel.send("Necro Scarab  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:60  \nUpon Defeat: Transforms equipped creature into Skeleton.");
+    }
+    if (message.content.startsWith(prefix + "Neutral Cloak")) {
+         message.channel.send("Neutral Cloak  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:50  \nHP+40 / In Battle: Equipped creature\'s element is <:cneutral:364043997825597440>.");
+    }
+    if (message.content.startsWith(prefix + "NeutralCloak")) {
+         message.channel.send("Neutral Cloak  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:50  \nHP+40 / In Battle: Equipped creature\'s element is <:cneutral:364043997825597440>.");
+    }
+    if (message.content.startsWith(prefix + "neutral cloak")) {
+         message.channel.send("Neutral Cloak  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:50  \nHP+40 / In Battle: Equipped creature\'s element is <:cneutral:364043997825597440>.");
+    }
+    if (message.content.startsWith(prefix + "neutralcloak")) {
+         message.channel.send("Neutral Cloak  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:50  \nHP+40 / In Battle: Equipped creature\'s element is <:cneutral:364043997825597440>.");
+    }
+    if (message.content.startsWith(prefix + "Petrify Stone")) {
+         message.channel.send("Petrify Stone  <:crarityn:364048663661772800> <:ctool:364048663762173953> - G:20  \nST=0 / HP=80");
+    }
+    if (message.content.startsWith(prefix + "PetrifyStone")) {
+         message.channel.send("Petrify Stone  <:crarityn:364048663661772800> <:ctool:364048663762173953> - G:20  \nST=0 / HP=80");
+    }
+    if (message.content.startsWith(prefix + "petrify stone")) {
+         message.channel.send("Petrify Stone  <:crarityn:364048663661772800> <:ctool:364048663762173953> - G:20  \nST=0 / HP=80");
+    }
+    if (message.content.startsWith(prefix + "petrifystone")) {
+         message.channel.send("Petrify Stone  <:crarityn:364048663661772800> <:ctool:364048663762173953> - G:20  \nST=0 / HP=80");
+    }
+    if (message.content.startsWith(prefix + "Plate Mail")) {
+         message.channel.send("Plate Mail  <:craritys:364048663351132162> <:carmor:364048663556915200> - G:50  \nHP+50");
+    }
+    if (message.content.startsWith(prefix + "PlateMail")) {
+         message.channel.send("Plate Mail  <:craritys:364048663351132162> <:carmor:364048663556915200> - G:50  \nHP+50");
+    }
+    if (message.content.startsWith(prefix + "plate mail")) {
+         message.channel.send("Plate Mail  <:craritys:364048663351132162> <:carmor:364048663556915200> - G:50  \nHP+50");
+    }
+    if (message.content.startsWith(prefix + "platemail")) {
+         message.channel.send("Plate Mail  <:craritys:364048663351132162> <:carmor:364048663556915200> - G:50  \nHP+50");
+    }
+    if (message.content.startsWith(prefix + "Prismatic Wand")) {
+         message.channel.send("Prismatic Wand  <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:70  \nST & HP+40 if equipped creature\'s element is different from opponent\'s element.");
+    }
+    if (message.content.startsWith(prefix + "PrismaticWand")) {
+         message.channel.send("Prismatic Wand  <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:70  \nST & HP+40 if equipped creature\'s element is different from opponent\'s element.");
+    }
+    if (message.content.startsWith(prefix + "prismatic wand")) {
+         message.channel.send("Prismatic Wand  <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:70  \nST & HP+40 if equipped creature\'s element is different from opponent\'s element.");
+    }
+    if (message.content.startsWith(prefix + "prismaticwand")) {
+         message.channel.send("Prismatic Wand  <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:70  \nST & HP+40 if equipped creature\'s element is different from opponent\'s element.");
+    }
+    if (message.content.startsWith(prefix + "Rag Doll")) {
+         message.channel.send("Rag Doll  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:60  \nNeutralizes: <:cscroll:364048663691001876> Attacks / Neutralizes: Creatures with greater ST than equipped creature.");
+    }
+    if (message.content.startsWith(prefix + "RagDoll")) {
+         message.channel.send("Rag Doll  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:60  \nNeutralizes: <:cscroll:364048663691001876> Attacks / Neutralizes: Creatures with greater ST than equipped creature.");
+    }
+    if (message.content.startsWith(prefix + "rag doll")) {
+         message.channel.send("Rag Doll  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:60  \nNeutralizes: <:cscroll:364048663691001876> Attacks / Neutralizes: Creatures with greater ST than equipped creature.");
+    }
+    if (message.content.startsWith(prefix + "ragdoll")) {
+         message.channel.send("Rag Doll  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:60  \nNeutralizes: <:cscroll:364048663691001876> Attacks / Neutralizes: Creatures with greater ST than equipped creature.");
+    }
+    if (message.content.startsWith(prefix + "Reactive Armor")) {
+         message.channel.send("Reactive Armor  <:crarityr:364045147085864960> <:carmor:364048663556915200> - G:50  \nBattle Start: Destroys opponent\'s weapon. / HP+30");
+    }
+    if (message.content.startsWith(prefix + "ReactiveArmor")) {
+         message.channel.send("Reactive Armor  <:crarityr:364045147085864960> <:carmor:364048663556915200> - G:50  \nBattle Start: Destroys opponent\'s weapon. / HP+30");
+    }
+    if (message.content.startsWith(prefix + "reactive armor")) {
+         message.channel.send("Reactive Armor  <:crarityr:364045147085864960> <:carmor:364048663556915200> - G:50  \nBattle Start: Destroys opponent\'s weapon. / HP+30");
+    }
+    if (message.content.startsWith(prefix + "reactivearmor")) {
+         message.channel.send("Reactive Armor  <:crarityr:364045147085864960> <:carmor:364048663556915200> - G:50  \nBattle Start: Destroys opponent\'s weapon. / HP+30");
+    }
+    if (message.content.startsWith(prefix + "Ring of the Succubus")) {
+         message.channel.send("Ring of the Succubus  <:crarityn:364048663661772800> <:ctool:364048663762173953> - G:30  \nAttacks First / Attack Bonus: Opponent\'s Base ST=0.");
+    }
+    if (message.content.startsWith(prefix + "RingoftheSuccubus")) {
+         message.channel.send("Ring of the Succubus  <:crarityn:364048663661772800> <:ctool:364048663762173953> - G:30  \nAttacks First / Attack Bonus: Opponent\'s Base ST=0.");
+    }
+    if (message.content.startsWith(prefix + "Ring of Succubus")) {
+         message.channel.send("Ring of the Succubus  <:crarityn:364048663661772800> <:ctool:364048663762173953> - G:30  \nAttacks First / Attack Bonus: Opponent\'s Base ST=0.");
+    }
+    if (message.content.startsWith(prefix + "RingofSuccubus")) {
+         message.channel.send("Ring of the Succubus  <:crarityn:364048663661772800> <:ctool:364048663762173953> - G:30  \nAttacks First / Attack Bonus: Opponent\'s Base ST=0.");
+    }
+    if (message.content.startsWith(prefix + "ring of the succubus")) {
+         message.channel.send("Ring of the Succubus  <:crarityn:364048663661772800> <:ctool:364048663762173953> - G:30  \nAttacks First / Attack Bonus: Opponent\'s Base ST=0.");
+    }
+    if (message.content.startsWith(prefix + "ringofthesuccubus")) {
+         message.channel.send("Ring of the Succubus  <:crarityn:364048663661772800> <:ctool:364048663762173953> - G:30  \nAttacks First / Attack Bonus: Opponent\'s Base ST=0.");
+    }
+    if (message.content.startsWith(prefix + "ring of succubus")) {
+         message.channel.send("Ring of the Succubus  <:crarityn:364048663661772800> <:ctool:364048663762173953> - G:30  \nAttacks First / Attack Bonus: Opponent\'s Base ST=0.");
+    }
+    if (message.content.startsWith(prefix + "ringofthesuccubus")) {
+         message.channel.send("Ring of the Succubus  <:crarityn:364048663661772800> <:ctool:364048663762173953> - G:30  \nAttacks First / Attack Bonus: Opponent\'s Base ST=0.");
+    }
+    if (message.content.startsWith(prefix + "Scale Armor")) {
+         message.channel.send("Scale Armor  <:crarityn:364048663661772800> <:carmor:364048663556915200> - G:30  \nHP+40");
+    }
+    if (message.content.startsWith(prefix + "ScaleArmor")) {
+         message.channel.send("Scale Armor  <:crarityn:364048663661772800> <:carmor:364048663556915200> - G:30  \nHP+40");
+    }
+    if (message.content.startsWith(prefix + "scale armor")) {
+         message.channel.send("Scale Armor  <:crarityn:364048663661772800> <:carmor:364048663556915200> - G:30  \nHP+40");
+    }
+    if (message.content.startsWith(prefix + "scalearmor")) {
+         message.channel.send("Scale Armor  <:crarityn:364048663661772800> <:carmor:364048663556915200> - G:30  \nHP+40");
+    }
+    if (message.content.startsWith(prefix + "Shadow Blaze")) {
+         message.channel.send("Shadow Blaze  <:craritys:364048663351132162> <:cscroll:364048663691001876> - G:70  \nScroll Attack: ST=40 / Scroll Critical Hit: If the opponent has more than one copy of the enemy creature in play.");
+    }
+    if (message.content.startsWith(prefix + "ShadowBlaze")) {
+         message.channel.send("Shadow Blaze  <:craritys:364048663351132162> <:cscroll:364048663691001876> - G:70  \nScroll Attack: ST=40 / Scroll Critical Hit: If the opponent has more than one copy of the enemy creature in play.");
+    }
+    if (message.content.startsWith(prefix + "shadow blaze")) {
+         message.channel.send("Shadow Blaze  <:craritys:364048663351132162> <:cscroll:364048663691001876> - G:70  \nScroll Attack: ST=40 / Scroll Critical Hit: If the opponent has more than one copy of the enemy creature in play.");
+    }
+    if (message.content.startsWith(prefix + "shadowblaze")) {
+         message.channel.send("Shadow Blaze  <:craritys:364048663351132162> <:cscroll:364048663691001876> - G:70  \nScroll Attack: ST=40 / Scroll Critical Hit: If the opponent has more than one copy of the enemy creature in play.");
+    }
+    if (message.content.startsWith(prefix + "Silver Plow")) {
+         message.channel.send("Silver Plow  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:30  \nST+10 / HP+20 / Battle End: Raises the level of battle territory by 1.");
+    }
+    if (message.content.startsWith(prefix + "SilverPlow")) {
+         message.channel.send("Silver Plow  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:30  \nST+10 / HP+20 / Battle End: Raises the level of battle territory by 1.");
+    }
+    if (message.content.startsWith(prefix + "silver plow")) {
+         message.channel.send("Silver Plow  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:30  \nST+10 / HP+20 / Battle End: Raises the level of battle territory by 1.");
+    }
+    if (message.content.startsWith(prefix + "silverplow")) {
+         message.channel.send("Silver Plow  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:30  \nST+10 / HP+20 / Battle End: Raises the level of battle territory by 1.");
+    }
+    if (message.content.startsWith(prefix + "Sling")) {
+         message.channel.send("Sling  <:crarityn:364048663661772800> <:ctool:364048663762173953> - G:30  \nAttacks First / ST+10 / HP+10");
+    }
+    if (message.content.startsWith(prefix + "sling")) {
+         message.channel.send("Sling  <:crarityn:364048663661772800> <:ctool:364048663762173953> - G:30  \nAttacks First / ST+10 / HP+10");
+    }
+    if (message.content.startsWith(prefix + "Soul Ray")) {
+         message.channel.send("Soul Ray  <:craritys:364048663351132162> <:cscroll:364048663691001876> - G:70  \nScroll Attack: ST=30 / Battle End: Recycles to hand.");
+    }
+    if (message.content.startsWith(prefix + "SoulRay")) {
+         message.channel.send("Soul Ray  <:craritys:364048663351132162> <:cscroll:364048663691001876> - G:70  \nScroll Attack: ST=30 / Battle End: Recycles to hand.");
+    }
+    if (message.content.startsWith(prefix + "soul ray")) {
+         message.channel.send("Soul Ray  <:craritys:364048663351132162> <:cscroll:364048663691001876> - G:70  \nScroll Attack: ST=30 / Battle End: Recycles to hand.");
+    }
+    if (message.content.startsWith(prefix + "soulray")) {
+         message.channel.send("Soul Ray  <:craritys:364048663351132162> <:cscroll:364048663691001876> - G:70  \nScroll Attack: ST=30 / Battle End: Recycles to hand.");
+    }
+    if (message.content.startsWith(prefix + "Spark Ball")) {
+         message.channel.send("Spark Ball  <:crarityn:364048663661772800> <:cscroll:364048663691001876> - G:60  \nScroll Attack: ST=40");
+    }
+    if (message.content.startsWith(prefix + "SparkBall")) {
+         message.channel.send("Spark Ball  <:crarityn:364048663661772800> <:cscroll:364048663691001876> - G:60  \nScroll Attack: ST=40");
+    }
+    if (message.content.startsWith(prefix + "spark ball")) {
+         message.channel.send("Spark Ball  <:crarityn:364048663661772800> <:cscroll:364048663691001876> - G:60  \nScroll Attack: ST=40");
+    }
+    if (message.content.startsWith(prefix + "sparkball")) {
+         message.channel.send("Spark Ball  <:crarityn:364048663661772800> <:cscroll:364048663691001876> - G:60  \nScroll Attack: ST=40");
+    }
+    if (message.content.startsWith(prefix + "Spectre's Robe")) {
+         message.channel.send("Spectre\'s Robe  <:crarityn:364048663661772800> <:carmor:364048663556915200> - G:60  \nST & HP+ (random value between 10 and 70).");
+    }
+    if (message.content.startsWith(prefix + "Spectre'sRobe")) {
+         message.channel.send("Spectre\'s Robe  <:crarityn:364048663661772800> <:carmor:364048663556915200> - G:60  \nST & HP+ (random value between 10 and 70).");
+    }
+    if (message.content.startsWith(prefix + "Spectres Robe")) {
+         message.channel.send("Spectre\'s Robe  <:crarityn:364048663661772800> <:carmor:364048663556915200> - G:60  \nST & HP+ (random value between 10 and 70).");
+    }
+    if (message.content.startsWith(prefix + "SpectresRobe")) {
+         message.channel.send("Spectre\'s Robe  <:crarityn:364048663661772800> <:carmor:364048663556915200> - G:60  \nST & HP+ (random value between 10 and 70).");
+    }
+    if (message.content.startsWith(prefix + "spectre's robe")) {
+         message.channel.send("Spectre\'s Robe  <:crarityn:364048663661772800> <:carmor:364048663556915200> - G:60  \nST & HP+ (random value between 10 and 70).");
+    }
+    if (message.content.startsWith(prefix + "spectre'srobe")) {
+         message.channel.send("Spectre\'s Robe  <:crarityn:364048663661772800> <:carmor:364048663556915200> - G:60  \nST & HP+ (random value between 10 and 70).");
+    }
+    if (message.content.startsWith(prefix + "spectres robe")) {
+         message.channel.send("Spectre\'s Robe  <:crarityn:364048663661772800> <:carmor:364048663556915200> - G:60  \nST & HP+ (random value between 10 and 70).");
+    }
+    if (message.content.startsWith(prefix + "spectresrobe")) {
+         message.channel.send("Spectre\'s Robe  <:crarityn:364048663661772800> <:carmor:364048663556915200> - G:60  \nST & HP+ (random value between 10 and 70).");
+    }
+    if (message.content.startsWith(prefix + "Sphere Shield")) {
+         message.channel.send("Sphere Shield  <:craritys:364048663351132162> <:carmor:364048663556915200> - G:100  \nST=0 / Neutralizes: Normal Attacks.");
+    }
+    if (message.content.startsWith(prefix + "SphereShield")) {
+         message.channel.send("Sphere Shield  <:craritys:364048663351132162> <:carmor:364048663556915200> - G:100  \nST=0 / Neutralizes: Normal Attacks.");
+    }
+    if (message.content.startsWith(prefix + "sphere shield")) {
+         message.channel.send("Sphere Shield  <:craritys:364048663351132162> <:carmor:364048663556915200> - G:100  \nST=0 / Neutralizes: Normal Attacks.");
+    }
+    if (message.content.startsWith(prefix + "sphereshield")) {
+         message.channel.send("Sphere Shield  <:craritys:364048663351132162> <:carmor:364048663556915200> - G:100  \nST=0 / Neutralizes: Normal Attacks.");
+    }
+    if (message.content.startsWith(prefix + "Spiked Shield")) {
+         message.channel.send("Spiked Shield  <:craritys:364048663351132162> <:carmor:364048663556915200> - G:40  \nReflects: 1/2 of damage received from Normal Attacks.");
+    }
+    if (message.content.startsWith(prefix + "SpikedShield")) {
+         message.channel.send("Spiked Shield  <:craritys:364048663351132162> <:carmor:364048663556915200> - G:40  \nReflects: 1/2 of damage received from Normal Attacks.");
+    }
+    if (message.content.startsWith(prefix + "spiked shield")) {
+         message.channel.send("Spiked Shield  <:craritys:364048663351132162> <:carmor:364048663556915200> - G:40  \nReflects: 1/2 of damage received from Normal Attacks.");
+    }
+    if (message.content.startsWith(prefix + "spikedshield")) {
+         message.channel.send("Spiked Shield  <:craritys:364048663351132162> <:carmor:364048663556915200> - G:40  \nReflects: 1/2 of damage received from Normal Attacks.");
+    }
+    if (message.content.startsWith(prefix + "Squid Mantle")) {
+         message.channel.send("Squid Mantle  <:crarityr:364045147085864960> <:carmor:364048663556915200> - G:50  \nHP+40 / In Battle: Disables opponent\'s Attack Bonus.");
+    }
+    if (message.content.startsWith(prefix + "SquidMantle")) {
+         message.channel.send("Squid Mantle  <:crarityr:364045147085864960> <:carmor:364048663556915200> - G:50  \nHP+40 / In Battle: Disables opponent\'s Attack Bonus.");
+    }
+    if (message.content.startsWith(prefix + "squid mantle")) {
+         message.channel.send("Squid Mantle  <:crarityr:364045147085864960> <:carmor:364048663556915200> - G:50  \nHP+40 / In Battle: Disables opponent\'s Attack Bonus.");
+    }
+    if (message.content.startsWith(prefix + "squidmantle")) {
+         message.channel.send("Squid Mantle  <:crarityr:364045147085864960> <:carmor:364048663556915200> - G:50  \nHP+40 / In Battle: Disables opponent\'s Attack Bonus.");
+    }
+    if (message.content.startsWith(prefix + "Storm Armor")) {
+         message.channel.send("Storm Armor  <:crarityr:364045147085864960> <:carmor:364048663556915200> - G:70  \nHP+ (Number of user\'s <:cair:364048663518904327> and <:cwater:364048663447601154> territories x20).");
+    }
+    if (message.content.startsWith(prefix + "StormArmor")) {
+         message.channel.send("Storm Armor  <:crarityr:364045147085864960> <:carmor:364048663556915200> - G:70  \nHP+ (Number of user\'s <:cair:364048663518904327> and <:cwater:364048663447601154> territories x20).");
+    }
+    if (message.content.startsWith(prefix + "storm armor")) {
+         message.channel.send("Storm Armor  <:crarityr:364045147085864960> <:carmor:364048663556915200> - G:70  \nHP+ (Number of user\'s <:cair:364048663518904327> and <:cwater:364048663447601154> territories x20).");
+    }
+    if (message.content.startsWith(prefix + "stormarmor")) {
+         message.channel.send("Storm Armor  <:crarityr:364045147085864960> <:carmor:364048663556915200> - G:70  \nHP+ (Number of user\'s <:cair:364048663518904327> and <:cwater:364048663447601154> territories x20).");
+    }
+    if (message.content.startsWith(prefix + "Storm Halberd")) {
+         message.channel.send("Storm Halberd  <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:70  \nST+ (number of <:cwater:364048663447601154> & <:cair:364048663518904327> creatures in play x5). / Critical Hit: <:cfire:364048663355588609> and <:cearth:364048663582081034>");
+    }
+    if (message.content.startsWith(prefix + "StormHalberd")) {
+         message.channel.send("Storm Halberd  <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:70  \nST+ (number of <:cwater:364048663447601154> & <:cair:364048663518904327> creatures in play x5). / Critical Hit: <:cfire:364048663355588609> and <:cearth:364048663582081034>");
+    }
+    if (message.content.startsWith(prefix + "storm halberd")) {
+         message.channel.send("Storm Halberd  <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:70  \nST+ (number of <:cwater:364048663447601154> & <:cair:364048663518904327> creatures in play x5). / Critical Hit: <:cfire:364048663355588609> and <:cearth:364048663582081034>");
+    }
+    if (message.content.startsWith(prefix + "stormhalberd")) {
+         message.channel.send("Storm Halberd  <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:70  \nST+ (number of <:cwater:364048663447601154> & <:cair:364048663518904327> creatures in play x5). / Critical Hit: <:cfire:364048663355588609> and <:cearth:364048663582081034>");
+    }
+    if (message.content.startsWith(prefix + "Storm Shield")) {
+         message.channel.send("Storm Shield  <:craritys:364048663351132162> <:carmor:364048663556915200> - G:70  \nNeutralizes: Normal Attacks when equipped creature is <:cwater:364048663447601154> or <:cair:364048663518904327>.");
+    }
+    if (message.content.startsWith(prefix + "StormShield")) {
+         message.channel.send("Storm Shield  <:craritys:364048663351132162> <:carmor:364048663556915200> - G:70  \nNeutralizes: Normal Attacks when equipped creature is <:cwater:364048663447601154> or <:cair:364048663518904327>.");
+    }
+    if (message.content.startsWith(prefix + "storm shield")) {
+         message.channel.send("Storm Shield  <:craritys:364048663351132162> <:carmor:364048663556915200> - G:70  \nNeutralizes: Normal Attacks when equipped creature is <:cwater:364048663447601154> or <:cair:364048663518904327>.");
+    }
+    if (message.content.startsWith(prefix + "stormshield")) {
+         message.channel.send("Storm Shield  <:craritys:364048663351132162> <:carmor:364048663556915200> - G:70  \nNeutralizes: Normal Attacks when equipped creature is <:cwater:364048663447601154> or <:cair:364048663518904327>.");
+    }
+    if (message.content.startsWith(prefix + "Storm Spear")) {
+         message.channel.send("Storm Spear  <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:20  \nST+20 / Critical Hit: When equipped creature is <:cwater:364048663447601154> or <:cair:364048663518904327>.");
+    }
+    if (message.content.startsWith(prefix + "StormSpear")) {
+         message.channel.send("Storm Spear  <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:20  \nST+20 / Critical Hit: When equipped creature is <:cwater:364048663447601154> or <:cair:364048663518904327>.");
+    }
+    if (message.content.startsWith(prefix + "storm spear")) {
+         message.channel.send("Storm Spear  <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:20  \nST+20 / Critical Hit: When equipped creature is <:cwater:364048663447601154> or <:cair:364048663518904327>.");
+    }
+    if (message.content.startsWith(prefix + "stormspear")) {
+         message.channel.send("Storm Spear  <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:20  \nST+20 / Critical Hit: When equipped creature is <:cwater:364048663447601154> or <:cair:364048663518904327>.");
+    }
+    if (message.content.startsWith(prefix + "Stormcauser")) {
+         message.channel.send("Stormcauser  <:crarityr:364045147085864960> <:cweapon:364048663527424002> - G:55  \nST+60 / HP-30");
+    }
+    if (message.content.startsWith(prefix + "stormcauser")) {
+         message.channel.send("Stormcauser  <:crarityr:364045147085864960> <:cweapon:364048663527424002> - G:55  \nST+60 / HP-30");
+    }
+    if (message.content.startsWith(prefix + "Sword of Pluck")) {
+         message.channel.send("Sword of Pluck  <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:40  \nST+40 / Critical Hit: When equipped creature has a Rarity of Normal.");
+    }
+    if (message.content.startsWith(prefix + "SwordofPluck")) {
+         message.channel.send("Sword of Pluck  <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:40  \nST+40 / Critical Hit: When equipped creature has a Rarity of Normal.");
+    }
+    if (message.content.startsWith(prefix + "sword of pluck")) {
+         message.channel.send("Sword of Pluck  <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:40  \nST+40 / Critical Hit: When equipped creature has a Rarity of Normal.");
+    }
+    if (message.content.startsWith(prefix + "swordofpluck")) {
+         message.channel.send("Sword of Pluck  <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:40  \nST+40 / Critical Hit: When equipped creature has a Rarity of Normal.");
     }    
 });
 
