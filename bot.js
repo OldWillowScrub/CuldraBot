@@ -1955,7 +1955,169 @@ client.on('message', message => {
     }
     if (message.content.startsWith(prefix + "patronus")) {
          message.channel.send("Patronus <:crarityr:364045147085864960> <:cair:364048663518904327> \nST:30 HP:20 MHP:20 G:30+ <:cair:364048663518904327> \nAnti-Spell / \nSecret Art (50G): Adds Anti-Spell <:csenchant:364048663464378391> to target Cepter.");
-    } 
+    }
+    if (message.content.startsWith(prefix + "Powder Eater")) {
+         message.channel.send("Powder Eater <:craritys:364048663351132162> <:cair:364048663518904327> \nST:1 HP:1 MHP:1 G:10 \nItem Limit: <:cnoscroll:364048663653122048> \nMultiplies when moving, leaving copies in both former and new locations.");
+    }
+    if (message.content.startsWith(prefix + "PowderEater")) {
+         message.channel.send("Powder Eater <:craritys:364048663351132162> <:cair:364048663518904327> \nST:1 HP:1 MHP:1 G:10 \nItem Limit: <:cnoscroll:364048663653122048> \nMultiplies when moving, leaving copies in both former and new locations.");
+    }
+    if (message.content.startsWith(prefix + "powder eater")) {
+         message.channel.send("Powder Eater <:craritys:364048663351132162> <:cair:364048663518904327> \nST:1 HP:1 MHP:1 G:10 \nItem Limit: <:cnoscroll:364048663653122048> \nMultiplies when moving, leaving copies in both former and new locations.");
+    }
+    if (message.content.startsWith(prefix + "powdereater")) {
+         message.channel.send("Powder Eater <:craritys:364048663351132162> <:cair:364048663518904327> \nST:1 HP:1 MHP:1 G:10 \nItem Limit: <:cnoscroll:364048663653122048> \nMultiplies when moving, leaving copies in both former and new locations.");
+    }
+    if (message.content.startsWith(prefix + "Pulgasari")) {
+         message.channel.send("Pulgasari <:craritys:364048663351132162> <:cair:364048663518904327> \nST:40 HP:40 MHP:40 G:90 \nItem Limit: <:cnoscroll:364048663653122048> \nIn Battle: ST+20 if equipped with an item. / Battle End: MHP+10 if opponent equipped an item.");
+    }
+    if (message.content.startsWith(prefix + "pulgasari")) {
+         message.channel.send("Pulgasari <:craritys:364048663351132162> <:cair:364048663518904327> \nST:40 HP:40 MHP:40 G:90 \nItem Limit: <:cnoscroll:364048663653122048> \nIn Battle: ST+20 if equipped with an item. / Battle End: MHP+10 if opponent equipped an item.");
+    }
+    if (message.content.startsWith(prefix + "Rokh")) {
+         message.channel.send("Rokh <:craritys:364048663351132162> <:cair:364048663518904327> \nST:40 HP:50 MHP:50 G:60+ <:cair:364048663518904327> \nItem Limit: <:cnoscroll:364048663653122048> \nSynergy: <:cwater:364048663447601154> (ST+30)");
+    }
+    if (message.content.startsWith(prefix + "rokh")) {
+         message.channel.send("Rokh <:craritys:364048663351132162> <:cair:364048663518904327> \nST:40 HP:50 MHP:50 G:60+ <:cair:364048663518904327> \nItem Limit: <:cnoscroll:364048663653122048> \nSynergy: <:cwater:364048663447601154> (ST+30)");
+    }
+    if (message.content.startsWith(prefix + "Samhain")) {
+         message.channel.send("Samhain <:crarityn:364048663661772800> <:cair:364048663518904327> \nST:20 HP:40 MHP:40 G:50+ <:ccard:364048663426760705> \nSynthesis: <:csenchant:364048663464378391> Spells (ST+20). / Battle End: opponent\'s MHP- (this creature\'s Base ST).");
+    }
+    if (message.content.startsWith(prefix + "samhain")) {
+         message.channel.send("Samhain <:crarityn:364048663661772800> <:cair:364048663518904327> \nST:20 HP:40 MHP:40 G:50+ <:ccard:364048663426760705> \nSynthesis: <:csenchant:364048663464378391> Spells (ST+20). / Battle End: opponent\'s MHP- (this creature\'s Base ST).");
+    }
+    if (message.content.startsWith(prefix + "Scolopendra")) {
+         message.channel.send("Scolopendra <:crarityr:364045147085864960> <:cair:364048663518904327> \nST:30 HP:40 MHP:40 G:50+ <:ccard:364048663426760705> \nItem Limit: <:cnoscroll:364048663653122048> \nSynthesis: <:cwater:364048663447601154> (Evolves into Deep-Sea Dragon). / Attack Bonus: Adds Poison Enchant.");
+    }
+    if (message.content.startsWith(prefix + "scolopendra")) {
+         message.channel.send("Scolopendra <:crarityr:364045147085864960> <:cair:364048663518904327> \nST:30 HP:40 MHP:40 G:50+ <:ccard:364048663426760705> \nItem Limit: <:cnoscroll:364048663653122048> \nSynthesis: <:cwater:364048663447601154> (Evolves into Deep-Sea Dragon). / Attack Bonus: Adds Poison Enchant.");
+    }
+    if (message.content.startsWith(prefix + "Serpent Fly")) {
+         message.channel.send("Serpent Fly <:crarityn:364048663661772800> <:cair:364048663518904327> \nST:40 HP:30 MHP:30 G:70 \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:cnoscroll:364048663653122048> \nAttacks First / Receives land effect from <:cwater:364048663447601154> territories.");
+    }
+    if (message.content.startsWith(prefix + "SerpentFly")) {
+         message.channel.send("Serpent Fly <:crarityn:364048663661772800> <:cair:364048663518904327> \nST:40 HP:30 MHP:30 G:70 \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:cnoscroll:364048663653122048> \nAttacks First / Receives land effect from <:cwater:364048663447601154> territories.");
+    }
+    if (message.content.startsWith(prefix + "serpent fly")) {
+         message.channel.send("Serpent Fly <:crarityn:364048663661772800> <:cair:364048663518904327> \nST:40 HP:30 MHP:30 G:70 \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:cnoscroll:364048663653122048> \nAttacks First / Receives land effect from <:cwater:364048663447601154> territories.");
+    }
+    if (message.content.startsWith(prefix + "serpentfly")) {
+         message.channel.send("Serpent Fly <:crarityn:364048663661772800> <:cair:364048663518904327> \nST:40 HP:30 MHP:30 G:70 \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:cnoscroll:364048663653122048> \nAttacks First / Receives land effect from <:cwater:364048663447601154> territories.");
+    }
+    if (message.content.startsWith(prefix + "Sleipnir")) {
+         message.channel.send("Sleipnir <:craritys:364048663351132162> <:cair:364048663518904327> \nST:30 HP:40 MHP:40 G:70 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (60G): Moves user\'s target creature up to 2 spaces.");
+    }
+    if (message.content.startsWith(prefix + "sleipnir")) {
+         message.channel.send("Sleipnir <:craritys:364048663351132162> <:cair:364048663518904327> \nST:30 HP:40 MHP:40 G:70 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (60G): Moves user\'s target creature up to 2 spaces.");
+    }
+    if (message.content.startsWith(prefix + "Soul Collector")) {
+         message.channel.send("Soul Collector <:craritys:364048663351132162> <:cair:364048663518904327> \nST:20 HP:30 MHP:30 G:30+ <:ccard:364048663426760705> \nIn Battle: ST+ (number of creatures destroyed thus far x5).");
+    }
+    if (message.content.startsWith(prefix + "SoulCollector")) {
+         message.channel.send("Soul Collector <:craritys:364048663351132162> <:cair:364048663518904327> \nST:20 HP:30 MHP:30 G:30+ <:ccard:364048663426760705> \nIn Battle: ST+ (number of creatures destroyed thus far x5).");
+    }
+    if (message.content.startsWith(prefix + "soul collector")) {
+         message.channel.send("Soul Collector <:crarityr:364045147085864960> <:cair:364048663518904327> \nST:20 HP:30 MHP:30 G:30+ <:ccard:364048663426760705> \nIn Battle: ST+ (number of creatures destroyed thus far x5).");
+    }
+    if (message.content.startsWith(prefix + "soulcollector")) {
+         message.channel.send("Soul Collector <:crarityr:364045147085864960> <:cair:364048663518904327> \nST:20 HP:30 MHP:30 G:30+ <:ccard:364048663426760705> \nIn Battle: ST+ (number of creatures destroyed thus far x5).");
+    }
+    if (message.content.startsWith(prefix + "Spectre")) {
+         message.channel.send("Spectre <:crarityn:364048663661772800> <:cair:364048663518904327> \nST:0 HP:30 MHP:30 G:30 \nIn Battle: ST & HP= (random value between 10 and 70).");
+    }
+    if (message.content.startsWith(prefix + "spectre")) {
+         message.channel.send("Spectre <:crarityn:364048663661772800> <:cair:364048663518904327> \nST:0 HP:30 MHP:30 G:30 \nIn Battle: ST & HP= (random value between 10 and 70).");
+    }
+    if (message.content.startsWith(prefix + "Sword Princess")) {
+         message.channel.send("Sword Princess <:crarityr:364045147085864960> <:cair:364048663518904327> \nST:40 HP:30 MHP:30 G:70+ <:cair:364048663518904327> \nAttacks First / HP and MHP cannot be altered by spells. / \nSecret Art (60G): Evolves into Armed Princess.");
+    }
+    if (message.content.startsWith(prefix + "SwordPrincess")) {
+         message.channel.send("Sword Princess <:crarityr:364045147085864960> <:cair:364048663518904327> \nST:40 HP:30 MHP:30 G:70+ <:cair:364048663518904327> \nAttacks First / HP and MHP cannot be altered by spells. / \nSecret Art (60G): Evolves into Armed Princess.");
+    }
+    if (message.content.startsWith(prefix + "sword princess")) {
+         message.channel.send("Sword Princess <:crarityr:364045147085864960> <:cair:364048663518904327> \nST:40 HP:30 MHP:30 G:70+ <:cair:364048663518904327> \nAttacks First / HP and MHP cannot be altered by spells. / \nSecret Art (60G): Evolves into Armed Princess.");
+    }
+    if (message.content.startsWith(prefix + "swordprincess")) {
+         message.channel.send("Sword Princess <:crarityr:364045147085864960> <:cair:364048663518904327> \nST:40 HP:30 MHP:30 G:70+ <:cair:364048663518904327> \nAttacks First / HP and MHP cannot be altered by spells. / \nSecret Art (60G): Evolves into Armed Princess.");
+    }
+    if (message.content.startsWith(prefix + "Sylph")) {
+         message.channel.send("Sylph <:craritys:364048663351132162> <:cair:364048663518904327> \nST:20 HP:20 MHP:20 G:30 \nNeutralizes: Attacks from creatures with MHP of 40 and up. / \nSecret Art (60G): Evolves into Garuda.");
+    }
+    if (message.content.startsWith(prefix + "sylph")) {
+         message.channel.send("Sylph <:craritys:364048663351132162> <:cair:364048663518904327> \nST:20 HP:20 MHP:20 G:30 \nNeutralizes: Attacks from creatures with MHP of 40 and up. / \nSecret Art (60G): Evolves into Garuda.");
+    }
+    if (message.content.startsWith(prefix + "Tetrarm")) {
+         message.channel.send("Tetrarm <:crarityr:364045147085864960> <:cair:364048663518904327> \nST:20 HP:30 MHP:30 G:50+ <:cair:364048663518904327> \nAttacks Twice.");
+    }
+    if (message.content.startsWith(prefix + "tetrarm")) {
+         message.channel.send("Tetrarm <:crarityr:364045147085864960> <:cair:364048663518904327> \nST:20 HP:30 MHP:30 G:50+ <:cair:364048663518904327> \nAttacks Twice.");
+    }
+    if (message.content.startsWith(prefix + "Thunder Spawn")) {
+         message.channel.send("Thunder Spawn <:crarityr:364045147085864960> <:cair:364048663518904327> \nST:30 HP:40 MHP:40 G:50+ <:cair:364048663518904327> \nItem Limit: <:cnoscroll:364048663653122048> \nIn Battle: ST+ (Number of user\'s <:cwater:364048663447601154> lands x10). / Can move to any enemy land with a mismatching element creature on it.");
+    }
+    if (message.content.startsWith(prefix + "ThunderSpawn")) {
+         message.channel.send("Thunder Spawn <:crarityr:364045147085864960> <:cair:364048663518904327> \nST:30 HP:40 MHP:40 G:50+ <:cair:364048663518904327> \nItem Limit: <:cnoscroll:364048663653122048> \nIn Battle: ST+ (Number of user\'s <:cwater:364048663447601154> lands x10). / Can move to any enemy land with a mismatching element creature on it.");
+    }
+    if (message.content.startsWith(prefix + "thunder spawn")) {
+         message.channel.send("Thunder Spawn <:crarityr:364045147085864960> <:cair:364048663518904327> \nST:30 HP:40 MHP:40 G:50+ <:cair:364048663518904327> \nItem Limit: <:cnoscroll:364048663653122048> \nIn Battle: ST+ (Number of user\'s <:cwater:364048663447601154> lands x10). / Can move to any enemy land with a mismatching element creature on it.");
+    }
+    if (message.content.startsWith(prefix + "thunderspawn")) {
+         message.channel.send("Thunder Spawn <:crarityr:364045147085864960> <:cair:364048663518904327> \nST:30 HP:40 MHP:40 G:50+ <:cair:364048663518904327> \nItem Limit: <:cnoscroll:364048663653122048> \nIn Battle: ST+ (Number of user\'s <:cwater:364048663447601154> lands x10). / Can move to any enemy land with a mismatching element creature on it.");
+    }
+    if (message.content.startsWith(prefix + "Tornado")) {
+         message.channel.send("Tornado <:crarityn:364048663661772800> <:cair:364048663518904327> \nST:20 HP:50 MHP:50 G:55 \nItem Limit: <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nDefensive / Attacks First / In Battle: ST+20, HP-10.");
+    }
+    if (message.content.startsWith(prefix + "tornado")) {
+         message.channel.send("Tornado <:crarityn:364048663661772800> <:cair:364048663518904327> \nST:20 HP:50 MHP:50 G:55 \nItem Limit: <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nDefensive / Attacks First / In Battle: ST+20, HP-10.");
+    }
+    if (message.content.startsWith(prefix + "Treasure Raider")) {
+         message.channel.send("Treasure Raider <:craritys:364048663351132162> <:cair:364048663518904327> \nST:40 HP:40 MHP:40 G:90 \nBattle End: User gains 100G when invading. / Vigorous");
+    }
+    if (message.content.startsWith(prefix + "TreasureRaider")) {
+         message.channel.send("Treasure Raider <:craritys:364048663351132162> <:cair:364048663518904327> \nST:40 HP:40 MHP:40 G:90 \nBattle End: User gains 100G when invading. / Vigorous");
+    }
+    if (message.content.startsWith(prefix + "treasure raider")) {
+         message.channel.send("Treasure Raider <:craritys:364048663351132162> <:cair:364048663518904327> \nST:40 HP:40 MHP:40 G:90 \nBattle End: User gains 100G when invading. / Vigorous");
+    }
+    if (message.content.startsWith(prefix + "treasureraider")) {
+         message.channel.send("Treasure Raider <:craritys:364048663351132162> <:cair:364048663518904327> \nST:40 HP:40 MHP:40 G:90 \nBattle End: User gains 100G when invading. / Vigorous");
+    }
+    if (message.content.startsWith(prefix + "Typhon")) {
+         message.channel.send("Typhon <:crarityr:364045147085864960> <:cair:364048663518904327> \nST:60 HP:60 MHP:60 G:110+ <:cair:364048663518904327> <:cair:364048663518904327> \nAttacks First / Critical Hit: <:cfire:364048663355588609> <:cearth:364048663582081034> / Upon Victory: Changes battle territory to a <:cair:364048663518904327> land.");
+    }
+    if (message.content.startsWith(prefix + "typhon")) {
+         message.channel.send("Typhon <:crarityr:364045147085864960> <:cair:364048663518904327> \nST:60 HP:60 MHP:60 G:110+ <:cair:364048663518904327> <:cair:364048663518904327> \nAttacks First / Critical Hit: <:cfire:364048663355588609> <:cearth:364048663582081034> / Upon Victory: Changes battle territory to a <:cair:364048663518904327> land.");
+    }
+    if (message.content.startsWith(prefix + "Witch")) {
+         message.channel.send("Witch <:crarityr:364045147085864960> <:cair:364048663518904327> \nST:20 HP:30 MHP:30 G:55 \nItem Limit: <:cweapon:364048663527424002> \nScroll Critical Hit / \nSecret Art (30G): Steals (number of Spell Cards in target enemy cepter\'s hand x40)G.");
+    }
+    if (message.content.startsWith(prefix + "witch")) {
+         message.channel.send("Witch <:crarityr:364045147085864960> <:cair:364048663518904327> \nST:20 HP:30 MHP:30 G:55 \nItem Limit: <:cweapon:364048663527424002> \nScroll Critical Hit / \nSecret Art (30G): Steals (number of Spell Cards in target enemy cepter\'s hand x40)G.");
+    }
+    if (message.content.startsWith(prefix + "Wyvern")) {
+         message.channel.send("Wyvern <:crarityn:364048663661772800> <:cair:364048663518904327> \nST:40 HP:40 MHP:40 G:60+ <:cair:364048663518904327> \nLand Limit: <:cnoearth:364048663602790439> \nItem Limit: <:carmor:364048663556915200> \nAttacks First / Can move to any vacant <:cair:364048663518904327> land.");
+    }
+    if (message.content.startsWith(prefix + "wyvern")) {
+         message.channel.send("Wyvern <:crarityn:364048663661772800> <:cair:364048663518904327> \nST:40 HP:40 MHP:40 G:60+ <:cair:364048663518904327> \nLand Limit: <:cnoearth:364048663602790439> \nItem Limit: <:carmor:364048663556915200> \nAttacks First / Can move to any vacant <:cair:364048663518904327> land.");
+    }
+    if (message.content.startsWith(prefix + "Yellow Ogre")) {
+         message.channel.send("Yellow Ogre <:crarityn:364048663661772800> <:cair:364048663518904327> \nST:40 HP:50 MHP:50 G:80");
+    }
+    if (message.content.startsWith(prefix + "YellowOgre")) {
+         message.channel.send("Yellow Ogre <:crarityn:364048663661772800> <:cair:364048663518904327> \nST:40 HP:50 MHP:50 G:80");
+    }
+    if (message.content.startsWith(prefix + "yellow ogre")) {
+         message.channel.send("Yellow Ogre <:crarityn:364048663661772800> <:cair:364048663518904327> \nST:40 HP:50 MHP:50 G:80");
+    }
+    if (message.content.startsWith(prefix + "yellowogre")) {
+         message.channel.send("Yellow Ogre <:crarityn:364048663661772800> <:cair:364048663518904327> \nST:40 HP:50 MHP:50 G:80");
+    }
+    if (message.content.startsWith(prefix + "Yowie")) {
+         message.channel.send("Yowie <:crarityn:364048663661772800> <:cair:364048663518904327> \nST:40 HP:40 MHP:40 G:70 \nCritical Hit: <:cneutral:364043997825597440> / Toll value for occupied territory randomly changes by 1/2 to 2.5x.");
+    }
+    if (message.content.startsWith(prefix + "yowie")) {
+         message.channel.send("Yowie <:crarityn:364048663661772800> <:cair:364048663518904327> \nST:40 HP:40 MHP:40 G:70 \nCritical Hit: <:cneutral:364043997825597440> / Toll value for occupied territory randomly changes by 1/2 to 2.5x.");
+    }    
 });
 
 // THIS  MUST  BE  THIS  WAY
