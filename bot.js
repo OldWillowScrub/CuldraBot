@@ -1938,6 +1938,12 @@ client.on('message', message => {
     if (message.content.startsWith(prefix + "martialmonk")) {
          message.channel.send("Martial Monk <:craritys:364048663351132162> <:cair:364048663518904327> \nST:20 HP:50 MHP:50 G:70+ <:ccard:364048663426760705> \nSynthesis: Items (ST+40, MHP-10). / Attacks First / Vigorous");
     }
+    if (message.content.startsWith(prefix + "Nightmare")) {
+         message.channel.send("Nightmare <:craritys:364048663351132162> <:cair:364048663518904327> \nST:30 HP:30 MHP:30 G:40+ <:cair:364048663518904327> \nPenetrates");
+    }
+    if (message.content.startsWith(prefix + "nightmare")) {
+         message.channel.send("Nightmare <:craritys:364048663351132162> <:cair:364048663518904327> \nST:30 HP:30 MHP:30 G:40+ <:cair:364048663518904327> \nPenetrates");
+    }    
 });
 
 // THIS  MUST  BE  THIS  WAY
