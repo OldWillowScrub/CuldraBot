@@ -1848,10 +1848,10 @@ client.on('message', message => {
     if (message.content.startsWith(prefix + "greatnimbus")) {
          message.channel.send("Great Nimbus <:crarityn:364048663661772800> <:cair:364048663518904327> \nST:30 HP:60 MHP:60 G:100 \nItem Limit: <:carmor:364048663556915200> \nVigorous");
     }
-    if (message.content.startsWith(prefix + "Gremlin")) {
+    if (message.content === prefix + "Gremlin") {
          message.channel.send("Gremlin <:craritys:364048663351132162> <:cair:364048663518904327> \nST:20 HP:30 MHP:30 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nBattle Start: Destroys opponent\'s item.");
     }
-    if (message.content.startsWith(prefix + "gremlin")) {
+    if (message.content === prefix +  "gremlin") {
          message.channel.send("Gremlin <:craritys:364048663351132162> <:cair:364048663518904327> \nST:20 HP:30 MHP:30 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nBattle Start: Destroys opponent\'s item.");
     }
     if (message.content.startsWith(prefix + "Griffon")) {
