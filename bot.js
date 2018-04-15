@@ -1179,7 +1179,109 @@ client.on('message', message => {
     }
     if (message.content.startsWith(prefix + "otohime")) {
          message.channel.send("Otohime <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:40 HP:40 MHP:40 G:70+ <:cwater:364048663447601154> \nBoost: HP+10 to defending creatures. / Battle End: Adds Last Breath <:csenchant:364048663464378391> to enemy creature.");
-    }  
+    } 
+    if (message.content.startsWith(prefix + "Rahab")) {
+         message.channel.send("Rahab <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:60 HP:60 MHP:60 G:80+ <:cwater:364048663447601154> <:cwater:364048663447601154> + <:ccard:364048663426760705> \nLand Limit: <:cnoearth:364048663602790439> \nItem Limit: <:cnotool:364048663624024076>  \nNeutralizes: Creatures with ST of 50 and up. / Boost: HP+10 to <:cwater:364048663447601154> & <:cair:364048663518904327> creatures.");
+    }
+    if (message.content.startsWith(prefix + "rahab")) {
+         message.channel.send("Rahab <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:60 HP:60 MHP:60 G:80+ <:cwater:364048663447601154> <:cwater:364048663447601154> + <:ccard:364048663426760705> \nLand Limit: <:cnoearth:364048663602790439> \nItem Limit: <:cnotool:364048663624024076>  \nNeutralizes: Creatures with ST of 50 and up. / Boost: HP+10 to <:cwater:364048663447601154> & <:cair:364048663518904327> creatures.");
+    }
+    if (message.content.startsWith(prefix + "Rune Adept")) {
+         message.channel.send("Rune Adept <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:20 HP:20 MHP:20 G:50+ <:cwater:364048663447601154> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> \nScroll Critical Hit / Anti-Spell / \nSecret Art (100G): Uses the effect of a <:csinstant:364048663447863298> card in user\'s hand.");
+    }
+    if (message.content.startsWith(prefix + "RuneAdept")) {
+         message.channel.send("Rune Adept <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:20 HP:20 MHP:20 G:50+ <:cwater:364048663447601154> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> \nScroll Critical Hit / Anti-Spell / \nSecret Art (100G): Uses the effect of a <:csinstant:364048663447863298> card in user\'s hand.");
+    }
+    if (message.content.startsWith(prefix + "rune adept")) {
+         message.channel.send("Rune Adept <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:20 HP:20 MHP:20 G:50+ <:cwater:364048663447601154> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> \nScroll Critical Hit / Anti-Spell / \nSecret Art (100G): Uses the effect of a <:csinstant:364048663447863298> card in user\'s hand.");
+    }
+    if (message.content.startsWith(prefix + "runeadept")) {
+         message.channel.send("Rune Adept <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:20 HP:20 MHP:20 G:50+ <:cwater:364048663447601154> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> \nScroll Critical Hit / Anti-Spell / \nSecret Art (100G): Uses the effect of a <:csinstant:364048663447863298> card in user\'s hand.");
+    }
+    if (message.content.startsWith(prefix + "Scylla")) {
+         message.channel.send("Scylla <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:30 HP:40 MHP:40 G:60+ <:cwater:364048663447601154> \nIn Battle: Disables opponent\'s Attack Bonus. / Battle End: Adds Sleep <:csenchant:364048663464378391> to enemy creature.");
+    }
+    if (message.content.startsWith(prefix + "scylla")) {
+         message.channel.send("Scylla <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:30 HP:40 MHP:40 G:60+ <:cwater:364048663447601154> \nIn Battle: Disables opponent\'s Attack Bonus. / Battle End: Adds Sleep <:csenchant:364048663464378391> to enemy creature.");
+    }
+    if (message.content.startsWith(prefix + "Sea Bonze")) {
+         message.channel.send("Sea Bonze <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:10 HP:40 MHP:40 G:40 \nLand Limit: <:cnofire:364048663732813845> <:cnoearth:364048663602790439> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> <:cnotool:364048663624024076> <:cnoscroll:364048663653122048> \nDefensive / In Battle: Disables all effects and abilities. (Activates first.)");
+    }
+    if (message.content.startsWith(prefix + "SeaBonze")) {
+         message.channel.send("Sea Bonze <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:10 HP:40 MHP:40 G:40 \nLand Limit: <:cnofire:364048663732813845> <:cnoearth:364048663602790439> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> <:cnotool:364048663624024076> <:cnoscroll:364048663653122048> \nDefensive / In Battle: Disables all effects and abilities. (Activates first.)");
+    }
+    if (message.content.startsWith(prefix + "sea bonze")) {
+         message.channel.send("Sea Bonze <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:10 HP:40 MHP:40 G:40 \nLand Limit: <:cnofire:364048663732813845> <:cnoearth:364048663602790439> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> <:cnotool:364048663624024076> <:cnoscroll:364048663653122048> \nDefensive / In Battle: Disables all effects and abilities. (Activates first.)");
+    }
+    if (message.content.startsWith(prefix + "seabonze")) {
+         message.channel.send("Sea Bonze <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:10 HP:40 MHP:40 G:40 \nLand Limit: <:cnofire:364048663732813845> <:cnoearth:364048663602790439> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoarmor:364048663598858240> <:cnotool:364048663624024076> <:cnoscroll:364048663653122048> \nDefensive / In Battle: Disables all effects and abilities. (Activates first.)");
+    }
+    if (message.content.startsWith(prefix + "Sludge Titan")) {
+         message.channel.send("Sludge Titan <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:50 HP:60 MHP:60 G:90 \nItem Limit: <:cnoarmor:364048663598858240> <:cnotool:364048663624024076> \nBattle Start: If HP is not at maximum, this creature is destroyed. / Regenerates");
+    }
+    if (message.content.startsWith(prefix + "SludgeTitan")) {
+         message.channel.send("Sludge Titan <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:50 HP:60 MHP:60 G:90 \nItem Limit: <:cnoarmor:364048663598858240> <:cnotool:364048663624024076> \nBattle Start: If HP is not at maximum, this creature is destroyed. / Regenerates");
+    }
+    if (message.content.startsWith(prefix + "sludge titan")) {
+         message.channel.send("Sludge Titan <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:50 HP:60 MHP:60 G:90 \nItem Limit: <:cnoarmor:364048663598858240> <:cnotool:364048663624024076> \nBattle Start: If HP is not at maximum, this creature is destroyed. / Regenerates");
+    }
+    if (message.content.startsWith(prefix + "sludgetitan")) {
+         message.channel.send("Sludge Titan <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:50 HP:60 MHP:60 G:90 \nItem Limit: <:cnoarmor:364048663598858240> <:cnotool:364048663624024076> \nBattle Start: If HP is not at maximum, this creature is destroyed. / Regenerates");
+    }
+    if (message.content.startsWith(prefix + "Swamp Spawn")) {
+         message.channel.send("Swamp Spawn <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:20 HP:40 MHP:40 G:20 \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoscroll:364048663653122048> \nDefensive / \nSecret Art (50G): Adds Dice 1-3 <:csenchant:364048663464378391> to target Cepter. (Makes the next dice roll 1 to 3.)");
+    }
+    if (message.content.startsWith(prefix + "SwampSpawn")) {
+         message.channel.send("Swamp Spawn <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:20 HP:40 MHP:40 G:20 \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoscroll:364048663653122048> \nDefensive / \nSecret Art (50G): Adds Dice 1-3 <:csenchant:364048663464378391> to target Cepter. (Makes the next dice roll 1 to 3.)");
+    }
+    if (message.content.startsWith(prefix + "swamp spawn")) {
+         message.channel.send("Swamp Spawn <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:20 HP:40 MHP:40 G:20 \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoscroll:364048663653122048> \nDefensive / \nSecret Art (50G): Adds Dice 1-3 <:csenchant:364048663464378391> to target Cepter. (Makes the next dice roll 1 to 3.)");
+    }
+    if (message.content.startsWith(prefix + "swampspawn")) {
+         message.channel.send("Swamp Spawn <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:20 HP:40 MHP:40 G:20 \nLand Limit: <:cnofire:364048663732813845> \nItem Limit: <:cnoweapon:364048663309189152> <:cnoscroll:364048663653122048> \nDefensive / \nSecret Art (50G): Adds Dice 1-3 <:csenchant:364048663464378391> to target Cepter. (Makes the next dice roll 1 to 3.)");
+    }
+    if (message.content.startsWith(prefix + "Tentacles")) {
+         message.channel.send("Tentacles <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:40 HP:50 MHP:50 G:70+ <:cwater:364048663447601154> \nItem Limit: <:cnoscroll:364048663653122048> \nRegenerates / Battle End: User draws cards until their hand contains 5 cards.");
+    }
+    if (message.content.startsWith(prefix + "tentacles")) {
+         message.channel.send("Tentacles <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:40 HP:50 MHP:50 G:70+ <:cwater:364048663447601154> \nItem Limit: <:cnoscroll:364048663653122048> \nRegenerates / Battle End: User draws cards until their hand contains 5 cards.");
+    }
+    if (message.content.startsWith(prefix + "Triton")) {
+         message.channel.send("Triton <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:30 HP:40 MHP:40 G:70 \nScroll Critical Hit / Battle End: User draws a card if an item was equipped to Triton during battle.");
+    }
+    if (message.content.startsWith(prefix + "triton")) {
+         message.channel.send("Triton <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:30 HP:40 MHP:40 G:70 \nScroll Critical Hit / Battle End: User draws a card if an item was equipped to Triton during battle.");
+    }
+    if (message.content.startsWith(prefix + "Undine")) {
+         message.channel.send("Undine <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:30 HP:30 MHP:30 G:55 \nItem Limit: <:carmor:364048663556915200> \nIn Battle: HP=(number of user\'s <:cwater:364048663447601154> territories x20). / Neutralizes: <:cwater:364048663447601154>");
+    }
+    if (message.content.startsWith(prefix + "undine")) {
+         message.channel.send("Undine <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:30 HP:30 MHP:30 G:55 \nItem Limit: <:carmor:364048663556915200> \nIn Battle: HP=(number of user\'s W<:cwater:364048663447601154>ater territories x20). / Neutralizes: <:cwater:364048663447601154>");
+    }
+    if (message.content.startsWith(prefix + "Vigilante")) {
+         message.channel.send("Vigilante <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:20 HP:30 MHP:30 G:50+ <:cwater:364048663447601154> \nIn Battle: Quickly tap the A Button to increase HP. If HP is raised above 100 in this way, it becomes 10.");
+    }
+    if (message.content.startsWith(prefix + "vigilante")) {
+         message.channel.send("Vigilante <:crarityr:364045147085864960> <:cwater:364048663447601154> \nST:20 HP:30 MHP:30 G:50+ <:cwater:364048663447601154> \nIn Battle: Quickly tap the A Button to increase HP. If HP is raised above 100 in this way, it becomes 10.");
+    }
+    if (message.content.startsWith(prefix + "Wall of Ice")) {
+         message.channel.send("Wall of Ice <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:0 HP:40 MHP:40 G:25 \nItem Limit: <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nDefensive / In Battle: HP+20");
+    }
+    if (message.content.startsWith(prefix + "WallofIce")) {
+         message.channel.send("Wall of Ice <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:0 HP:40 MHP:40 G:25 \nItem Limit: <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nDefensive / In Battle: HP+20");
+    }
+    if (message.content.startsWith(prefix + "wall of ice")) {
+         message.channel.send("Wall of Ice <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:0 HP:40 MHP:40 G:25 \nItem Limit: <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nDefensive / In Battle: HP+20");
+    }
+    if (message.content.startsWith(prefix + "wallofice")) {
+         message.channel.send("Wall of Ice <:crarityn:364048663661772800> <:cwater:364048663447601154> \nST:0 HP:40 MHP:40 G:25 \nItem Limit: <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nDefensive / In Battle: HP+20");
+    }
+    if (message.content.startsWith(prefix + "Yeti")) {
+         message.channel.send("Yeti <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:40 HP:40 MHP:40 G:60+ <:cwater:364048663447601154> \nItem Limit: <:cnoscroll:364048663653122048> \nInstant Death: 60% against <:cfire:364048663355588609> creatures. / Neutralizes: <:cfire:364048663355588609>");
+    }
+    if (message.content.startsWith(prefix + "yeti")) {
+         message.channel.send("Yeti <:craritys:364048663351132162> <:cwater:364048663447601154> \nST:40 HP:40 MHP:40 G:60+ <:cwater:364048663447601154> \nItem Limit: <:cnoscroll:364048663653122048> \nInstant Death: 60% against <:cfire:364048663355588609> creatures. / Neutralizes: <:cfire:364048663355588609>");
+    }    
 });
 
 // THIS  MUST  BE  THIS  WAY
