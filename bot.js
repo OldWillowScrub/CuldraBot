@@ -4492,7 +4492,8 @@ client.on('message', message => {
          message.channel.send("IVIad IVIaxx: He was just goofing around");
     }
     if (message.content.startsWith(prefix + "darkritual")) {
-         message.channel.send("IVIad IVIaxx: He was just goofing around" file: "https://img.scryfall.com/cards/large/en/a25/82.jpg?1521726028");
+         message.channel.send("IVIad IVIaxx: He was just goofing around"); 
+         file: ("https://img.scryfall.com/cards/large/en/a25/82.jpg?1521726028");
     }    
 });
 
