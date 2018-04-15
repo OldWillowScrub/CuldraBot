@@ -2523,28 +2523,28 @@ client.on('message', message => {
          message.channel.send("Golden Hammer  <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:50 \nST+40 / Attack Bonus: Gain 200G if opponent was not destroyed.");
     }
     if (message.content.startsWith(prefix + "Gremlin's Eye")) {
-         message.channel.send("Gremlin\'s Eye <:crarityr:364045147085864960> <:ctool:364048663762173953> - G:80 \nBattle Start: Destroys the opponent\'s item unless its Rarity is Normal.");
+         message.channel.send("Gremlin\'s Eye <:crarityr:364045147085864960> <:ctool:364048663762173953> - G:80 \nBattle Start: Destroys the opponent\'s item unless its Rarity is <:crarityn:364048663661772800>.");
     }
     if (message.content.startsWith(prefix + "Gremlin'sEye")) {
-         message.channel.send("Gremlin\'s Eye <:crarityr:364045147085864960> <:ctool:364048663762173953> - G:80 \nBattle Start: Destroys the opponent\'s item unless its Rarity is Normal.");
+         message.channel.send("Gremlin\'s Eye <:crarityr:364045147085864960> <:ctool:364048663762173953> - G:80 \nBattle Start: Destroys the opponent\'s item unless its Rarity is <:crarityn:364048663661772800>.");
     }
     if (message.content.startsWith(prefix + "Gremlins Eye")) {
-         message.channel.send("Gremlin\'s Eye <:crarityr:364045147085864960> <:ctool:364048663762173953> - G:80 \nBattle Start: Destroys the opponent\'s item unless its Rarity is Normal.");
+         message.channel.send("Gremlin\'s Eye <:crarityr:364045147085864960> <:ctool:364048663762173953> - G:80 \nBattle Start: Destroys the opponent\'s item unless its Rarity is <:crarityn:364048663661772800>.");
     }
     if (message.content.startsWith(prefix + "GremlinsEye")) {
-         message.channel.send("Gremlin\'s Eye <:crarityr:364045147085864960> <:ctool:364048663762173953> - G:80 \nBattle Start: Destroys the opponent\'s item unless its Rarity is Normal.");
+         message.channel.send("Gremlin\'s Eye <:crarityr:364045147085864960> <:ctool:364048663762173953> - G:80 \nBattle Start: Destroys the opponent\'s item unless its Rarity is <:crarityn:364048663661772800>.");
     }
     if (message.content.startsWith(prefix + "gremlin's eye")) {
-         message.channel.send("Gremlin\'s Eye <:crarityr:364045147085864960> <:ctool:364048663762173953> - G:80 \nBattle Start: Destroys the opponent\'s item unless its Rarity is Normal.");
+         message.channel.send("Gremlin\'s Eye <:crarityr:364045147085864960> <:ctool:364048663762173953> - G:80 \nBattle Start: Destroys the opponent\'s item unless its Rarity is <:crarityn:364048663661772800>.");
     }
     if (message.content.startsWith(prefix + "gremlins eye")) {
-         message.channel.send("Gremlin\'s Eye <:crarityr:364045147085864960> <:ctool:364048663762173953> - G:80 \nBattle Start: Destroys the opponent\'s item unless its Rarity is Normal.");
+         message.channel.send("Gremlin\'s Eye <:crarityr:364045147085864960> <:ctool:364048663762173953> - G:80 \nBattle Start: Destroys the opponent\'s item unless its Rarity is <:crarityn:364048663661772800>.");
     }
     if (message.content.startsWith(prefix + "gremlin'seye")) {
-         message.channel.send("Gremlin\'s Eye <:crarityr:364045147085864960> <:ctool:364048663762173953> - G:80 \nBattle Start: Destroys the opponent\'s item unless its Rarity is Normal.");
+         message.channel.send("Gremlin\'s Eye <:crarityr:364045147085864960> <:ctool:364048663762173953> - G:80 \nBattle Start: Destroys the opponent\'s item unless its Rarity is <:crarityn:364048663661772800>.");
     }
     if (message.content.startsWith(prefix + "gremlinseye")) {
-         message.channel.send("Gremlin\'s Eye <:crarityr:364045147085864960> <:ctool:364048663762173953> - G:80 \nBattle Start: Destroys the opponent\'s item unless its Rarity is Normal.");
+         message.channel.send("Gremlin\'s Eye <:crarityr:364045147085864960> <:ctool:364048663762173953> - G:80 \nBattle Start: Destroys the opponent\'s item unless its Rarity is <:crarityn:364048663661772800>.");
     }
     if (message.content.startsWith(prefix + "Long Sword")) {
          message.channel.send("Long Sword <:crarityn:364048663661772800> <:cweapon:364048663527424002> - G:10 \nST+30");
