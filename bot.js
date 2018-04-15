@@ -1948,7 +1948,7 @@ client.on('message', message => {
          message.channel.send("Nike <:craritys:364048663351132162> <:cair:364048663518904327> \nST:30 HP:30 MHP:30 G:40+ <:cair:364048663518904327> \nItem Limit: <:carmor:364048663556915200> \nAttacks First / Attack Bonus: Paralysis Enchant.");
     }
     if (message.content.startsWith(prefix + "nike")) {
-         message.channel.send("Nike <:craritys:364048663351132162> <:cair:364048663518904327> \nST:30 HP:30 MHP:30 G:40+ <:cair:364048663518904327> \nItem Limit: <:carmor:364048663556915200> \nAttacks First / Attack Bonus: Paralysis" Enchant.);
+         message.channel.send("Nike <:craritys:364048663351132162> <:cair:364048663518904327> \nST:30 HP:30 MHP:30 G:40+ <:cair:364048663518904327> \nItem Limit: <:carmor:364048663556915200> \nAttacks First / Attack Bonus: Paralysis Enchant.);
     }
     if (message.content.startsWith(prefix + "Patronus")) {
          message.channel.send("Patronus <:crarityr:364045147085864960> <:cair:364048663518904327> \nST:30 HP:20 MHP:20 G:30+ <:cair:364048663518904327> \nAnti-Spell / \nSecret Art (50G): Adds Anti-Spell <:csenchant:364048663464378391> to target Cepter.");
