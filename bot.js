@@ -1566,10 +1566,136 @@ client.on('message', message => {
          message.channel.send("Odradek <:craritys:364048663351132162> <:cearth:364048663582081034> \nST:20 HP:20 MHP:20 G:40 \nSupport: All / HP and MHP cannot be altered by spells.");
     }
     if (message.content.startsWith(prefix + "Pixie")) {
-         message.channel.send("Pixie <:craritys:364048663351132162> <:cearth:364048663582081034> \nST:20 HP:30 MHP:30 G:60 \nSupport: <:cfire:364048663355588609> <:cearth:364048663582081034> / Vigorous");
+         message.channel.send("Pixie <:craritys:364048663351132162> <:cearth:364048663582081034> \nST:20 HP:30 MHP:30 G:60 \nSupport: <:cfire:364048663355588609> <:cearth:364048663582081034> Vigorous");
     }
     if (message.content.startsWith(prefix + "pixie")) {
-         message.channel.send("Pixie <:craritys:364048663351132162> <:cearth:364048663582081034> \nST:20 HP:30 MHP:30 G:60 \nSupport: <:cfire:364048663355588609> <:cearth:364048663582081034> / Vigorous");
+         message.channel.send("Pixie <:craritys:364048663351132162> <:cearth:364048663582081034> \nST:20 HP:30 MHP:30 G:60 \nSupport: <:cfire:364048663355588609> <:cearth:364048663582081034> Vigorous");
+    }
+    if (message.content.startsWith(prefix + "Rock Shell")) {
+         message.channel.send("Rock Shell <:crarityr:364045147085864960> <:cearth:364048663582081034> \nST:40 HP:30 MHP:30 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (50G): Adds Peace <:csenchant:364048663464378391> to itself.");
+    }
+    if (message.content.startsWith(prefix + "RockShell")) {
+         message.channel.send("Rock Shell <:crarityr:364045147085864960> <:cearth:364048663582081034> \nST:40 HP:30 MHP:30 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (50G): Adds Peace <:csenchant:364048663464378391> to itself.");
+    }
+    if (message.content.startsWith(prefix + "rock shell")) {
+         message.channel.send("Rock Shell <:crarityr:364045147085864960> <:cearth:364048663582081034> \nST:40 HP:30 MHP:30 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (50G): Adds Peace <:csenchant:364048663464378391> to itself.");
+    }
+    if (message.content.startsWith(prefix + "rockshell")) {
+         message.channel.send("Rock Shell <:crarityr:364045147085864960> <:cearth:364048663582081034> \nST:40 HP:30 MHP:30 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (50G): Adds Peace <:csenchant:364048663464378391> to itself.");
+    }
+    if (message.content.startsWith(prefix + "Rock Troll")) {
+         message.channel.send("Rock Troll <:crarityn:364048663661772800> <:cearth:364048663582081034> \nST:50 HP:50 MHP:50 G:90 \nLand Limit: <:cnoair:364048663732944896> \nRegenerates");
+    }
+    if (message.content.startsWith(prefix + "RockTroll")) {
+         message.channel.send("Rock Troll <:crarityn:364048663661772800> <:cearth:364048663582081034> \nST:50 HP:50 MHP:50 G:90 \nLand Limit: <:cnoair:364048663732944896> \nRegenerates");
+    }
+    if (message.content.startsWith(prefix + "rock troll")) {
+         message.channel.send("Rock Troll <:crarityn:364048663661772800> <:cearth:364048663582081034> \nST:50 HP:50 MHP:50 G:90 \nLand Limit: <:cnoair:364048663732944896> \nRegenerates");
+    }
+    if (message.content.startsWith(prefix + "rocktroll")) {
+         message.channel.send("Rock Troll <:crarityn:364048663661772800> <:cearth:364048663582081034> \nST:50 HP:50 MHP:50 G:90 \nLand Limit: <:cnoair:364048663732944896> \nRegenerates");
+    }
+    if (message.content.startsWith(prefix + "Sage")) {
+         message.channel.send("Sage <:crarityn:364048663661772800> <:cearth:364048663582081034> \nST:20 HP:30 MHP:30 G:80 \nSupport: All / Immune to Destroy Item and Steal Item effects. / Scroll Critical Hit");
+    }
+    if (message.content.startsWith(prefix + "sage")) {
+         message.channel.send("Sage <:crarityn:364048663661772800> <:cearth:364048663582081034> \nST:20 HP:30 MHP:30 G:80 \nSupport: All / Immune to Destroy Item and Steal Item effects. / Scroll Critical Hit");
+    }
+    if (message.content.startsWith(prefix + "Sakuya")) {
+         message.channel.send("Sakuya <:crarityr:364045147085864960> <:cearth:364048663582081034> \nST:20 HP:30 MHP:30 G:30+ <:cearth:364048663582081034> \nLand Limit: <:cnoair:364048663732944896> \nSecret Art (120G): Transforms target territory in user\'s possession to a <:cearth:364048663582081034> land.");
+    }
+    if (message.content.startsWith(prefix + "sakuya")) {
+         message.channel.send("Sakuya <:crarityr:364045147085864960> <:cearth:364048663582081034> \nST:20 HP:30 MHP:30 G:30+ <:cearth:364048663582081034> \nLand Limit: <:cnoair:364048663732944896> \nSecret Art (120G): Transforms target territory in user\'s possession to a <:cearth:364048663582081034> land.");
+    }
+    if (message.content.startsWith(prefix + "Screamer")) {
+         message.channel.send("Screamer <:craritys:364048663351132162> <:cearth:364048663582081034> \nST:20 HP:40 MHP:40 G:30 \nLand Limit: <:cnoair:364048663732944896> \nItem Limit: <:cnoscroll:364048663653122048> \nDefensive / \nSecret Art (40G): Adds Nullified Land Effect <:csenchant:364048663464378391> to target creature.");
+    }
+    if (message.content.startsWith(prefix + "screamer")) {
+         message.channel.send("Screamer <:craritys:364048663351132162> <:cearth:364048663582081034> \nST:20 HP:40 MHP:40 G:30 \nLand Limit: <:cnoair:364048663732944896> \nItem Limit: <:cnoscroll:364048663653122048> \nDefensive / \nSecret Art (40G): Adds Nullified Land Effect <:csenchant:364048663464378391> to target creature.");
+    }
+    if (message.content.startsWith(prefix + "Shankrubber")) {
+         message.channel.send("Shankrubber <:craritys:364048663351132162> <:cearth:364048663582081034> \nST:20 HP:20 MHP:20 G:40 \nItem Limit: <:cnoscroll:364048663653122048> \nAnti-Spell / \nSecret Art (30G): Adds Immobilize <:csenchant:364048663464378391> to target creature.");
+    }
+    if (message.content.startsWith(prefix + "shankrubber")) {
+         message.channel.send("Shankrubber <:craritys:364048663351132162> <:cearth:364048663582081034> \nST:20 HP:20 MHP:20 G:40 \nItem Limit: <:cnoscroll:364048663653122048> \nAnti-Spell / \nSecret Art (30G): Adds Immobilize <:csenchant:364048663464378391> to target creature.");
+    }
+    if (message.content.startsWith(prefix + "Spitting Cobra")) {
+         message.channel.send("Spitting Cobra <:crarityn:364048663661772800> <:cearth:364048663582081034> \nST:40 HP:40 MHP:40 G:80 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (30G): Adds Poison <:csenchant:364048663464378391> to target creature.");
+    }
+    if (message.content.startsWith(prefix + "SpittingCobra")) {
+         message.channel.send("Spitting Cobra <:crarityn:364048663661772800> <:cearth:364048663582081034> \nST:40 HP:40 MHP:40 G:80 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (30G): Adds Poison <:csenchant:364048663464378391> to target creature.");
+    }
+    if (message.content.startsWith(prefix + "spitting cobra")) {
+         message.channel.send("Spitting Cobra <:crarityn:364048663661772800> <:cearth:364048663582081034> \nST:40 HP:40 MHP:40 G:80 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (30G): Adds Poison <:csenchant:364048663464378391> to target creature.");
+    }
+    if (message.content.startsWith(prefix + "spittingcobra")) {
+         message.channel.send("Spitting Cobra <:crarityn:364048663661772800> <:cearth:364048663582081034> \nST:40 HP:40 MHP:40 G:80 \nItem Limit: <:cnoscroll:364048663653122048> \nSecret Art (30G): Adds Poison <:csenchant:364048663464378391> to target creature.");
+    }
+    if (message.content.startsWith(prefix + "Sproutling")) {
+         message.channel.send("Sproutling <:crarityr:364045147085864960> <:cearth:364048663582081034> \nST:20 HP:30 MHP:30 G:60 \nReceives land effect from <:cfire:364048663355588609> lands. / \nSecret Art (50G): Evolves into Old Willow.");
+    }
+    if (message.content.startsWith(prefix + "sproutling")) {
+         message.channel.send("Sproutling <:crarityr:364045147085864960> <:cearth:364048663582081034> \nST:20 HP:30 MHP:30 G:60 \nReceives land effect from <:cfire:364048663355588609> lands. / \nSecret Art (50G): Evolves into Old Willow.");
+    }
+    if (message.content.startsWith(prefix + "Squirrine")) {
+         message.channel.send("Squirrine <:crarityn:364048663661772800> <:cearth:364048663582081034> \nST:20 HP:30 MHP:30 G:50 \nItem Limit: <:cnoscroll:364048663653122048> \nSupport: All");
+    }
+    if (message.content.startsWith(prefix + "squirrine")) {
+         message.channel.send("Squirrine <:crarityn:364048663661772800> <:cearth:364048663582081034> \nST:20 HP:30 MHP:30 G:50 \nItem Limit: <:cnoscroll:364048663653122048> \nSupport: All");
+    }
+    if (message.content.startsWith(prefix + "Sylvan Duchess")) {
+         message.channel.send("Sylvan Duchess <:crarityr:364045147085864960> <:cearth:364048663582081034> \nST:50 HP:50 MHP:50 G:60+ <:cearth:364048663582081034> <:cearth:364048663582081034> \nSupport: <:cearth:364048663582081034> / Regenerates / Battle Start: Destroys opponent\'s tool, scroll, or supporting creature.");
+    }
+    if (message.content.startsWith(prefix + "SylvanDuchess")) {
+         message.channel.send("Sylvan Duchess <:crarityr:364045147085864960> <:cearth:364048663582081034> \nST:50 HP:50 MHP:50 G:60+ <:cearth:364048663582081034> <:cearth:364048663582081034> \nSupport: <:cearth:364048663582081034> / Regenerates / Battle Start: Destroys opponent\'s tool, scroll, or supporting creature.");
+    }
+    if (message.content.startsWith(prefix + "sylvan duchess")) {
+         message.channel.send("Sylvan Duchess <:crarityr:364045147085864960> <:cearth:364048663582081034> \nST:50 HP:50 MHP:50 G:60+ <:cearth:364048663582081034> <:cearth:364048663582081034> \nSupport: <:cearth:364048663582081034> / Regenerates / Battle Start: Destroys opponent\'s tool, scroll, or supporting creature.");
+    }
+    if (message.content.startsWith(prefix + "sylvanduchess")) {
+         message.channel.send("Sylvan Duchess <:crarityr:364045147085864960> <:cearth:364048663582081034> \nST:50 HP:50 MHP:50 G:60+ <:cearth:364048663582081034> <:cearth:364048663582081034> \nSupport: <:cearth:364048663582081034> / Regenerates / Battle Start: Destroys opponent\'s tool, scroll, or supporting creature.");
+    }
+    if (message.content.startsWith(prefix + "Tiger Weta")) {
+         message.channel.send("Tiger Weta <:craritys:364048663351132162> <:cearth:364048663582081034> \nST:30 HP:40 MHP:40 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nIn Battle: ST & HP+20 if user owns territory adjacent to battle territory.");
+    }
+    if (message.content.startsWith(prefix + "TigerWeta")) {
+         message.channel.send("Tiger Weta <:craritys:364048663351132162> <:cearth:364048663582081034> \nST:30 HP:40 MHP:40 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nIn Battle: ST & HP+20 if user owns territory adjacent to battle territory.");
+    }
+    if (message.content.startsWith(prefix + "tiger weta")) {
+         message.channel.send("Tiger Weta <:craritys:364048663351132162> <:cearth:364048663582081034> \nST:30 HP:40 MHP:40 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nIn Battle: ST & HP+20 if user owns territory adjacent to battle territory.");
+    }
+    if (message.content.startsWith(prefix + "tigerweta")) {
+         message.channel.send("Tiger Weta <:craritys:364048663351132162> <:cearth:364048663582081034> \nST:30 HP:40 MHP:40 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nIn Battle: ST & HP+20 if user owns territory adjacent to battle territory.");
+    }
+    if (message.content.startsWith(prefix + "Unnameable")) {
+         message.channel.send("Unnameable <:crarityr:364045147085864960> <:cearth:364048663582081034> \nST:50 HP:10 MHP:10 G:30+ <:cearth:364048663582081034> + <:ccard:364048663426760705> \nAttacks Last / Instant Death: 70% / Upon Victory: Destroys any cards identical to defeated creature in opponent\'s book and hand (80%).");
+    }
+    if (message.content.startsWith(prefix + "unnameable")) {
+         message.channel.send("Unnameable <:crarityr:364045147085864960> <:cearth:364048663582081034> \nST:50 HP:10 MHP:10 G:30+ <:cearth:364048663582081034> + <:ccard:364048663426760705> \nAttacks Last / Instant Death: 70% / Upon Victory: Destroys any cards identical to defeated creature in opponent\'s book and hand (80%).");
+    }
+    if (message.content.startsWith(prefix + "Wall of Stone")) {
+         message.channel.send("Wall of Stone <:crarityn:364048663661772800> <:cearth:364048663582081034> \nST:0 HP:60 MHP:60 G:25 \nItem Limit: <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nDefensive");
+    }
+    if (message.content.startsWith(prefix + "WallofStone")) {
+         message.channel.send("Wall of Stone <:crarityn:364048663661772800> <:cearth:364048663582081034> \nST:0 HP:60 MHP:60 G:25 \nItem Limit: <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nDefensive");
+    }
+    if (message.content.startsWith(prefix + "wall of stone")) {
+         message.channel.send("Wall of Stone <:crarityn:364048663661772800> <:cearth:364048663582081034> \nST:0 HP:60 MHP:60 G:25 \nItem Limit: <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nDefensive");
+    }
+    if (message.content.startsWith(prefix + "wallofstone")) {
+         message.channel.send("Wall of Stone <:crarityn:364048663661772800> <:cearth:364048663582081034> \nST:0 HP:60 MHP:60 G:25 \nItem Limit: <:cnoarmor:364048663598858240> <:cnoscroll:364048663653122048> \nDefensive");
+    }
+    if (message.content.startsWith(prefix + "Werebear")) {
+         message.channel.send("Werebear <:craritys:364048663351132162> <:cearth:364048663582081034> \nST:20 HP:40 MHP:40 G:40+ <:ccard:364048663426760705> \nSynthesis: <:cearth:364048663582081034> (ST+30, MHP+10) / Vigorous");
+    }
+    if (message.content.startsWith(prefix + "werebear")) {
+         message.channel.send("Werebear <:craritys:364048663351132162> <:cearth:364048663582081034> \nST:20 HP:40 MHP:40 G:40+ <:ccard:364048663426760705> \nSynthesis: <:cearth:364048663582081034> (ST+30, MHP+10) / Vigorous");
+    }
+    if (message.content.startsWith(prefix + "Woodfolk")) {
+         message.channel.send("Woodfolk <:crarityr:364045147085864960> <:cearth:364048663582081034> \nST:30 HP:40 MHP:40 G:75 \nItem Limit: <:cweapon:364048663527424002> \nSupport: All");
+    }
+    if (message.content.startsWith(prefix + "woodfolk")) {
+         message.channel.send("Woodfolk <:crarityr:364045147085864960> <:cearth:364048663582081034> \nST:30 HP:40 MHP:40 G:75 \nItem Limit: <:cweapon:364048663527424002> \nSupport: All");
     }    
 });
 
