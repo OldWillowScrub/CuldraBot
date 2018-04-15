@@ -4159,40 +4159,40 @@ client.on('message', message => {
          message.channel.send("Shining Geyser <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100+ <:ccard:364048663426760705> \nHP-30 to target enemy creature. / Synthesis: <:csinstant:364048663447863298> Spells (Changes effect to "HP-40.")");
     }
     if (message.content === prefix + "Sigil of Drain") {
-         message.channel.send("Sigil of Drain <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:20 \nAdds Drain Spell <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants "Secret Art (20G): User steals 10% of target enemy Cepter\'s Current Magic.")");
+         message.channel.send("Sigil of Drain <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:20 \nAdds Drain Spell <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants Secret Art (20G): User steals 10% of target enemy Cepter\'s Current Magic.)");
     }
     if (message.content === prefix + "SigilofDrain") {
-         message.channel.send("Sigil of Drain <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:20 \nAdds Drain Spell <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants "Secret Art (20G): User steals 10% of target enemy Cepter\'s Current Magic.")");
+         message.channel.send("Sigil of Drain <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:20 \nAdds Drain Spell <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants Secret Art (20G): User steals 10% of target enemy Cepter\'s Current Magic.)");
     }
     if (message.content === prefix + "sigil of drain") {
-         message.channel.send("Sigil of Drain <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:20 \nAdds Drain Spell <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants "Secret Art (20G): User steals 10% of target enemy Cepter\'s Current Magic.")");
+         message.channel.send("Sigil of Drain <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:20 \nAdds Drain Spell <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants Secret Art (20G): User steals 10% of target enemy Cepter\'s Current Magic.)");
     }
     if (message.content === prefix + "sigilofdrain") {
-         message.channel.send("Sigil of Drain <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:20 \nAdds Drain Spell <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants "Secret Art (20G): User steals 10% of target enemy Cepter\'s Current Magic.")");
+         message.channel.send("Sigil of Drain <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:20 \nAdds Drain Spell <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants Secret Art (20G): User steals 10% of target enemy Cepter\'s Current Magic.)");
     }
     if (message.content === prefix + "Sigil of Float") {
-         message.channel.send("Sigil of Float <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:40 \nAdds Move Spell <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants "Secret Art (50G): Adds "Dice 5" <:csenchant:364048663464378391> to target Cepter.")");
+         message.channel.send("Sigil of Float <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:40 \nAdds Move Spell <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants Secret Art (50G): Adds Dice 5 <:csenchant:364048663464378391> to target Cepter.)");
     }
     if (message.content === prefix + "SigilofFloat") {
-         message.channel.send("Sigil of Float <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:40 \nAdds Move Spell <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants "Secret Art (50G): Adds "Dice 5" <:csenchant:364048663464378391> to target Cepter.")");
+         message.channel.send("Sigil of Float <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:40 \nAdds Move Spell <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants Secret Art (50G): Adds Dice 5 <:csenchant:364048663464378391> to target Cepter.)");
     }
     if (message.content === prefix + "sigil of float") {
-         message.channel.send("Sigil of Float <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:40 \nAdds Move Spell <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants "Secret Art (50G): Adds "Dice 5" <:csenchant:364048663464378391> to target Cepter.")");
+         message.channel.send("Sigil of Float <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:40 \nAdds Move Spell <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants Secret Art (50G): Adds Dice 5 <:csenchant:364048663464378391> to target Cepter.)");
     }
     if (message.content === prefix + "sigiloffloat") {
-         message.channel.send("Sigil of Float <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:40 \nAdds Move Spell <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants "Secret Art (50G): Adds "Dice 5" <:csenchant:364048663464378391> to target Cepter.")");
+         message.channel.send("Sigil of Float <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:40 \nAdds Move Spell <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants Secret Art (50G): Adds Dice 5 <:csenchant:364048663464378391> to target Cepter.)");
     }
     if (message.content === prefix + "Sigil of Shrink") {
-         message.channel.send("Sigil of Shrink <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds Shrink Spell <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants "Secret Art (50G): MHP-10 to target creature.")");
+         message.channel.send("Sigil of Shrink <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds Shrink Spell <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants Secret Art (50G): MHP-10 to target creature.)");
     }
     if (message.content === prefix + "SigilofShrink") {
-         message.channel.send("Sigil of Shrink <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds Shrink Spell <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants "Secret Art (50G): MHP-10 to target creature.")");
+         message.channel.send("Sigil of Shrink <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds Shrink Spell <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants Secret Art (50G): MHP-10 to target creature.)");
     }
     if (message.content === prefix + "sigil of shrink") {
-         message.channel.send("Sigil of Shrink <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds Shrink Spell <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants "Secret Art (50G): MHP-10 to target creature.")");
+         message.channel.send("Sigil of Shrink <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds Shrink Spell <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants Secret Art (50G): MHP-10 to target creature.)");
     }
     if (message.content === prefix + "sigilofshrink") {
-         message.channel.send("Sigil of Shrink <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds Shrink Spell <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants "Secret Art (50G): MHP-10 to target creature.")");
+         message.channel.send("Sigil of Shrink <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds Shrink Spell <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants Secret Art (50G): MHP-10 to target creature.)");
     }
     if (message.content.startsWith(prefix + "Sneak Hand")) {
          message.channel.send("Sneak Hand <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100 \nHidden / User steals an Item Card from the hand of a target enemy Cepter with two or more Item Cards.");
