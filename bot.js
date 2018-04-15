@@ -3139,10 +3139,10 @@ client.on('message', message => {
          message.channel.send("Assemble Cards <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:70 \nHidden / User gains 500G if their hand contains at least one creature of each element. ( <:cfire:364048663355588609> <:cwater:364048663447601154> <:cearth:364048663582081034> <:cair:364048663518904327> ) / If not, user draws 2 cards.");
     }
     if (message.content.startsWith(prefix + "Asteroid")) {
-         message.channel.send("Asteroid <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100+ <:ccard:364048663426760705> \nLowers target territory\'s level by 1. / Synthesis: Asteroid (Changes effect to "Target territory\'s level becomes 1.")");
+         message.channel.send("Asteroid <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100+ <:ccard:364048663426760705> \nLowers target territory\'s level by 1. / Synthesis: Asteroid (Changes effect to Target territory\'s level becomes 1.");
     }
     if (message.content.startsWith(prefix + "asteroid")) {
-         message.channel.send("Asteroid <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100+ <:ccard:364048663426760705> \nLowers target territory\'s level by 1. / Synthesis: Asteroid (Changes effect to "Target territory\'s level becomes 1.")");
+         message.channel.send("Asteroid <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100+ <:ccard:364048663426760705> \nLowers target territory\'s level by 1. / Synthesis: Asteroid (Changes effect to Target territory\'s level becomes 1.");
     }
     if (message.content.startsWith(prefix + "Barrier")) {
          message.channel.send("Barrier <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds Anti-Spell <:csenchant:364048663464378391> to target Cepter. (For 5 rounds, target Cepter cannot be chosen as the target of a spell.)");
