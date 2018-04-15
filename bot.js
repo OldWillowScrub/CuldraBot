@@ -3859,16 +3859,16 @@ client.on('message', message => {
          message.channel.send("Manna <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:0 \nUser gains (lap number x50)G.");
     }
     if (message.content.startsWith(prefix + "Mass Growth")) {
-         message.channel.send("Mass Growth <:craritys:364048663351132162> <:cminstant:364048663498063874> - G:30+ <:ccard:364048663426760705> \nMHP+5 to all creatures (up to a max of 100). / Synthesis: Items (Changes target to "all creatures owned by the user.")");
+         message.channel.send("Mass Growth <:craritys:364048663351132162> <:cminstant:364048663498063874> - G:30+ <:ccard:364048663426760705> \nMHP+5 to all creatures (up to a max of 100). / Synthesis: Items (Changes target to all creatures owned by the user.")");
     }
     if (message.content.startsWith(prefix + "MassGrowth")) {
-         message.channel.send("Mass Growth <:craritys:364048663351132162> <:cminstant:364048663498063874> - G:30+ <:ccard:364048663426760705> \nMHP+5 to all creatures (up to a max of 100). / Synthesis: Items (Changes target to "all creatures owned by the user.")");
+         message.channel.send("Mass Growth <:craritys:364048663351132162> <:cminstant:364048663498063874> - G:30+ <:ccard:364048663426760705> \nMHP+5 to all creatures (up to a max of 100). / Synthesis: Items (Changes target to all creatures owned by the user.")");
     }
     if (message.content.startsWith(prefix + "mass growth")) {
-         message.channel.send("Mass Growth <:craritys:364048663351132162> <:cminstant:364048663498063874> - G:30+ <:ccard:364048663426760705> \nMHP+5 to all creatures (up to a max of 100). / Synthesis: Items (Changes target to "all creatures owned by the user.")");
+         message.channel.send("Mass Growth <:craritys:364048663351132162> <:cminstant:364048663498063874> - G:30+ <:ccard:364048663426760705> \nMHP+5 to all creatures (up to a max of 100). / Synthesis: Items (Changes target to all creatures owned by the user.")");
     }
     if (message.content.startsWith(prefix + "massgrowth")) {
-         message.channel.send("Mass Growth <:craritys:364048663351132162> <:cminstant:364048663498063874> - G:30+ <:ccard:364048663426760705> \nMHP+5 to all creatures (up to a max of 100). / Synthesis: Items (Changes target to "all creatures owned by the user.")");
+         message.channel.send("Mass Growth <:craritys:364048663351132162> <:cminstant:364048663498063874> - G:30+ <:ccard:364048663426760705> \nMHP+5 to all creatures (up to a max of 100). / Synthesis: Items (Changes target to all creatures owned by the user.")");
     }
     if (message.content.startsWith(prefix + "Mass Phantasm")) {
          message.channel.send("Mass Phantasm <:crarityn:364048663661772800> <:cmenchant:364048663447601153> - G:70 \nAdds Nullified HP Effects <:csenchant:364048663464378391> to all creatures. (HP and MHP cannot be altered by spells.)");
@@ -3895,16 +3895,16 @@ client.on('message', message => {
          message.channel.send("Merciful World <:crarityr:364045147085864960> <:cglobal:364049704293629954> - G:50 \nAdds Mercy <:csenchant:364048663464378391> to world. (For 6 rounds, all Cepters cannot invade territories of Cepters ranked below them.)");
     }
     if (message.content.startsWith(prefix + "Metal Form")) {
-         message.channel.send("Metal Form <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:70 \nAdds Metallization <:csenchant:364048663464378391> to target creature. (Has "Neutralizes: Normal Attacks", but cannot use armor.)");
+         message.channel.send("Metal Form <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:70 \nAdds Metallization <:csenchant:364048663464378391> to target creature. (Has Neutralizes: Normal Attacks, but cannot use armor.)");
     }
     if (message.content.startsWith(prefix + "MetalForm")) {
-         message.channel.send("Metal Form <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:70 \nAdds Metallization <:csenchant:364048663464378391> to target creature. (Has "Neutralizes: Normal Attacks", but cannot use armor.)");
+         message.channel.send("Metal Form <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:70 \nAdds Metallization <:csenchant:364048663464378391> to target creature. (Has Neutralizes: Normal Attacks, but cannot use armor.)");
     }
     if (message.content.startsWith(prefix + "metal form")) {
-         message.channel.send("Metal Form <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:70 \nAdds Metallization <:csenchant:364048663464378391> to target creature. (Has "Neutralizes: Normal Attacks", but cannot use armor.)");
+         message.channel.send("Metal Form <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:70 \nAdds Metallization <:csenchant:364048663464378391> to target creature. (Has Neutralizes: Normal Attacks, but cannot use armor.)");
     }
     if (message.content.startsWith(prefix + "metalform")) {
-         message.channel.send("Metal Form <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:70 \nAdds Metallization <:csenchant:364048663464378391> to target creature. (Has "Neutralizes: Normal Attacks", but cannot use armor.)");
+         message.channel.send("Metal Form <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:70 \nAdds Metallization <:csenchant:364048663464378391> to target creature. (Has Neutralizes: Normal Attacks, but cannot use armor.)");
     }
     if (message.content.startsWith(prefix + "Metamorphosis")) {
          message.channel.send("Metamorphosis <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:80+ <:ccard:364048663426760705> \nUser selects an item or Spell Card from target enemy Cepter\'s hand and changes all copies of the selected card in all Cepters\' hands and books to Holy Word 6.");
