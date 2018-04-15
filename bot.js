@@ -4307,6 +4307,189 @@ client.on('message', message => {
     }
     if (message.content.startsWith(prefix + "suddenimpact")) {
          message.channel.send("Sudden Impact <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:100 \nHidden / Lowers level of target level 4 territory by 1.");
+    }
+    if (message.content.startsWith(prefix + "Temptation")) {
+         message.channel.send("Temptation <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:70+ <:ccard:364048663426760705> \nUse target creature\'s Secret Art.");
+    }
+    if (message.content.startsWith(prefix + "temptation")) {
+         message.channel.send("Temptation <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:70+ <:ccard:364048663426760705> \nUse target creature\'s Secret Art.");
+    }
+    if (message.content.startsWith(prefix + "Theft")) {
+         message.channel.send("Theft <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100 \nUser chooses a spell card from target enemy Cepter\'s hand and steals it.");
+    }
+    if (message.content.startsWith(prefix + "theft")) {
+         message.channel.send("Theft <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100 \nUser chooses a spell card from target enemy Cepter\'s hand and steals it.");
+    }
+    if (message.content.startsWith(prefix + "Thrust Blow")) {
+         message.channel.send("Thrust Blow <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:70 \nMoves target creature to adjacent vacant territory.");
+    }
+    if (message.content.startsWith(prefix + "ThrustBlow")) {
+         message.channel.send("Thrust Blow <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:70 \nMoves target creature to adjacent vacant territory.");
+    }
+    if (message.content.startsWith(prefix + "thrust blow")) {
+         message.channel.send("Thrust Blow <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:70 \nMoves target creature to adjacent vacant territory.");
+    }
+    if (message.content.startsWith(prefix + "thrustblow")) {
+         message.channel.send("Thrust Blow <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:70 \nMoves target creature to adjacent vacant territory.");
+    }
+    if (message.content.startsWith(prefix + "Thunderclap")) {
+         message.channel.send("Thunderclap <:craritys:364048663351132162> <:csinstant:364048663447863298>- G:100 \nHidden / HP-30 to target creature with summon conditions.");
+    }
+    if (message.content.startsWith(prefix + "thunderclap")) {
+         message.channel.send("Thunderclap <:craritys:364048663351132162> <:csinstant:364048663447863298>- G:100 \nHidden / HP-30 to target creature with summon conditions.");
+    }
+    if (message.content.startsWith(prefix + "Tiny Army")) {
+         message.channel.send("Tiny Army <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100 \nHidden / If user has 5 or more creatures with MHP of 30 or under, those creatures receive MHP +10 and user gains 500G. / If not, Recycles to Book.");
+    }
+    if (message.content.startsWith(prefix + "TinyArmy")) {
+         message.channel.send("Tiny Army <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100 \nHidden / If user has 5 or more creatures with MHP of 30 or under, those creatures receive MHP +10 and user gains 500G. / If not, Recycles to Book.");
+    }
+    if (message.content.startsWith(prefix + "tiny army")) {
+         message.channel.send("Tiny Army <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100 \nHidden / If user has 5 or more creatures with MHP of 30 or under, those creatures receive MHP +10 and user gains 500G. / If not, Recycles to Book.");
+    }
+    if (message.content.startsWith(prefix + "tinyarmy")) {
+         message.channel.send("Tiny Army <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100 \nHidden / If user has 5 or more creatures with MHP of 30 or under, those creatures receive MHP +10 and user gains 500G. / If not, Recycles to Book.");
+    }
+    if (message.content.startsWith(prefix + "Turn to the Wall")) {
+         message.channel.send("Turn to the Wall <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:80 \nTransforms target creature into a specific Defensive creature of the same element.");
+    }
+    if (message.content.startsWith(prefix + "TurntotheWall")) {
+         message.channel.send("Turn to the Wall <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:80 \nTransforms target creature into a specific Defensive creature of the same element.");
+    }
+    if (message.content.startsWith(prefix + "Turn to Wall")) {
+         message.channel.send("Turn to the Wall <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:80 \nTransforms target creature into a specific Defensive creature of the same element.");
+    }
+    if (message.content.startsWith(prefix + "TurntoWall")) {
+         message.channel.send("Turn to the Wall <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:80 \nTransforms target creature into a specific Defensive creature of the same element.");
+    }
+    if (message.content.startsWith(prefix + "turn to the wall")) {
+         message.channel.send("Turn to the Wall <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:80 \nTransforms target creature into a specific Defensive creature of the same element.");
+    }
+    if (message.content.startsWith(prefix + "turntothewall")) {
+         message.channel.send("Turn to the Wall <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:80 \nTransforms target creature into a specific Defensive creature of the same element.");
+    }
+    if (message.content.startsWith(prefix + "turn to wall")) {
+         message.channel.send("Turn to the Wall <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:80 \nTransforms target creature into a specific Defensive creature of the same element.");
+    }
+    if (message.content.startsWith(prefix + "turntowall")) {
+         message.channel.send("Turn to the Wall <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:80 \nTransforms target creature into a specific Defensive creature of the same element.");
+    }
+    if (message.content.startsWith(prefix + "Tyranny")) {
+         message.channel.send("Tyranny <:crarityr:364045147085864960> <:cmenchant:364048663447601153> - G:100+ <:ccard:364048663426760705> \nAdds Paralysis <:csenchant:364048663464378391> to all creatures with MHP of 30 and under. (Creatures cannot attack or use items and their abilities do not activate.)");
+    }
+    if (message.content.startsWith(prefix + "tyranny")) {
+         message.channel.send("Tyranny <:crarityr:364045147085864960> <:cmenchant:364048663447601153> - G:100+ <:ccard:364048663426760705> \nAdds Paralysis <:csenchant:364048663464378391> to all creatures with MHP of 30 and under. (Creatures cannot attack or use items and their abilities do not activate.)");
+    }
+    if (message.content.startsWith(prefix + "Uniformity")) {
+         message.channel.send("Uniformity <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:60 \nGives 200 Toll <:csenchant:364048663464378391> to target Cepter. (For 3 rounds, the toll fee for all of a Cepter\'s territories become 200G.)");
+    }
+    if (message.content.startsWith(prefix + "uniformity")) {
+         message.channel.send("Uniformity <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:60 \nGives 200 Toll <:csenchant:364048663464378391> to target Cepter. (For 3 rounds, the toll fee for all of a Cepter\'s territories become 200G.)");
+    }
+    if (message.content.startsWith(prefix + "Vitality")) {
+         message.channel.send("Vitality <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds Ability +20 <:csenchant:364048663464378391> to target creature. (In battle, this creature is granted ST & HP+20.) / User draws a card.");
+    }
+    if (message.content.startsWith(prefix + "vitality")) {
+         message.channel.send("Vitality <:crarityn:364048663661772800> <:csenchant:364048663464378391> - G:30 \nAdds Ability +20 <:csenchant:364048663464378391> to target creature. (In battle, this creature is granted ST & HP+20.) / User draws a card.");
+    }
+    if (message.content.startsWith(prefix + "Vortex")) {
+         message.channel.send("Vortex <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds No Battle Abilities <:csenchant:364048663464378391> to target creature. (In battle, effects and abilities besides this one do not activate.) / User draws a card.");
+    }
+    if (message.content.startsWith(prefix + "vortex")) {
+         message.channel.send("Vortex <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds No Battle Abilities <:csenchant:364048663464378391> to target creature. (In battle, effects and abilities besides this one do not activate.) / User draws a card.");
+    }
+    if (message.content.startsWith(prefix + "Waste World")) {
+         message.channel.send("Waste World <:craritys:364048663351132162> <:cglobal:364049704293629954> - G:70 \nAdds Raise Cost <:csenchant:364048663464378391> to the world. (For 6 rounds, cards of rarity Strange require 1.5xG to use, cards of rarity Rare and Extra require 2x G to use.)");
+    }
+    if (message.content.startsWith(prefix + "WasteWorld")) {
+         message.channel.send("Waste World <:craritys:364048663351132162> <:cglobal:364049704293629954> - G:70 \nAdds Raise Cost <:csenchant:364048663464378391> to the world. (For 6 rounds, cards of rarity Strange require 1.5xG to use, cards of rarity Rare and Extra require 2x G to use.)");
+    }
+    if (message.content.startsWith(prefix + "waste world")) {
+         message.channel.send("Waste World <:craritys:364048663351132162> <:cglobal:364049704293629954> - G:70 \nAdds Raise Cost <:csenchant:364048663464378391> to the world. (For 6 rounds, cards of rarity Strange require 1.5xG to use, cards of rarity Rare and Extra require 2x G to use.)");
+    }
+    if (message.content.startsWith(prefix + "wasteworld")) {
+         message.channel.send("Waste World <:craritys:364048663351132162> <:cglobal:364049704293629954> - G:70 \nAdds Raise Cost <:csenchant:364048663464378391> to the world. (For 6 rounds, cards of rarity Strange require 1.5xG to use, cards of rarity Rare and Extra require 2x G to use.)");
+    }
+    if (message.content.startsWith(prefix + "Water Shift")) {
+         message.channel.send("Water Shift <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:100 \nChanges target territory belonging to user into a <:cwater:364048663447601154> land.");
+    }
+    if (message.content.startsWith(prefix + "WaterShift")) {
+         message.channel.send("Water Shift <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:100 \nChanges target territory belonging to user into a <:cwater:364048663447601154> land.");
+    }
+    if (message.content.startsWith(prefix + "water shift")) {
+         message.channel.send("Water Shift <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:100 \nChanges target territory belonging to user into a <:cwater:364048663447601154> land.");
+    }
+    if (message.content.startsWith(prefix + "watershift")) {
+         message.channel.send("Water Shift <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:100 \nChanges target territory belonging to user into a <:cwater:364048663447601154> land.");
+    }
+    if (message.content.startsWith(prefix + "Wind of Hope")) {
+         message.channel.send("Wind of Hope <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:40 \nUser draws 2 cards from their book.");
+    }
+    if (message.content.startsWith(prefix + "WindofHope")) {
+         message.channel.send("Wind of Hope <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:40 \nUser draws 2 cards from their book.");
+    }
+    if (message.content.startsWith(prefix + "wind of hope")) {
+         message.channel.send("Wind of Hope <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:40 \nUser draws 2 cards from their book.");
+    }
+    if (message.content.startsWith(prefix + "windofhope")) {
+         message.channel.send("Wind of Hope <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:40 \nUser draws 2 cards from their book.");
+    }
+  //END OF CARD DATABASE LIST
+
+  //REVOLT GUIDE COMMAND LINKS
+    if (message.content.startsWith(prefix + "Revolt Guides")) {
+         message.channel.send("Culdcept Revolt Guides: http://www.culdceptcentral.com/culdcept-revolt/culdcept-revolt-guides");
+    }
+    if (message.content.startsWith(prefix + "RevoltGuides")) {
+         message.channel.send("Culdcept Revolt Guides: http://www.culdceptcentral.com/culdcept-revolt/culdcept-revolt-guides");
+    }
+    if (message.content.startsWith(prefix + "revolt guides")) {
+         message.channel.send("Culdcept Revolt Guides: http://www.culdceptcentral.com/culdcept-revolt/culdcept-revolt-guides");
+    }
+    if (message.content.startsWith(prefix + "revoltguides")) {
+         message.channel.send("Culdcept Revolt Guides: http://www.culdceptcentral.com/culdcept-revolt/culdcept-revolt-guides");
+    }
+    if (message.content.startsWith(prefix + "Revolt Combos")) {
+         message.channel.send("Culdcept Revolt Combos: http://www.culdceptcentral.com/culdcept-revolt/culdcept-revolt-combos");
+    }
+    if (message.content.startsWith(prefix + "RevoltCombos")) {
+         message.channel.send("Culdcept Revolt Combos: http://www.culdceptcentral.com/culdcept-revolt/culdcept-revolt-combos");
+    }
+    if (message.content.startsWith(prefix + "revolt combos")) {
+         message.channel.send("Culdcept Revolt Combos: http://www.culdceptcentral.com/culdcept-revolt/culdcept-revolt-combos");
+    }
+    if (message.content.startsWith(prefix + "revoltcombos")) {
+         message.channel.send("Culdcept Revolt Combos: http://www.culdceptcentral.com/culdcept-revolt/culdcept-revolt-combos");
+    }
+    if (message.content.startsWith(prefix + "Revolt List")) {
+         message.channel.send("Culdcept Revolt Card List: http://www.culdceptcentral.com/culdcept-revolt/culdcept-revolt-card-lists");
+    }
+    if (message.content.startsWith(prefix + "RevoltList")) {
+         message.channel.send("Culdcept Revolt Card List: http://www.culdceptcentral.com/culdcept-revolt/culdcept-revolt-card-lists");
+    }
+    if (message.content.startsWith(prefix + "revolt list")) {
+         message.channel.send("Culdcept Revolt Card List: http://www.culdceptcentral.com/culdcept-revolt/culdcept-revolt-card-lists");
+    }
+    if (message.content.startsWith(prefix + "revoltlist")) {
+         message.channel.send("Culdcept Revolt Card List: http://www.culdceptcentral.com/culdcept-revolt/culdcept-revolt-card-lists");
+    }
+    if (message.content.startsWith(prefix + "Revolt Builder")) {
+         message.channel.send("Culdcept Revolt Book Builder: http://www.culdceptcentral.com/culdcept-revolt/culdcept-revolt-deck-builder");
+    }
+    if (message.content.startsWith(prefix + "RevoltBuilder")) {
+         message.channel.send("Culdcept Revolt Book Builder: http://www.culdceptcentral.com/culdcept-revolt/culdcept-revolt-deck-builder");
+    }
+    if (message.content.startsWith(prefix + "revolt builder")) {
+         message.channel.send("Culdcept Revolt Book Builder: http://www.culdceptcentral.com/culdcept-revolt/culdcept-revolt-deck-builder");
+    }
+    if (message.content.startsWith(prefix + "revoltbuilder")) {
+         message.channel.send("Culdcept Revolt Book Builder: http://www.culdceptcentral.com/culdcept-revolt/culdcept-revolt-deck-builder");
+    }
+    if (message.content.startsWith(prefix + "IVIad IVIaxx")) {
+         message.channel.send("IVIad IVIaxx: He was just goofing around");
+    }
+    if (message.content.startsWith(prefix + "IVIadIVIaxx")) {
+         message.channel.send("IVIad IVIaxx: He was just goofing around");
     }    
 });
 
