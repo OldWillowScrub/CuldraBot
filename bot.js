@@ -4490,6 +4490,10 @@ client.on('message', message => {
     }
     if (message.content.startsWith(prefix + "IVIadIVIaxx")) {
          message.channel.send("IVIad IVIaxx: He was just goofing around");
+    }
+    if (message.content.startsWith(prefix + "darkritual",)) {
+         message.channel.send("Add three black mana to your mana pool")
+        file: "http://img.scryfall.com/cards/large/en/a25/82.jpg?1521726028";
     }    
 });
 
