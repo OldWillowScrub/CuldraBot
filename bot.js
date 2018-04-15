@@ -4147,16 +4147,16 @@ client.on('message', message => {
          message.channel.send("Shatter <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:30 \nUser selects an Item or Spell Card from target enemy Cepter\'s hand and destroys it.");
     }
     if (message.content.startsWith(prefix + "Shining Geyser")) {
-         message.channel.send("Shining Geyser <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100+ <:ccard:364048663426760705> \nHP-30 to target enemy creature. / Synthesis: <:csinstant:364048663447863298> Spells (Changes effect to "HP-40.")");
+         message.channel.send("Shining Geyser <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100+ <:ccard:364048663426760705> \nHP-30 to target enemy creature. / Synthesis: <:csinstant:364048663447863298> Spells (Changes effect to HP-40.)");
     }
     if (message.content.startsWith(prefix + "ShiningGeyser")) {
-         message.channel.send("Shining Geyser <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100+ <:ccard:364048663426760705> \nHP-30 to target enemy creature. / Synthesis: <:csinstant:364048663447863298> Spells (Changes effect to "HP-40.")");
+         message.channel.send("Shining Geyser <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100+ <:ccard:364048663426760705> \nHP-30 to target enemy creature. / Synthesis: <:csinstant:364048663447863298> Spells (Changes effect to HP-40.)");
     }
     if (message.content.startsWith(prefix + "shining geyser")) {
-         message.channel.send("Shining Geyser <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100+ <:ccard:364048663426760705> \nHP-30 to target enemy creature. / Synthesis: <:csinstant:364048663447863298> Spells (Changes effect to "HP-40.")");
+         message.channel.send("Shining Geyser <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100+ <:ccard:364048663426760705> \nHP-30 to target enemy creature. / Synthesis: <:csinstant:364048663447863298> Spells (Changes effect to HP-40.)");
     }
     if (message.content.startsWith(prefix + "shininggeyser")) {
-         message.channel.send("Shining Geyser <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100+ <:ccard:364048663426760705> \nHP-30 to target enemy creature. / Synthesis: <:csinstant:364048663447863298> Spells (Changes effect to "HP-40.")");
+         message.channel.send("Shining Geyser <:crarityr:364045147085864960> <:csinstant:364048663447863298> - G:100+ <:ccard:364048663426760705> \nHP-30 to target enemy creature. / Synthesis: <:csinstant:364048663447863298> Spells (Changes effect to HP-40.)");
     }
     if (message.content === prefix + "Sigil of Drain") {
          message.channel.send("Sigil of Drain <:crarityr:364045147085864960> <:csenchant:364048663464378391> - G:20 \nAdds Drain Spell <:csenchant:364048663464378391> to target creature with no Secret Art. (Grants Secret Art (20G): User steals 10% of target enemy Cepter\'s Current Magic.)");
