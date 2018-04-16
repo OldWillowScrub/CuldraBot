@@ -6,7 +6,7 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-client.bot.setPresence({ game: { name: "test", type: 0 } });
+client.bot.setPresence({ game: { name: 'test', type: 0 } });
 
 client.on('message', message => {
   if (message.content === prefix + "Card") {
