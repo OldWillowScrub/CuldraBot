@@ -4,8 +4,9 @@ const prefix = "?";
 
 client.on('ready', () => {
     console.log('I am ready!');
-    bot.user.setPresence({ game: { name: "nameGoesHere", type: 0 } });
 });
+
+client.user.setGame(" Type ?Card for help");
 
 client.on('message', message => {
   if (message.content === prefix + "Card") {
