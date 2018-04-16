@@ -1,11 +1,12 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const prefix = "?";
-client.user.setPresence({ game: { name: "test", type: 0 } });
 
 client.on('ready', () => {
     console.log('I am ready!');
 });
+
+client.bot.setPresence({ game: { name: "test", type: 0 } });
 
 client.on('message', message => {
   if (message.content === prefix + "Card") {
