@@ -2,12 +2,6 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const prefix = "?";
 
-{game:
-  {name:"you sleep O_O",
-    type:3
-  }
-}
-
 client.on('ready', () => {
     console.log('I am ready!');
 });
