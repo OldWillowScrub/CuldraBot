@@ -10,14 +10,14 @@ client.on('message', message => {
   if (message.content === prefix + "Card") {
     message.channel.send("Revolt Card Database, type ?Name of Card Here to get the stats of any card you want, e.g., ?bandit \n\nDatabase Is 100% Complete. All Creatures, Items, and Spells have been added! For random book help, type ?Book");
   }
-  if (message.content.startsWith(prefix + "card")) {
+  if (message.content === prefix + "card")) {
     message.channel.send("Revolt Card Database, type ?Name of Card Here to get the stats of any card you want, e.g., ?bandit \n\nDatabase Is 100% Complete. All Creatures, Items, and Spells have been added! For random book help, type ?Book");
   }
   //BOOK STUFF GOES HERE
-  if (message.content.startsWith(prefix + "Book")) {
+  if (message.content === prefix + "Book")) {
     message.channel.send("To let the bot pick a random 20/10/20 Book for you, filled with 50 different cards, type ?RandomBook");
   }
-  if (message.content.startsWith(prefix + "book")) {
+  if (message.content === prefix + "book")) {
     message.channel.send("To let the bot pick a random 20/10/20 Book for you, filled with 50 different cards, type ?RandomBook");
   }
   var command = message.content.split(" ")[0].slice(config.prefix.length).toLowerCase()
@@ -485,16 +485,16 @@ client.on('message', message => {
       }, Spells.slice());
 
   //BOOK RANDOM COMMAND
-  if(message.content === config.prefix + "Random Book") {
+    if(message.content === prefix + "Random Book") {
            message.channel.send(randomCreatures + randomItems + randomSpells);
     }
-    if(message.content === config.prefix + "RandomBook") {
+    if(message.content === prefix + "RandomBook") {
            message.channel.send(randomCreatures + randomItems + randomSpells);
     }
-    if(message.content === config.prefix + "random book") {
+    if(message.content === prefix + "random book") {
            message.channel.send(randomCreatures + randomItems + randomSpells);
     }
-    if(message.content === config.prefix + "randombook") {
+    if(message.content === prefix + "randombook") {
            message.channel.send(randomCreatures + randomItems + randomSpells);
     }
   //Neutral Creatures Go Here  
