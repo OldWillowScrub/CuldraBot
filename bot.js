@@ -6,7 +6,7 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
- if(msg.author.bot) {
+ if(mmessage.author.bot) {
    return;
  }
 
