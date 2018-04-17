@@ -20,7 +20,7 @@ client.on('message', message => {
   if (message.content === prefix + "book")) {
     message.channel.send("To let the bot pick a random 20/10/20 Book for you, filled with 50 different cards, type ?RandomBook");
   }
-  var command = message.content.split(" ")[0].slice(config.prefix.length).toLowerCase()
+  var command = message.content.split(" ")[0].slice(prefix.length).toLowerCase()
   var args = message.content.split(" ").slice(1);
 
   //BOOK 20/10/20 ARRAYS
