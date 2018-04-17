@@ -10,22 +10,22 @@ client.on('message', message => {
   if (message.content === prefix + "Card") {
     message.channel.send("Revolt Card Database, type ?Name of Card Here to get the stats of any card you want, e.g., ?bandit \n\nDatabase Is 100% Complete. All Creatures, Items, and Spells have been added! For random book help, type ?Book");
   }
-  if ((message.content === prefix + "card") {
+  if (message.content.startsWith(prefix + "card")) {
     message.channel.send("Revolt Card Database, type ?Name of Card Here to get the stats of any card you want, e.g., ?bandit \n\nDatabase Is 100% Complete. All Creatures, Items, and Spells have been added! For random book help, type ?Book");
   }
-    //Neutral Creatures Go Here  
-    if (message.content.startsWith(prefix + "Androgear")) {
-        message.channel.send("Androgear <:craritye:364048663611310081> <:cneutral:364043997825597440> \nST:60 HP:60 MHP:60 G:250+ <:ccard:364048663426760705> \nSupport: <:cneutral:364043997825597440> / Attacks First / Transforms into Gearion if Beast Gear is used as support / Neutralizes: <:cscroll:364048663691001876> Attacks", {files: ["http://www.culdceptcentral.com/images/cards_sm/cr3ds/neutral/androgear.jpg"]});
-    }
+  //Neutral Creatures Go Here  
+  if (message.content.startsWith(prefix + "Androgear")) {
+    message.channel.send("Androgear <:craritye:364048663611310081> <:cneutral:364043997825597440> \nST:60 HP:60 MHP:60 G:250+ <:ccard:364048663426760705> \nSupport: <:cneutral:364043997825597440> / Attacks First / Transforms into Gearion if Beast Gear is used as support / Neutralizes: <:cscroll:364048663691001876> Attacks", {files: ["http://www.culdceptcentral.com/images/cards_sm/cr3ds/neutral/androgear.jpg"]});
+  }
     if (message.content.startsWith(prefix + "androgear")) {
-        message.channel.send("Androgear <:craritye:364048663611310081> <:cneutral:364043997825597440> \nST:60 HP:60 MHP:60 G:250+ <:ccard:364048663426760705> \nSupport: <:cneutral:364043997825597440> / Attacks First / Transforms into Gearion if Beast Gear is used as support / Neutralizes: <:cscroll:364048663691001876> Attacks", {files: ["http://www.culdceptcentral.com/images/cards_sm/cr3ds/neutral/androgear.jpg"]});
-    }
+       message.channel.send("Androgear <:craritye:364048663611310081> <:cneutral:364043997825597440> \nST:60 HP:60 MHP:60 G:250+ <:ccard:364048663426760705> \nSupport: <:cneutral:364043997825597440> / Attacks First / Transforms into Gearion if Beast Gear is used as support / Neutralizes: <:cscroll:364048663691001876> Attacks", {files: ["http://www.culdceptcentral.com/images/cards_sm/cr3ds/neutral/androgear.jpg"]});
+  }
     if (message.content.startsWith(prefix + "Archbishop")) {
-        message.channel.send("Archbishop <:crarityn:364048663661772800> <:cneutral:364043997825597440> \nST:30 HP:30 MHP:30 G:50 \nImmune to Destroy Item and Steal Item effects / Vigorous / \nSecret Art (30G): Removes <:csenchant:364048663464378391> from target creature. (Ignores Anti-Spell.)", {files: ["http://www.culdceptcentral.com/images/cards_sm/cr3ds/neutral/archbishop.jpg"]});
-    }
-    if (message.content.startsWith(prefix + "archbishop")) {
-        message.channel.send("Archbishop <:crarityn:364048663661772800> <:cneutral:364043997825597440> \nST:30 HP:30 MHP:30 G:50 \nImmune to Destroy Item and Steal Item effects / Vigorous / \nSecret Art (30G): Removes <:csenchant:364048663464378391> from target creature. (Ignores Anti-Spell.)", {files: ["http://www.culdceptcentral.com/images/cards_sm/cr3ds/neutral/archbishop.jpg"]});
-    }  
+       message.channel.send("Archbishop <:crarityn:364048663661772800> <:cneutral:364043997825597440> \nST:30 HP:30 MHP:30 G:50 \nImmune to Destroy Item and Steal Item effects / Vigorous / \nSecret Art (30G): Removes <:csenchant:364048663464378391> from target creature. (Ignores Anti-Spell.)", {files: ["http://www.culdceptcentral.com/images/cards_sm/cr3ds/neutral/archbishop.jpg"]});
+  }
+  if (message.content.startsWith(prefix + "archbishop")) {
+       message.channel.send("Archbishop <:crarityn:364048663661772800> <:cneutral:364043997825597440> \nST:30 HP:30 MHP:30 G:50 \nImmune to Destroy Item and Steal Item effects / Vigorous / \nSecret Art (30G): Removes <:csenchant:364048663464378391> from target creature. (Ignores Anti-Spell.)", {files: ["http://www.culdceptcentral.com/images/cards_sm/cr3ds/neutral/archbishop.jpg"]});
+  }  
     if (message.content.startsWith(prefix + "Archchemic")) {
          message.channel.send("Archchemic <:crarityr:364045147085864960> <:cneutral:364043997825597440> \nST:20 HP:30 MHP:30 G:40 \nNeutralizes: <:cscroll:364048663691001876> Attacks / Reduces cost of Terrain Change for the territory this creature is on to 50G.");
     }
