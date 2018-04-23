@@ -1497,7 +1497,7 @@ client.on('message', message => {
          message.channel.send("Jackalope <:craritys:364048663351132162> <:cearth:364048663582081034> \nST:20 HP:30 MHP:30 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nSupport: <:cfire:364048663355588609> <:cearth:364048663582081034> / If destroyed by a spell, transforms into Great Tusker.");
     }
     if (message.content.startsWith(prefix + "jackalope")) {
-         message.channel.send("Jackalope <:craritys:364048663351132162> Strange <:cearth:364048663582081034> \nST:20 HP:30 MHP:30 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nSupport: <:cfire:364048663355588609> <:cearth:364048663582081034> / If destroyed by a spell, transforms into Great Tusker.");
+         message.channel.send("Jackalope <:craritys:364048663351132162> <:cearth:364048663582081034> \nST:20 HP:30 MHP:30 G:60 \nItem Limit: <:cnoscroll:364048663653122048> \nSupport: <:cfire:364048663355588609> <:cearth:364048663582081034> / If destroyed by a spell, transforms into Great Tusker.");
     }
     if (message.content.startsWith(prefix + "Jormungandr")) {
          message.channel.send("Jormungandr <:crarityr:364045147085864960> <:cearth:364048663582081034> \nST:60 HP:60 MHP:60 G:110+ <:cearth:364048663582081034> <:cearth:364048663582081034> \nAttacks First / Regenerates / Upon Victory: Changes battle territory to a <:cearth:364048663582081034> land.");
@@ -3403,10 +3403,10 @@ client.on('message', message => {
          message.channel.send("Escape <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:20 \nTransports user to the nearest vacant land. (User cannot roll the dice this turn.)");
     }
     if (message.content.startsWith(prefix + "Exchange")) {
-         message.channel.send("Exchange \n Strange <:csinstant:364048663447863298> - G:60 \nExchanges target creature with another creature from its owner\'s hand.");
+         message.channel.send("Exchange \n <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:60 \nExchanges target creature with another creature from its owner\'s hand.");
     }
     if (message.content.startsWith(prefix + "exchange")) {
-         message.channel.send("Exchange \n Strange <:csinstant:364048663447863298> - G:60 \nExchanges target creature with another creature from its owner\'s hand.");
+         message.channel.send("Exchange \n <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:60 \nExchanges target creature with another creature from its owner\'s hand.");
     }
     if (message.content.startsWith(prefix + "Exile")) {
          message.channel.send("Exile <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:100 \nReturns 1 creature with <:csenchant:364048663464378391> and no summoning conditions to its owner\'s hand.");
@@ -3697,10 +3697,10 @@ client.on('message', message => {
          message.channel.send("Immobilize <:crarityr:364045147085864960> <:cmenchant:364048663447601153> - G:80 \nAdds Immobilize <:csenchant:364048663464378391> to all creatures. (Cannot be moved by Territory Commands.)");
     }
     if (message.content.startsWith(prefix + "Incineration")) {
-         message.channel.send("Incineration \n Strange <:csinstant:364048663447863298> - G:10 \nUser gains (number of creatures destroyed thus far x20)G, then the number is reset.");
+         message.channel.send("Incineration \n <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:10 \nUser gains (number of creatures destroyed thus far x20)G, then the number is reset.");
     }
     if (message.content.startsWith(prefix + "incineration")) {
-         message.channel.send("Incineration \n Strange <:csinstant:364048663447863298> - G:10 \nUser gains (number of creatures destroyed thus far x20)G, then the number is reset.");
+         message.channel.send("Incineration \n <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:10 \nUser gains (number of creatures destroyed thus far x20)G, then the number is reset.");
     }
     if (message.content.startsWith(prefix + "Influence")) {
          message.channel.send("Influence <:craritys:364048663351132162> <:csinstant:364048663447863298> - G:80 \nChanges target territory into its owner\'s most numerous land element.");
@@ -4399,16 +4399,16 @@ client.on('message', message => {
          message.channel.send("Vortex <:craritys:364048663351132162> <:csenchant:364048663464378391> - G:40 \nAdds No Battle Abilities <:csenchant:364048663464378391> to target creature. (In battle, effects and abilities besides this one do not activate.) / User draws a card.");
     }
     if (message.content.startsWith(prefix + "Waste World")) {
-         message.channel.send("Waste World <:craritys:364048663351132162> <:cglobal:364049704293629954> - G:70 \nAdds Raise Cost <:csenchant:364048663464378391> to the world. (For 6 rounds, cards of rarity Strange require 1.5xG to use, cards of rarity Rare and Extra require 2x G to use.)");
+         message.channel.send("Waste World <:craritys:364048663351132162> <:cglobal:364049704293629954> - G:70 \nAdds Raise Cost <:csenchant:364048663464378391> to the world. (For 6 rounds, cards of rarity <:craritys:364048663351132162> require 1.5xG to use, cards of rarity <:crarityr:364045147085864960> and <:craritye:364048663611310081> require 2x G to use.)");
     }
     if (message.content.startsWith(prefix + "WasteWorld")) {
-         message.channel.send("Waste World <:craritys:364048663351132162> <:cglobal:364049704293629954> - G:70 \nAdds Raise Cost <:csenchant:364048663464378391> to the world. (For 6 rounds, cards of rarity Strange require 1.5xG to use, cards of rarity Rare and Extra require 2x G to use.)");
+         message.channel.send("Waste World <:craritys:364048663351132162> <:cglobal:364049704293629954> - G:70 \nAdds Raise Cost <:csenchant:364048663464378391> to the world. (For 6 rounds, cards of rarity <:craritys:364048663351132162> require 1.5xG to use, cards of rarity <:crarityr:364045147085864960> and <:craritye:364048663611310081> require 2x G to use.)");
     }
     if (message.content.startsWith(prefix + "waste world")) {
-         message.channel.send("Waste World <:craritys:364048663351132162> <:cglobal:364049704293629954> - G:70 \nAdds Raise Cost <:csenchant:364048663464378391> to the world. (For 6 rounds, cards of rarity Strange require 1.5xG to use, cards of rarity Rare and Extra require 2x G to use.)");
+         message.channel.send("Waste World <:craritys:364048663351132162> <:cglobal:364049704293629954> - G:70 \nAdds Raise Cost <:csenchant:364048663464378391> to the world. (For 6 rounds, cards of rarity <:craritys:364048663351132162> require 1.5xG to use, cards of rarity <:crarityr:364045147085864960> and <:craritye:364048663611310081> require 2x G to use.)");
     }
     if (message.content.startsWith(prefix + "wasteworld")) {
-         message.channel.send("Waste World <:craritys:364048663351132162> <:cglobal:364049704293629954> - G:70 \nAdds Raise Cost <:csenchant:364048663464378391> to the world. (For 6 rounds, cards of rarity Strange require 1.5xG to use, cards of rarity Rare and Extra require 2x G to use.)");
+         message.channel.send("Waste World <:craritys:364048663351132162> <:cglobal:364049704293629954> - G:70 \nAdds Raise Cost <:csenchant:364048663464378391> to the world. (For 6 rounds, cards of rarity <:craritys:364048663351132162> require 1.5xG to use, cards of rarity <:crarityr:364045147085864960> and <:craritye:364048663611310081> require 2x G to use.)");
     }
     if (message.content.startsWith(prefix + "Water Shift")) {
          message.channel.send("Water Shift <:crarityn:364048663661772800> <:csinstant:364048663447863298> - G:100 \nChanges target territory belonging to user into a <:cwater:364048663447601154> land.");
