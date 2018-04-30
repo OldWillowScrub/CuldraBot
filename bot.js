@@ -2712,16 +2712,16 @@ client.on('message', message => {
          message.channel.send("Necro Scarab  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:60  \nUpon Defeat: Transforms equipped creature into Skeleton.");
     }
     if (message.content.startsWith(prefix + "Neutral Cloak")) {
-         message.channel.send("Neutral Cloak  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:50  \nHP+40 / In Battle: Equipped creature\'s element is <:cneutral:364043997825597440>.");
+         message.channel.send("Neutral Cloak  <:craritys:364048663351132162> <:carmor:364048663556915200> - G:50  \nHP+40 / In Battle: Equipped creature\'s element is <:cneutral:364043997825597440>.");
     }
     if (message.content.startsWith(prefix + "NeutralCloak")) {
-         message.channel.send("Neutral Cloak  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:50  \nHP+40 / In Battle: Equipped creature\'s element is <:cneutral:364043997825597440>.");
+         message.channel.send("Neutral Cloak  <:craritys:364048663351132162> <:carmor:364048663556915200> - G:50  \nHP+40 / In Battle: Equipped creature\'s element is <:cneutral:364043997825597440>.");
     }
     if (message.content.startsWith(prefix + "neutral cloak")) {
-         message.channel.send("Neutral Cloak  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:50  \nHP+40 / In Battle: Equipped creature\'s element is <:cneutral:364043997825597440>.");
+         message.channel.send("Neutral Cloak  <:craritys:364048663351132162> <:carmor:364048663556915200> - G:50  \nHP+40 / In Battle: Equipped creature\'s element is <:cneutral:364043997825597440>.");
     }
     if (message.content.startsWith(prefix + "neutralcloak")) {
-         message.channel.send("Neutral Cloak  <:craritys:364048663351132162> <:ctool:364048663762173953> - G:50  \nHP+40 / In Battle: Equipped creature\'s element is <:cneutral:364043997825597440>.");
+         message.channel.send("Neutral Cloak  <:craritys:364048663351132162> <:carmor:364048663556915200> - G:50  \nHP+40 / In Battle: Equipped creature\'s element is <:cneutral:364043997825597440>.");
     }
     if (message.content.startsWith(prefix + "Petrify Stone")) {
          message.channel.send("Petrify Stone  <:crarityn:364048663661772800> <:ctool:364048663762173953> - G:20  \nST=0 / HP=80");
