@@ -4492,7 +4492,7 @@ client.on('message', message => {
          message.channel.send("IVIad IVIaxx: He was just goofing around");
     }
     if (message.content.startsWith(prefix + "test")) {
-         message.channel.send("```Bandit <:crarityn:364048663661772800> <:cneutral:364043997825597440> \nST:20 HP:20 MHP:20 G:20 \nSupport: All / Attack Bonus: Steals (damage dealt x2)G from opponent.```", {files: ["http://www.culdceptcentral.com/images/cards_sm/cr3ds/neutral/bandit.jpg"]});
+         message.channel.send("```Bandit :crarityn: <:crarityn:364048663661772800> <:cneutral:364043997825597440> \nST:20 HP:20 MHP:20 G:20 \nSupport: All / Attack Bonus: Steals (damage dealt x2)G from opponent.```", {files: ["http://www.culdceptcentral.com/images/cards_sm/cr3ds/neutral/bandit.jpg"]});
     }    
 });
 
