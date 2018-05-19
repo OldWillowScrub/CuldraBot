@@ -2361,16 +2361,16 @@ client.on('message', message => {
          message.channel.send("Chain Mail <:crarityn:364048663661772800> <:carmor:364048663556915200> - G:10 \nHP+30");
     }
     if (message.content === prefix + "Chain Saw") {
-         message.channel.send("Chain Saw <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:50 \nST+ (Length of opponent\'s chain in battle territory x20).");
+         message.channel.send("Chain Saw <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:50 \nST+ (Length of battle territory\'s chain x20).");
     }
     if (message.content === prefix + "ChainSaw") {
-         message.channel.send("Chain Saw <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:50 \nST+ (Length of opponent\'s chain in battle territory x20).");
+         message.channel.send("Chain Saw <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:50 \nST+ (Length of battle territory\'s chain x20).");
     }
     if (message.content === prefix + "chain saw") {
-         message.channel.send("Chain Saw <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:50 \nST+ (Length of opponent\'s chain in battle territory x20).");
+         message.channel.send("Chain Saw <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:50 \nST+ (Length of battle territory\'s chain x20).");
     }
     if (message.content === prefix + "chainsaw") {
-         message.channel.send("Chain Saw <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:50 \nST+ (Length of opponent\'s chain in battle territory x20).");
+         message.channel.send("Chain Saw <:craritys:364048663351132162> <:cweapon:364048663527424002> - G:50 \nST+ (Length of battle territory\'s chain x20).");
     }
     if (message.content.startsWith(prefix + "Chilling Blast")) {
          message.channel.send("Chilling Blast <:crarityr:364045147085864960> <:cscroll:364048663691001876> - G:90 \nScroll Attack: ST= (number of User\'s <:cwater:364048663447601154> and <:cair:364048663518904327> territories x10). / Scroll Critical Hit: <:cfire:364048663355588609> and <:cearth:364048663582081034>");
